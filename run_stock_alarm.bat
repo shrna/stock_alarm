@@ -2,6 +2,9 @@
 REM === Stock Alarm — Daily Runner ===
 cd /d "%~dp0"
 
+REM Ensure reports directory exists
+if not exist reports mkdir reports
+
 REM Sync latest STOCKS.xlsx from OneDrive to repo and push to GitHub
 set ONEDRIVE_FILE=%USERPROFILE%\OneDrive\StockAlarm\STOCKS.xlsx
 if exist "%ONEDRIVE_FILE%" (
@@ -19,4 +22,6 @@ if exist "%ONEDRIVE_FILE%" (
 )
 
 REM Run the stock alarm
+echo [%date% %time%] === Starting Stock Alarm === >> reports\run.log
 node index.js >> reports\run.log 2>&1
+echo [%date% %time%] === Finished (exit code: %errorlevel%) === >> reports\run.log
