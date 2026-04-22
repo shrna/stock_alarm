@@ -8,7 +8,15 @@ const { generateSignal } = require("./signalGenerator");
 const { buildFullReport, buildSmsReport } = require("./reportBuilder");
 const { createTransporter, sendSms, sendEmailReport } = require("./notifier");
 
-const EXCEL_PATH = path.join(__dirname, "STOCKS.xlsx");
+// Check OneDrive first, then fall back to local copy
+const ONEDRIVE_PATH = path.join(
+  process.env.USERPROFILE || process.env.HOME || "",
+  "OneDrive",
+  "StockAlarm",
+  "STOCKS.xlsx"
+);
+const LOCAL_PATH = path.join(__dirname, "STOCKS.xlsx");
+const EXCEL_PATH = fs.existsSync(ONEDRIVE_PATH) ? ONEDRIVE_PATH : LOCAL_PATH;
 
 async function analyzeStock(stock) {
   console.log(`[Analyze] Processing ${stock.ticker}...`);
