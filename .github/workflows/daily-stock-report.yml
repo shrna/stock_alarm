@@ -1,0 +1,43 @@
+name: Daily Stock Report
+
+on:
+  schedule:
+    # Runs at 8:00 AM Pacific (3:00 PM UTC) every day
+    - cron: '0 15 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  stock-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Stock Alarm
+        env:
+          EXCEL_PASSWORD: ${{ secrets.EXCEL_PASSWORD }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
+          SMS_GATEWAY: ${{ secrets.SMS_GATEWAY }}
+          REPORT_EMAIL: ${{ secrets.REPORT_EMAIL }}
+        run: node index.js
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-report-${{ github.run_number }}
+          path: reports/
+          retention-days: 30

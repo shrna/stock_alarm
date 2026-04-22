@@ -1,0 +1,21 @@
+{
+  "name": "stock_alarm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.5",
+    "officecrypto-tool": "^0.0.19",
+    "xlsx": "^0.18.5",
+    "yahoo-finance2": "^3.14.0"
+  }
+}
