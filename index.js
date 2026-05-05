@@ -90,14 +90,14 @@ async function run() {
     try {
       const transporter = createTransporter(gmailUser, gmailPass);
 
-      // Send SMS (short version)
+      // Send SMS (full detailed report)
       if (process.env.PHONE_NUMBER && process.env.SMS_GATEWAY) {
         await sendSms(
           transporter,
           gmailUser,
           process.env.PHONE_NUMBER,
           process.env.SMS_GATEWAY,
-          smsReport
+          fullReport
         );
       }
 
