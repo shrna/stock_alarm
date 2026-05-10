@@ -92,6 +92,28 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .nav-item.active{color:var(--accent)}
 .nav-item .icon{font-size:20px;margin-bottom:2px}
 .earnings-tag{display:inline-block;background:#4a148c;color:#ce93d8;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;margin-top:4px}
+.paper-chart{background:var(--card);border-radius:var(--radius);margin:8px 16px;padding:16px;position:relative}
+.paper-chart canvas{width:100%;height:180px}
+.paper-chart svg{width:100%;height:180px}
+.trade-row{display:flex;align-items:center;padding:10px 16px;border-bottom:1px solid #222;gap:10px}
+.trade-row .trade-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.trade-row .trade-icon.buy{background:#1b5e20;color:#a5d6a7}.trade-row .trade-icon.sell{background:#b71c1c;color:#ffcdd2}
+.trade-row .trade-info{flex:1;min-width:0}
+.trade-row .trade-info .sym{font-size:14px;font-weight:700}
+.trade-row .trade-info .detail{font-size:11px;color:var(--dim)}
+.trade-row .trade-val{text-align:right;flex-shrink:0}
+.trade-row .trade-val .amt{font-size:14px;font-weight:600}
+.trade-row .trade-val .pnl{font-size:11px}
+.paper-pos{background:var(--card);border-radius:var(--radius);margin:8px 16px;padding:12px 16px}
+.paper-pos .pos-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #222}
+.paper-pos .pos-row:last-child{border:none}
+.paper-pos .pos-sym{font-weight:700;font-size:14px}
+.paper-pos .pos-type{font-size:9px;padding:2px 6px;border-radius:4px;font-weight:600;text-transform:uppercase}
+.paper-pos .pos-type.stock{background:#1a237e;color:#90caf9}.paper-pos .pos-type.etf{background:#4a148c;color:#ce93d8}
+.paper-pos .pos-detail{font-size:11px;color:var(--dim)}
+.paper-pos .pos-val{text-align:right}
+.paper-pos .pos-val .price{font-size:13px;font-weight:600}
+.paper-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;padding:8px 16px}
 </style>
 </head>
 <body>
@@ -104,6 +126,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 <div class="bottom-nav">
   <div class="nav-item active" onclick="switchPage('portfolio')"><div class="icon">&#128188;</div>Portfolio</div>
   <div class="nav-item" onclick="switchPage('discover')"><div class="icon">&#128270;</div>Discover</div>
+  <div class="nav-item" onclick="switchPage('paper')"><div class="icon">&#128200;</div>Paper</div>
   <div class="nav-item" onclick="switchPage('glossary')"><div class="icon">&#128218;</div>Glossary</div>
 </div>
 
@@ -120,6 +143,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
   </div>
   <div id="discover-stocks" class="tab-content active"></div>
   <div id="discover-etfs" class="tab-content"></div>
+</div>
+
+<div id="page-paper" class="page" style="display:none">
+  <div id="paperSummary"></div>
+  <div id="paperChart"></div>
+  <div id="paperPositions"></div>
+  <div id="paperTrades"></div>
 </div>
 
 <div id="page-glossary" class="page" style="display:none">
@@ -369,20 +399,123 @@ function renderGlossary() {
   document.getElementById('glossaryArea').innerHTML = terms.map(([dt,dd])=>`<div class="glossary-item"><dt>${dt}</dt><dd>${dd}</dd></div>`).join('');
 }
 
+function renderPaperTrading(data) {
+  if (!data || !data.history) {
+    document.getElementById('paperSummary').innerHTML = '<div class="loading">Paper trading not started yet. Run the stock alarm first.</div>';
+    return;
+  }
+
+  const totalValue = data.cash + data.positions.reduce((s,p)=>s+p.shares*(p.currentPrice||p.avgCost),0);
+  const totalReturn = ((totalValue - data.startingCapital) / data.startingCapital) * 100;
+  const posValue = data.positions.reduce((s,p)=>s+p.shares*(p.currentPrice||p.avgCost),0);
+
+  // Stats
+  const allSells = data.trades.filter(t=>t.action==='SELL'&&t.realizedPnL!=null);
+  const totalRealized = allSells.reduce((s,t)=>s+(t.realizedPnL||0),0);
+  const bestTrade = allSells.length ? allSells.reduce((a,b)=>(b.realizedPnL||0)>(a.realizedPnL||0)?b:a) : null;
+  const worstTrade = allSells.length ? allSells.reduce((a,b)=>(b.realizedPnL||0)<(a.realizedPnL||0)?b:a) : null;
+  const daysSinceStart = data.history.length || 1;
+
+  document.getElementById('paperSummary').innerHTML = `
+    <div class="summary-grid">
+      <div class="summary-card"><div class="label">Portfolio Value</div><div class="value">${fmt$(totalValue)}</div></div>
+      <div class="summary-card"><div class="label">Total Return</div><div class="value ${pc(totalReturn)}">${fmtPct(totalReturn)}</div></div>
+      <div class="summary-card"><div class="label">Cash</div><div class="value">${fmt$(data.cash)}</div></div>
+      <div class="summary-card"><div class="label">Invested</div><div class="value">${fmt$(posValue)}</div></div>
+    </div>
+    <div class="paper-stats">
+      <div class="summary-card"><div class="label">Starting</div><div class="value" style="font-size:16px">${fmt$(data.startingCapital)}</div></div>
+      <div class="summary-card"><div class="label">Realized P&L</div><div class="value ${pc(totalRealized)}" style="font-size:16px">${fmt$(totalRealized)}</div></div>
+      <div class="summary-card"><div class="label">Days Active</div><div class="value" style="font-size:16px">${daysSinceStart}</div></div>
+    </div>`;
+
+  // Performance chart (SVG sparkline)
+  if (data.history.length > 1) {
+    const hist = data.history;
+    const values = hist.map(h=>h.totalValue);
+    const minV = Math.min(...values)*0.995, maxV = Math.max(...values)*1.005;
+    const range = maxV-minV || 1;
+    const w = 100, h = 180, pad = 30;
+    const points = values.map((v,i)=>`${(i/(values.length-1)*100).toFixed(1)},${(h-pad-(v-minV)/range*(h-2*pad)).toFixed(1)}`).join(' ');
+    const latest = values[values.length-1];
+    const gradColor = latest >= data.startingCapital ? '#4caf50' : '#ef5350';
+    document.getElementById('paperChart').innerHTML = `
+      <div class="paper-chart">
+        <div class="section-title" style="padding:0 0 8px">Portfolio History</div>
+        <svg viewBox="0 0 100 ${h}" preserveAspectRatio="none">
+          <defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${gradColor}" stop-opacity="0.4"/><stop offset="100%" stop-color="${gradColor}" stop-opacity="0.05"/></linearGradient></defs>
+          <polyline points="0,${(h-pad-(data.startingCapital-minV)/range*(h-2*pad)).toFixed(1)} 100,${(h-pad-(data.startingCapital-minV)/range*(h-2*pad)).toFixed(1)}" fill="none" stroke="#444" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <polygon points="0,${h-pad} ${points} 100,${h-pad}" fill="url(#pg)"/>
+          <polyline points="${points}" fill="none" stroke="${gradColor}" stroke-width="1.2" stroke-linejoin="round"/>
+          <text x="2" y="12" fill="#666" font-size="6">${fmt$(maxV)}</text>
+          <text x="2" y="${h-pad+12}" fill="#666" font-size="6">${fmt$(minV)}</text>
+          <text x="50" y="${(h-pad-(data.startingCapital-minV)/range*(h-2*pad)-3).toFixed(1)}" fill="#666" font-size="5" text-anchor="middle">Start: ${fmt$(data.startingCapital)}</text>
+        </svg>
+        <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--dim);padding:0 4px"><span>${hist[0].date}</span><span>${hist[hist.length-1].date}</span></div>
+      </div>`;
+  } else {
+    document.getElementById('paperChart').innerHTML = '';
+  }
+
+  // Current positions
+  document.getElementById('paperPositions').innerHTML = data.positions.length ? `
+    <div class="section-title">Open Positions (${data.positions.length})</div>
+    <div class="paper-pos">${data.positions.map(p=>{
+      const val=p.shares*(p.currentPrice||p.avgCost);
+      const pnl=(p.currentPrice-p.avgCost)*p.shares;
+      const pnlPct=p.avgCost>0?((p.currentPrice-p.avgCost)/p.avgCost)*100:0;
+      return `<div class="pos-row">
+        <div><span class="pos-sym">${p.symbol}</span> <span class="pos-type ${p.type}">${p.type}</span>
+          <div class="pos-detail">${p.shares.toFixed(2)} shares @ ${fmt$(p.avgCost)} | Since ${p.boughtAt}</div>
+        </div>
+        <div class="pos-val">
+          <div class="price">${fmt$(val)}</div>
+          <div class="${pc(pnl)}" style="font-size:11px">${fmt$(pnl)} (${fmtPct(pnlPct)})</div>
+        </div>
+      </div>`;
+    }).join('')}</div>` : '<div class="section-title">No open positions</div>';
+
+  // Recent trades
+  const recentTrades = data.trades.slice(-20).reverse();
+  document.getElementById('paperTrades').innerHTML = recentTrades.length ? `
+    <div class="section-title">Recent Trades (${data.trades.length} total)</div>
+    ${recentTrades.map(t=>`
+      <div class="trade-row">
+        <div class="trade-icon ${t.action.toLowerCase()}">${t.action==='BUY'?'B':'S'}</div>
+        <div class="trade-info">
+          <div class="sym">${t.action} ${t.symbol}</div>
+          <div class="detail">${t.shares.toFixed(2)} shares @ ${fmt$(t.price)} | ${t.date}</div>
+          <div class="detail">${t.reason}</div>
+        </div>
+        <div class="trade-val">
+          <div class="amt">${fmt$(t.total)}</div>
+          ${t.realizedPnL!=null?`<div class="pnl ${pc(t.realizedPnL)}">${fmt$(t.realizedPnL)}</div>`:''}
+        </div>
+      </div>`).join('')}` : '<div class="section-title">No trades yet</div>';
+}
+
 async function loadData() {
   try {
-    const [pRes, dRes] = await Promise.all([
+    const [pRes, dRes, ppRes] = await Promise.all([
       fetch('data/portfolio.json?t='+Date.now()),
       fetch('data/discovery.json?t='+Date.now()),
+      fetch('data/paper-portfolio.json?t='+Date.now()).catch(()=>null),
     ]);
     const portfolio = await pRes.json();
     const discovery = await dRes.json();
     renderPortfolio(portfolio);
     renderDiscovery(discovery);
     renderGlossary();
+    if (ppRes && ppRes.ok) {
+      const paper = await ppRes.json();
+      renderPaperTrading(paper);
+    } else {
+      renderPaperTrading(null);
+    }
   } catch(e) {
     document.getElementById('stocksArea').innerHTML = '<div class="loading">No data yet. Run the stock alarm first.</div>';
     renderGlossary();
+    renderPaperTrading(null);
   }
 }
 

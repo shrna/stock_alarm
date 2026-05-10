@@ -1,0 +1,155 @@
+{
+  "startingCapital": 10000,
+  "startDate": "2026-05-10",
+  "cash": 66.66666666666674,
+  "positions": [
+    {
+      "symbol": "CVE",
+      "shares": 42.25352112676057,
+      "avgCost": 28.4,
+      "currentPrice": 28.4,
+      "type": "stock",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "AMD",
+      "shares": 2.636261780794833,
+      "avgCost": 455.19,
+      "currentPrice": 455.19,
+      "type": "stock",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "CNQ",
+      "shares": 26.948124859645183,
+      "avgCost": 44.53,
+      "currentPrice": 44.53,
+      "type": "stock",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "NVDA",
+      "shares": 5.575767713517054,
+      "avgCost": 215.217,
+      "currentPrice": 215.217,
+      "type": "stock",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "AEG",
+      "shares": 144.40433212996388,
+      "avgCost": 8.31,
+      "currentPrice": 8.31,
+      "type": "stock",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 1.8751268640518959,
+      "avgCost": 711.063,
+      "currentPrice": 711.063,
+      "type": "etf",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 19.625159454420565,
+      "avgCost": 67.94,
+      "currentPrice": 67.94,
+      "type": "etf",
+      "boughtAt": "2026-05-10"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 16.605488550952636,
+      "avgCost": 76.28,
+      "currentPrice": 76.28,
+      "type": "etf",
+      "boughtAt": "2026-05-10"
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-05-10",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 42.2535,
+      "price": 28.4,
+      "total": 1200,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "AMD",
+      "action": "BUY",
+      "shares": 2.6363,
+      "price": 455.19,
+      "total": 1200,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "CNQ",
+      "action": "BUY",
+      "shares": 26.9481,
+      "price": 44.53,
+      "total": 1200,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 5.5758,
+      "price": 215.217,
+      "total": 1200,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "AEG",
+      "action": "BUY",
+      "shares": 144.4043,
+      "price": 8.31,
+      "total": 1200,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 1.8751,
+      "price": 711.063,
+      "total": 1333.33,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 19.6252,
+      "price": 67.94,
+      "total": 1333.33,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-10",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 16.6055,
+      "price": 76.28,
+      "total": 1266.67,
+      "reason": "Top 3 ETF pick"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-05-10",
+      "totalValue": 10000,
+      "cash": 66.67,
+      "positionsValue": 9933.33,
+      "positionCount": 8,
+      "tradesExecuted": 8
+    }
+  ]
+}

@@ -12,6 +12,7 @@ const { createTransporter, sendSms, sendEmailReport } = require("./notifier");
 const { getZacksRating } = require("./zacksRating");
 const { discoverStocks } = require("./stockDiscovery");
 const { generateWebData } = require("./webDataGenerator");
+const { runPaperTrader } = require("./paperTrader");
 
 // Check OneDrive first, then fall back to local copy
 const ONEDRIVE_PATH = path.join(
@@ -109,6 +110,13 @@ async function run() {
   const docsDir = path.join(__dirname, "docs");
   generateWebData(results, discovery, docsDir);
   console.log("[Web] PWA data updated");
+
+  // Run paper trading simulator
+  try {
+    await runPaperTrader(discovery, docsDir);
+  } catch (err) {
+    console.error(`[Paper] Error: ${err.message}`);
+  }
 
   // 4. Send notifications
   const gmailUser = process.env.GMAIL_USER;
