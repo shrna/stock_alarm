@@ -12,6 +12,7 @@ async function getStockData(ticker) {
             "summaryDetail",
             "recommendationTrend",
             "financialData",
+            "calendarEvents",
           ],
         })
         .catch(() => null),
@@ -21,6 +22,8 @@ async function getStockData(ticker) {
 
     const rec = summary?.recommendationTrend?.trend?.[0] || {};
     const fin = summary?.financialData || {};
+    const cal = summary?.calendarEvents || {};
+    const earningsDate = cal.earnings?.earningsDate?.[0] || null;
 
     return {
       ticker,
@@ -49,6 +52,7 @@ async function getStockData(ticker) {
       sell: rec.sell || 0,
       strongSell: rec.strongSell || 0,
       shortName: quote.shortName || ticker,
+      earningsDate: earningsDate ? new Date(earningsDate).toISOString() : null,
     };
   } catch (err) {
     console.error(`[Yahoo] Error fetching ${ticker}: ${err.message}`);

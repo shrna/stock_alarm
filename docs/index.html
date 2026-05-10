@@ -114,6 +114,45 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .paper-pos .pos-val{text-align:right}
 .paper-pos .pos-val .price{font-size:13px;font-weight:600}
 .paper-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;padding:8px 16px}
+.home-hero{background:linear-gradient(135deg,#1a237e 0%,#283593 50%,#1a237e 100%);border-radius:var(--radius);margin:12px 16px;padding:20px;position:relative;overflow:hidden}
+.home-hero::after{content:'';position:absolute;top:-50%;right:-30%;width:200px;height:200px;background:radial-gradient(circle,rgba(79,195,247,0.15),transparent 70%);border-radius:50%}
+.home-hero .hero-title{font-size:11px;color:#90caf9;text-transform:uppercase;letter-spacing:1px;font-weight:600}
+.home-hero .hero-value{font-size:32px;font-weight:800;margin:4px 0}
+.home-hero .hero-sub{font-size:13px;color:#90caf9}
+.home-row{display:flex;gap:10px;padding:0 16px;margin-top:10px}
+.home-minicard{flex:1;background:var(--card);border-radius:var(--radius);padding:14px;text-align:center}
+.home-minicard .mc-label{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.home-minicard .mc-value{font-size:18px;font-weight:700;margin-top:4px}
+.home-minicard .mc-sub{font-size:11px;margin-top:2px}
+.earnings-cal{margin:8px 16px}
+.earnings-cal .cal-row{display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--card);border-radius:10px;margin-bottom:6px}
+.earnings-cal .cal-date{min-width:50px;text-align:center}
+.earnings-cal .cal-date .month{font-size:10px;color:var(--accent);text-transform:uppercase;font-weight:600}
+.earnings-cal .cal-date .day{font-size:22px;font-weight:800;line-height:1.1}
+.earnings-cal .cal-info{flex:1;min-width:0}
+.earnings-cal .cal-info .cal-sym{font-size:14px;font-weight:700}
+.earnings-cal .cal-info .cal-name{font-size:11px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.earnings-cal .cal-badge{font-size:10px;padding:3px 8px;border-radius:6px;font-weight:600;flex-shrink:0}
+.cal-badge.own{background:#1b5e20;color:#a5d6a7}.cal-badge.pick{background:#4a148c;color:#ce93d8}
+.strongbuy-row{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid #222}
+.strongbuy-row:last-child{border:none}
+.strongbuy-rank{width:28px;height:28px;border-radius:50%;background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0}
+.strongbuy-info{flex:1;min-width:0}
+.strongbuy-info .sb-sym{font-size:14px;font-weight:700}
+.strongbuy-info .sb-name{font-size:11px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strongbuy-right{text-align:right;flex-shrink:0}
+.strongbuy-right .sb-price{font-size:14px;font-weight:600}
+.strongbuy-right .sb-change{font-size:11px}
+.home-section{background:var(--card);border-radius:var(--radius);margin:12px 16px;overflow:hidden}
+.home-section-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px 8px}
+.home-section-head .hs-title{font-size:13px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+.home-section-head .hs-link{font-size:11px;color:var(--dim);cursor:pointer}
+.portfolio-ticker{display:flex;overflow-x:auto;gap:10px;padding:8px 16px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.portfolio-ticker::-webkit-scrollbar{display:none}
+.ptick{background:var(--card);border-radius:10px;padding:10px 14px;min-width:110px;flex-shrink:0}
+.ptick .pt-sym{font-size:13px;font-weight:700}
+.ptick .pt-price{font-size:12px;margin-top:2px}
+.ptick .pt-change{font-size:11px;font-weight:600}
 </style>
 </head>
 <body>
@@ -124,13 +163,23 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 </div>
 
 <div class="bottom-nav">
-  <div class="nav-item active" onclick="switchPage('portfolio')"><div class="icon">&#128188;</div>Portfolio</div>
+  <div class="nav-item active" onclick="switchPage('home')"><div class="icon">&#127968;</div>Home</div>
+  <div class="nav-item" onclick="switchPage('portfolio')"><div class="icon">&#128188;</div>Portfolio</div>
   <div class="nav-item" onclick="switchPage('discover')"><div class="icon">&#128270;</div>Discover</div>
   <div class="nav-item" onclick="switchPage('paper')"><div class="icon">&#128200;</div>Paper</div>
   <div class="nav-item" onclick="switchPage('glossary')"><div class="icon">&#128218;</div>Glossary</div>
 </div>
 
-<div id="page-portfolio" class="page active">
+<div id="page-home" class="page active">
+  <div id="homeHero"></div>
+  <div id="homeCards"></div>
+  <div id="homePortfolioTicker"></div>
+  <div id="homeEarnings"></div>
+  <div id="homeStrongBuys"></div>
+  <div id="homePaperHighlights"></div>
+</div>
+
+<div id="page-portfolio" class="page" style="display:none">
   <div id="summaryArea"></div>
   <div class="section-title">Your Holdings</div>
   <div id="stocksArea"></div>
@@ -494,6 +543,140 @@ function renderPaperTrading(data) {
       </div>`).join('')}` : '<div class="section-title">No trades yet</div>';
 }
 
+function renderHome(portfolio, discovery, paper) {
+  // --- Hero: Combined net worth ---
+  const pVal = portfolio?.totalCurrentValue || 0;
+  const pInvested = portfolio?.totalInvested || 0;
+  const pPnL = pVal - pInvested;
+  const pPnLPct = pInvested > 0 ? (pPnL / pInvested) * 100 : 0;
+  const paperVal = paper ? paper.cash + paper.positions.reduce((s,p) => s + p.shares * (p.currentPrice || p.avgCost), 0) : 0;
+  const paperReturn = paper ? ((paperVal - paper.startingCapital) / paper.startingCapital) * 100 : 0;
+  const combinedVal = pVal + paperVal;
+
+  document.getElementById('homeHero').innerHTML = `
+    <div class="home-hero">
+      <div class="hero-title">Combined Net Worth</div>
+      <div class="hero-value">${fmt$(combinedVal)}</div>
+      <div class="hero-sub">Real: ${fmt$(pVal)} &bull; Paper: ${fmt$(paperVal)}</div>
+    </div>`;
+
+  // --- Mini cards ---
+  const dayChange = portfolio?.stocks?.filter(s=>!s.error).reduce((s,st) => s + (st.dayChangePct || 0) * st.value, 0) / (pVal || 1);
+  document.getElementById('homeCards').innerHTML = `
+    <div class="home-row">
+      <div class="home-minicard">
+        <div class="mc-label">Portfolio P&L</div>
+        <div class="mc-value ${pc(pPnL)}">${fmt$(pPnL)}</div>
+        <div class="mc-sub ${pc(pPnLPct)}">${fmtPct(pPnLPct)}</div>
+      </div>
+      <div class="home-minicard">
+        <div class="mc-label">Paper P&L</div>
+        <div class="mc-value ${pc(paperReturn)}">${fmt$(paperVal - (paper?.startingCapital||10000))}</div>
+        <div class="mc-sub ${pc(paperReturn)}">${fmtPct(paperReturn)}</div>
+      </div>
+      <div class="home-minicard">
+        <div class="mc-label">Today</div>
+        <div class="mc-value ${pc(dayChange)}">${fmtPct(dayChange)}</div>
+        <div class="mc-sub">${portfolio?.stocks?.filter(s=>!s.error).length||0} holdings</div>
+      </div>
+    </div>`;
+
+  // --- Portfolio ticker strip ---
+  const stocks = portfolio?.stocks?.filter(s => !s.error) || [];
+  document.getElementById('homePortfolioTicker').innerHTML = stocks.length ? `
+    <div class="home-section-head" style="padding:14px 16px 4px"><span class="hs-title">Your Holdings</span><span class="hs-link" onclick="document.querySelector('.nav-item:nth-child(2)').click()">See All</span></div>
+    <div class="portfolio-ticker">${stocks.map(s => `
+      <div class="ptick">
+        <div class="pt-sym">${s.ticker}</div>
+        <div class="pt-price">${fmt$(s.price)}</div>
+        <div class="pt-change ${pc(s.dayChangePct)}">${fmtPct(s.dayChangePct)}</div>
+      </div>`).join('')}
+    </div>` : '';
+
+  // --- Earnings Calendar ---
+  const earningsEvents = [];
+  // From portfolio
+  stocks.forEach(s => {
+    if (s.earningsDate) earningsEvents.push({ symbol: s.ticker, name: s.name, date: s.earningsDate, type: 'own' });
+  });
+  // From discovery
+  (discovery?.stocks || []).forEach(s => {
+    if (s.earningsDate) earningsEvents.push({ symbol: s.symbol, name: s.name, date: s.earningsDate, type: 'pick' });
+  });
+  // Deduplicate by symbol, sort by date, only future
+  const now = new Date();
+  const seen = new Set();
+  const upcoming = earningsEvents
+    .filter(e => { if (seen.has(e.symbol)) return false; seen.add(e.symbol); return new Date(e.date) >= new Date(now.toISOString().split('T')[0]); })
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+    .slice(0, 10);
+
+  document.getElementById('homeEarnings').innerHTML = upcoming.length ? `
+    <div class="home-section">
+      <div class="home-section-head"><span class="hs-title">Upcoming Earnings</span><span class="hs-link">${upcoming.length} events</span></div>
+      <div class="earnings-cal">${upcoming.map(e => {
+        const d = new Date(e.date);
+        const month = d.toLocaleDateString('en-US', { month: 'short' });
+        const day = d.getDate();
+        const daysAway = Math.ceil((d - now) / 86400000);
+        return `<div class="cal-row">
+          <div class="cal-date"><div class="month">${month}</div><div class="day">${day}</div></div>
+          <div class="cal-info"><div class="cal-sym">${e.symbol}</div><div class="cal-name">${e.name}</div></div>
+          <div><span class="cal-badge ${e.type}">${e.type === 'own' ? 'Owned' : 'Pick'}</span></div>
+          <div style="font-size:11px;color:var(--dim);min-width:45px;text-align:right">${daysAway === 0 ? 'Today' : daysAway === 1 ? 'Tomorrow' : daysAway + 'd'}</div>
+        </div>`;
+      }).join('')}</div>
+    </div>` : '';
+
+  // --- Top 10 Strong Buys ---
+  const topBuys = (discovery?.stocks || []).slice(0, 10);
+  document.getElementById('homeStrongBuys').innerHTML = topBuys.length ? `
+    <div class="home-section">
+      <div class="home-section-head"><span class="hs-title">Top 10 Strong Buys</span><span class="hs-link" onclick="document.querySelector('.nav-item:nth-child(3)').click()">See All</span></div>
+      ${topBuys.map((s, i) => `
+        <div class="strongbuy-row">
+          <div class="strongbuy-rank">${i + 1}</div>
+          <div class="strongbuy-info">
+            <div class="sb-sym">${s.symbol} ${s.zacks ? `<span class="zacks-badge zacks-${s.zacks.rank}" style="font-size:9px;padding:2px 6px">Z#${s.zacks.rank}</span>` : ''}</div>
+            <div class="sb-name">${s.name || ''} &bull; ${s.sector || ''}</div>
+          </div>
+          <div class="strongbuy-right">
+            <div class="sb-price">${fmt$(s.price)}</div>
+            <div class="sb-change ${pc(s.dayChangePct)}">${fmtPct(s.dayChangePct)}</div>
+          </div>
+        </div>`).join('')}
+    </div>` : '';
+
+  // --- Paper Trading Highlights ---
+  if (paper && paper.positions.length) {
+    const allSells = paper.trades.filter(t => t.action === 'SELL' && t.realizedPnL != null);
+    const totalRealized = allSells.reduce((s, t) => s + (t.realizedPnL || 0), 0);
+    const recentTrades = paper.trades.slice(-3).reverse();
+
+    // Top performer
+    const posWithPnl = paper.positions.map(p => {
+      const val = p.shares * (p.currentPrice || p.avgCost);
+      const pnl = (p.currentPrice - p.avgCost) * p.shares;
+      const pnlPct = p.avgCost > 0 ? ((p.currentPrice - p.avgCost) / p.avgCost) * 100 : 0;
+      return { ...p, val, pnl, pnlPct };
+    }).sort((a, b) => b.pnlPct - a.pnlPct);
+
+    document.getElementById('homePaperHighlights').innerHTML = `
+      <div class="home-section">
+        <div class="home-section-head"><span class="hs-title">Paper Trading</span><span class="hs-link" onclick="document.querySelector('.nav-item:nth-child(4)').click()">Full View</span></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;padding:0 16px 8px">
+          <div class="home-minicard"><div class="mc-label">Value</div><div class="mc-value" style="font-size:16px">${fmt$(paperVal)}</div></div>
+          <div class="home-minicard"><div class="mc-label">Realized</div><div class="mc-value ${pc(totalRealized)}" style="font-size:16px">${fmt$(totalRealized)}</div></div>
+          <div class="home-minicard"><div class="mc-label">Positions</div><div class="mc-value" style="font-size:16px">${paper.positions.length}</div></div>
+        </div>
+        ${posWithPnl.length ? `<div style="padding:0 16px 4px;font-size:11px;color:var(--dim)">Top performer: <span style="font-weight:700;color:var(--text)">${posWithPnl[0].symbol}</span> <span class="${pc(posWithPnl[0].pnlPct)}">${fmtPct(posWithPnl[0].pnlPct)}</span></div>` : ''}
+        ${recentTrades.length ? `<div style="padding:4px 16px 12px;font-size:11px;color:var(--dim)">Latest: ${recentTrades.map(t => `<span style="color:${t.action==='BUY'?'var(--green)':'var(--red)'};font-weight:600">${t.action} ${t.symbol}</span>`).join(' &bull; ')}</div>` : ''}
+      </div>`;
+  } else {
+    document.getElementById('homePaperHighlights').innerHTML = '';
+  }
+}
+
 async function loadData() {
   try {
     const [pRes, dRes, ppRes] = await Promise.all([
@@ -503,17 +686,15 @@ async function loadData() {
     ]);
     const portfolio = await pRes.json();
     const discovery = await dRes.json();
+    const paper = (ppRes && ppRes.ok) ? await ppRes.json() : null;
+    renderHome(portfolio, discovery, paper);
     renderPortfolio(portfolio);
     renderDiscovery(discovery);
     renderGlossary();
-    if (ppRes && ppRes.ok) {
-      const paper = await ppRes.json();
-      renderPaperTrading(paper);
-    } else {
-      renderPaperTrading(null);
-    }
+    renderPaperTrading(paper);
   } catch(e) {
     document.getElementById('stocksArea').innerHTML = '<div class="loading">No data yet. Run the stock alarm first.</div>';
+    renderHome(null, null, null);
     renderGlossary();
     renderPaperTrading(null);
   }

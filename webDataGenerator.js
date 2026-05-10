@@ -48,6 +48,7 @@ function generateWebData(results, discovery, outputDir) {
         reasons: r.signal.reasons,
         zacks: r.zacks?.available ? { rank: r.zacks.rank, label: r.zacks.label } : null,
         sentiment: r.newsData.sentiment.label.replace(/[\uD83D\uDD34\uD83D\uDFE2\u26AA\uFE0F]/gu, "").trim(),
+        earningsDate: r.stockData.earningsDate || null,
         news: r.newsData.news.slice(0, 3).map((n) => ({
           title: n.title.replace(/&amp;/g, "&"),
           source: n.source,
