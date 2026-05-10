@@ -193,16 +193,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .user-bar .ub-name{flex:1;font-size:12px;font-weight:600}
 .user-bar .ub-mode{font-size:10px;color:var(--dim)}
 .user-bar .ub-logout{background:none;border:1px solid #444;color:var(--dim);padding:4px 10px;border-radius:6px;font-size:10px;cursor:pointer}
-.setup-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:300;display:none;align-items:center;justify-content:center;padding:20px}
-.setup-overlay.open{display:flex}
-.setup-card{background:var(--card);border-radius:var(--radius);padding:24px;max-width:400px;width:100%;max-height:80vh;overflow-y:auto}
-.setup-card h2{font-size:18px;margin-bottom:16px;color:var(--accent)}
-.setup-card ol{padding-left:20px;font-size:13px;line-height:1.8;color:var(--dim)}
-.setup-card input{width:100%;background:var(--card2);border:1px solid #444;border-radius:8px;color:var(--text);padding:10px;font-size:13px;margin:4px 0;box-sizing:border-box}
-.setup-card input:focus{border-color:var(--accent);outline:none}
-.setup-card button{width:100%;padding:12px;border:none;border-radius:var(--radius);font-size:14px;font-weight:700;cursor:pointer;margin-top:8px}
-.setup-card .btn-primary{background:var(--accent);color:#000}
-.setup-card .btn-secondary{background:var(--card2);color:var(--dim)}
+
 </style>
 </head>
 <body>
@@ -260,25 +251,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 
 <button class="edit-fab" onclick="openEditor()" title="Edit Portfolio">&#9998;</button>
 
-<div class="setup-overlay" id="setupOverlay">
-  <div class="setup-card">
-    <h2>Firebase Setup</h2>
-    <p style="font-size:12px;color:var(--dim);margin-bottom:12px">One-time setup to enable multi-user portfolios:</p>
-    <ol>
-      <li>Go to <a href="https://console.firebase.google.com" target="_blank" style="color:var(--accent)">Firebase Console</a></li>
-      <li>Create a project (name: StockAlarm)</li>
-      <li>Add a Web App → copy the config</li>
-      <li>Enable Authentication → Google provider</li>
-      <li>Create Firestore Database (production mode)</li>
-      <li>Paste your config below:</li>
-    </ol>
-    <input id="fbApiKey" placeholder="apiKey">
-    <input id="fbAuthDomain" placeholder="authDomain (e.g. stockalarm-xxx.firebaseapp.com)">
-    <input id="fbProjectId" placeholder="projectId">
-    <button class="btn-primary" onclick="saveFirebaseConfig()">Save &amp; Connect</button>
-    <button class="btn-secondary" onclick="document.getElementById('setupOverlay').classList.remove('open')">Skip (local only)</button>
-  </div>
-</div>
+
 
 <div class="editor-overlay" id="editorOverlay">
   <div class="editor-bar">
@@ -304,38 +277,29 @@ const fmtCF = n => {if(!n)return'N/A';if(Math.abs(n)>=1e9)return'$'+(n/1e9).toFi
 const pc = v => v>=0?'up':'down';
 
 // --- Firebase + Multi-User ---
-const FB_CONFIG_KEY = 'stockalarm_firebase_config';
 const STOCKS_KEY = 'stockalarm_mystocks';
 let db = null, auth = null, currentUser = null;
 
-function getFirebaseConfig() {
-  try { return JSON.parse(localStorage.getItem(FB_CONFIG_KEY)); } catch { return null; }
-}
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyCsvj1X_5NxkUejMU25FNl6TjViFhuiJGk",
+  authDomain: "stockalarm-39f9f.firebaseapp.com",
+  projectId: "stockalarm-39f9f",
+  storageBucket: "stockalarm-39f9f.firebasestorage.app",
+  messagingSenderId: "510315867494",
+  appId: "1:510315867494:web:010135891e6f7b5033aca7",
+};
 
 function initFirebase() {
-  const cfg = getFirebaseConfig();
-  if (!cfg || !cfg.apiKey) return false;
   try {
-    if (!firebase.apps.length) firebase.initializeApp(cfg);
+    if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
     auth = firebase.auth();
     db = firebase.firestore();
     return true;
   } catch (e) { console.error('[Firebase] Init error:', e); return false; }
 }
 
-function saveFirebaseConfig() {
-  const apiKey = document.getElementById('fbApiKey').value.trim();
-  const authDomain = document.getElementById('fbAuthDomain').value.trim();
-  const projectId = document.getElementById('fbProjectId').value.trim();
-  if (!apiKey || !projectId) { alert('Please fill in apiKey and projectId'); return; }
-  const cfg = { apiKey, authDomain: authDomain || projectId + '.firebaseapp.com', projectId };
-  localStorage.setItem(FB_CONFIG_KEY, JSON.stringify(cfg));
-  document.getElementById('setupOverlay').classList.remove('open');
-  location.reload();
-}
-
 function signIn() {
-  if (!auth) { document.getElementById('setupOverlay').classList.add('open'); return; }
+  if (!auth) { alert('Firebase not available. Please try again later.'); return; }
   const provider = new firebase.auth.GoogleAuthProvider();
   auth.signInWithRedirect(provider);
 }
