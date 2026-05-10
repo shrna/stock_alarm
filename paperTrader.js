@@ -14,6 +14,10 @@ const STOCK_EXIT_RANK = 8;
 const ETF_EXIT_RANK = 5;
 const REBALANCE_DRIFT = 0.08; // rebalance if >8% drift from target
 
+// US market hours: 9:30 AM - 4:00 PM ET (user uses 8 AM ET as "open" window)
+const MARKET_OPEN_HOUR_ET = 8;   // 8 AM ET — pre-market / user's open window
+const MARKET_CLOSE_HOUR_ET = 16; // 4 PM ET — market close
+
 function getMarketDate() {
   const now = new Date();
   const day = now.getDay();
@@ -26,6 +30,19 @@ function getMarketDate() {
 function isWeekend() {
   const day = new Date().getDay();
   return day === 0 || day === 6;
+}
+
+function getSessionType() {
+  // Check env override first (from workflow)
+  if (process.env.PAPER_SESSION) return process.env.PAPER_SESSION;
+
+  // Auto-detect based on current ET time
+  const now = new Date();
+  const etHour = parseInt(now.toLocaleString("en-US", { timeZone: "America/New_York", hour: "numeric", hour12: false }));
+
+  if (etHour >= MARKET_OPEN_HOUR_ET && etHour < 12) return "open";
+  if (etHour >= MARKET_CLOSE_HOUR_ET - 1) return "close";
+  return "open"; // default
 }
 
 function loadState(filePath) {
@@ -201,31 +218,31 @@ async function executeTrades(state, discovery, marketDate) {
     }
   }
 
-  // Append today's trades (deduplicate by date)
+  // Append today's trades (deduplicate by date+session)
   state.trades = state.trades.filter((t) => t.date !== marketDate);
   state.trades.push(...todayTrades);
   // Keep last 90 days of trades
   if (state.trades.length > 200) state.trades = state.trades.slice(-200);
 
-  // Step 6: Record daily snapshot (idempotent by date)
-  const finalPosValue = state.positions.reduce((s, p) => s + p.shares * (p.currentPrice || p.avgCost), 0);
-  const finalTotal = state.cash + finalPosValue;
-  state.history = state.history.filter((h) => h.date !== marketDate);
-  state.history.push({
-    date: marketDate,
-    totalValue: +finalTotal.toFixed(2),
-    cash: +state.cash.toFixed(2),
-    positionsValue: +finalPosValue.toFixed(2),
-    positionCount: state.positions.length,
-    tradesExecuted: todayTrades.length,
-  });
-  if (state.history.length > 365) state.history = state.history.slice(-365);
-
   return todayTrades;
 }
 
-async function runPaperTrader(discovery, docsDir) {
-  console.log("\n[Paper] Running paper trading simulator...");
+async function markToMarket(state) {
+  console.log("[Paper] Marking positions to market (close session)...");
+  for (const pos of state.positions) {
+    const price = await getPrice(pos.symbol);
+    if (price) {
+      pos.previousClose = pos.currentPrice || pos.avgCost;
+      pos.currentPrice = price;
+      const dayChange = ((price - pos.previousClose) / pos.previousClose) * 100;
+      console.log(`  ${pos.symbol}: $${price.toFixed(2)} (${dayChange >= 0 ? "+" : ""}${dayChange.toFixed(2)}% today)`);
+    }
+  }
+}
+
+async function runPaperTrader(discovery, docsDir, options = {}) {
+  const session = options.session || getSessionType();
+  console.log(`\n[Paper] Running paper trading simulator (${session.toUpperCase()} session)...`);
 
   if (isWeekend()) {
     console.log("[Paper] Market closed (weekend) — skipping trades");
@@ -236,14 +253,38 @@ async function runPaperTrader(discovery, docsDir) {
   const statePath = path.join(docsDir, "data", "paper-portfolio.json");
   const state = loadState(statePath);
 
-  console.log(`[Paper] Portfolio: $${(state.cash + state.positions.reduce((s, p) => s + p.shares * (p.currentPrice || p.avgCost), 0)).toFixed(2)} (${state.positions.length} positions, $${state.cash.toFixed(2)} cash)`);
+  const portfolioValue = state.cash + state.positions.reduce((s, p) => s + p.shares * (p.currentPrice || p.avgCost), 0);
+  console.log(`[Paper] Portfolio: $${portfolioValue.toFixed(2)} (${state.positions.length} positions, $${state.cash.toFixed(2)} cash)`);
 
-  const trades = await executeTrades(state, discovery, marketDate);
+  let trades = [];
 
-  const totalValue = state.cash + state.positions.reduce((s, p) => s + p.shares * (p.currentPrice || p.avgCost), 0);
-  const totalReturn = ((totalValue - state.startingCapital) / state.startingCapital) * 100;
+  if (session === "open") {
+    // OPEN session: Execute buy/sell trades based on discovery rankings
+    console.log("[Paper] Market OPEN — executing trades at live prices...");
+    trades = await executeTrades(state, discovery, marketDate);
+  } else if (session === "close") {
+    // CLOSE session: Mark-to-market only, record final day snapshot
+    await markToMarket(state);
+  }
 
-  console.log(`[Paper] End of day: $${totalValue.toFixed(2)} (${totalReturn >= 0 ? "+" : ""}${totalReturn.toFixed(2)}%) | ${trades.length} trades | ${state.positions.length} positions`);
+  // Record snapshot (both sessions update this, close overwrites open's snapshot with final prices)
+  const finalPosValue = state.positions.reduce((s, p) => s + p.shares * (p.currentPrice || p.avgCost), 0);
+  const finalTotal = state.cash + finalPosValue;
+  const totalReturn = ((finalTotal - state.startingCapital) / state.startingCapital) * 100;
+
+  state.history = state.history.filter((h) => h.date !== marketDate);
+  state.history.push({
+    date: marketDate,
+    totalValue: +finalTotal.toFixed(2),
+    cash: +state.cash.toFixed(2),
+    positionsValue: +finalPosValue.toFixed(2),
+    positionCount: state.positions.length,
+    tradesExecuted: trades.length,
+    session,
+  });
+  if (state.history.length > 365) state.history = state.history.slice(-365);
+
+  console.log(`[Paper] ${session.toUpperCase()} result: $${finalTotal.toFixed(2)} (${totalReturn >= 0 ? "+" : ""}${totalReturn.toFixed(2)}%) | ${trades.length} trades | ${state.positions.length} positions`);
 
   saveState(statePath, state);
   console.log("[Paper] State saved to docs/data/paper-portfolio.json");

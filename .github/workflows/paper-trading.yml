@@ -1,0 +1,67 @@
+name: Paper Trading (Market Hours)
+
+on:
+  schedule:
+    # Market OPEN: 8:00 AM ET = 12:00 UTC (Mon-Fri)
+    - cron: '0 12 * * 1-5'
+    # Market CLOSE: 4:00 PM ET = 20:00 UTC (Mon-Fri)
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      session:
+        description: 'Session type (open or close)'
+        required: true
+        default: 'open'
+        type: choice
+        options:
+          - open
+          - close
+
+permissions:
+  contents: write
+
+jobs:
+  paper-trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine session type
+        id: session
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ github.event.inputs.session }}" >> $GITHUB_OUTPUT
+          else
+            # Detect based on UTC hour: 12 UTC = 8 AM ET (open), 20 UTC = 4 PM ET (close)
+            HOUR=$(date -u +%H)
+            if [ "$HOUR" -lt "16" ]; then
+              echo "type=open" >> $GITHUB_OUTPUT
+            else
+              echo "type=close" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Run Paper Trading (${{ steps.session.outputs.type }})
+        env:
+          PAPER_SESSION: ${{ steps.session.outputs.type }}
+        run: node paperTrade.js
+
+      - name: Commit and push paper portfolio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/paper-portfolio.json
+          git diff --cached --quiet || git commit -m "Paper trade (${{ steps.session.outputs.type }}) $(date +%Y-%m-%d)"
+          git push
