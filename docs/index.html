@@ -9,6 +9,9 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Stock Alarm</title>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
 <style>
 :root{--bg:#0f1117;--card:#1a1d2e;--card2:#252840;--accent:#4fc3f7;--green:#4caf50;--red:#ef5350;--gold:#ffd740;--text:#e8eaed;--dim:#9aa0a6;--blue:#1a237e;--radius:14px}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -180,6 +183,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .sync-banner a{color:#a5d6a7;font-weight:700;text-decoration:none;font-size:13px}
 .edit-fab{position:fixed;bottom:80px;right:16px;width:50px;height:50px;border-radius:50%;background:var(--accent);color:#000;border:none;font-size:22px;font-weight:700;cursor:pointer;z-index:99;box-shadow:0 4px 12px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center}
 .edit-fab:active{transform:scale(.9)}
+.auth-banner{background:linear-gradient(135deg,#283593,#1a237e);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.auth-banner .ab-text{font-size:12px;color:#90caf9}
+.auth-banner .ab-btn{background:#fff;color:#1a237e;border:none;padding:8px 16px;border-radius:20px;font-size:12px;font-weight:700;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.auth-banner .ab-btn:active{opacity:.8}
+.auth-banner .ab-btn img{width:16px;height:16px}
+.user-bar{display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--card);border-bottom:1px solid #222}
+.user-bar img{width:28px;height:28px;border-radius:50%}
+.user-bar .ub-name{flex:1;font-size:12px;font-weight:600}
+.user-bar .ub-mode{font-size:10px;color:var(--dim)}
+.user-bar .ub-logout{background:none;border:1px solid #444;color:var(--dim);padding:4px 10px;border-radius:6px;font-size:10px;cursor:pointer}
+.setup-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:300;display:none;align-items:center;justify-content:center;padding:20px}
+.setup-overlay.open{display:flex}
+.setup-card{background:var(--card);border-radius:var(--radius);padding:24px;max-width:400px;width:100%;max-height:80vh;overflow-y:auto}
+.setup-card h2{font-size:18px;margin-bottom:16px;color:var(--accent)}
+.setup-card ol{padding-left:20px;font-size:13px;line-height:1.8;color:var(--dim)}
+.setup-card input{width:100%;background:var(--card2);border:1px solid #444;border-radius:8px;color:var(--text);padding:10px;font-size:13px;margin:4px 0;box-sizing:border-box}
+.setup-card input:focus{border-color:var(--accent);outline:none}
+.setup-card button{width:100%;padding:12px;border:none;border-radius:var(--radius);font-size:14px;font-weight:700;cursor:pointer;margin-top:8px}
+.setup-card .btn-primary{background:var(--accent);color:#000}
+.setup-card .btn-secondary{background:var(--card2);color:var(--dim)}
 </style>
 </head>
 <body>
@@ -188,6 +211,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
   <h1>STOCK ALARM</h1>
   <div class="date" id="reportDate">Loading...</div>
 </div>
+<div id="authBanner"></div>
+<div id="userBar"></div>
 
 <div class="bottom-nav">
   <div class="nav-item active" onclick="switchPage('home')"><div class="icon">&#127968;</div>Home</div>
@@ -235,6 +260,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 
 <button class="edit-fab" onclick="openEditor()" title="Edit Portfolio">&#9998;</button>
 
+<div class="setup-overlay" id="setupOverlay">
+  <div class="setup-card">
+    <h2>Firebase Setup</h2>
+    <p style="font-size:12px;color:var(--dim);margin-bottom:12px">One-time setup to enable multi-user portfolios:</p>
+    <ol>
+      <li>Go to <a href="https://console.firebase.google.com" target="_blank" style="color:var(--accent)">Firebase Console</a></li>
+      <li>Create a project (name: StockAlarm)</li>
+      <li>Add a Web App → copy the config</li>
+      <li>Enable Authentication → Google provider</li>
+      <li>Create Firestore Database (production mode)</li>
+      <li>Paste your config below:</li>
+    </ol>
+    <input id="fbApiKey" placeholder="apiKey">
+    <input id="fbAuthDomain" placeholder="authDomain (e.g. stockalarm-xxx.firebaseapp.com)">
+    <input id="fbProjectId" placeholder="projectId">
+    <button class="btn-primary" onclick="saveFirebaseConfig()">Save &amp; Connect</button>
+    <button class="btn-secondary" onclick="document.getElementById('setupOverlay').classList.remove('open')">Skip (local only)</button>
+  </div>
+</div>
+
 <div class="editor-overlay" id="editorOverlay">
   <div class="editor-bar">
     <button onclick="closeEditor()">Cancel</button>
@@ -258,12 +303,79 @@ const fmtCap = n => {if(!n)return'N/A';if(n>=1e12)return'$'+(n/1e12).toFixed(2)+
 const fmtCF = n => {if(!n)return'N/A';if(Math.abs(n)>=1e9)return'$'+(n/1e9).toFixed(1)+'B';if(Math.abs(n)>=1e6)return'$'+(n/1e6).toFixed(0)+'M';return'$'+n.toLocaleString()};
 const pc = v => v>=0?'up':'down';
 
-// --- Portfolio Editor ---
+// --- Firebase + Multi-User ---
+const FB_CONFIG_KEY = 'stockalarm_firebase_config';
 const STOCKS_KEY = 'stockalarm_mystocks';
-const GITHUB_REPO = 'shrna/stock_alarm';
-const GH_TOKEN_KEY = 'stockalarm_ghtoken';
+let db = null, auth = null, currentUser = null;
 
-function getMyStocks() {
+function getFirebaseConfig() {
+  try { return JSON.parse(localStorage.getItem(FB_CONFIG_KEY)); } catch { return null; }
+}
+
+function initFirebase() {
+  const cfg = getFirebaseConfig();
+  if (!cfg || !cfg.apiKey) return false;
+  try {
+    if (!firebase.apps.length) firebase.initializeApp(cfg);
+    auth = firebase.auth();
+    db = firebase.firestore();
+    return true;
+  } catch (e) { console.error('[Firebase] Init error:', e); return false; }
+}
+
+function saveFirebaseConfig() {
+  const apiKey = document.getElementById('fbApiKey').value.trim();
+  const authDomain = document.getElementById('fbAuthDomain').value.trim();
+  const projectId = document.getElementById('fbProjectId').value.trim();
+  if (!apiKey || !projectId) { alert('Please fill in apiKey and projectId'); return; }
+  const cfg = { apiKey, authDomain: authDomain || projectId + '.firebaseapp.com', projectId };
+  localStorage.setItem(FB_CONFIG_KEY, JSON.stringify(cfg));
+  document.getElementById('setupOverlay').classList.remove('open');
+  location.reload();
+}
+
+function signIn() {
+  if (!auth) { document.getElementById('setupOverlay').classList.add('open'); return; }
+  const provider = new firebase.auth.GoogleAuthProvider();
+  auth.signInWithRedirect(provider);
+}
+
+function signOut() {
+  if (auth) auth.signOut();
+  currentUser = null;
+  renderAuthUI();
+  loadData();
+}
+
+function renderAuthUI() {
+  if (currentUser) {
+    document.getElementById('authBanner').innerHTML = '';
+    document.getElementById('userBar').innerHTML = `
+      <div class="user-bar">
+        <img src="${currentUser.photoURL || ''}" alt="" onerror="this.style.display='none'">
+        <div class="ub-name">${currentUser.displayName || currentUser.email}</div>
+        <div class="ub-mode" style="color:var(--green)">Cloud synced</div>
+        <button class="ub-logout" onclick="signOut()">Logout</button>
+      </div>`;
+  } else {
+    document.getElementById('userBar').innerHTML = '';
+    document.getElementById('authBanner').innerHTML = `
+      <div class="auth-banner">
+        <span class="ab-text">Sign in to save your portfolio to the cloud</span>
+        <button class="ab-btn" onclick="signIn()"><img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="">Sign in</button>
+      </div>`;
+  }
+}
+
+// --- Firestore Portfolio ---
+async function loadUserStocks() {
+  if (db && currentUser) {
+    try {
+      const doc = await db.collection('portfolios').doc(currentUser.uid).get();
+      if (doc.exists) return doc.data().stocks || [];
+    } catch (e) { console.error('[Firestore] Read error:', e); }
+  }
+  // Fallback to localStorage
   try {
     const saved = localStorage.getItem(STOCKS_KEY);
     if (saved) return JSON.parse(saved);
@@ -271,44 +383,26 @@ function getMyStocks() {
   return null;
 }
 
-function saveMyStocks(stocks) {
+async function saveUserStocks(stocks) {
   localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
+  if (db && currentUser) {
+    try {
+      await db.collection('portfolios').doc(currentUser.uid).set({
+        stocks,
+        displayName: currentUser.displayName || '',
+        email: currentUser.email || '',
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      }, { merge: true });
+    } catch (e) { console.error('[Firestore] Write error:', e); }
+  }
 }
 
-function getGhToken() { return localStorage.getItem(GH_TOKEN_KEY) || ''; }
-function saveGhToken(t) { localStorage.setItem(GH_TOKEN_KEY, t); }
-
-async function syncToGitHub(stocks) {
-  const token = getGhToken();
-  if (!token) return { ok: false, msg: 'No token set' };
-
+function getMyStocks() {
   try {
-    // Get current file SHA (required for updates)
-    const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/stocks.json`, {
-      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
-    });
-    const fileData = getRes.ok ? await getRes.json() : null;
-    const sha = fileData?.sha;
-
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify(stocks, null, 2) + '\n')));
-    const body = {
-      message: `Update portfolio from app (${new Date().toLocaleDateString()})`,
-      content,
-      ...(sha ? { sha } : {}),
-    };
-
-    const putRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/stocks.json`, {
-      method: 'PUT',
-      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-    });
-
-    if (putRes.ok) return { ok: true, msg: 'Synced!' };
-    const err = await putRes.json();
-    return { ok: false, msg: err.message || 'API error' };
-  } catch (e) {
-    return { ok: false, msg: e.message };
-  }
+    const saved = localStorage.getItem(STOCKS_KEY);
+    if (saved) return JSON.parse(saved);
+  } catch {}
+  return null;
 }
 
 function openEditor() {
@@ -332,11 +426,17 @@ function switchEditorTab(tab, el) {
 function renderEditorList() {
   let stocks = getMyStocks();
   if (!stocks) {
-    // Initialize from server data
     const serverStocks = window._portfolioData?.stocks?.filter(s => !s.error) || [];
     stocks = serverStocks.map(s => ({ ticker: s.ticker, avgPrice: s.avgCost, quantity: s.quantity }));
-    if (stocks.length) saveMyStocks(stocks);
+    if (stocks.length) localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
   }
+
+  const syncStatus = (db && currentUser)
+    ? `<div class="sync-banner" style="background:#1b5e20"><div style="font-size:12px;color:#a5d6a7">&#10003; Cloud sync enabled — saves push to Firestore automatically</div></div>`
+    : `<div class="sync-banner" style="background:#283593;cursor:pointer" onclick="signIn()">
+         <div style="color:#90caf9;font-weight:700;font-size:13px">&#128279; Sign in to sync across devices</div>
+         <div style="font-size:10px;color:#90caf9;margin-top:4px">Your portfolio is saved locally only</div>
+       </div>`;
 
   document.getElementById('editor-list').innerHTML = stocks.map((s, i) => `
     <div class="stock-edit-row" data-idx="${i}">
@@ -345,14 +445,7 @@ function renderEditorList() {
       <div class="field"><label>Qty</label><input type="number" value="${s.quantity}" data-field="quantity" placeholder="10"></div>
       <button class="del-btn" onclick="deleteStock(${i})">&#10005;</button>
     </div>`).join('') +
-    `<div class="add-stock-btn" onclick="addStock()">+ Add Stock</div>` +
-    (getGhToken()
-      ? `<div class="sync-banner" style="background:#1b5e20"><div style="font-size:12px;color:#a5d6a7">&#10003; Auto-sync enabled — saves push to GitHub automatically</div>
-         <div style="margin-top:6px"><a href="#" onclick="event.preventDefault();if(confirm('Remove GitHub token?')){localStorage.removeItem('${GH_TOKEN_KEY}');renderEditorList()}" style="color:#81c784;font-size:11px">Disconnect GitHub</a></div></div>`
-      : `<div class="sync-banner" style="background:#283593;cursor:pointer" onclick="setupGhToken()">
-           <div style="color:#90caf9;font-weight:700;font-size:13px">&#128279; Connect GitHub for auto-sync</div>
-           <div style="font-size:10px;color:#90caf9;margin-top:4px">One-time setup — edits will auto-save to your nightly reports</div>
-         </div>`);
+    `<div class="add-stock-btn" onclick="addStock()">+ Add Stock</div>` + syncStatus;
 }
 
 function renderEditorNotes() {
@@ -379,9 +472,8 @@ function readEditorStocks() {
 function addStock() {
   const stocks = readEditorStocks();
   stocks.push({ ticker: '', avgPrice: 0, quantity: 0 });
-  saveMyStocks(stocks);
+  localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
   renderEditorList();
-  // Focus the new ticker input
   setTimeout(() => {
     const inputs = document.querySelectorAll('#editor-list .stock-edit-row:last-of-type input');
     if (inputs[0]) inputs[0].focus();
@@ -391,7 +483,7 @@ function addStock() {
 function deleteStock(idx) {
   const stocks = readEditorStocks();
   stocks.splice(idx, 1);
-  saveMyStocks(stocks);
+  localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
   renderEditorList();
 }
 
@@ -416,7 +508,7 @@ function parseNotes() {
   }
 
   if (stocks.length) {
-    saveMyStocks(stocks);
+    localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
     document.querySelectorAll('.editor-tabs .etab').forEach(t => t.classList.remove('active'));
     document.querySelector('.editor-tabs .etab:first-child').classList.add('active');
     document.getElementById('editor-list').style.display = 'block';
@@ -439,21 +531,14 @@ function setupGhToken() {
 
 async function savePortfolio() {
   const stocks = readEditorStocks().filter(s => s.ticker);
-  saveMyStocks(stocks);
+  const saveBtn = document.querySelector('.editor-bar button:last-child');
+  saveBtn.textContent = 'Saving...';
+  saveBtn.disabled = true;
 
-  // Auto-sync to GitHub if token is set
-  if (getGhToken()) {
-    const saveBtn = document.querySelector('.editor-bar button:last-child');
-    saveBtn.textContent = 'Syncing...';
-    saveBtn.disabled = true;
-    const result = await syncToGitHub(stocks);
-    saveBtn.textContent = 'Save';
-    saveBtn.disabled = false;
-    if (!result.ok) {
-      alert('Saved locally but GitHub sync failed: ' + result.msg);
-    }
-  }
+  await saveUserStocks(stocks);
 
+  saveBtn.textContent = 'Save';
+  saveBtn.disabled = false;
   closeEditor();
   loadData();
 }
@@ -908,7 +993,7 @@ function renderHome(portfolio, discovery, paper) {
 
     document.getElementById('homePaperHighlights').innerHTML = `
       <div class="home-section">
-        <div class="home-section-head"><span class="hs-title">Paper Trading</span><span class="hs-link" onclick="document.querySelector('.nav-item:nth-child(4)').click()">Full View</span></div>
+        <div class="home-section-head"><span class="hs-title">Paper Trading (Global)</span><span class="hs-link" onclick="document.querySelector('.nav-item:nth-child(4)').click()">Full View</span></div>
         <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;padding:0 16px 8px">
           <div class="home-minicard"><div class="mc-label">Value</div><div class="mc-value" style="font-size:16px">${fmt$(paperVal)}</div></div>
           <div class="home-minicard"><div class="mc-label">Realized</div><div class="mc-value ${pc(totalRealized)}" style="font-size:16px">${fmt$(totalRealized)}</div></div>
@@ -932,13 +1017,72 @@ async function loadData() {
     const portfolio = await pRes.json();
     const discovery = await dRes.json();
     const paper = (ppRes && ppRes.ok) ? await ppRes.json() : null;
-    window._portfolioData = portfolio;
-    renderHome(portfolio, discovery, paper);
-    renderPortfolio(portfolio);
+
+    // If user is signed in, overlay their Firestore/local portfolio onto the shared data
+    const userStocks = await loadUserStocks();
+    let userPortfolio = portfolio;
+    if (userStocks && userStocks.length > 0) {
+      // Build a price lookup from discovery + pipeline portfolio data
+      const priceLookup = {};
+      (portfolio?.stocks || []).forEach(s => { if (!s.error) priceLookup[s.ticker] = s; });
+      (discovery?.stocks || []).forEach(s => { priceLookup[s.symbol] = { price: s.price, dayChangePct: s.dayChangePct, name: s.name, earningsDate: s.earningsDate }; });
+
+      let totalInvested = 0, totalCurrentValue = 0;
+      const enrichedStocks = userStocks.map(us => {
+        const live = priceLookup[us.ticker];
+        const price = live?.price || live?.currentPrice || 0;
+        const value = price * us.quantity;
+        const invested = us.avgPrice * us.quantity;
+        totalInvested += invested;
+        totalCurrentValue += value;
+        return {
+          ticker: us.ticker,
+          name: live?.name || live?.shortName || us.ticker,
+          price,
+          dayChangePct: live?.dayChangePct || 0,
+          avgCost: us.avgPrice,
+          quantity: us.quantity,
+          value,
+          pnl: value - invested,
+          pnlPct: invested > 0 ? ((value - invested) / invested) * 100 : 0,
+          fiftyTwoWeekHigh: live?.fiftyTwoWeekHigh || 0,
+          fiftyTwoWeekLow: live?.fiftyTwoWeekLow || 0,
+          fiftyTwoWeekChangePct: live?.fiftyTwoWeekChangePct || 0,
+          fiftyDayAvg: live?.fiftyDayAvg || 0,
+          twoHundredDayAvg: live?.twoHundredDayAvg || 0,
+          marketCap: live?.marketCap || 0,
+          pe: live?.pe || 0,
+          forwardPE: live?.forwardPE || 0,
+          signal: live?.signal || 'N/A',
+          signalScore: live?.signalScore || 0,
+          reasons: live?.reasons || [],
+          zacks: live?.zacks || null,
+          sentiment: live?.sentiment || 'N/A',
+          earningsDate: live?.earningsDate || null,
+          news: live?.news || [],
+          analysts: live?.analysts || {},
+        };
+      });
+
+      userPortfolio = {
+        ...portfolio,
+        dateStr: portfolio?.dateStr || new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }),
+        totalInvested,
+        totalCurrentValue,
+        totalPnL: totalCurrentValue - totalInvested,
+        totalPnLPct: totalInvested > 0 ? ((totalCurrentValue - totalInvested) / totalInvested) * 100 : 0,
+        stocks: enrichedStocks,
+      };
+    }
+
+    window._portfolioData = userPortfolio;
+    renderHome(userPortfolio, discovery, paper);
+    renderPortfolio(userPortfolio);
     renderDiscovery(discovery);
     renderGlossary();
     renderPaperTrading(paper);
   } catch(e) {
+    console.error('[Load] Error:', e);
     document.getElementById('stocksArea').innerHTML = '<div class="loading">No data yet. Run the stock alarm first.</div>';
     renderHome(null, null, null);
     renderGlossary();
@@ -946,9 +1090,35 @@ async function loadData() {
   }
 }
 
+// --- App Init ---
+const firebaseReady = initFirebase();
+if (firebaseReady && auth) {
+  auth.onAuthStateChanged(async (user) => {
+    currentUser = user;
+    renderAuthUI();
+
+    // If signing in for first time, migrate localStorage data to Firestore
+    if (user && db) {
+      const localStocks = getMyStocks();
+      const doc = await db.collection('portfolios').doc(user.uid).get().catch(() => null);
+      if (localStocks && localStocks.length > 0 && (!doc || !doc.exists)) {
+        await saveUserStocks(localStocks);
+        console.log('[Firebase] Migrated local portfolio to cloud');
+      } else if (doc && doc.exists) {
+        // Load cloud data into localStorage for offline access
+        const cloudStocks = doc.data().stocks || [];
+        localStorage.setItem(STOCKS_KEY, JSON.stringify(cloudStocks));
+      }
+    }
+    loadData();
+  });
+} else {
+  renderAuthUI();
+  loadData();
+}
+
 // Service worker
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
-loadData();
 </script>
 </body>
 </html>

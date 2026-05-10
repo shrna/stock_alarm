@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each user can only read/write their own portfolio
+    match /portfolios/{userId} {
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId
+                         && request.resource.data.keys().hasOnly(['stocks', 'displayName', 'email', 'updatedAt'])
+                         && request.resource.data.stocks is list
+                         && request.resource.data.stocks.size() <= 100;
+    }
+
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
