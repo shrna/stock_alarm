@@ -14,6 +14,23 @@ const { discoverStocks } = require("./stockDiscovery");
 const { generateWebData } = require("./webDataGenerator");
 const { runPaperTrader } = require("./paperTrader");
 
+// Read portfolio: stocks.json first, then Excel fallback
+const STOCKS_JSON = path.join(__dirname, "stocks.json");
+
+function readStocksJson() {
+  if (!fs.existsSync(STOCKS_JSON)) return null;
+  try {
+    const data = JSON.parse(fs.readFileSync(STOCKS_JSON, "utf8"));
+    return data
+      .filter(s => s.ticker)
+      .map(s => ({
+        ticker: String(s.ticker).toUpperCase().trim(),
+        avgPrice: parseFloat(s.avgPrice) || 0,
+        quantity: parseInt(s.quantity) || 0,
+      }));
+  } catch { return null; }
+}
+
 // Check OneDrive first, then fall back to local copy
 const ONEDRIVE_PATH = path.join(
   process.env.USERPROFILE || process.env.HOME || "",
@@ -47,13 +64,19 @@ async function run() {
   console.log(`  ${new Date().toLocaleString()}`);
   console.log("═══════════════════════════════════\n");
 
-  // 1. Read Excel
-  console.log("[Excel] Reading stocks from", EXCEL_PATH);
-  const stocks = await readStocksExcel(EXCEL_PATH, process.env.EXCEL_PASSWORD);
-  console.log(`[Excel] Found ${stocks.length} stocks: ${stocks.map((s) => s.ticker).join(", ")}\n`);
+  // 1. Read portfolio (JSON first, Excel fallback)
+  let stocks = readStocksJson();
+  if (stocks && stocks.length > 0) {
+    console.log(`[Portfolio] Loaded ${stocks.length} stocks from stocks.json: ${stocks.map((s) => s.ticker).join(", ")}\n`);
+  } else {
+    console.log("[Portfolio] No stocks.json found, falling back to Excel...");
+    console.log("[Excel] Reading stocks from", EXCEL_PATH);
+    stocks = await readStocksExcel(EXCEL_PATH, process.env.EXCEL_PASSWORD);
+    console.log(`[Excel] Found ${stocks.length} stocks: ${stocks.map((s) => s.ticker).join(", ")}\n`);
+  }
 
   if (stocks.length === 0) {
-    console.error("[Error] No stocks found in Excel file!");
+    console.error("[Error] No stocks found in stocks.json or Excel!");
     process.exit(1);
   }
 

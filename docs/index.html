@@ -153,6 +153,33 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .ptick .pt-sym{font-size:13px;font-weight:700}
 .ptick .pt-price{font-size:12px;margin-top:2px}
 .ptick .pt-change{font-size:11px;font-weight:600}
+.editor-overlay{position:fixed;inset:0;background:var(--bg);z-index:200;display:none;flex-direction:column;overflow:hidden}
+.editor-overlay.open{display:flex}
+.editor-bar{display:flex;justify-content:space-between;align-items:center;padding:16px;padding-top:max(16px,env(safe-area-inset-top));background:linear-gradient(135deg,#1a237e,#283593)}
+.editor-bar button{background:none;border:none;color:var(--accent);font-size:15px;font-weight:700;cursor:pointer;padding:8px 12px}
+.editor-bar .title{font-size:16px;font-weight:700;color:#fff}
+.editor-tabs{display:flex;background:var(--card);border-bottom:1px solid #333}
+.editor-tabs .etab{flex:1;padding:10px;text-align:center;font-size:12px;font-weight:600;color:var(--dim);cursor:pointer;border-bottom:2px solid transparent}
+.editor-tabs .etab.active{color:var(--accent);border-color:var(--accent)}
+.editor-body{flex:1;overflow-y:auto;padding-bottom:80px}
+.stock-edit-row{display:flex;align-items:center;padding:12px 16px;border-bottom:1px solid #222;gap:10px}
+.stock-edit-row input{background:var(--card2);border:1px solid #444;border-radius:8px;color:var(--text);padding:8px 10px;font-size:14px;width:100%}
+.stock-edit-row input:focus{border-color:var(--accent);outline:none}
+.stock-edit-row .field{flex:1}
+.stock-edit-row .field label{font-size:9px;color:var(--dim);text-transform:uppercase;display:block;margin-bottom:3px}
+.stock-edit-row .del-btn{width:32px;height:32px;border-radius:8px;background:#b71c1c;border:none;color:#ffcdd2;font-size:16px;cursor:pointer;flex-shrink:0}
+.add-stock-btn{margin:12px 16px;padding:12px;background:var(--card);border:2px dashed #444;border-radius:var(--radius);text-align:center;color:var(--accent);font-size:14px;font-weight:600;cursor:pointer}
+.add-stock-btn:active{background:var(--card2)}
+.notes-area{margin:12px 16px}
+.notes-area textarea{width:100%;min-height:150px;background:var(--card);border:1px solid #444;border-radius:var(--radius);color:var(--text);padding:12px;font-size:14px;font-family:monospace;resize:vertical;box-sizing:border-box}
+.notes-area textarea:focus{border-color:var(--accent);outline:none}
+.notes-area .hint{font-size:11px;color:var(--dim);margin-top:6px;line-height:1.5}
+.notes-area .parse-btn{margin-top:10px;padding:12px;background:var(--accent);color:#000;border:none;border-radius:var(--radius);font-size:14px;font-weight:700;width:100%;cursor:pointer}
+.notes-area .parse-btn:active{opacity:.8}
+.sync-banner{margin:12px 16px;padding:14px;background:#1b5e20;border-radius:var(--radius);text-align:center}
+.sync-banner a{color:#a5d6a7;font-weight:700;text-decoration:none;font-size:13px}
+.edit-fab{position:fixed;bottom:80px;right:16px;width:50px;height:50px;border-radius:50%;background:var(--accent);color:#000;border:none;font-size:22px;font-weight:700;cursor:pointer;z-index:99;box-shadow:0 4px 12px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center}
+.edit-fab:active{transform:scale(.9)}
 </style>
 </head>
 <body>
@@ -206,12 +233,169 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
   <div id="glossaryArea"></div>
 </div>
 
+<button class="edit-fab" onclick="openEditor()" title="Edit Portfolio">&#9998;</button>
+
+<div class="editor-overlay" id="editorOverlay">
+  <div class="editor-bar">
+    <button onclick="closeEditor()">Cancel</button>
+    <span class="title">Edit Portfolio</span>
+    <button onclick="savePortfolio()">Save</button>
+  </div>
+  <div class="editor-tabs">
+    <div class="etab active" onclick="switchEditorTab('list',this)">Edit Stocks</div>
+    <div class="etab" onclick="switchEditorTab('notes',this)">Paste from Notes</div>
+  </div>
+  <div class="editor-body">
+    <div id="editor-list"></div>
+    <div id="editor-notes" style="display:none"></div>
+  </div>
+</div>
+
 <script>
 const fmt$ = n => n==null||n===0?'N/A':'$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const fmtPct = n => n==null?'N/A':(n>=0?'+':'')+n.toFixed(2)+'%';
 const fmtCap = n => {if(!n)return'N/A';if(n>=1e12)return'$'+(n/1e12).toFixed(2)+'T';if(n>=1e9)return'$'+(n/1e9).toFixed(2)+'B';if(n>=1e6)return'$'+(n/1e6).toFixed(0)+'M';return'$'+n.toLocaleString()};
 const fmtCF = n => {if(!n)return'N/A';if(Math.abs(n)>=1e9)return'$'+(n/1e9).toFixed(1)+'B';if(Math.abs(n)>=1e6)return'$'+(n/1e6).toFixed(0)+'M';return'$'+n.toLocaleString()};
 const pc = v => v>=0?'up':'down';
+
+// --- Portfolio Editor ---
+const STOCKS_KEY = 'stockalarm_mystocks';
+const GITHUB_REPO = 'shrna/stock_alarm';
+
+function getMyStocks() {
+  try {
+    const saved = localStorage.getItem(STOCKS_KEY);
+    if (saved) return JSON.parse(saved);
+  } catch {}
+  return null;
+}
+
+function saveMyStocks(stocks) {
+  localStorage.setItem(STOCKS_KEY, JSON.stringify(stocks));
+}
+
+function openEditor() {
+  const overlay = document.getElementById('editorOverlay');
+  overlay.classList.add('open');
+  renderEditorList();
+  renderEditorNotes();
+}
+
+function closeEditor() {
+  document.getElementById('editorOverlay').classList.remove('open');
+}
+
+function switchEditorTab(tab, el) {
+  document.querySelectorAll('.editor-tabs .etab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('editor-list').style.display = tab === 'list' ? 'block' : 'none';
+  document.getElementById('editor-notes').style.display = tab === 'notes' ? 'block' : 'none';
+}
+
+function renderEditorList() {
+  let stocks = getMyStocks();
+  if (!stocks) {
+    // Initialize from server data
+    const serverStocks = window._portfolioData?.stocks?.filter(s => !s.error) || [];
+    stocks = serverStocks.map(s => ({ ticker: s.ticker, avgPrice: s.avgCost, quantity: s.quantity }));
+    if (stocks.length) saveMyStocks(stocks);
+  }
+
+  document.getElementById('editor-list').innerHTML = stocks.map((s, i) => `
+    <div class="stock-edit-row" data-idx="${i}">
+      <div class="field"><label>Ticker</label><input type="text" value="${s.ticker}" data-field="ticker" placeholder="AAPL" autocapitalize="characters"></div>
+      <div class="field"><label>Avg Price</label><input type="number" value="${s.avgPrice}" data-field="avgPrice" placeholder="150.00" step="0.01"></div>
+      <div class="field"><label>Qty</label><input type="number" value="${s.quantity}" data-field="quantity" placeholder="10"></div>
+      <button class="del-btn" onclick="deleteStock(${i})">&#10005;</button>
+    </div>`).join('') +
+    `<div class="add-stock-btn" onclick="addStock()">+ Add Stock</div>
+     <div class="sync-banner">
+       <a href="https://github.com/${GITHUB_REPO}/edit/main/stocks.json" target="_blank">Sync to GitHub &rarr; edit stocks.json</a>
+       <div style="font-size:10px;color:#81c784;margin-top:4px">Changes here show instantly. Sync to GitHub for nightly reports.</div>
+     </div>`;
+}
+
+function renderEditorNotes() {
+  document.getElementById('editor-notes').innerHTML = `
+    <div class="notes-area">
+      <textarea id="notesInput" placeholder="Paste from iPhone Notes:&#10;&#10;PYPL 214.00 14&#10;SNDK 889.00 5&#10;BP 45.12 30&#10;&#10;Format: TICKER PRICE QUANTITY&#10;(one per line, space or comma separated)"></textarea>
+      <div class="hint">Type your stocks in Notes app, copy, and paste here.<br>Format: <b>TICKER PRICE QUANTITY</b> — one per line.<br>Accepts spaces, commas, or tabs as separators.</div>
+      <button class="parse-btn" onclick="parseNotes()">Import from Notes</button>
+    </div>`;
+}
+
+function readEditorStocks() {
+  const rows = document.querySelectorAll('#editor-list .stock-edit-row');
+  const stocks = [];
+  rows.forEach(row => {
+    const ticker = row.querySelector('[data-field=ticker]').value.toUpperCase().trim();
+    const avgPrice = parseFloat(row.querySelector('[data-field=avgPrice]').value) || 0;
+    const quantity = parseInt(row.querySelector('[data-field=quantity]').value) || 0;
+    if (ticker) stocks.push({ ticker, avgPrice, quantity });
+  });
+  return stocks;
+}
+
+function addStock() {
+  const stocks = readEditorStocks();
+  stocks.push({ ticker: '', avgPrice: 0, quantity: 0 });
+  saveMyStocks(stocks);
+  renderEditorList();
+  // Focus the new ticker input
+  setTimeout(() => {
+    const inputs = document.querySelectorAll('#editor-list .stock-edit-row:last-of-type input');
+    if (inputs[0]) inputs[0].focus();
+  }, 100);
+}
+
+function deleteStock(idx) {
+  const stocks = readEditorStocks();
+  stocks.splice(idx, 1);
+  saveMyStocks(stocks);
+  renderEditorList();
+}
+
+function parseNotes() {
+  const text = document.getElementById('notesInput').value.trim();
+  if (!text) return;
+
+  const lines = text.split('\n').filter(l => l.trim());
+  const stocks = [];
+  for (const line of lines) {
+    const parts = line.trim().split(/[\s,\t]+/);
+    if (parts.length >= 3) {
+      const ticker = parts[0].toUpperCase().replace(/[^A-Z]/g, '');
+      const avgPrice = parseFloat(parts[1]) || 0;
+      const quantity = parseInt(parts[2]) || 0;
+      if (ticker) stocks.push({ ticker, avgPrice, quantity });
+    } else if (parts.length === 2) {
+      const ticker = parts[0].toUpperCase().replace(/[^A-Z]/g, '');
+      const quantity = parseInt(parts[1]) || 0;
+      if (ticker) stocks.push({ ticker, avgPrice: 0, quantity });
+    }
+  }
+
+  if (stocks.length) {
+    saveMyStocks(stocks);
+    // Switch to list tab
+    document.querySelectorAll('.editor-tabs .etab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.editor-tabs .etab:first-child').classList.add('active');
+    document.getElementById('editor-list').style.display = 'block';
+    document.getElementById('editor-notes').style.display = 'none';
+    renderEditorList();
+    alert(`Imported ${stocks.length} stocks!`);
+  } else {
+    alert('Could not parse any stocks. Use format: TICKER PRICE QTY');
+  }
+}
+
+function savePortfolio() {
+  const stocks = readEditorStocks().filter(s => s.ticker);
+  saveMyStocks(stocks);
+  closeEditor();
+  // Reload display with saved stocks (merge with server data)
+  loadData();
+}
 
 function switchPage(name) {
   document.querySelectorAll('.page').forEach(p=>p.style.display='none');
@@ -687,6 +871,7 @@ async function loadData() {
     const portfolio = await pRes.json();
     const discovery = await dRes.json();
     const paper = (ppRes && ppRes.ok) ? await ppRes.json() : null;
+    window._portfolioData = portfolio;
     renderHome(portfolio, discovery, paper);
     renderPortfolio(portfolio);
     renderDiscovery(discovery);
