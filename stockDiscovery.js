@@ -149,20 +149,24 @@ async function getCandidates(ownedTickers) {
 // Stage 2: Score stocks via Zacks — get top 10
 async function scoreStockCandidates(candidates) {
   const scored = [];
-  const toCheck = candidates.slice(0, 30);
+  // Check up to 60 candidates, stop early once we have 10 strong picks
+  const toCheck = candidates.slice(0, 60);
 
   for (const c of toCheck) {
     try {
       const zacks = await getZacksRating(c.symbol);
-      if (zacks.available && zacks.rank <= 2) {
+      if (zacks.available && zacks.rank <= 3) {
         scored.push({ ...c, zacks });
       }
     } catch { /* skip */ }
-    await new Promise((r) => setTimeout(r, 200));
+    await new Promise((r) => setTimeout(r, 150));
+    if (scored.filter((s) => s.zacks.rank <= 2).length >= 10) break;
   }
 
+  // Prefer rank 1-2, then fill with rank 3. Within same rank, sort by analyst buy ratio
   scored.sort((a, b) => {
     if (a.zacks.rank !== b.zacks.rank) return a.zacks.rank - b.zacks.rank;
+    // Higher analyst buy ratio first (from screener data)
     return b.marketCap - a.marketCap;
   });
 
@@ -364,6 +368,24 @@ async function discoverStocks(ownedTickers) {
     topStocks[i].analysis = buildStockAnalysis(topStocks[i]);
     await new Promise((r) => setTimeout(r, 400));
   }
+
+  // Sort by composite analysis score: Zacks rank, analyst buy ratio, target upside
+  topStocks.sort((a, b) => {
+    const aZacks = a.zacks?.rank || 5;
+    const bZacks = b.zacks?.rank || 5;
+    const aBuys = (a.strongBuy || 0) + (a.buy || 0);
+    const aSells = (a.sell || 0) + (a.strongSell || 0);
+    const bBuys = (b.strongBuy || 0) + (b.buy || 0);
+    const bSells = (b.sell || 0) + (b.strongSell || 0);
+    const aRatio = (aBuys + aSells) > 0 ? aBuys / (aBuys + aSells) : 0;
+    const bRatio = (bBuys + bSells) > 0 ? bBuys / (bBuys + bSells) : 0;
+    const aUpside = a.targetMeanPrice > 0 ? (a.targetMeanPrice - a.price) / a.price : 0;
+    const bUpside = b.targetMeanPrice > 0 ? (b.targetMeanPrice - b.price) / b.price : 0;
+    // Composite: lower Zacks rank is better, higher buy ratio is better, higher upside is better
+    const aScore = (5 - aZacks) * 40 + aRatio * 35 + Math.min(aUpside, 1) * 25;
+    const bScore = (5 - bZacks) * 40 + bRatio * 35 + Math.min(bUpside, 1) * 25;
+    return bScore - aScore;
+  });
 
   console.log("[Discovery] Enriching ETF picks...");
   for (let i = 0; i < topEtfs.length; i++) {
