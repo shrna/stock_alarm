@@ -193,7 +193,7 @@ function scoreEtfCandidates(etfs) {
 async function enrichPick(pick) {
   try {
     const modules = pick.quoteType === "ETF"
-      ? ["price", "summaryDetail", "topHoldings", "fundProfile"]
+      ? ["price", "summaryDetail", "topHoldings", "fundProfile", "defaultKeyStatistics"]
       : ["assetProfile", "calendarEvents", "financialData", "recommendationTrend", "price", "summaryDetail", "defaultKeyStatistics"];
 
     const summary = await yahooFinance.quoteSummary(pick.symbol, { modules });
@@ -202,12 +202,58 @@ async function enrichPick(pick) {
       const fund = summary.fundProfile || {};
       const top = summary.topHoldings || {};
       const det = summary.summaryDetail || {};
-      pick.category = fund.categoryName || "N/A";
+      const ks = summary.defaultKeyStatistics || {};
+
+      // Fetch fundPerformance separately (some ETFs fail Yahoo validation)
+      let trailing = {}, riskStats = [];
+      try {
+        const perfResult = await yahooFinance.quoteSummary(pick.symbol, { modules: ["fundPerformance"] });
+        const perf = perfResult.fundPerformance || {};
+        trailing = perf.trailingReturns || {};
+        riskStats = perf.riskOverviewStatistics?.riskStatistics || [];
+      } catch { /* skip — validation fails for leveraged ETFs */ }
+
+      pick.category = fund.categoryName || ks.category || "N/A";
+      pick.fundFamily = ks.fundFamily || fund.family || null;
+      pick.inceptionDate = ks.fundInceptionDate || null;
+      pick.legalType = ks.legalType || null;
       pick.expenseRatio = det.totalExpenseRatio || fund.feesExpensesInvestment?.annualReportExpenseRatio || null;
-      pick.yield = det.yield || null;
-      pick.topHoldings = (top.holdings || []).slice(0, 5).map((h) => h.holdingName || h.symbol);
-      pick.totalAssets = det.totalAssets || 0;
-      pick.beta = det.beta || null;
+      pick.yield = det.yield || ks.yield || null;
+      pick.totalAssets = det.totalAssets || ks.totalAssets || 0;
+      pick.beta = det.beta || ks.beta3Year || null;
+
+      // Holdings with percentages
+      pick.holdings = (top.holdings || []).slice(0, 10).map((h) => ({
+        symbol: h.symbol, name: h.holdingName || h.symbol, pct: h.holdingPercent || 0,
+      }));
+      pick.topHoldings = pick.holdings.slice(0, 5).map((h) => h.name);
+
+      // Sector weightings
+      pick.sectorWeightings = (top.sectorWeightings || []).map((sw) => {
+        const [sector, pct] = Object.entries(sw)[0] || [];
+        return { sector: sector?.replace(/_/g, " ") || "Other", pct: pct || 0 };
+      }).filter((s) => s.pct > 0).sort((a, b) => b.pct - a.pct);
+
+      // Trailing returns
+      pick.returns = {
+        ytd: trailing.ytd || null, oneMonth: trailing.oneMonth || null,
+        threeMonth: trailing.threeMonth || null, oneYear: trailing.oneYear || null,
+        threeYear: trailing.threeYear || null, fiveYear: trailing.fiveYear || null,
+      };
+
+      // Risk metrics (use 3-year stats if available, else 5-year)
+      const risk3 = riskStats.find((r) => r.year === "3y") || riskStats.find((r) => r.year === "5y") || {};
+      pick.risk = {
+        alpha: risk3.alpha ?? null, beta: risk3.beta ?? null,
+        sharpe: risk3.sharpeRatio ?? null, stdDev: risk3.stdDev ?? null,
+        rSquared: risk3.rSquared ?? null, treynor: risk3.treynorRatio ?? null,
+      };
+
+      // Zacks rating for ETF
+      try {
+        const zacks = await getZacksRating(pick.symbol);
+        if (zacks.available) pick.zacks = zacks;
+      } catch { /* skip */ }
     } else {
       const profile = summary.assetProfile || {};
       const cal = summary.calendarEvents || {};
@@ -283,13 +329,17 @@ function buildEtfAnalysis(pick) {
   let a = `${pick.name}`;
   if (pick.category && pick.category !== "N/A") a += ` (${pick.category})`;
   a += ". ";
+  if (pick.fundFamily) a += `By ${pick.fundFamily}. `;
   if (pick.fiftyTwoWeekChangePercent) a += `52wk: ${pick.fiftyTwoWeekChangePercent > 0 ? "+" : ""}${pick.fiftyTwoWeekChangePercent.toFixed(1)}%. `;
+  if (pick.returns?.ytd != null) a += `YTD: ${(pick.returns.ytd * 100).toFixed(1)}%. `;
   if (pick.yield) a += `Yield: ${(pick.yield * 100).toFixed(2)}%. `;
   if (pick.expenseRatio) a += `ER: ${(pick.expenseRatio * 100).toFixed(2)}%. `;
   if (pick.totalAssets) {
     const v = pick.totalAssets >= 1e9 ? `$${(pick.totalAssets / 1e9).toFixed(1)}B` : `$${(pick.totalAssets / 1e6).toFixed(0)}M`;
     a += `AUM: ${v}. `;
   }
+  if (pick.risk?.sharpe != null) a += `Sharpe: ${pick.risk.sharpe.toFixed(2)}. `;
+  if (pick.zacks) a += `Zacks #${pick.zacks.rank} (${pick.zacks.label}). `;
   if (pick.topHoldings?.length > 0) a += `Top: ${pick.topHoldings.slice(0, 3).join(", ")}. `;
   a += `$${pick.price.toFixed(2)} (${pick.dayChangePct >= 0 ? "+" : ""}${pick.dayChangePct.toFixed(1)}% today).`;
   return a.trim();

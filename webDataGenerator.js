@@ -91,9 +91,14 @@ function generateWebData(results, discovery, outputDir) {
     etfs: (discovery?.etfs || []).map((p) => ({
       symbol: p.symbol, name: p.name, price: p.price,
       dayChangePct: p.dayChangePct, fiftyTwoWeekChangePct: p.fiftyTwoWeekChangePercent,
-      category: p.category, expenseRatio: p.expenseRatio,
-      yield: p.yield, totalAssets: p.totalAssets, beta: p.beta,
-      topHoldings: p.topHoldings, analysis: p.analysis,
+      category: p.category, fundFamily: p.fundFamily, legalType: p.legalType,
+      expenseRatio: p.expenseRatio, yield: p.yield, totalAssets: p.totalAssets, beta: p.beta,
+      holdings: p.holdings || [], topHoldings: p.topHoldings,
+      sectorWeightings: p.sectorWeightings || [],
+      returns: p.returns || {},
+      risk: p.risk || {},
+      zacks: p.zacks ? { rank: p.zacks.rank, label: p.zacks.label } : null,
+      analysis: p.analysis,
     })),
   };
 
