@@ -1,4 +1,4 @@
-const CACHE = "stockalarm-v7";
+const CACHE = "stockalarm-v8";
 const ASSETS = ["/stock_alarm/", "/stock_alarm/index.html"];
 
 self.addEventListener("install", (e) => {

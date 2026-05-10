@@ -16,9 +16,17 @@
 :root{--bg:#0f1117;--card:#1a1d2e;--card2:#252840;--accent:#4fc3f7;--green:#4caf50;--red:#ef5350;--gold:#ffd740;--text:#e8eaed;--dim:#9aa0a6;--blue:#1a237e;--radius:14px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;padding-bottom:80px}
-.header{background:linear-gradient(135deg,#1a237e,#283593);padding:20px 16px 16px;padding-top:max(20px,env(safe-area-inset-top));position:sticky;top:0;z-index:100}
+.header{background:linear-gradient(135deg,#1a237e,#283593);padding:20px 16px 16px;padding-top:max(20px,env(safe-area-inset-top));position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between}
 .header h1{font-size:18px;font-weight:700;letter-spacing:.5px}
 .header .date{font-size:12px;color:#90caf9;margin-top:2px}
+.header-signin{background:#fff;color:#1a237e;border:none;padding:7px 14px;border-radius:20px;font-size:11px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.header-signin:active{opacity:.8}
+.header-signin img{width:14px;height:14px}
+.header-user{display:flex;align-items:center;gap:8px}
+.header-user img{width:28px;height:28px;border-radius:50%;border:2px solid rgba(255,255,255,.3)}
+.header-user .hu-name{font-size:11px;font-weight:600;color:#fff;max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.header-user .hu-sync{font-size:9px;color:#69f0ae}
+.header-user .hu-logout{background:rgba(255,255,255,.15);color:#fff;border:none;padding:4px 10px;border-radius:12px;font-size:10px;cursor:pointer}
 .tabs{display:flex;background:var(--card);border-bottom:1px solid #333;position:sticky;top:0;z-index:99}
 .tab{flex:1;padding:12px 8px;text-align:center;font-size:13px;font-weight:600;color:var(--dim);cursor:pointer;border-bottom:2px solid transparent;transition:.2s}
 .tab.active{color:var(--accent);border-color:var(--accent)}
@@ -199,8 +207,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 <body>
 
 <div class="header">
-  <h1>STOCK ALARM</h1>
-  <div class="date" id="reportDate">Loading...</div>
+  <div>
+    <h1>STOCK ALARM</h1>
+    <div class="date" id="reportDate">Loading...</div>
+  </div>
+  <div id="headerAuth"></div>
 </div>
 <div id="authBanner"></div>
 <div id="userBar"></div>
@@ -312,22 +323,28 @@ function signOut() {
 }
 
 function renderAuthUI() {
+  const headerAuth = document.getElementById('headerAuth');
+  const authBanner = document.getElementById('authBanner');
+  const userBar = document.getElementById('userBar');
   if (currentUser) {
-    document.getElementById('authBanner').innerHTML = '';
-    document.getElementById('userBar').innerHTML = `
-      <div class="user-bar">
+    headerAuth.innerHTML = `
+      <div class="header-user">
+        <div style="text-align:right">
+          <div class="hu-name">${currentUser.displayName || currentUser.email}</div>
+          <div class="hu-sync">☁ Synced</div>
+        </div>
         <img src="${currentUser.photoURL || ''}" alt="" onerror="this.style.display='none'">
-        <div class="ub-name">${currentUser.displayName || currentUser.email}</div>
-        <div class="ub-mode" style="color:var(--green)">Cloud synced</div>
-        <button class="ub-logout" onclick="signOut()">Logout</button>
+        <button class="hu-logout" onclick="signOut()">Sign Out</button>
       </div>`;
+    authBanner.innerHTML = '';
+    userBar.innerHTML = '';
   } else {
-    document.getElementById('userBar').innerHTML = '';
-    document.getElementById('authBanner').innerHTML = `
-      <div class="auth-banner">
-        <span class="ab-text">Sign in to save your portfolio to the cloud</span>
-        <button class="ab-btn" onclick="signIn()"><img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="">Sign in</button>
-      </div>`;
+    headerAuth.innerHTML = `
+      <button class="header-signin" onclick="signIn()">
+        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="">Sign In
+      </button>`;
+    authBanner.innerHTML = '';
+    userBar.innerHTML = '';
   }
 }
 
