@@ -24,7 +24,7 @@ async function sendSms(transporter, gmailUser, phoneNumber, gateway, message) {
   console.log("[SMS] Sent successfully.");
 }
 
-async function sendEmailReport(transporter, gmailUser, toEmail, report) {
+async function sendEmailReport(transporter, gmailUser, toEmail, report, pdfPath) {
   console.log(`[Email] Sending full report to ${toEmail}...`);
 
   const now = new Date();
@@ -34,14 +34,26 @@ async function sendEmailReport(transporter, gmailUser, toEmail, report) {
     year: "numeric",
   });
 
-  await transporter.sendMail({
+  const mailOptions = {
     from: gmailUser,
     to: toEmail,
     subject: `📊 Daily Stock Report — ${dateStr}`,
     text: report,
-  });
+  };
 
-  console.log("[Email] Sent successfully.");
+  // Attach PDF if available
+  if (pdfPath && require("fs").existsSync(pdfPath)) {
+    mailOptions.attachments = [
+      {
+        filename: `Stock_Report_${now.toISOString().split("T")[0]}.pdf`,
+        path: pdfPath,
+        contentType: "application/pdf",
+      },
+    ];
+  }
+
+  await transporter.sendMail(mailOptions);
+  console.log("[Email] Sent successfully (with PDF attachment).");
 }
 
 module.exports = { createTransporter, sendSms, sendEmailReport };

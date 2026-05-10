@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1a237e">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<title>Stock Alarm</title>
+<style>
+:root{--bg:#0f1117;--card:#1a1d2e;--card2:#252840;--accent:#4fc3f7;--green:#4caf50;--red:#ef5350;--gold:#ffd740;--text:#e8eaed;--dim:#9aa0a6;--blue:#1a237e;--radius:14px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;padding-bottom:80px}
+.header{background:linear-gradient(135deg,#1a237e,#283593);padding:20px 16px 16px;padding-top:max(20px,env(safe-area-inset-top));position:sticky;top:0;z-index:100}
+.header h1{font-size:18px;font-weight:700;letter-spacing:.5px}
+.header .date{font-size:12px;color:#90caf9;margin-top:2px}
+.tabs{display:flex;background:var(--card);border-bottom:1px solid #333;position:sticky;top:0;z-index:99}
+.tab{flex:1;padding:12px 8px;text-align:center;font-size:13px;font-weight:600;color:var(--dim);cursor:pointer;border-bottom:2px solid transparent;transition:.2s}
+.tab.active{color:var(--accent);border-color:var(--accent)}
+.tab-content{display:none}.tab-content.active{display:block}
+.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:16px}
+.summary-card{background:var(--card);border-radius:var(--radius);padding:14px}
+.summary-card .label{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+.summary-card .value{font-size:20px;font-weight:700;margin-top:4px}
+.summary-card.full{grid-column:1/-1}
+.up{color:var(--green)}.down{color:var(--red)}
+.stock-card{background:var(--card);border-radius:var(--radius);margin:8px 16px;overflow:hidden;transition:transform .2s}
+.stock-card:active{transform:scale(.98)}
+.stock-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer}
+.stock-header .left h3{font-size:16px;font-weight:700}.stock-header .left .name{font-size:11px;color:var(--dim)}
+.stock-header .right{text-align:right}
+.stock-header .price{font-size:16px;font-weight:600}
+.stock-header .change{font-size:12px;font-weight:600}
+.signal-badge{display:inline-block;padding:3px 8px;border-radius:6px;font-size:10px;font-weight:700;letter-spacing:.5px}
+.signal-STRONG-BUY{background:#1b5e20;color:#a5d6a7}.signal-BUY{background:#2e7d32;color:#c8e6c9}
+.signal-HOLD{background:#f57f17;color:#fff9c4}.signal-SELL{background:#c62828;color:#ffcdd2}.signal-STRONG-SELL{background:#b71c1c;color:#ffcdd2}
+.stock-detail{display:none;padding:0 16px 16px;animation:slideDown .2s ease}
+.stock-detail.open{display:block}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.metrics-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.metric{background:var(--card2);border-radius:10px;padding:10px 12px}
+.metric .label{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.3px}
+.metric .val{font-size:14px;font-weight:600;margin-top:2px}
+.section-title{font-size:13px;font-weight:700;color:var(--accent);padding:14px 16px 6px;text-transform:uppercase;letter-spacing:.5px}
+.analyst-bar{display:flex;height:24px;border-radius:6px;overflow:hidden;margin:8px 0}
+.analyst-bar div{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff}
+.analyst-bar .sb{background:#1b5e20}.analyst-bar .b{background:#43a047}.analyst-bar .h{background:#f9a825}.analyst-bar .s{background:#e53935}.analyst-bar .ss{background:#b71c1c}
+.zacks-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:10px;font-weight:700;font-size:14px}
+.zacks-1{background:#1b5e20;color:#c8e6c9}.zacks-2{background:#2e7d32;color:#c8e6c9}.zacks-3{background:#f57f17;color:#fff9c4}.zacks-4{background:#c62828;color:#ffcdd2}.zacks-5{background:#b71c1c;color:#ffcdd2}
+.news-item{padding:10px 0;border-bottom:1px solid #333}
+.news-item:last-child{border:none}
+.news-item a{color:var(--accent);text-decoration:none;font-size:13px;line-height:1.4}
+.news-item .source{font-size:11px;color:var(--dim);margin-top:2px}
+.reasons-list{list-style:none;padding:8px 0}
+.reasons-list li{padding:4px 0;font-size:12px;color:var(--dim)}
+.reasons-list li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:8px}
+.reasons-list li.bullish::before{background:var(--green)}.reasons-list li.bearish::before{background:var(--red)}.reasons-list li.neutral::before{background:var(--gold)}
+.discovery-card{background:var(--card);border-radius:var(--radius);margin:8px 16px;overflow:hidden}
+.discovery-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer}
+.discovery-header .sym{font-size:15px;font-weight:700}.discovery-header .nm{font-size:11px;color:var(--dim)}
+.discovery-detail{display:none;padding:0 16px 16px}.discovery-detail.open{display:block}
+.analysis-text{font-size:12px;line-height:1.6;color:var(--dim);padding:8px 0;border-bottom:1px solid #333;margin-bottom:8px}
+.chart-container{background:var(--card);border-radius:var(--radius);margin:8px 16px;padding:16px}
+.chart-container canvas{width:100%;height:200px}
+.glossary-item{padding:12px 16px;border-bottom:1px solid #222}
+.glossary-item dt{font-size:13px;font-weight:700;color:var(--accent)}
+.glossary-item dd{font-size:12px;color:var(--dim);margin-top:4px;line-height:1.5}
+.pull-refresh{text-align:center;padding:12px;font-size:12px;color:var(--dim)}
+.loading{display:flex;align-items:center;justify-content:center;height:60vh;font-size:14px;color:var(--dim)}
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid #333;display:flex;padding-bottom:max(8px,env(safe-area-inset-bottom));z-index:100}
+.nav-item{flex:1;padding:10px 8px 6px;text-align:center;font-size:10px;color:var(--dim);cursor:pointer}
+.nav-item.active{color:var(--accent)}
+.nav-item .icon{font-size:20px;margin-bottom:2px}
+.earnings-tag{display:inline-block;background:#4a148c;color:#ce93d8;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;margin-top:4px}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>STOCK ALARM</h1>
+  <div class="date" id="reportDate">Loading...</div>
+</div>
+
+<div class="bottom-nav">
+  <div class="nav-item active" onclick="switchPage('portfolio')"><div class="icon">&#128188;</div>Portfolio</div>
+  <div class="nav-item" onclick="switchPage('discover')"><div class="icon">&#128270;</div>Discover</div>
+  <div class="nav-item" onclick="switchPage('glossary')"><div class="icon">&#128218;</div>Glossary</div>
+</div>
+
+<div id="page-portfolio" class="page active">
+  <div id="summaryArea"></div>
+  <div class="section-title">Your Holdings</div>
+  <div id="stocksArea"></div>
+</div>
+
+<div id="page-discover" class="page" style="display:none">
+  <div class="tabs">
+    <div class="tab active" onclick="switchDiscoverTab('stocks')">Stocks</div>
+    <div class="tab" onclick="switchDiscoverTab('etfs')">ETFs</div>
+  </div>
+  <div id="discover-stocks" class="tab-content active"></div>
+  <div id="discover-etfs" class="tab-content"></div>
+</div>
+
+<div id="page-glossary" class="page" style="display:none">
+  <div class="section-title">Financial Glossary</div>
+  <div id="glossaryArea"></div>
+</div>
+
+<script>
+const fmt$ = n => n==null||n===0?'N/A':'$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtPct = n => n==null?'N/A':(n>=0?'+':'')+n.toFixed(2)+'%';
+const fmtCap = n => {if(!n)return'N/A';if(n>=1e12)return'$'+(n/1e12).toFixed(2)+'T';if(n>=1e9)return'$'+(n/1e9).toFixed(2)+'B';if(n>=1e6)return'$'+(n/1e6).toFixed(0)+'M';return'$'+n.toLocaleString()};
+const fmtCF = n => {if(!n)return'N/A';if(Math.abs(n)>=1e9)return'$'+(n/1e9).toFixed(1)+'B';if(Math.abs(n)>=1e6)return'$'+(n/1e6).toFixed(0)+'M';return'$'+n.toLocaleString()};
+const pc = v => v>=0?'up':'down';
+
+function switchPage(name) {
+  document.querySelectorAll('.page').forEach(p=>p.style.display='none');
+  document.getElementById('page-'+name).style.display='block';
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+}
+
+function switchDiscoverTab(tab) {
+  document.querySelectorAll('#page-discover .tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('#page-discover .tab-content').forEach(t=>t.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+  document.getElementById('discover-'+tab).classList.add('active');
+}
+
+function toggleDetail(id) {
+  const el = document.getElementById(id);
+  el.classList.toggle('open');
+}
+
+function analystBar(a) {
+  const t = a.total||1;
+  return `<div class="analyst-bar">
+    ${a.strongBuy?`<div class="sb" style="width:${a.strongBuy/t*100}%">${a.strongBuy}</div>`:''}
+    ${a.buy?`<div class="b" style="width:${a.buy/t*100}%">${a.buy}</div>`:''}
+    ${a.hold?`<div class="h" style="width:${a.hold/t*100}%">${a.hold}</div>`:''}
+    ${a.sell?`<div class="s" style="width:${a.sell/t*100}%">${a.sell}</div>`:''}
+    ${a.strongSell?`<div class="ss" style="width:${a.strongSell/t*100}%">${a.strongSell}</div>`:''}
+  </div>`;
+}
+
+function renderPortfolio(data) {
+  document.getElementById('reportDate').textContent = data.dateStr;
+  
+  document.getElementById('summaryArea').innerHTML = `
+    <div class="summary-grid">
+      <div class="summary-card"><div class="label">Invested</div><div class="value">${fmt$(data.totalInvested)}</div></div>
+      <div class="summary-card"><div class="label">Current</div><div class="value">${fmt$(data.totalCurrentValue)}</div></div>
+      <div class="summary-card"><div class="label">P&L</div><div class="value ${pc(data.totalPnL)}">${fmt$(data.totalPnL)}</div></div>
+      <div class="summary-card"><div class="label">Return</div><div class="value ${pc(data.totalPnLPct)}">${fmtPct(data.totalPnLPct)}</div></div>
+    </div>`;
+
+  document.getElementById('stocksArea').innerHTML = data.stocks.filter(s=>!s.error).map((s,i) => `
+    <div class="stock-card">
+      <div class="stock-header" onclick="toggleDetail('sd${i}')">
+        <div class="left">
+          <h3>${s.ticker} <span class="signal-badge signal-${s.signal.replace(/\s/g,'-')}">${s.signal}</span></h3>
+          <div class="name">${s.name}</div>
+        </div>
+        <div class="right">
+          <div class="price">${fmt$(s.price)}</div>
+          <div class="change ${pc(s.dayChangePct)}">${fmtPct(s.dayChangePct)}</div>
+        </div>
+      </div>
+      <div class="stock-detail" id="sd${i}">
+        <div class="metrics-grid">
+          <div class="metric"><div class="label">Your Cost</div><div class="val">${fmt$(s.avgCost)} x ${s.quantity}</div></div>
+          <div class="metric"><div class="label">Value</div><div class="val">${fmt$(s.value)}</div></div>
+          <div class="metric"><div class="label">P&L</div><div class="val ${pc(s.pnl)}">${fmt$(s.pnl)}</div></div>
+          <div class="metric"><div class="label">Total Return</div><div class="val ${pc(s.pnlPct)}">${fmtPct(s.pnlPct)}</div></div>
+          <div class="metric"><div class="label">52wk Range</div><div class="val">${fmt$(s.fiftyTwoWeekLow)} - ${fmt$(s.fiftyTwoWeekHigh)}</div></div>
+          <div class="metric"><div class="label">52wk Change</div><div class="val ${pc(s.fiftyTwoWeekChangePct)}">${fmtPct(s.fiftyTwoWeekChangePct)}</div></div>
+          <div class="metric"><div class="label">50d / 200d Avg</div><div class="val">${fmt$(s.fiftyDayAvg)} / ${fmt$(s.twoHundredDayAvg)}</div></div>
+          <div class="metric"><div class="label">Market Cap</div><div class="val">${fmtCap(s.marketCap)}</div></div>
+          <div class="metric"><div class="label">P/E (TTM)</div><div class="val">${s.pe?s.pe.toFixed(1):'N/A'}</div></div>
+          <div class="metric"><div class="label">Forward P/E</div><div class="val">${s.forwardPE?s.forwardPE.toFixed(1):'N/A'}</div></div>
+        </div>
+        ${s.zacks?`<div style="margin-top:10px"><span class="zacks-badge zacks-${s.zacks.rank}">Zacks #${s.zacks.rank} ${s.zacks.label}</span></div>`:''}
+        ${s.analysts.total?`<div class="section-title" style="padding-left:0">Analyst Ratings (${s.analysts.total})</div>${analystBar(s.analysts)}<div class="metrics-grid"><div class="metric"><div class="label">Target Low</div><div class="val">${fmt$(s.analysts.targetLow)}</div></div><div class="metric"><div class="label">Target Mean</div><div class="val" style="color:var(--accent)">${fmt$(s.analysts.targetMean)}</div></div><div class="metric"><div class="label">Target High</div><div class="val">${fmt$(s.analysts.targetHigh)}</div></div><div class="metric"><div class="label">Upside</div><div class="val ${pc(s.analysts.targetMean-s.price)}">${fmtPct(((s.analysts.targetMean-s.price)/s.price)*100)}</div></div></div>`:''}
+        <div class="section-title" style="padding-left:0">Signal Breakdown (Score: ${s.signalScore.toFixed(0)})</div>
+        <ul class="reasons-list">${s.reasons.map(r=>`<li class="${r.includes('buy')||r.includes('Positive')||r.includes('Above')?'bullish':r.includes('sell')||r.includes('Negative')||r.includes('Below')||r.includes('loss')?'bearish':'neutral'}">${r.replace(/[\uD83D\uDD34\uD83D\uDFE2\u26AA\uFE0F]/gu,'')}</li>`).join('')}</ul>
+        <div class="section-title" style="padding-left:0">Sentiment: ${s.sentiment}</div>
+        ${s.news.length?`<div class="section-title" style="padding-left:0">Latest News</div>${s.news.map(n=>`<div class="news-item"><a href="${n.link}" target="_blank">${n.title}</a><div class="source">${n.source}</div></div>`).join('')}`:''}
+      </div>
+    </div>`).join('');
+}
+
+function renderDiscovery(data) {
+  // Stocks
+  document.getElementById('discover-stocks').innerHTML = data.stocks.length
+    ? `<div class="section-title">${data.stocks.length} Strong Buy Picks</div>` + data.stocks.map((s,i) => `
+    <div class="discovery-card">
+      <div class="discovery-header" onclick="toggleDetail('ds${i}')">
+        <div><span class="sym">${s.symbol}</span> <span class="nm">${s.name}</span>
+          ${s.zacks?`<span class="signal-badge signal-${s.zacks.rank<=1?'STRONG-BUY':'BUY'}">${s.zacks.label}</span>`:''}</div>
+        <div style="text-align:right"><div style="font-weight:700">${fmt$(s.price)}</div><div class="change ${pc(s.dayChangePct)}" style="font-size:12px">${fmtPct(s.dayChangePct)}</div></div>
+      </div>
+      <div class="discovery-detail" id="ds${i}">
+        <div class="analysis-text">${s.analysis||''}</div>
+        <div class="metrics-grid">
+          <div class="metric"><div class="label">Sector</div><div class="val">${s.sector||'N/A'}</div></div>
+          <div class="metric"><div class="label">Industry</div><div class="val">${s.industry||'N/A'}</div></div>
+          <div class="metric"><div class="label">Market Cap</div><div class="val">${fmtCap(s.marketCap)}</div></div>
+          <div class="metric"><div class="label">P/E</div><div class="val">${s.pe?s.pe.toFixed(1):'N/A'}</div></div>
+          <div class="metric"><div class="label">EPS</div><div class="val">${s.eps?'$'+s.eps.toFixed(2):'N/A'}</div></div>
+          <div class="metric"><div class="label">Forward EPS</div><div class="val">${s.forwardEps?'$'+s.forwardEps.toFixed(2):'N/A'}</div></div>
+          <div class="metric"><div class="label">PEG Ratio</div><div class="val">${s.pegRatio?s.pegRatio.toFixed(2):'N/A'}</div></div>
+          <div class="metric"><div class="label">Beta</div><div class="val">${s.beta?s.beta.toFixed(2):'N/A'}</div></div>
+          <div class="metric"><div class="label">P/B</div><div class="val">${s.priceToBook?s.priceToBook.toFixed(2):'N/A'}</div></div>
+          <div class="metric"><div class="label">Div Yield</div><div class="val">${s.dividendYield?fmtPct(s.dividendYield*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">Revenue Growth</div><div class="val ${pc(s.revenueGrowth)}">${s.revenueGrowth?fmtPct(s.revenueGrowth*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">Earnings Growth</div><div class="val ${pc(s.earningsGrowth)}">${s.earningsGrowth?fmtPct(s.earningsGrowth*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">Profit Margin</div><div class="val">${s.profitMargins?fmtPct(s.profitMargins*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">Gross Margin</div><div class="val">${s.grossMargins?fmtPct(s.grossMargins*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">Op Margin</div><div class="val">${s.operatingMargins?fmtPct(s.operatingMargins*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">ROE</div><div class="val">${s.returnOnEquity?fmtPct(s.returnOnEquity*100):'N/A'}</div></div>
+          <div class="metric"><div class="label">D/E Ratio</div><div class="val">${s.debtToEquity?s.debtToEquity.toFixed(1):'N/A'}</div></div>
+          <div class="metric"><div class="label">Free Cash Flow</div><div class="val">${fmtCF(s.freeCashflow)}</div></div>
+          <div class="metric"><div class="label">Revenue</div><div class="val">${fmtCF(s.totalRevenue)}</div></div>
+          <div class="metric"><div class="label">EBITDA</div><div class="val">${fmtCF(s.ebitda)}</div></div>
+        </div>
+        ${s.earningsDate?`<div class="earnings-tag">Earnings: ${new Date(s.earningsDate).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</div>`:''}
+        ${s.strongBuy!=null?`<div class="section-title" style="padding-left:0">Analyst Ratings</div>${analystBar({strongBuy:s.strongBuy,buy:s.buy,hold:s.hold,sell:s.sell,strongSell:s.strongSell,total:(s.strongBuy||0)+(s.buy||0)+(s.hold||0)+(s.sell||0)+(s.strongSell||0)})}<div class="metrics-grid"><div class="metric"><div class="label">Target</div><div class="val">${fmt$(s.targetLow)} - ${fmt$(s.targetHigh)}</div></div><div class="metric"><div class="label">Mean Target</div><div class="val" style="color:var(--accent)">${fmt$(s.targetMean)}</div></div></div>`:''}
+        ${s.zacks?`<div style="margin-top:10px"><span class="zacks-badge zacks-${s.zacks.rank}">Zacks #${s.zacks.rank} ${s.zacks.label}</span></div>`:''}
+      </div>
+    </div>`).join('')
+    : '<div class="loading">No stock picks today</div>';
+
+  // ETFs
+  document.getElementById('discover-etfs').innerHTML = data.etfs.length
+    ? `<div class="section-title">${data.etfs.length} Top ETF Picks</div>` + data.etfs.map((e,i) => `
+    <div class="discovery-card">
+      <div class="discovery-header" onclick="toggleDetail('de${i}')">
+        <div><span class="sym">${e.symbol}</span> <span class="nm">${e.name}</span></div>
+        <div style="text-align:right"><div style="font-weight:700">${fmt$(e.price)}</div><div class="${pc(e.dayChangePct)}" style="font-size:12px">${fmtPct(e.dayChangePct)}</div></div>
+      </div>
+      <div class="discovery-detail" id="de${i}">
+        <div class="analysis-text">${e.analysis||''}</div>
+        <div class="metrics-grid">
+          <div class="metric"><div class="label">Category</div><div class="val">${e.category||'N/A'}</div></div>
+          <div class="metric"><div class="label">52wk Return</div><div class="val ${pc(e.fiftyTwoWeekChangePct)}">${fmtPct(e.fiftyTwoWeekChangePct)}</div></div>
+          <div class="metric"><div class="label">Expense Ratio</div><div class="val">${e.expenseRatio?(e.expenseRatio*100).toFixed(2)+'%':'N/A'}</div></div>
+          <div class="metric"><div class="label">Yield</div><div class="val">${e.yield?(e.yield*100).toFixed(2)+'%':'N/A'}</div></div>
+          <div class="metric"><div class="label">AUM</div><div class="val">${fmtCap(e.totalAssets)}</div></div>
+          <div class="metric"><div class="label">Beta</div><div class="val">${e.beta?e.beta.toFixed(2):'N/A'}</div></div>
+        </div>
+        ${e.topHoldings?.length?`<div class="section-title" style="padding-left:0">Top Holdings</div><div style="font-size:12px;color:var(--dim);padding:4px 0">${e.topHoldings.join(', ')}</div>`:''}
+      </div>
+    </div>`).join('')
+    : '<div class="loading">No ETF picks today</div>';
+}
+
+function renderGlossary() {
+  const terms = [
+    ['P/E Ratio (Price-to-Earnings)','The stock price divided by earnings per share. Shows how much investors pay per dollar of earnings. Lower P/E may indicate undervaluation; higher P/E suggests growth expectations.'],
+    ['Forward P/E','P/E ratio using estimated future earnings instead of trailing 12-month earnings. Useful for comparing current price against expected profitability.'],
+    ['EPS (Earnings Per Share)','Company\'s net profit divided by outstanding shares. Higher EPS means more profit per share. Compare EPS growth quarter-over-quarter and year-over-year.'],
+    ['PEG Ratio','P/E ratio divided by earnings growth rate. PEG < 1 suggests undervaluation relative to growth; PEG > 2 may indicate overvaluation.'],
+    ['Market Cap','Total market value of a company\'s outstanding shares (price x shares). Large Cap: >$10B, Mid Cap: $2-10B, Small Cap: <$2B.'],
+    ['Beta','Measures stock volatility relative to the market. Beta 1.0 = moves with market. Beta > 1 = more volatile. Beta < 1 = less volatile.'],
+    ['P/B Ratio (Price-to-Book)','Stock price divided by book value per share. P/B < 1 may indicate undervaluation. Common for comparing financial sector stocks.'],
+    ['Dividend Yield','Annual dividend payment divided by stock price, expressed as percentage. Higher yield = more income, but very high yields may signal risk.'],
+    ['ROE (Return on Equity)','Net income divided by shareholder equity. Shows how efficiently a company uses equity to generate profits. Higher ROE (>15%) is generally better.'],
+    ['Debt-to-Equity (D/E)','Total debt divided by shareholder equity. Higher D/E means more leverage/risk. Varies by industry — utilities often have high D/E; tech companies lower.'],
+    ['Revenue Growth','Year-over-year percentage increase in total revenue. Consistent growth suggests a healthy, expanding business.'],
+    ['Earnings Growth','Year-over-year percentage change in net earnings. Positive growth drives stock price appreciation.'],
+    ['Profit Margin','Net income as a percentage of revenue. Shows how much of each dollar of revenue becomes profit. Higher margins = more efficient.'],
+    ['Gross Margin','Revenue minus cost of goods sold, divided by revenue. Shows the markup on products/services before operating expenses.'],
+    ['Operating Margin','Operating income divided by revenue. Shows profitability from core business operations, excluding taxes and interest.'],
+    ['Free Cash Flow (FCF)','Cash generated after capital expenditures. Positive FCF means the company can fund dividends, buybacks, debt repayment, or growth.'],
+    ['EBITDA','Earnings Before Interest, Taxes, Depreciation, and Amortization. Used to compare profitability across companies regardless of capital structure.'],
+    ['50-Day Moving Average','Average closing price over the last 50 trading days. Price above 50-day MA is considered bullish; below is bearish.'],
+    ['200-Day Moving Average','Average closing price over the last 200 trading days. A long-term trend indicator. Golden Cross (50d crosses above 200d) = bullish signal.'],
+    ['52-Week Range','The lowest and highest prices a stock has traded at in the past year. Helps gauge where the current price sits relative to recent history.'],
+    ['Analyst Target Price','The average stock price that Wall Street analysts predict. "Upside" is how much higher the target is vs. current price.'],
+    ['Zacks Rank','Proprietary stock rating system by Zacks Investment Research. #1 Strong Buy to #5 Strong Sell. Based on earnings estimate revisions — historically, #1 stocks have outperformed.'],
+    ['Expense Ratio (ETF)','Annual fee charged by an ETF, expressed as a percentage of assets. Lower is better. Index ETFs: 0.03-0.20%. Actively managed: 0.50-1.00%+.'],
+    ['AUM (Assets Under Management)','Total market value of assets in an ETF. Higher AUM usually means better liquidity and tighter bid-ask spreads.'],
+    ['Yield (ETF)','Annual dividend/interest income distributed by the ETF, as a percentage of its price.'],
+    ['Sentiment Analysis','Automated analysis of news headlines to gauge market mood. Positive/Negative/Neutral based on keyword frequency in recent articles.'],
+    ['Signal Score','Our composite score (0-100) combining Analyst Consensus (25%), Zacks Rank (20%), Price Target (20%), Moving Averages (15%), News Sentiment (10%), and P&L Position (10%).'],
+  ];
+  document.getElementById('glossaryArea').innerHTML = terms.map(([dt,dd])=>`<div class="glossary-item"><dt>${dt}</dt><dd>${dd}</dd></div>`).join('');
+}
+
+async function loadData() {
+  try {
+    const [pRes, dRes] = await Promise.all([
+      fetch('data/portfolio.json?t='+Date.now()),
+      fetch('data/discovery.json?t='+Date.now()),
+    ]);
+    const portfolio = await pRes.json();
+    const discovery = await dRes.json();
+    renderPortfolio(portfolio);
+    renderDiscovery(discovery);
+    renderGlossary();
+  } catch(e) {
+    document.getElementById('stocksArea').innerHTML = '<div class="loading">No data yet. Run the stock alarm first.</div>';
+    renderGlossary();
+  }
+}
+
+// Service worker
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+loadData();
+</script>
+</body>
+</html>

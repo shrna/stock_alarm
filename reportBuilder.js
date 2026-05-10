@@ -17,7 +17,7 @@ function formatMarketCap(num) {
   return "$" + num.toLocaleString();
 }
 
-function buildFullReport(results) {
+function buildFullReport(results, discovery) {
   const now = new Date();
   const dateStr = now.toLocaleDateString("en-US", {
     weekday: "long", year: "numeric", month: "long", day: "numeric",
@@ -52,7 +52,7 @@ function buildFullReport(results) {
 
   // Individual stocks
   for (const r of results) {
-    const { stock, stockData, newsData, signal } = r;
+    const { stock, stockData, newsData, signal, zacks } = r;
 
     if (!stockData) {
       report += `\n❌ ${stock.ticker} — Data unavailable\n`;
@@ -80,6 +80,15 @@ function buildFullReport(results) {
       report += `Target:      ${formatCurrency(stockData.targetLowPrice)} - ${formatCurrency(stockData.targetHighPrice)} (mean: ${formatCurrency(stockData.targetMeanPrice)})\n`;
     }
 
+    // Zacks Rating
+    if (zacks && zacks.available) {
+      report += `Zacks:       #${zacks.rank} ${zacks.label}`;
+      if (zacks.vgmScore) {
+        report += ` | VGM: ${zacks.vgmScore} (V:${zacks.valueScore || "?"} G:${zacks.growthScore || "?"} M:${zacks.momentumScore || "?"})`;
+      }
+      report += "\n";
+    }
+
     // Signal reasons
     if (signal.reasons.length > 0) {
       report += "Reasons:\n";
@@ -101,6 +110,32 @@ function buildFullReport(results) {
     }
   }
 
+  // === DISCOVERY SECTION ===
+  if (discovery && (discovery.stocks?.length > 0 || discovery.etfs?.length > 0)) {
+    report += "\n\n═══════════════════════════════════\n";
+    report += "    🔍 STOCKS TO WATCH\n";
+    report += "═══════════════════════════════════\n";
+
+    if (discovery.stocks?.length > 0) {
+      report += "\n📈 TOP STOCK PICKS (Strong Buy)\n";
+      report += "───────────────────────────────────\n";
+      for (const pick of discovery.stocks) {
+        report += `\n🟢 ${pick.symbol} — ${pick.name} @ ${formatCurrency(pick.price)}\n`;
+        if (pick.zacks) report += `   Zacks: #${pick.zacks.rank} ${pick.zacks.label}\n`;
+        report += `   ${pick.analysis}\n`;
+      }
+    }
+
+    if (discovery.etfs?.length > 0) {
+      report += "\n📊 TOP ETF PICKS\n";
+      report += "───────────────────────────────────\n";
+      for (const pick of discovery.etfs) {
+        report += `\n🔵 ${pick.symbol} — ${pick.name} @ ${formatCurrency(pick.price)}\n`;
+        report += `   ${pick.analysis}\n`;
+      }
+    }
+  }
+
   report += "\n═══════════════════════════════════\n";
   report += "⚠️  Not financial advice. Do your own research.\n";
   report += `Report generated at ${now.toLocaleTimeString("en-US")}\n`;
@@ -108,7 +143,7 @@ function buildFullReport(results) {
   return report;
 }
 
-function buildSmsReport(results) {
+function buildSmsReport(results, discovery) {
   const now = new Date();
   const dateStr = now.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 

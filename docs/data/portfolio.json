@@ -1,0 +1,321 @@
+{
+  "date": "2026-05-10T19:39:11.840Z",
+  "dateStr": "Sunday, May 10, 2026",
+  "totalInvested": 14302,
+  "totalCurrentValue": 18212.18,
+  "totalPnL": 3910.1800000000003,
+  "totalPnLPct": 27.340092294783947,
+  "stocks": [
+    {
+      "ticker": "PYPL",
+      "name": "PayPal Holdings, Inc.",
+      "price": 45.37,
+      "dayChangePct": -1.8390275,
+      "avgCost": 214,
+      "quantity": 14,
+      "value": 635.18,
+      "pnl": -2360.8199999999997,
+      "pnlPct": -78.79906542056074,
+      "fiftyTwoWeekHigh": 79.5,
+      "fiftyTwoWeekLow": 38.46,
+      "fiftyTwoWeekChangePct": -37.25626,
+      "fiftyDayAvg": 46.9138,
+      "twoHundredDayAvg": 58.582775,
+      "marketCap": 40021123072,
+      "pe": 8.512195,
+      "forwardPE": 7.8172917,
+      "volume": 14073749,
+      "signal": "BUY",
+      "signalScore": 10.772727272727273,
+      "reasons": [
+        "Analysts: 8 buy vs 4 sell",
+        "Target upside: +16.2%",
+        "Below 50 & 200 day avg (bearish trend)",
+        "Sentiment: Positive 🟢",
+        "Zacks Rank: #3 Hold",
+        "Deep loss: -78.8% — consider averaging down or cutting"
+      ],
+      "zacks": {
+        "rank": 3,
+        "label": "Hold"
+      },
+      "sentiment": "Positive",
+      "news": [
+        {
+          "title": "PYPL Technical Analysis | Trend, Signals & Chart Patterns | PAYPAL HOLDINGS INC (NASDAQ:PYPL) - ChartMill",
+          "source": "ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TOHNIRHF2T29hNGpoVzhPTVV5N3ZYd2pLVGZDVGx6bDJqQmZoRjkxLVdDVXI2UkhpMkNRdk1XTGRSTDE3ZWFsVUJab0V1YlBUcVY5UWV2ZmQ3b3VEOU5PcGpobDVycDVnVVpFWmhn?oc=5"
+        },
+        {
+          "title": "Here’s What You Need to Know About ​PayPal Holdings’ (PYPL) Q1 2026 Earnings - Insider Monkey",
+          "source": "Insider Monkey",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcnF3d2xCRGZzUGxYOWp3ZWhnSnJDd0pHdlJKRjNCcGUwY3NMS3lEUVdvaFNyTFhCdTVtaGlQSTBPSmc5OWR2Nnk5bjY0aWs4clk4M0ZQVVhzUXBhM2s1Q3cyZGNpdk9xVnU4LS1jWlZOSzh2OThSTmx5U0QtQ1VZampDc3hIZzZ4a3doanFsOXRVa1h4anp4cm13ODJFZEt3R1V0U3E1ZjlWaTY0U2p2WmdFM1Vhd21GeUFzS191SUZUUdIBygFBVV95cUxOTnZjcVJUNlA4alphWEppb2gxSnFJMFU5N0dmbXZoTVZZS290blZ5djM4cFhHdHd3RHA1XzVMb1RqZC1XU3Fab2t5SHBCbkZYbzJTSHRWSnVYRmt2S3JkNmNaM2xhb1BNYkZJTGxZZnBRd1hwa1JNenV6emdRRFN0TEZsLVJURFJCb3JqQUhiQ0VvZzlGMjNJUHJLVUd2cU9OcjNmT2VaWGltTFdnOEZMaC1jblZFMnV1TnZwdUNFU1VtN3pkU2QwZ2tB?oc=5"
+        },
+        {
+          "title": "PayPal Holdings, Inc. 2026 Q1 - Results - Earnings Call Presentation (NASDAQ:PYPL) 2026-05-06 - Seeking Alpha",
+          "source": "Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXFBa1lWTUpmbUw3NXhCbnlQbzFwbHVoTWY3bUlnY3dGckV5NlR4dkJ0LVdKNzZiSzRlZ0xBSDBrR3R6bHhvbXJXX3hyX1d2UFlNX3ByZzFsMzY0OWExWFBnNTBLMmVRVktFc2g5ZmtocmlQSm41ckxaVjNrdmhCSnl6U2QzSUJpbngzR3N0NVR5VDYzekRSWW9GQjVKY1RoN2txXzJ3?oc=5"
+        }
+      ],
+      "analysts": {
+        "strongBuy": 3,
+        "buy": 5,
+        "hold": 32,
+        "sell": 4,
+        "strongSell": 0,
+        "total": 34,
+        "targetLow": 32,
+        "targetMean": 52.70265,
+        "targetHigh": 147.39
+      }
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "price": 1562.34,
+      "dayChangePct": 16.59602,
+      "avgCost": 889,
+      "quantity": 5,
+      "value": 7811.7,
+      "pnl": 3366.7,
+      "pnlPct": 75.74128233970752,
+      "fiftyTwoWeekHigh": 1564,
+      "fiftyTwoWeekLow": 35.79,
+      "fiftyTwoWeekChangePct": 3685.6555,
+      "fiftyDayAvg": 837.601,
+      "twoHundredDayAvg": 386.82327,
+      "marketCap": 231366557696,
+      "pe": 53.468174,
+      "forwardPE": 9.230573,
+      "volume": 20567636,
+      "signal": "STRONG BUY",
+      "signalScore": 54.18181818181819,
+      "reasons": [
+        "Analysts: 17 buy vs 1 sell",
+        "Target downside: -10.5%",
+        "Above 50 & 200 day avg (bullish trend)",
+        "Sentiment: Very Positive 🟢",
+        "Zacks Rank: #1 Strong Buy",
+        "Good gains: +75.7% — consider taking profits"
+      ],
+      "zacks": {
+        "rank": 1,
+        "label": "Strong Buy"
+      },
+      "sentiment": "Very Positive",
+      "news": [
+        {
+          "title": "Micron Rockets 11%, SanDisk Rallies 11%, Western Digital Up 3% on AI Memory Supercycle Bull Case - 24/7 Wall St.",
+          "source": "24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdVdEUVVPNy1QXzdMaF9veS1EWk54NC1FM2VPR2hicTJ1T1pabS1CMTJaN3hMcEJabnFZVVFleHNBNERIQXFtVHZfTnBNbDE1djdNbWlTSXJjb3VmTmU0b0RwdUVjYkwtZ2kzeFUyS0pTQUxYdTJndVRVQ1hLYzg0cmJDUU8wUXBGekxncW9ma3JieG16Nlp6R1luUFJGUm5CVUF2SEQ0VkVkejZGak5zcGd0RkdkdVZHZEVRSHBkU2NRU2szdmV6UlRORFJBeXNZ?oc=5"
+        },
+        {
+          "title": "SanDisk to $2,000: Why This Analyst Is Betting SNDK Stock Can Still Almost Double — And Putting Up the Highest Price Target on Wall Street - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa0JyMzhtSVY0cHVaTlB1eERmZnJCM25zVFdUR3hxZnNrb25vaENyLWppSk5UZUZiQlhVMzFWNTJaQzExbjFIM0U5b05yeEZYNkhOMVloTkJiS2FQMVd5R1hLOW1mM3B3bEhqMnFlbUp1YU9RMF96N2JLM3M0dE1SSjh4Wmk4ODB1M3dORzBBM182c0ZI?oc=5"
+        },
+        {
+          "title": "Boom or Bubble? Here's Where Sandisk Stock Could Be in 3 Years. - The Motley Fool",
+          "source": "The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHM2OWxiamI4THJZclowSGN6Sk9HQTNUTjJFNjRqMWVmcmNWNzBkdGRYX3BaUWpfbFk5VldsNXlJSDZBcGYwelRQLUYyQXA2VGJaMUItU2trb2VvYXlMeE16NGgwQ3pZRmdWU1ZuM0dwTkg4MlM5TThrYXozNktoRHBrSGZ3MFlCcW94QkhfUVFCNGtmZmVJ?oc=5"
+        }
+      ],
+      "analysts": {
+        "strongBuy": 2,
+        "buy": 15,
+        "hold": 4,
+        "sell": 0,
+        "strongSell": 1,
+        "total": 22,
+        "targetLow": 1000,
+        "targetMean": 1399.0454,
+        "targetHigh": 2000
+      }
+    },
+    {
+      "ticker": "BP",
+      "name": "BP p.l.c.",
+      "price": 43.34,
+      "dayChangePct": -1.07282,
+      "avgCost": 45.12,
+      "quantity": 30,
+      "value": 1300.2,
+      "pnl": -53.39999999999982,
+      "pnlPct": -3.945035460992895,
+      "fiftyTwoWeekHigh": 48.27,
+      "fiftyTwoWeekLow": 28.41,
+      "fiftyTwoWeekChangePct": 43.557465,
+      "fiftyDayAvg": 44.6208,
+      "twoHundredDayAvg": 37.5844,
+      "marketCap": 111600377856,
+      "pe": 34.951614,
+      "forwardPE": 10.658417,
+      "volume": 9293982,
+      "signal": "STRONG BUY",
+      "signalScore": 30.444444444444443,
+      "reasons": [
+        "Analysts: 8 buy vs 3 sell",
+        "Target upside: +14.3%",
+        "Sentiment: Positive 🟢",
+        "Zacks Rank: #2 Buy"
+      ],
+      "zacks": {
+        "rank": 2,
+        "label": "Buy"
+      },
+      "sentiment": "Positive",
+      "news": [
+        {
+          "title": "BP - BP plc ADR Stock Price and Quote - Finviz",
+          "source": "Finviz",
+          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1iOUM3d0pYYXRLQ3NpSV9aeTFzbE0zcVBGclB6aUdUTXRsRV9lMUNTdXRoemFzUXU2X09HRjdVRkFfX1E?oc=5"
+        },
+        {
+          "title": "Precision Trading with Bp P.l.c. (BP) Risk Zones - Stock Traders Daily",
+          "source": "Stock Traders Daily",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa2Yydm9hd0M4Z2xWQmY1dlp5QVJrall2Um5kUnZmcXRUS2Y1Qzl0cTVxLUpJei1KRVBtQnFtYzFnZnlOX0VmbzBfclhuRzFIWWtQQXpNUnJWX0E1X2poMVprLWgzWmpMclJqZWtmUDh1WnFkM3ozcXJnTGRlcGVSYnpTRWhueHdmZ1dlNkZ2cXZ2ZHlxNUhGR2swLWkxeVQzRWx4WFktVVUycEJPUm9NQlQtMHF0OEx6a2hlUTZkaGtJOHhf?oc=5"
+        },
+        {
+          "title": "BP plc Stock (BP) Opinions on Exceptional Q1 Oil Trading Results - Quiver Quantitative",
+          "source": "Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmxabGRaSmpVSnk5ZzFUOWtGaDVJLUU3clFvbzIzZThKMFBLbUQ1MVUzVUFMVWlsNWNEVmlxV3VnTEw3NGpGc2tfZXd6bHBmQURXYnFUdWcxdHNYX19YQ3pDczRvU0xvQXB6SjcyVWxjb1E0VmhqN3FqQWdMbGNWZ2x3YkhDU21FNWxZOXRfOGlwTHdrQWpOczl2SjZVOC1PbXNR?oc=5"
+        }
+      ],
+      "analysts": {
+        "strongBuy": 4,
+        "buy": 4,
+        "hold": 7,
+        "sell": 2,
+        "strongSell": 1,
+        "total": 17,
+        "targetLow": 31,
+        "targetMean": 49.53529,
+        "targetHigh": 62
+      }
+    },
+    {
+      "ticker": "REPX",
+      "name": "Riley Exploration Permian, Inc.",
+      "price": 33.24,
+      "dayChangePct": -2.89219,
+      "avgCost": 34.58,
+      "quantity": 30,
+      "value": 997.2,
+      "pnl": -40.19999999999989,
+      "pnlPct": -3.8750722961249173,
+      "fiftyTwoWeekHigh": 41.26,
+      "fiftyTwoWeekLow": 24.08,
+      "fiftyTwoWeekChangePct": 17.955994,
+      "fiftyDayAvg": 34.9876,
+      "twoHundredDayAvg": 29.06015,
+      "marketCap": 721173376,
+      "pe": 11.581882,
+      "forwardPE": 3.9760768,
+      "volume": 362141,
+      "signal": "STRONG BUY",
+      "signalScore": 54.5,
+      "reasons": [
+        "Analysts: 4 buy vs 0 sell",
+        "Target upside: +44.4%",
+        "Sentiment: Very Negative 🔴",
+        "Zacks Rank: #1 Strong Buy"
+      ],
+      "zacks": {
+        "rank": 1,
+        "label": "Strong Buy"
+      },
+      "sentiment": "Very Negative",
+      "news": [
+        {
+          "title": "Riley Exploration Permian (NYSE:REPX) Posts Better-Than-Expected Sales In Q1 CY2026 But Stock Drops - StockStory",
+          "source": "StockStory",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV3UzWmpkanNpZy1vdmZUZTItTUhta2cwdVFaRWNTUGRnVjJhUUh5ZWhJZHBrUV81alFfQlo2SmhnNXlpdTh0SzEwUmYzSVZ0TV82eFBZc3FFMF90TF85WS1HSWRsYmVNcU9pNTE0Tm8wRmVlaENXdmxhb2lBQzhyNXl1dkJMSi1mNTFFaC1sTG1NOUJFUC13NGV2WERBRDEtWnlRYlBTQU1FUG1FOXJMR1prc3BIMzBNdmEydjhoZnkwQUYzekgtNVFDbHA0NmdTenJFWFEta3pjMnNhYU5WckpzeVVWVUhO?oc=5"
+        },
+        {
+          "title": "Riley Exploration Permian, Inc. (REPX) Q1 Earnings Surpass Estimates - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbzlPZ0QtTWdjZHkyYktDNnliVGJEOU5pdzhBVF9kSTQwQjVxUDZIdE5OUnpHNzNvSVhTNUFRV2dBdU5JRUt2OUh2TVItbVBMaE5JTlV0Z3VlNU1UNFhlb3NlUi1ldFJ0VTVCRVQ3Q1Q5NktNRkUwU1YzQjhMZ2NEMU1rdG5wLWl0dlhGVjFxMEQ4WmpVVHkybUNDQVRGYW5o?oc=5"
+        },
+        {
+          "title": "Riley Exploration Permian, Inc. 2026 Q1 - Results - Earnings Call Presentation (NYSE:REPX) 2026-05-09 - Seeking Alpha",
+          "source": "Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcG92TkdUbGhzZE5MalN2TUU4UnpCUS1faDRpTkpBMXBtenNmV2pSNmQ1R296UzRvX3k3YWVlM0ZTZzVabGV0YUlXTnZPM1pBRGdhZURGZUtxTXB3ellnbk5NYmR0UWsyVEthcWthdG94TDhTX3pnRjAxTEktUlRva0F2cTFCaUswNGhIN1pidUNmN0ZDRzlYamczOEFXRTdadVdMYjBpTlViZjBaRTRQNlN1SQ?oc=5"
+        }
+      ],
+      "analysts": {
+        "strongBuy": 0,
+        "buy": 4,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0,
+        "total": 3,
+        "targetLow": 45,
+        "targetMean": 48,
+        "targetHigh": 52
+      }
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "price": 746.79,
+      "dayChangePct": 15.514546,
+      "avgCost": 447,
+      "quantity": 10,
+      "value": 7467.9,
+      "pnl": 2997.8999999999996,
+      "pnlPct": 67.06711409395972,
+      "fiftyTwoWeekHigh": 747.21,
+      "fiftyTwoWeekLow": 90.93,
+      "fiftyTwoWeekChangePct": 709.1992,
+      "fiftyDayAvg": 448.9642,
+      "twoHundredDayAvg": 290.6007,
+      "marketCap": 842180460544,
+      "pe": 35.209335,
+      "forwardPE": 7.337145,
+      "volume": 65130914,
+      "signal": "STRONG BUY",
+      "signalScore": 50.59090909090909,
+      "reasons": [
+        "Analysts: 39 buy vs 1 sell",
+        "Target downside: -25.5%",
+        "Above 50 & 200 day avg (bullish trend)",
+        "Sentiment: Very Positive 🟢",
+        "Zacks Rank: #1 Strong Buy",
+        "Good gains: +67.1% — consider taking profits"
+      ],
+      "zacks": {
+        "rank": 1,
+        "label": "Strong Buy"
+      },
+      "sentiment": "Very Positive",
+      "news": [
+        {
+          "title": "MU Stock Quote Price and Forecast - CNN",
+          "source": "CNN",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12OGhUSWtGTk9iWTJqbXhwZ2hpa25tNUxnRWlMam1RYkNBckpUdlVCMXgzY2ZDbG1HUkdxeFlUMWRkZ3ljR2xXUkdJb285UQ?oc=5"
+        },
+        {
+          "title": "Micron Stock (MU) Jumps 14% to a New 52-Week High – Is It Too Late to Buy? - TipRanks",
+          "source": "TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbFhjbko1NkdGbmh3LUsxU3doeXByN2ozeHBnV0pMTGlCZjMzRjRUZHl2Z29rR2RmX0d0MFBfSDZKT0xLc3Ezb1lwRFhMRjRzak01SlR0TTZfNFluemI3RGNNeXZGZ2tzVjlNODlMdF9ibmFTRWhQbUg2OTVPZ3lCeThxM2hPUnB1UVZ6UDlFb2hFTE5jQ0Q1Zjd1Q1lCNXc?oc=5"
+        },
+        {
+          "title": "Micron Technology: I Think There Is A Clear Path To Over $1,500 - Seeking Alpha",
+          "source": "Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSHJaS1ZsRHhCa0toRlowdDk5bEtFdmxXcFcxeEVJcnBJd3FVOU1PaEZOY19yZU4weFlOak9WVy04UUVCTDJiMlNaM09BWElnMmV5MlBHdHYzZ2V3c2NNdTBKSDNYYWY4NThhdG1YaTdiTVN1RExwVS1OV2ZVYi1sbkpVRTRPazk4eFFSQjIwWkgxbHBleG1zNnBZX25YdXA1VE1V?oc=5"
+        }
+      ],
+      "analysts": {
+        "strongBuy": 9,
+        "buy": 30,
+        "hold": 4,
+        "sell": 1,
+        "strongSell": 0,
+        "total": 42,
+        "targetLow": 249,
+        "targetMean": 556.0476,
+        "targetHigh": 1000
+      }
+    }
+  ]
+}

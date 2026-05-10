@@ -6,7 +6,12 @@ const { getStockData } = require("./stockData");
 const { getNewsAndSentiment } = require("./newsAndSentiment");
 const { generateSignal } = require("./signalGenerator");
 const { buildFullReport, buildSmsReport } = require("./reportBuilder");
+let buildPdfReport;
+try { buildPdfReport = require("./pdfReport").buildPdfReport; } catch { buildPdfReport = null; }
 const { createTransporter, sendSms, sendEmailReport } = require("./notifier");
+const { getZacksRating } = require("./zacksRating");
+const { discoverStocks } = require("./stockDiscovery");
+const { generateWebData } = require("./webDataGenerator");
 
 // Check OneDrive first, then fall back to local copy
 const ONEDRIVE_PATH = path.join(
@@ -21,16 +26,17 @@ const EXCEL_PATH = fs.existsSync(ONEDRIVE_PATH) ? ONEDRIVE_PATH : LOCAL_PATH;
 async function analyzeStock(stock) {
   console.log(`[Analyze] Processing ${stock.ticker}...`);
 
-  const [stockData, newsData] = await Promise.all([
+  const [stockData, newsData, zacks] = await Promise.all([
     getStockData(stock.ticker),
     getNewsAndSentiment(stock.ticker),
+    getZacksRating(stock.ticker),
   ]);
 
   const signal = stockData
-    ? generateSignal(stock, stockData, newsData.sentiment)
+    ? generateSignal(stock, stockData, newsData.sentiment, zacks)
     : { signal: "NO DATA", emoji: "❌", score: 0, reasons: ["Could not fetch data"] };
 
-  return { stock, stockData, newsData, signal };
+  return { stock, stockData, newsData, signal, zacks };
 }
 
 async function run() {
@@ -69,9 +75,18 @@ async function run() {
     await new Promise((r) => setTimeout(r, 1000));
   }
 
-  // 3. Build reports
-  const fullReport = buildFullReport(results);
-  const smsReport = buildSmsReport(results);
+  // 3. Run stock & ETF discovery
+  const ownedTickers = stocks.map((s) => s.ticker);
+  let discovery = { stocks: [], etfs: [] };
+  try {
+    discovery = await discoverStocks(ownedTickers);
+  } catch (err) {
+    console.error(`[Discovery] Error: ${err.message}`);
+  }
+
+  // 4. Build reports
+  const fullReport = buildFullReport(results, discovery);
+  const smsReport = buildSmsReport(results, discovery);
 
   console.log("\n" + fullReport);
 
@@ -81,6 +96,19 @@ async function run() {
   const dateStr = new Date().toISOString().split("T")[0];
   fs.writeFileSync(path.join(reportsDir, `report_${dateStr}.txt`), fullReport);
   console.log(`[File] Report saved to reports/report_${dateStr}.txt`);
+
+  // Generate PDF (if pdfReport module exists)
+  let pdfPath = null;
+  if (buildPdfReport) {
+    pdfPath = path.join(reportsDir, `report_${dateStr}.pdf`);
+    await buildPdfReport(results, pdfPath, discovery);
+    console.log(`[PDF] Report saved to reports/report_${dateStr}.pdf`);
+  }
+
+  // Generate web data for PWA
+  const docsDir = path.join(__dirname, "docs");
+  generateWebData(results, discovery, docsDir);
+  console.log("[Web] PWA data updated");
 
   // 4. Send notifications
   const gmailUser = process.env.GMAIL_USER;
@@ -101,9 +129,9 @@ async function run() {
         );
       }
 
-      // Send full email report
+      // Send email with PDF attachment
       if (process.env.REPORT_EMAIL) {
-        await sendEmailReport(transporter, gmailUser, process.env.REPORT_EMAIL, fullReport);
+        await sendEmailReport(transporter, gmailUser, process.env.REPORT_EMAIL, fullReport, pdfPath);
       }
     } catch (err) {
       console.error(`[Notify] Error sending notifications: ${err.message}`);

@@ -32,6 +32,7 @@ async function getStockData(ticker) {
       twoHundredDayAvg: quote.twoHundredDayAverage || 0,
       fiftyTwoWeekHigh: quote.fiftyTwoWeekHigh || 0,
       fiftyTwoWeekLow: quote.fiftyTwoWeekLow || 0,
+      fiftyTwoWeekChangePercent: quote.fiftyTwoWeekChangePercent || 0,
       marketCap: quote.marketCap || 0,
       volume: quote.regularMarketVolume || 0,
       avgVolume: quote.averageDailyVolume3Month || 0,

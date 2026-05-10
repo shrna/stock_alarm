@@ -76,11 +76,13 @@ async function getNewsAndSentiment(ticker) {
     let match;
     while ((match = itemRegex.exec(xml)) !== null && items.length < 5) {
       const titleMatch = match[1].match(/<title>([\s\S]*?)<\/title>/);
+      const linkMatch = match[1].match(/<link>([\s\S]*?)<\/link>/);
       const pubDateMatch = match[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/);
       const sourceMatch = match[1].match(/<source[^>]*>([\s\S]*?)<\/source>/);
       if (titleMatch) {
         items.push({
           title: titleMatch[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim(),
+          link: linkMatch ? linkMatch[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim() : "",
           date: pubDateMatch ? pubDateMatch[1].trim() : "",
           source: sourceMatch ? sourceMatch[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim() : "",
         });
