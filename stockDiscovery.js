@@ -1,6 +1,7 @@
 const https = require("https");
 const YahooFinance = require("yahoo-finance2").default;
 const { getZacksRating } = require("./zacksRating");
+const { getAggregatedRatings } = require("./ratingsAggregator");
 
 const yahooFinance = new YahooFinance({ suppressNotices: ["yahooSurvey", "ripHistorical"] });
 
@@ -323,6 +324,11 @@ function buildStockAnalysis(pick) {
   if (pick.revenueGrowth) a += `Revenue: ${(pick.revenueGrowth * 100).toFixed(0)}% YoY. `;
   if (pick.eps) a += `EPS: $${pick.eps.toFixed(2)}. `;
   if (pick.pe) a += `P/E: ${pick.pe.toFixed(1)}. `;
+  // External ratings summary
+  const ext = pick.externalRatings || {};
+  if (ext.finviz?.recommendationLabel) a += `Finviz: ${ext.finviz.recommendationLabel} (${ext.finviz.recommendation?.toFixed(1)}). `;
+  if (ext.stockAnalysis?.consensus) a += `StockAnalysis: ${ext.stockAnalysis.consensus}. `;
+  if (ext.marketBeat?.consensus) a += `MarketBeat: ${ext.marketBeat.consensus}. `;
   if (pick.earningsDate) {
     a += `Earnings: ${new Date(pick.earningsDate).toLocaleDateString("en-US", { month: "short", day: "numeric" })}. `;
   }
@@ -362,11 +368,18 @@ async function discoverStocks(ownedTickers) {
   const topEtfs = scoreEtfCandidates(etfCandidates);
   console.log(`[Discovery] Top ${topEtfs.length} ETFs selected`);
 
-  console.log("[Discovery] Enriching stock picks...");
+  console.log("[Discovery] Enriching stock picks with multi-source ratings...");
   for (let i = 0; i < topStocks.length; i++) {
     topStocks[i] = await enrichPick(topStocks[i]);
+    try {
+      const agg = await getAggregatedRatings(topStocks[i].symbol);
+      topStocks[i].externalRatings = agg.ratings;
+      topStocks[i].consensusLabels = agg.consensusLabels;
+      topStocks[i].avgTargetPrice = agg.avgTargetPrice;
+      console.log(`[Discovery] ${topStocks[i].symbol}: ${agg.sourceCount} sources — ${agg.consensusLabels.join(", ") || "N/A"}`);
+    } catch (e) { console.log(`[Discovery] Ratings failed for ${topStocks[i].symbol}: ${e.message}`); }
     topStocks[i].analysis = buildStockAnalysis(topStocks[i]);
-    await new Promise((r) => setTimeout(r, 400));
+    await new Promise((r) => setTimeout(r, 300));
   }
 
   // Sort by Zacks rank first (primary), then composite tiebreaker

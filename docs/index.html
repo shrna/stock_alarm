@@ -91,6 +91,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif
 .returns-grid .ret .pct{font-size:14px;font-weight:700;margin-top:2px}
 .risk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:6px 0}
 .risk-grid .rk{background:var(--card2);border-radius:8px;padding:8px;text-align:center}
+.ext-ratings{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:8px 0}
+.ext-rating-card{background:var(--card2);border-radius:10px;padding:12px;text-align:center;border:1px solid #333}
+.ext-rating-card .er-source{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.ext-rating-card .er-rating{font-size:15px;font-weight:700;margin:4px 0}
+.ext-rating-card .er-score{font-size:11px;color:var(--dim)}
+.ext-rating-card .er-target{font-size:12px;color:var(--accent);margin-top:4px;font-weight:600}
+.ext-rating-card .er-extras{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:6px}
+.ext-rating-card .er-extras span{font-size:9px;background:var(--bg);padding:2px 6px;border-radius:4px;color:var(--dim)}
 .risk-grid .rk .rlbl{font-size:9px;color:var(--dim);text-transform:uppercase}
 .risk-grid .rk .rval{font-size:14px;font-weight:700;margin-top:2px;color:var(--accent)}
 .glossary-item{padding:12px 16px;border-bottom:1px solid #222}
@@ -554,6 +562,61 @@ function analystBar(a) {
   </div>`;
 }
 
+function ratingColor(label) {
+  if (!label) return 'var(--dim)';
+  const l = label.toLowerCase();
+  if (l.includes('strong buy')) return '#00e676';
+  if (l.includes('buy')) return '#69f0ae';
+  if (l.includes('hold') || l.includes('moderate')) return '#ffd740';
+  if (l.includes('sell')) return '#ff5252';
+  return 'var(--dim)';
+}
+
+function renderExternalRatings(ratings) {
+  if (!ratings || Object.keys(ratings).length === 0) return '';
+  let html = '<div class="section-title" style="padding-left:0;margin-top:12px">Multi-Source Ratings</div>';
+  html += '<div class="ext-ratings">';
+
+  if (ratings.finviz) {
+    const f = ratings.finviz;
+    html += `<div class="ext-rating-card">
+      <div class="er-source">Finviz</div>
+      <div class="er-rating" style="color:${ratingColor(f.recommendationLabel)}">${f.recommendationLabel||'N/A'}</div>
+      <div class="er-score">${f.recommendation?f.recommendation.toFixed(1)+'/5':''}</div>
+      ${f.targetPrice?`<div class="er-target">Target: ${fmt$(f.targetPrice)}</div>`:''}
+      <div class="er-extras">
+        ${f.rsi?`<span>RSI: ${f.rsi}</span>`:''}
+        ${f.sma20?`<span>SMA20: ${f.sma20}</span>`:''}
+        ${f.sma50?`<span>SMA50: ${f.sma50}</span>`:''}
+        ${f.shortFloat?`<span>Short: ${f.shortFloat}</span>`:''}
+      </div>
+    </div>`;
+  }
+
+  if (ratings.stockAnalysis) {
+    const sa = ratings.stockAnalysis;
+    html += `<div class="ext-rating-card">
+      <div class="er-source">StockAnalysis</div>
+      <div class="er-rating" style="color:${ratingColor(sa.consensus)}">${sa.consensus||'N/A'}</div>
+      ${sa.analystCount?`<div class="er-score">${sa.analystCount} analysts</div>`:''}
+      ${sa.targetPrice?`<div class="er-target">Target: ${fmt$(sa.targetPrice)}</div>`:''}
+    </div>`;
+  }
+
+  if (ratings.marketBeat) {
+    const mb = ratings.marketBeat;
+    html += `<div class="ext-rating-card">
+      <div class="er-source">MarketBeat</div>
+      <div class="er-rating" style="color:${ratingColor(mb.consensus)}">${mb.consensus||'N/A'}</div>
+      ${mb.analystCount?`<div class="er-score">${mb.analystCount} analysts</div>`:''}
+      ${mb.targetPrice?`<div class="er-target">Target: ${fmt$(mb.targetPrice)}</div>`:''}
+    </div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
 function renderPortfolio(data) {
   document.getElementById('reportDate').textContent = data.dateStr;
   
@@ -637,6 +700,7 @@ function renderDiscovery(data) {
         ${s.earningsDate?`<div class="earnings-tag">Earnings: ${new Date(s.earningsDate).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</div>`:''}
         ${s.strongBuy!=null?`<div class="section-title" style="padding-left:0">Analyst Ratings</div>${analystBar({strongBuy:s.strongBuy,buy:s.buy,hold:s.hold,sell:s.sell,strongSell:s.strongSell,total:(s.strongBuy||0)+(s.buy||0)+(s.hold||0)+(s.sell||0)+(s.strongSell||0)})}<div class="metrics-grid"><div class="metric"><div class="label">Target</div><div class="val">${fmt$(s.targetLow)} - ${fmt$(s.targetHigh)}</div></div><div class="metric"><div class="label">Mean Target</div><div class="val" style="color:var(--accent)">${fmt$(s.targetMean)}</div></div></div>`:''}
         ${s.zacks?`<div style="margin-top:10px"><span class="zacks-badge zacks-${s.zacks.rank}">Zacks #${s.zacks.rank} ${s.zacks.label}</span></div>`:''}
+        ${renderExternalRatings(s.externalRatings)}
       </div>
     </div>`).join('')
     : '<div class="loading">No stock picks today</div>';
