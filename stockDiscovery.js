@@ -369,10 +369,12 @@ async function discoverStocks(ownedTickers) {
     await new Promise((r) => setTimeout(r, 400));
   }
 
-  // Sort by composite analysis score: Zacks rank, analyst buy ratio, target upside
+  // Sort by Zacks rank first (primary), then composite tiebreaker
   topStocks.sort((a, b) => {
     const aZacks = a.zacks?.rank || 5;
     const bZacks = b.zacks?.rank || 5;
+    if (aZacks !== bZacks) return aZacks - bZacks;
+    // Tiebreaker: analyst buy ratio + target upside
     const aBuys = (a.strongBuy || 0) + (a.buy || 0);
     const aSells = (a.sell || 0) + (a.strongSell || 0);
     const bBuys = (b.strongBuy || 0) + (b.buy || 0);
@@ -381,9 +383,8 @@ async function discoverStocks(ownedTickers) {
     const bRatio = (bBuys + bSells) > 0 ? bBuys / (bBuys + bSells) : 0;
     const aUpside = a.targetMeanPrice > 0 ? (a.targetMeanPrice - a.price) / a.price : 0;
     const bUpside = b.targetMeanPrice > 0 ? (b.targetMeanPrice - b.price) / b.price : 0;
-    // Composite: lower Zacks rank is better, higher buy ratio is better, higher upside is better
-    const aScore = (5 - aZacks) * 40 + aRatio * 35 + Math.min(aUpside, 1) * 25;
-    const bScore = (5 - bZacks) * 40 + bRatio * 35 + Math.min(bUpside, 1) * 25;
+    const aScore = aRatio * 60 + Math.min(aUpside, 1) * 40;
+    const bScore = bRatio * 60 + Math.min(bUpside, 1) * 40;
     return bScore - aScore;
   });
 

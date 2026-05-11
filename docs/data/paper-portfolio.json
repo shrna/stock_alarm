@@ -1,29 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 66.66666666666674,
+  "cash": 66.56239093255817,
   "positions": [
-    {
-      "symbol": "CVE",
-      "shares": 42.25352112676057,
-      "avgCost": 28.4,
-      "currentPrice": 28.81,
-      "type": "stock",
-      "boughtAt": "2026-05-10"
-    },
     {
       "symbol": "AMD",
       "shares": 2.636261780794833,
       "avgCost": 455.19,
-      "currentPrice": 460.85,
-      "type": "stock",
-      "boughtAt": "2026-05-10"
-    },
-    {
-      "symbol": "CNQ",
-      "shares": 26.948124859645183,
-      "avgCost": 44.53,
-      "currentPrice": 44.875,
+      "currentPrice": 459.23,
       "type": "stock",
       "boughtAt": "2026-05-10"
     },
@@ -31,41 +15,57 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 221.14,
+      "currentPrice": 219.1599,
       "type": "stock",
       "boughtAt": "2026-05-10"
     },
     {
-      "symbol": "AEG",
-      "shares": 144.40433212996388,
-      "avgCost": 8.31,
-      "currentPrice": 8.4265,
+      "symbol": "LQDA",
+      "shares": 24.352245152453424,
+      "avgCost": 49.68,
+      "currentPrice": 49.68,
       "type": "stock",
-      "boughtAt": "2026-05-10"
+      "boughtAt": "2026-05-11"
     },
     {
-      "symbol": "QQQ",
-      "shares": 1.8751268640518959,
-      "avgCost": 711.063,
-      "currentPrice": 712.2769,
-      "type": "etf",
-      "boughtAt": "2026-05-10"
+      "symbol": "VICR",
+      "shares": 3.9407802578953945,
+      "avgCost": 307,
+      "currentPrice": 307,
+      "type": "stock",
+      "boughtAt": "2026-05-11"
     },
     {
-      "symbol": "EEM",
-      "shares": 19.625159454420565,
-      "avgCost": 67.94,
-      "currentPrice": 67.92,
-      "type": "etf",
-      "boughtAt": "2026-05-10"
+      "symbol": "BE",
+      "shares": 4.233987328249059,
+      "avgCost": 285.74,
+      "currentPrice": 285.74,
+      "type": "stock",
+      "boughtAt": "2026-05-11"
     },
     {
-      "symbol": "TQQQ",
-      "shares": 16.605488550952636,
-      "avgCost": 76.28,
-      "currentPrice": 76.6389,
+      "symbol": "SLV",
+      "shares": 17.51800263785012,
+      "avgCost": 76.735,
+      "currentPrice": 76.735,
       "type": "etf",
-      "boughtAt": "2026-05-10"
+      "boughtAt": "2026-05-11"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 7.3335730082674795,
+      "avgCost": 183.3,
+      "currentPrice": 183.3,
+      "type": "etf",
+      "boughtAt": "2026-05-11"
+    },
+    {
+      "symbol": "IWM",
+      "shares": 4.408412673308023,
+      "avgCost": 286.88,
+      "currentPrice": 286.88,
+      "type": "etf",
+      "boughtAt": "2026-05-11"
     }
   ],
   "trades": [
@@ -140,6 +140,120 @@
       "price": 76.28,
       "total": 1266.67,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 42.2535,
+      "price": 28.635,
+      "total": 1209.93,
+      "realizedPnL": 9.93,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "CNQ",
+      "action": "SELL",
+      "shares": 26.9481,
+      "price": 45,
+      "total": 1212.67,
+      "realizedPnL": 12.67,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "AEG",
+      "action": "SELL",
+      "shares": 144.4043,
+      "price": 8.445,
+      "total": 1219.49,
+      "realizedPnL": 19.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "QQQ",
+      "action": "SELL",
+      "shares": 1.8751,
+      "price": 712.175,
+      "total": 1335.42,
+      "realizedPnL": 2.09,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "EEM",
+      "action": "SELL",
+      "shares": 19.6252,
+      "price": 67.925,
+      "total": 1333.04,
+      "realizedPnL": -0.29,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 16.6055,
+      "price": 76.6,
+      "total": 1271.98,
+      "realizedPnL": 5.31,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "LQDA",
+      "action": "BUY",
+      "shares": 24.3522,
+      "price": 49.68,
+      "total": 1209.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "VICR",
+      "action": "BUY",
+      "shares": 3.9408,
+      "price": 307,
+      "total": 1209.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "BE",
+      "action": "BUY",
+      "shares": 4.234,
+      "price": 285.74,
+      "total": 1209.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 17.518,
+      "price": 76.735,
+      "total": 1344.24,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 7.3336,
+      "price": 183.3,
+      "total": 1344.24,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-11",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 4.4084,
+      "price": 286.88,
+      "total": 1264.69,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -153,11 +267,11 @@
     },
     {
       "date": "2026-05-11",
-      "totalValue": 10099.23,
-      "cash": 66.67,
-      "positionsValue": 10032.57,
+      "totalValue": 10081.83,
+      "cash": 66.56,
+      "positionsValue": 10015.27,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 12,
       "session": "open"
     }
   ]
