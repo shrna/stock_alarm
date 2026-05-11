@@ -7,65 +7,73 @@
       "symbol": "AMD",
       "shares": 2.636261780794833,
       "avgCost": 455.19,
-      "currentPrice": 464.84,
+      "currentPrice": 458.79,
       "type": "stock",
-      "boughtAt": "2026-05-10"
+      "boughtAt": "2026-05-10",
+      "previousClose": 464.84
     },
     {
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 221.76,
+      "currentPrice": 219.44,
       "type": "stock",
-      "boughtAt": "2026-05-10"
+      "boughtAt": "2026-05-10",
+      "previousClose": 221.76
     },
     {
       "symbol": "LQDA",
       "shares": 24.352245152453424,
       "avgCost": 49.68,
-      "currentPrice": 49.3,
+      "currentPrice": 53.13,
       "type": "stock",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 49.3
     },
     {
       "symbol": "VICR",
       "shares": 3.9407802578953945,
       "avgCost": 307,
-      "currentPrice": 306.98,
+      "currentPrice": 312.96,
       "type": "stock",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 306.98
     },
     {
       "symbol": "BE",
       "shares": 4.233987328249059,
       "avgCost": 285.74,
-      "currentPrice": 294.65,
+      "currentPrice": 283.92,
       "type": "stock",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 294.65
     },
     {
       "symbol": "SLV",
       "shares": 17.51800263785012,
       "avgCost": 76.735,
-      "currentPrice": 77.7299,
+      "currentPrice": 78,
       "type": "etf",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 77.7299
     },
     {
       "symbol": "SOXL",
       "shares": 7.3335730082674795,
       "avgCost": 183.3,
-      "currentPrice": 189.0938,
+      "currentPrice": 190.42,
       "type": "etf",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 189.0938
     },
     {
       "symbol": "IWM",
       "shares": 4.408412673308023,
       "avgCost": 286.88,
-      "currentPrice": 286.19,
+      "currentPrice": 285.33,
       "type": "etf",
-      "boughtAt": "2026-05-11"
+      "boughtAt": "2026-05-11",
+      "previousClose": 286.19
     }
   ],
   "trades": [
@@ -153,12 +161,12 @@
     },
     {
       "date": "2026-05-11",
-      "totalValue": 10196.38,
+      "totalValue": 10249.57,
       "cash": 66.56,
-      "positionsValue": 10129.82,
+      "positionsValue": 10183.01,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
