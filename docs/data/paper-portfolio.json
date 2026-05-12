@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 66.56239093255817,
+  "cash": 68.02332203181572,
   "positions": [
     {
       "symbol": "AMD",
@@ -22,15 +22,6 @@
       "previousClose": 221.76
     },
     {
-      "symbol": "LQDA",
-      "shares": 24.352245152453424,
-      "avgCost": 49.68,
-      "currentPrice": 53.13,
-      "type": "stock",
-      "boughtAt": "2026-05-11",
-      "previousClose": 49.3
-    },
-    {
       "symbol": "VICR",
       "shares": 3.9407802578953945,
       "avgCost": 307,
@@ -38,15 +29,6 @@
       "type": "stock",
       "boughtAt": "2026-05-11",
       "previousClose": 306.98
-    },
-    {
-      "symbol": "BE",
-      "shares": 4.233987328249059,
-      "avgCost": 285.74,
-      "currentPrice": 283.92,
-      "type": "stock",
-      "boughtAt": "2026-05-11",
-      "previousClose": 294.65
     },
     {
       "symbol": "SLV",
@@ -67,13 +49,28 @@
       "previousClose": 189.0938
     },
     {
-      "symbol": "IWM",
-      "shares": 4.408412673308023,
-      "avgCost": 286.88,
-      "currentPrice": 285.33,
+      "symbol": "CNQ",
+      "shares": 27.217269368859785,
+      "avgCost": 45.19,
+      "currentPrice": 45.19,
+      "type": "stock",
+      "boughtAt": "2026-05-12"
+    },
+    {
+      "symbol": "APA",
+      "shares": 33.51358045718729,
+      "avgCost": 36.7,
+      "currentPrice": 36.7,
+      "type": "stock",
+      "boughtAt": "2026-05-12"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 22.607016242863327,
+      "avgCost": 57.17,
+      "currentPrice": 57.17,
       "type": "etf",
-      "boughtAt": "2026-05-11",
-      "previousClose": 286.19
+      "boughtAt": "2026-05-12"
     }
   ],
   "trades": [
@@ -148,6 +145,63 @@
       "price": 76.28,
       "total": 1266.67,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "LQDA",
+      "action": "SELL",
+      "shares": 24.3522,
+      "price": 53.13,
+      "total": 1293.83,
+      "realizedPnL": 84.02,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "BE",
+      "action": "SELL",
+      "shares": 4.234,
+      "price": 283.92,
+      "total": 1202.11,
+      "realizedPnL": -7.71,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.4084,
+      "price": 285.33,
+      "total": 1257.85,
+      "realizedPnL": -6.83,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "CNQ",
+      "action": "BUY",
+      "shares": 27.2173,
+      "price": 45.19,
+      "total": 1229.95,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "APA",
+      "action": "BUY",
+      "shares": 33.5136,
+      "price": 36.7,
+      "total": 1229.95,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-12",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 22.607,
+      "price": 57.17,
+      "total": 1292.44,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -167,6 +221,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-12",
+      "totalValue": 10249.57,
+      "cash": 68.02,
+      "positionsValue": 10181.55,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
