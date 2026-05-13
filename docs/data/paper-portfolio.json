@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 220.78,
+      "currentPrice": 224.975,
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 218.5734
@@ -16,7 +16,7 @@
       "symbol": "SLV",
       "shares": 17.51800263785012,
       "avgCost": 76.735,
-      "currentPrice": 78.55,
+      "currentPrice": 79.713,
       "type": "etf",
       "boughtAt": "2026-05-11",
       "previousClose": 76.84
@@ -25,7 +25,7 @@
       "symbol": "CNQ",
       "shares": 27.217269368859785,
       "avgCost": 45.19,
-      "currentPrice": 46.92,
+      "currentPrice": 47.12,
       "type": "stock",
       "boughtAt": "2026-05-12",
       "previousClose": 45.805
@@ -34,7 +34,7 @@
       "symbol": "APA",
       "shares": 33.51358045718729,
       "avgCost": 36.7,
-      "currentPrice": 37.09,
+      "currentPrice": 36.45,
       "type": "stock",
       "boughtAt": "2026-05-12",
       "previousClose": 36.66
@@ -43,7 +43,7 @@
       "symbol": "XLE",
       "shares": 22.607016242863327,
       "avgCost": 57.17,
-      "currentPrice": 57.57,
+      "currentPrice": 57.28,
       "type": "etf",
       "boughtAt": "2026-05-12",
       "previousClose": 57.33
@@ -52,7 +52,7 @@
       "symbol": "PACS",
       "shares": 29.543273111958502,
       "avgCost": 41.01,
-      "currentPrice": 41.01,
+      "currentPrice": 41.05,
       "type": "stock",
       "boughtAt": "2026-05-13"
     },
@@ -60,7 +60,7 @@
       "symbol": "CVE",
       "shares": 40.37219694506558,
       "avgCost": 30.01,
-      "currentPrice": 30.01,
+      "currentPrice": 29.98,
       "type": "stock",
       "boughtAt": "2026-05-13"
     },
@@ -68,7 +68,7 @@
       "symbol": "QQQ",
       "shares": 1.7555096198343076,
       "avgCost": 707.24,
-      "currentPrice": 707.24,
+      "currentPrice": 709.1314,
       "type": "etf",
       "boughtAt": "2026-05-13"
     }
@@ -145,72 +145,6 @@
       "price": 76.28,
       "total": 1266.67,
       "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "AMD",
-      "action": "SELL",
-      "shares": 2.6363,
-      "price": 448.29,
-      "total": 1181.81,
-      "realizedPnL": -18.19,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "VICR",
-      "action": "SELL",
-      "shares": 3.9408,
-      "price": 292.53,
-      "total": 1152.8,
-      "realizedPnL": -57.02,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 7.3336,
-      "price": 172.52,
-      "total": 1265.19,
-      "realizedPnL": -79.06,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "PACS",
-      "action": "BUY",
-      "shares": 29.5433,
-      "price": 41.01,
-      "total": 1211.57,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 40.3722,
-      "price": 30.01,
-      "total": 1211.57,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "QQQ",
-      "action": "BUY",
-      "shares": 1.6719,
-      "price": 707.24,
-      "total": 1182.44,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-13",
-      "symbol": "QQQ",
-      "action": "BUY",
-      "shares": 0.0836,
-      "price": 707.24,
-      "total": 59.12,
-      "reason": "Rebalance: 12.2% drift"
     }
   ],
   "history": [
@@ -242,11 +176,11 @@
     },
     {
       "date": "2026-05-13",
-      "totalValue": 10096.41,
+      "totalValue": 10120.91,
       "cash": 3.11,
-      "positionsValue": 10093.3,
+      "positionsValue": 10117.8,
       "positionCount": 8,
-      "tradesExecuted": 7,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
