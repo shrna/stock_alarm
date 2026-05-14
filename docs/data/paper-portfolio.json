@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.1116957983248597,
+  "cash": 78.19281651457504,
   "positions": [
     {
       "symbol": "NVDA",
@@ -11,51 +11,6 @@
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 224.975
-    },
-    {
-      "symbol": "SLV",
-      "shares": 17.51800263785012,
-      "avgCost": 76.735,
-      "currentPrice": 79.35,
-      "type": "etf",
-      "boughtAt": "2026-05-11",
-      "previousClose": 79.713
-    },
-    {
-      "symbol": "CNQ",
-      "shares": 27.217269368859785,
-      "avgCost": 45.19,
-      "currentPrice": 47.2,
-      "type": "stock",
-      "boughtAt": "2026-05-12",
-      "previousClose": 47.12
-    },
-    {
-      "symbol": "APA",
-      "shares": 33.51358045718729,
-      "avgCost": 36.7,
-      "currentPrice": 36.97,
-      "type": "stock",
-      "boughtAt": "2026-05-12",
-      "previousClose": 36.45
-    },
-    {
-      "symbol": "XLE",
-      "shares": 22.607016242863327,
-      "avgCost": 57.17,
-      "currentPrice": 57.63,
-      "type": "etf",
-      "boughtAt": "2026-05-12",
-      "previousClose": 57.28
-    },
-    {
-      "symbol": "PACS",
-      "shares": 29.543273111958502,
-      "avgCost": 41.01,
-      "currentPrice": 41.3,
-      "type": "stock",
-      "boughtAt": "2026-05-13",
-      "previousClose": 41.05
     },
     {
       "symbol": "CVE",
@@ -74,6 +29,46 @@
       "type": "etf",
       "boughtAt": "2026-05-13",
       "previousClose": 709.1314
+    },
+    {
+      "symbol": "VSH",
+      "shares": 31.64102618468464,
+      "avgCost": 38.5,
+      "currentPrice": 38.5,
+      "type": "stock",
+      "boughtAt": "2026-05-14"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 9.367008905116176,
+      "avgCost": 130.05,
+      "currentPrice": 130.05,
+      "type": "stock",
+      "boughtAt": "2026-05-14"
+    },
+    {
+      "symbol": "KC",
+      "shares": 67.9787671936584,
+      "avgCost": 17.92,
+      "currentPrice": 17.92,
+      "type": "stock",
+      "boughtAt": "2026-05-14"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 20.138860092088795,
+      "avgCost": 67.21,
+      "currentPrice": 67.21,
+      "type": "etf",
+      "boughtAt": "2026-05-14"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 17.523728466976795,
+      "avgCost": 77.24,
+      "currentPrice": 77.24,
+      "type": "etf",
+      "boughtAt": "2026-05-14"
     }
   ],
   "trades": [
@@ -148,6 +143,101 @@
       "price": 76.28,
       "total": 1266.67,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 17.518,
+      "price": 79.35,
+      "total": 1390.05,
+      "realizedPnL": 45.81,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "CNQ",
+      "action": "SELL",
+      "shares": 27.2173,
+      "price": 47.2,
+      "total": 1284.66,
+      "realizedPnL": 54.71,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "APA",
+      "action": "SELL",
+      "shares": 33.5136,
+      "price": 36.97,
+      "total": 1239,
+      "realizedPnL": 9.05,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 22.607,
+      "price": 57.63,
+      "total": 1302.84,
+      "realizedPnL": 10.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "PACS",
+      "action": "SELL",
+      "shares": 29.5433,
+      "price": 41.3,
+      "total": 1220.14,
+      "realizedPnL": 8.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "VSH",
+      "action": "BUY",
+      "shares": 31.641,
+      "price": 38.5,
+      "total": 1218.18,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 9.367,
+      "price": 130.05,
+      "total": 1218.18,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "KC",
+      "action": "BUY",
+      "shares": 67.9788,
+      "price": 17.92,
+      "total": 1218.18,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 20.1389,
+      "price": 67.21,
+      "total": 1353.53,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-14",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 17.5237,
+      "price": 77.24,
+      "total": 1353.53,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -185,6 +275,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-14",
+      "totalValue": 10151.5,
+      "cash": 78.19,
+      "positionsValue": 10073.3,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
