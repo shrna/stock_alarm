@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 235.74,
+      "currentPrice": 227.62,
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 232.97
@@ -16,7 +16,7 @@
       "symbol": "CVE",
       "shares": 40.37219694506558,
       "avgCost": 30.01,
-      "currentPrice": 30.15,
+      "currentPrice": 30.385,
       "type": "stock",
       "boughtAt": "2026-05-13",
       "previousClose": 29.855
@@ -25,7 +25,7 @@
       "symbol": "QQQ",
       "shares": 1.7555096198343076,
       "avgCost": 707.24,
-      "currentPrice": 719.79,
+      "currentPrice": 710.375,
       "type": "etf",
       "boughtAt": "2026-05-13",
       "previousClose": 718.76
@@ -34,7 +34,7 @@
       "symbol": "TQQQ",
       "shares": 17.523728466976795,
       "avgCost": 77.24,
-      "currentPrice": 78.95,
+      "currentPrice": 75.7699,
       "type": "etf",
       "boughtAt": "2026-05-14",
       "previousClose": 78.61
@@ -43,7 +43,7 @@
       "symbol": "CNQ",
       "shares": 25.781337973909704,
       "avgCost": 47.57,
-      "currentPrice": 47.57,
+      "currentPrice": 47.855,
       "type": "stock",
       "boughtAt": "2026-05-15"
     },
@@ -51,7 +51,7 @@
       "symbol": "APA",
       "shares": 33.048187750441514,
       "avgCost": 37.11,
-      "currentPrice": 37.11,
+      "currentPrice": 37.65,
       "type": "stock",
       "boughtAt": "2026-05-15"
     },
@@ -59,7 +59,7 @@
       "symbol": "KLAR",
       "shares": 74.4637672992644,
       "avgCost": 16.47,
-      "currentPrice": 16.47,
+      "currentPrice": 15.505,
       "type": "stock",
       "boughtAt": "2026-05-15"
     },
@@ -67,7 +67,7 @@
       "symbol": "IWM",
       "shares": 4.549270858508536,
       "avgCost": 284.45,
-      "currentPrice": 284.45,
+      "currentPrice": 279.04,
       "type": "etf",
       "boughtAt": "2026-05-15"
     }
@@ -144,82 +144,6 @@
       "price": 76.28,
       "total": 1266.67,
       "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "VSH",
-      "action": "SELL",
-      "shares": 31.641,
-      "price": 37.99,
-      "total": 1202.04,
-      "realizedPnL": -16.14,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 9.367,
-      "price": 133.73,
-      "total": 1252.65,
-      "realizedPnL": 34.47,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "KC",
-      "action": "SELL",
-      "shares": 67.9788,
-      "price": 16.94,
-      "total": 1151.56,
-      "realizedPnL": -66.62,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "EEM",
-      "action": "SELL",
-      "shares": 20.1389,
-      "price": 67.38,
-      "total": 1356.96,
-      "realizedPnL": 3.42,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "CNQ",
-      "action": "BUY",
-      "shares": 25.7813,
-      "price": 47.57,
-      "total": 1226.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "APA",
-      "action": "BUY",
-      "shares": 33.0482,
-      "price": 37.11,
-      "total": 1226.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "KLAR",
-      "action": "BUY",
-      "shares": 74.4638,
-      "price": 16.47,
-      "total": 1226.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-15",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.5493,
-      "price": 284.45,
-      "total": 1294.04,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -269,11 +193,11 @@
     },
     {
       "date": "2026-05-15",
-      "totalValue": 10220.15,
+      "totalValue": 10040.83,
       "cash": 68.11,
-      "positionsValue": 10152.04,
+      "positionsValue": 9972.73,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
