@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 8.475642096153251,
+  "cash": 74.23545145653497,
   "positions": [
     {
       "symbol": "NVDA",
@@ -31,42 +31,6 @@
       "previousClose": 276.07
     },
     {
-      "symbol": "TEAM",
-      "shares": 13.790781838680083,
-      "avgCost": 87.46,
-      "currentPrice": 89.435,
-      "type": "stock",
-      "boughtAt": "2026-05-18",
-      "previousClose": 88.24
-    },
-    {
-      "symbol": "HUBS",
-      "shares": 6.079956546078032,
-      "avgCost": 198.38,
-      "currentPrice": 208.51,
-      "type": "stock",
-      "boughtAt": "2026-05-18",
-      "previousClose": 206.715
-    },
-    {
-      "symbol": "FRSH",
-      "shares": 134.61403790300892,
-      "avgCost": 8.96,
-      "currentPrice": 9.05,
-      "type": "stock",
-      "boughtAt": "2026-05-18",
-      "previousClose": 9.005
-    },
-    {
-      "symbol": "BAC",
-      "shares": 24.234313434015668,
-      "avgCost": 49.77,
-      "currentPrice": 50.69,
-      "type": "stock",
-      "boughtAt": "2026-05-18",
-      "previousClose": 50.5
-    },
-    {
       "symbol": "XLE",
       "shares": 22.546391872494393,
       "avgCost": 59.44,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-05-18",
       "previousClose": 60.26
+    },
+    {
+      "symbol": "VIST",
+      "shares": 15.545933304028745,
+      "avgCost": 78.51,
+      "currentPrice": 78.51,
+      "type": "stock",
+      "boughtAt": "2026-05-19"
+    },
+    {
+      "symbol": "YPF",
+      "shares": 25.70579662382681,
+      "avgCost": 47.48,
+      "currentPrice": 47.48,
+      "type": "stock",
+      "boughtAt": "2026-05-19"
+    },
+    {
+      "symbol": "CVE",
+      "shares": 38.660475885311904,
+      "avgCost": 31.57,
+      "currentPrice": 31.57,
+      "type": "stock",
+      "boughtAt": "2026-05-19"
+    },
+    {
+      "symbol": "APA",
+      "shares": 30.39878514817676,
+      "avgCost": 40.15,
+      "currentPrice": 40.15,
+      "type": "stock",
+      "boughtAt": "2026-05-19"
     }
   ],
   "trades": [
@@ -157,6 +153,82 @@
       "price": 704.02,
       "total": 114.24,
       "reason": "Rebalance: 8.5% drift"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "TEAM",
+      "action": "SELL",
+      "shares": 13.7908,
+      "price": 89.435,
+      "total": 1233.38,
+      "realizedPnL": 27.24,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "HUBS",
+      "action": "SELL",
+      "shares": 6.08,
+      "price": 208.51,
+      "total": 1267.73,
+      "realizedPnL": 61.59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "FRSH",
+      "action": "SELL",
+      "shares": 134.614,
+      "price": 9.05,
+      "total": 1218.26,
+      "realizedPnL": 12.12,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "BAC",
+      "action": "SELL",
+      "shares": 24.2343,
+      "price": 50.69,
+      "total": 1228.44,
+      "realizedPnL": 22.3,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "VIST",
+      "action": "BUY",
+      "shares": 15.5459,
+      "price": 78.51,
+      "total": 1220.51,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "YPF",
+      "action": "BUY",
+      "shares": 25.7058,
+      "price": 47.48,
+      "total": 1220.51,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 38.6605,
+      "price": 31.57,
+      "total": 1220.51,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-19",
+      "symbol": "APA",
+      "action": "BUY",
+      "shares": 30.3988,
+      "price": 40.15,
+      "total": 1220.51,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -221,6 +293,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-19",
+      "totalValue": 10170.93,
+      "cash": 74.24,
+      "positionsValue": 10096.69,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
