@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 74.23545145653497,
+  "cash": 3.711772572826746,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 222.32,
+      "currentPrice": 221.2362,
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 222.965
@@ -16,16 +16,16 @@
       "symbol": "QQQ",
       "shares": 1.9177751762051087,
       "avgCost": 706.9675514366872,
-      "currentPrice": 705.88,
+      "currentPrice": 699.4032,
       "type": "etf",
       "boughtAt": "2026-05-13",
       "previousClose": 704.02
     },
     {
       "symbol": "IWM",
-      "shares": 4.549270858508536,
-      "avgCost": 284.45,
-      "currentPrice": 275.97,
+      "shares": 4.808349066082498,
+      "avgCost": 283.7904977015762,
+      "currentPrice": 272.21,
       "type": "etf",
       "boughtAt": "2026-05-15",
       "previousClose": 276.07
@@ -34,7 +34,7 @@
       "symbol": "XLE",
       "shares": 22.546391872494393,
       "avgCost": 59.44,
-      "currentPrice": 60.58,
+      "currentPrice": 60.5758,
       "type": "etf",
       "boughtAt": "2026-05-18",
       "previousClose": 60.26
@@ -43,7 +43,7 @@
       "symbol": "VIST",
       "shares": 15.545933304028745,
       "avgCost": 78.51,
-      "currentPrice": 78.51,
+      "currentPrice": 78.19,
       "type": "stock",
       "boughtAt": "2026-05-19"
     },
@@ -51,7 +51,7 @@
       "symbol": "YPF",
       "shares": 25.70579662382681,
       "avgCost": 47.48,
-      "currentPrice": 47.48,
+      "currentPrice": 47.25,
       "type": "stock",
       "boughtAt": "2026-05-19"
     },
@@ -59,7 +59,7 @@
       "symbol": "CVE",
       "shares": 38.660475885311904,
       "avgCost": 31.57,
-      "currentPrice": 31.57,
+      "currentPrice": 31.2,
       "type": "stock",
       "boughtAt": "2026-05-19"
     },
@@ -67,7 +67,7 @@
       "symbol": "APA",
       "shares": 30.39878514817676,
       "avgCost": 40.15,
-      "currentPrice": 40.15,
+      "currentPrice": 40.145,
       "type": "stock",
       "boughtAt": "2026-05-19"
     }
@@ -156,79 +156,12 @@
     },
     {
       "date": "2026-05-19",
-      "symbol": "TEAM",
-      "action": "SELL",
-      "shares": 13.7908,
-      "price": 89.435,
-      "total": 1233.38,
-      "realizedPnL": 27.24,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "HUBS",
-      "action": "SELL",
-      "shares": 6.08,
-      "price": 208.51,
-      "total": 1267.73,
-      "realizedPnL": 61.59,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "FRSH",
-      "action": "SELL",
-      "shares": 134.614,
-      "price": 9.05,
-      "total": 1218.26,
-      "realizedPnL": 12.12,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "BAC",
-      "action": "SELL",
-      "shares": 24.2343,
-      "price": 50.69,
-      "total": 1228.44,
-      "realizedPnL": 22.3,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "VIST",
+      "symbol": "IWM",
       "action": "BUY",
-      "shares": 15.5459,
-      "price": 78.51,
-      "total": 1220.51,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "YPF",
-      "action": "BUY",
-      "shares": 25.7058,
-      "price": 47.48,
-      "total": 1220.51,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 38.6605,
-      "price": 31.57,
-      "total": 1220.51,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "APA",
-      "action": "BUY",
-      "shares": 30.3988,
-      "price": 40.15,
-      "total": 1220.51,
-      "reason": "Top 5 stock pick"
+      "shares": 0.2591,
+      "price": 272.21,
+      "total": 70.52,
+      "reason": "Rebalance: 8.1% drift"
     }
   ],
   "history": [
@@ -296,11 +229,11 @@
     },
     {
       "date": "2026-05-19",
-      "totalValue": 10170.93,
-      "cash": 74.24,
-      "positionsValue": 10096.69,
+      "totalValue": 10109.92,
+      "cash": 3.71,
+      "positionsValue": 10106.21,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
