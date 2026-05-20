@@ -7,69 +7,73 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 225.2676,
+      "currentPrice": 223.47,
       "type": "stock",
       "boughtAt": "2026-05-10",
-      "previousClose": 221.2362
+      "previousClose": 225.2676
     },
     {
       "symbol": "QQQ",
       "shares": 1.9177751762051087,
       "avgCost": 706.9675514366872,
-      "currentPrice": 710.63,
+      "currentPrice": 713.15,
       "type": "etf",
       "boughtAt": "2026-05-13",
-      "previousClose": 699.4032
+      "previousClose": 710.63
     },
     {
       "symbol": "IWM",
       "shares": 4.808349066082498,
       "avgCost": 283.7904977015762,
-      "currentPrice": 278.255,
+      "currentPrice": 279.87,
       "type": "etf",
       "boughtAt": "2026-05-15",
-      "previousClose": 272.21
+      "previousClose": 278.255
     },
     {
       "symbol": "XLE",
       "shares": 22.546391872494393,
       "avgCost": 59.44,
-      "currentPrice": 60.205,
+      "currentPrice": 59.8,
       "type": "etf",
       "boughtAt": "2026-05-18",
-      "previousClose": 60.5758
+      "previousClose": 60.205
     },
     {
       "symbol": "CENX",
       "shares": 20.96835526510994,
       "avgCost": 58.44,
-      "currentPrice": 58.755,
+      "currentPrice": 58.78,
       "type": "stock",
-      "boughtAt": "2026-05-20"
+      "boughtAt": "2026-05-20",
+      "previousClose": 58.755
     },
     {
       "symbol": "CRDO",
       "shares": 7.251261504781494,
       "avgCost": 168.99,
-      "currentPrice": 184.59,
+      "currentPrice": 182.98,
       "type": "stock",
-      "boughtAt": "2026-05-20"
+      "boughtAt": "2026-05-20",
+      "previousClose": 184.59
     },
     {
       "symbol": "LQDA",
       "shares": 20.429988024225157,
       "avgCost": 59.98,
-      "currentPrice": 61.145,
+      "currentPrice": 61.77,
       "type": "stock",
-      "boughtAt": "2026-05-20"
+      "boughtAt": "2026-05-20",
+      "previousClose": 61.145
     },
     {
       "symbol": "SIMO",
       "shares": 4.753088970455142,
       "avgCost": 252.92,
-      "currentPrice": 253.23,
+      "currentPrice": 258.02,
       "type": "stock",
-      "boughtAt": "2026-05-20"
+      "boughtAt": "2026-05-20",
+      "previousClose": 253.23
     }
   ],
   "trades": [
@@ -238,12 +242,12 @@
     },
     {
       "date": "2026-05-20",
-      "totalValue": 10400.81,
+      "totalValue": 10418.64,
       "cash": 63.27,
-      "positionsValue": 10337.54,
+      "positionsValue": 10355.37,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
