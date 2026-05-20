@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.711772572826746,
+  "cash": 63.27111907407971,
   "positions": [
     {
       "symbol": "NVDA",
@@ -40,40 +40,36 @@
       "previousClose": 60.5758
     },
     {
-      "symbol": "VIST",
-      "shares": 15.545933304028745,
-      "avgCost": 78.51,
-      "currentPrice": 79.25,
+      "symbol": "CENX",
+      "shares": 20.96835526510994,
+      "avgCost": 58.44,
+      "currentPrice": 58.44,
       "type": "stock",
-      "boughtAt": "2026-05-19",
-      "previousClose": 78.19
+      "boughtAt": "2026-05-20"
     },
     {
-      "symbol": "YPF",
-      "shares": 25.70579662382681,
-      "avgCost": 47.48,
-      "currentPrice": 47.96,
+      "symbol": "CRDO",
+      "shares": 7.251261504781494,
+      "avgCost": 168.99,
+      "currentPrice": 168.99,
       "type": "stock",
-      "boughtAt": "2026-05-19",
-      "previousClose": 47.25
+      "boughtAt": "2026-05-20"
     },
     {
-      "symbol": "CVE",
-      "shares": 38.660475885311904,
-      "avgCost": 31.57,
-      "currentPrice": 31.8,
+      "symbol": "LQDA",
+      "shares": 20.429988024225157,
+      "avgCost": 59.98,
+      "currentPrice": 59.98,
       "type": "stock",
-      "boughtAt": "2026-05-19",
-      "previousClose": 31.2
+      "boughtAt": "2026-05-20"
     },
     {
-      "symbol": "APA",
-      "shares": 30.39878514817676,
-      "avgCost": 40.15,
-      "currentPrice": 40.91,
+      "symbol": "SIMO",
+      "shares": 4.753088970455142,
+      "avgCost": 252.92,
+      "currentPrice": 252.92,
       "type": "stock",
-      "boughtAt": "2026-05-19",
-      "previousClose": 40.145
+      "boughtAt": "2026-05-20"
     }
   ],
   "trades": [
@@ -166,6 +162,82 @@
       "price": 272.21,
       "total": 70.52,
       "reason": "Rebalance: 8.1% drift"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "VIST",
+      "action": "SELL",
+      "shares": 15.5459,
+      "price": 79.25,
+      "total": 1232.02,
+      "realizedPnL": 11.5,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "YPF",
+      "action": "SELL",
+      "shares": 25.7058,
+      "price": 47.96,
+      "total": 1232.85,
+      "realizedPnL": 12.34,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 38.6605,
+      "price": 31.8,
+      "total": 1229.4,
+      "realizedPnL": 8.89,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "APA",
+      "action": "SELL",
+      "shares": 30.3988,
+      "price": 40.91,
+      "total": 1243.61,
+      "realizedPnL": 23.1,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "CENX",
+      "action": "BUY",
+      "shares": 20.9684,
+      "price": 58.44,
+      "total": 1225.39,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 7.2513,
+      "price": 168.99,
+      "total": 1225.39,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "LQDA",
+      "action": "BUY",
+      "shares": 20.43,
+      "price": 59.98,
+      "total": 1225.39,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-20",
+      "symbol": "SIMO",
+      "action": "BUY",
+      "shares": 4.7531,
+      "price": 252.92,
+      "total": 1202.15,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -239,6 +311,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-20",
+      "totalValue": 10211.59,
+      "cash": 63.27,
+      "positionsValue": 10148.32,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
