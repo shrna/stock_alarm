@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 220.61,
+      "currentPrice": 225.2676,
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 221.2362
@@ -16,7 +16,7 @@
       "symbol": "QQQ",
       "shares": 1.9177751762051087,
       "avgCost": 706.9675514366872,
-      "currentPrice": 701.53,
+      "currentPrice": 710.63,
       "type": "etf",
       "boughtAt": "2026-05-13",
       "previousClose": 699.4032
@@ -25,7 +25,7 @@
       "symbol": "IWM",
       "shares": 4.808349066082498,
       "avgCost": 283.7904977015762,
-      "currentPrice": 273,
+      "currentPrice": 278.255,
       "type": "etf",
       "boughtAt": "2026-05-15",
       "previousClose": 272.21
@@ -34,7 +34,7 @@
       "symbol": "XLE",
       "shares": 22.546391872494393,
       "avgCost": 59.44,
-      "currentPrice": 61.29,
+      "currentPrice": 60.205,
       "type": "etf",
       "boughtAt": "2026-05-18",
       "previousClose": 60.5758
@@ -43,7 +43,7 @@
       "symbol": "CENX",
       "shares": 20.96835526510994,
       "avgCost": 58.44,
-      "currentPrice": 58.44,
+      "currentPrice": 58.755,
       "type": "stock",
       "boughtAt": "2026-05-20"
     },
@@ -51,7 +51,7 @@
       "symbol": "CRDO",
       "shares": 7.251261504781494,
       "avgCost": 168.99,
-      "currentPrice": 168.99,
+      "currentPrice": 184.59,
       "type": "stock",
       "boughtAt": "2026-05-20"
     },
@@ -59,7 +59,7 @@
       "symbol": "LQDA",
       "shares": 20.429988024225157,
       "avgCost": 59.98,
-      "currentPrice": 59.98,
+      "currentPrice": 61.145,
       "type": "stock",
       "boughtAt": "2026-05-20"
     },
@@ -67,7 +67,7 @@
       "symbol": "SIMO",
       "shares": 4.753088970455142,
       "avgCost": 252.92,
-      "currentPrice": 252.92,
+      "currentPrice": 253.23,
       "type": "stock",
       "boughtAt": "2026-05-20"
     }
@@ -162,82 +162,6 @@
       "price": 272.21,
       "total": 70.52,
       "reason": "Rebalance: 8.1% drift"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "VIST",
-      "action": "SELL",
-      "shares": 15.5459,
-      "price": 79.25,
-      "total": 1232.02,
-      "realizedPnL": 11.5,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "YPF",
-      "action": "SELL",
-      "shares": 25.7058,
-      "price": 47.96,
-      "total": 1232.85,
-      "realizedPnL": 12.34,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "CVE",
-      "action": "SELL",
-      "shares": 38.6605,
-      "price": 31.8,
-      "total": 1229.4,
-      "realizedPnL": 8.89,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "APA",
-      "action": "SELL",
-      "shares": 30.3988,
-      "price": 40.91,
-      "total": 1243.61,
-      "realizedPnL": 23.1,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "CENX",
-      "action": "BUY",
-      "shares": 20.9684,
-      "price": 58.44,
-      "total": 1225.39,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "CRDO",
-      "action": "BUY",
-      "shares": 7.2513,
-      "price": 168.99,
-      "total": 1225.39,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "LQDA",
-      "action": "BUY",
-      "shares": 20.43,
-      "price": 59.98,
-      "total": 1225.39,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-20",
-      "symbol": "SIMO",
-      "action": "BUY",
-      "shares": 4.7531,
-      "price": 252.92,
-      "total": 1202.15,
-      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -314,11 +238,11 @@
     },
     {
       "date": "2026-05-20",
-      "totalValue": 10211.59,
+      "totalValue": 10400.81,
       "cash": 63.27,
-      "positionsValue": 10148.32,
+      "positionsValue": 10337.54,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
