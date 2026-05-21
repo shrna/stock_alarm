@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 63.27111907407971,
+  "cash": 72.91521059095817,
   "positions": [
     {
       "symbol": "NVDA",
@@ -31,49 +31,44 @@
       "previousClose": 278.255
     },
     {
-      "symbol": "XLE",
-      "shares": 22.546391872494393,
-      "avgCost": 59.44,
-      "currentPrice": 59.8,
+      "symbol": "CVE",
+      "shares": 40.95110768319182,
+      "avgCost": 30.53,
+      "currentPrice": 30.53,
+      "type": "stock",
+      "boughtAt": "2026-05-21"
+    },
+    {
+      "symbol": "APA",
+      "shares": 31.796472979853668,
+      "avgCost": 39.32,
+      "currentPrice": 39.32,
+      "type": "stock",
+      "boughtAt": "2026-05-21"
+    },
+    {
+      "symbol": "SMMT",
+      "shares": 69.88470193224406,
+      "avgCost": 17.89,
+      "currentPrice": 17.89,
+      "type": "stock",
+      "boughtAt": "2026-05-21"
+    },
+    {
+      "symbol": "HMY",
+      "shares": 71.72904862695619,
+      "avgCost": 17.43,
+      "currentPrice": 17.43,
+      "type": "stock",
+      "boughtAt": "2026-05-21"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 20.15697659287363,
+      "avgCost": 68.73,
+      "currentPrice": 68.73,
       "type": "etf",
-      "boughtAt": "2026-05-18",
-      "previousClose": 60.205
-    },
-    {
-      "symbol": "CENX",
-      "shares": 20.96835526510994,
-      "avgCost": 58.44,
-      "currentPrice": 58.78,
-      "type": "stock",
-      "boughtAt": "2026-05-20",
-      "previousClose": 58.755
-    },
-    {
-      "symbol": "CRDO",
-      "shares": 7.251261504781494,
-      "avgCost": 168.99,
-      "currentPrice": 182.98,
-      "type": "stock",
-      "boughtAt": "2026-05-20",
-      "previousClose": 184.59
-    },
-    {
-      "symbol": "LQDA",
-      "shares": 20.429988024225157,
-      "avgCost": 59.98,
-      "currentPrice": 61.77,
-      "type": "stock",
-      "boughtAt": "2026-05-20",
-      "previousClose": 61.145
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.753088970455142,
-      "avgCost": 252.92,
-      "currentPrice": 258.02,
-      "type": "stock",
-      "boughtAt": "2026-05-20",
-      "previousClose": 253.23
+      "boughtAt": "2026-05-21"
     }
   ],
   "trades": [
@@ -166,6 +161,101 @@
       "price": 272.21,
       "total": 70.52,
       "reason": "Rebalance: 8.1% drift"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 22.5464,
+      "price": 59.8,
+      "total": 1348.27,
+      "realizedPnL": 8.12,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "CENX",
+      "action": "SELL",
+      "shares": 20.9684,
+      "price": 58.78,
+      "total": 1232.52,
+      "realizedPnL": 7.13,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 7.2513,
+      "price": 182.98,
+      "total": 1326.84,
+      "realizedPnL": 101.45,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "LQDA",
+      "action": "SELL",
+      "shares": 20.43,
+      "price": 61.77,
+      "total": 1261.96,
+      "realizedPnL": 36.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.7531,
+      "price": 258.02,
+      "total": 1226.39,
+      "realizedPnL": 24.24,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 40.9511,
+      "price": 30.53,
+      "total": 1250.24,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "APA",
+      "action": "BUY",
+      "shares": 31.7965,
+      "price": 39.32,
+      "total": 1250.24,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "SMMT",
+      "action": "BUY",
+      "shares": 69.8847,
+      "price": 17.89,
+      "total": 1250.24,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "HMY",
+      "action": "BUY",
+      "shares": 71.729,
+      "price": 17.43,
+      "total": 1250.24,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-21",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 20.157,
+      "price": 68.73,
+      "total": 1385.39,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -248,6 +338,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-21",
+      "totalValue": 10418.64,
+      "cash": 72.92,
+      "positionsValue": 10345.73,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
