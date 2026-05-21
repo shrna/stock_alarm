@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 5.575767713517054,
       "avgCost": 215.217,
-      "currentPrice": 223.47,
+      "currentPrice": 218.97,
       "type": "stock",
       "boughtAt": "2026-05-10",
       "previousClose": 225.2676
@@ -16,7 +16,7 @@
       "symbol": "QQQ",
       "shares": 1.9177751762051087,
       "avgCost": 706.9675514366872,
-      "currentPrice": 713.15,
+      "currentPrice": 708.89,
       "type": "etf",
       "boughtAt": "2026-05-13",
       "previousClose": 710.63
@@ -25,7 +25,7 @@
       "symbol": "IWM",
       "shares": 4.808349066082498,
       "avgCost": 283.7904977015762,
-      "currentPrice": 279.87,
+      "currentPrice": 279.92,
       "type": "etf",
       "boughtAt": "2026-05-15",
       "previousClose": 278.255
@@ -34,7 +34,7 @@
       "symbol": "CVE",
       "shares": 40.95110768319182,
       "avgCost": 30.53,
-      "currentPrice": 30.53,
+      "currentPrice": 30.995,
       "type": "stock",
       "boughtAt": "2026-05-21"
     },
@@ -42,7 +42,7 @@
       "symbol": "APA",
       "shares": 31.796472979853668,
       "avgCost": 39.32,
-      "currentPrice": 39.32,
+      "currentPrice": 39.25,
       "type": "stock",
       "boughtAt": "2026-05-21"
     },
@@ -50,7 +50,7 @@
       "symbol": "SMMT",
       "shares": 69.88470193224406,
       "avgCost": 17.89,
-      "currentPrice": 17.89,
+      "currentPrice": 17.495,
       "type": "stock",
       "boughtAt": "2026-05-21"
     },
@@ -58,7 +58,7 @@
       "symbol": "HMY",
       "shares": 71.72904862695619,
       "avgCost": 17.43,
-      "currentPrice": 17.43,
+      "currentPrice": 16.88,
       "type": "stock",
       "boughtAt": "2026-05-21"
     },
@@ -66,7 +66,7 @@
       "symbol": "SLV",
       "shares": 20.15697659287363,
       "avgCost": 68.73,
-      "currentPrice": 68.73,
+      "currentPrice": 68.15,
       "type": "etf",
       "boughtAt": "2026-05-21"
     }
@@ -161,101 +161,6 @@
       "price": 272.21,
       "total": 70.52,
       "reason": "Rebalance: 8.1% drift"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 22.5464,
-      "price": 59.8,
-      "total": 1348.27,
-      "realizedPnL": 8.12,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "CENX",
-      "action": "SELL",
-      "shares": 20.9684,
-      "price": 58.78,
-      "total": 1232.52,
-      "realizedPnL": 7.13,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 7.2513,
-      "price": 182.98,
-      "total": 1326.84,
-      "realizedPnL": 101.45,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "LQDA",
-      "action": "SELL",
-      "shares": 20.43,
-      "price": 61.77,
-      "total": 1261.96,
-      "realizedPnL": 36.57,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "SIMO",
-      "action": "SELL",
-      "shares": 4.7531,
-      "price": 258.02,
-      "total": 1226.39,
-      "realizedPnL": 24.24,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 40.9511,
-      "price": 30.53,
-      "total": 1250.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "APA",
-      "action": "BUY",
-      "shares": 31.7965,
-      "price": 39.32,
-      "total": 1250.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "SMMT",
-      "action": "BUY",
-      "shares": 69.8847,
-      "price": 17.89,
-      "total": 1250.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "HMY",
-      "action": "BUY",
-      "shares": 71.729,
-      "price": 17.43,
-      "total": 1250.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-21",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 20.157,
-      "price": 68.73,
-      "total": 1385.39,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -341,11 +246,11 @@
     },
     {
       "date": "2026-05-21",
-      "totalValue": 10418.64,
+      "totalValue": 10323.69,
       "cash": 72.92,
-      "positionsValue": 10345.73,
+      "positionsValue": 10250.78,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
