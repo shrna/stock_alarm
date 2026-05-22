@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.9470055578322,
+  "cash": 224.19604887716787,
   "positions": [
     {
       "symbol": "IWM",
       "shares": 4.808349066082498,
       "avgCost": 283.7904977015762,
-      "currentPrice": 282.49,
+      "currentPrice": 284.76,
       "type": "etf",
       "boughtAt": "2026-05-15",
       "previousClose": 279.92
@@ -16,7 +16,7 @@
       "symbol": "CVE",
       "shares": 40.95110768319182,
       "avgCost": 30.53,
-      "currentPrice": 30.3,
+      "currentPrice": 30.405,
       "type": "stock",
       "boughtAt": "2026-05-21",
       "previousClose": 30.995
@@ -25,7 +25,7 @@
       "symbol": "APA",
       "shares": 31.796472979853668,
       "avgCost": 39.32,
-      "currentPrice": 38.34,
+      "currentPrice": 38.98,
       "type": "stock",
       "boughtAt": "2026-05-21",
       "previousClose": 39.25
@@ -34,16 +34,16 @@
       "symbol": "SLV",
       "shares": 20.15697659287363,
       "avgCost": 68.73,
-      "currentPrice": 69.45,
+      "currentPrice": 68.33,
       "type": "etf",
       "boughtAt": "2026-05-21",
       "previousClose": 68.15
     },
     {
       "symbol": "QUBT",
-      "shares": 108.73764241987834,
+      "shares": 96.98980972228995,
       "avgCost": 11.41,
-      "currentPrice": 11.41,
+      "currentPrice": 13.13,
       "type": "stock",
       "boughtAt": "2026-05-22"
     },
@@ -51,7 +51,7 @@
       "symbol": "PLTR",
       "shares": 9.02882873056662,
       "avgCost": 137.415,
-      "currentPrice": 137.415,
+      "currentPrice": 135.2,
       "type": "stock",
       "boughtAt": "2026-05-22"
     },
@@ -59,7 +59,7 @@
       "symbol": "AGNC",
       "shares": 120.92558479637543,
       "avgCost": 10.26,
-      "currentPrice": 10.26,
+      "currentPrice": 10.2189,
       "type": "stock",
       "boughtAt": "2026-05-22"
     },
@@ -67,7 +67,7 @@
       "symbol": "SOXL",
       "shares": 7.449930520762438,
       "avgCost": 178.39,
-      "currentPrice": 178.39,
+      "currentPrice": 191.56,
       "type": "etf",
       "boughtAt": "2026-05-22"
     }
@@ -165,79 +165,13 @@
     },
     {
       "date": "2026-05-22",
-      "symbol": "NVDA",
-      "action": "SELL",
-      "shares": 5.5758,
-      "price": 219.51,
-      "total": 1223.94,
-      "realizedPnL": 23.94,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "QQQ",
-      "action": "SELL",
-      "shares": 1.9178,
-      "price": 714.51,
-      "total": 1370.27,
-      "realizedPnL": 14.46,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "SMMT",
-      "action": "SELL",
-      "shares": 69.8847,
-      "price": 17.47,
-      "total": 1220.89,
-      "realizedPnL": -29.35,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "HMY",
-      "action": "SELL",
-      "shares": 71.729,
-      "price": 17.19,
-      "total": 1233.02,
-      "realizedPnL": -17.21,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-22",
       "symbol": "QUBT",
-      "action": "BUY",
-      "shares": 108.7376,
-      "price": 11.41,
-      "total": 1240.7,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 9.0288,
-      "price": 137.415,
-      "total": 1240.7,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "AGNC",
-      "action": "BUY",
-      "shares": 120.9256,
-      "price": 10.26,
-      "total": 1240.7,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 7.4499,
-      "price": 178.39,
-      "total": 1328.99,
-      "reason": "Top 3 ETF pick"
+      "action": "SELL",
+      "shares": 11.7478,
+      "price": 13.13,
+      "total": 154.25,
+      "realizedPnL": 20.21,
+      "reason": "Rebalance: 12.1% drift"
     }
   ],
   "history": [
@@ -332,11 +266,11 @@
     },
     {
       "date": "2026-05-22",
-      "totalValue": 10339.14,
-      "cash": 69.95,
-      "positionsValue": 10269.19,
+      "totalValue": 10612.3,
+      "cash": 224.2,
+      "positionsValue": 10388.11,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
