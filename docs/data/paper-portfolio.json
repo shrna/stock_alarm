@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 224.19604887716787,
+  "cash": 83.74850597829186,
   "positions": [
     {
       "symbol": "IWM",
@@ -13,33 +13,6 @@
       "previousClose": 284.76
     },
     {
-      "symbol": "CVE",
-      "shares": 40.95110768319182,
-      "avgCost": 30.53,
-      "currentPrice": 30.05,
-      "type": "stock",
-      "boughtAt": "2026-05-21",
-      "previousClose": 30.405
-    },
-    {
-      "symbol": "APA",
-      "shares": 31.796472979853668,
-      "avgCost": 39.32,
-      "currentPrice": 38.8,
-      "type": "stock",
-      "boughtAt": "2026-05-21",
-      "previousClose": 38.98
-    },
-    {
-      "symbol": "SLV",
-      "shares": 20.15697659287363,
-      "avgCost": 68.73,
-      "currentPrice": 68.36,
-      "type": "etf",
-      "boughtAt": "2026-05-21",
-      "previousClose": 68.33
-    },
-    {
       "symbol": "QUBT",
       "shares": 96.98980972228995,
       "avgCost": 11.41,
@@ -49,24 +22,6 @@
       "previousClose": 13.13
     },
     {
-      "symbol": "PLTR",
-      "shares": 9.02882873056662,
-      "avgCost": 137.415,
-      "currentPrice": 136.88,
-      "type": "stock",
-      "boughtAt": "2026-05-22",
-      "previousClose": 135.2
-    },
-    {
-      "symbol": "AGNC",
-      "shares": 120.92558479637543,
-      "avgCost": 10.26,
-      "currentPrice": 10.21,
-      "type": "stock",
-      "boughtAt": "2026-05-22",
-      "previousClose": 10.2189
-    },
-    {
       "symbol": "SOXL",
       "shares": 7.449930520762438,
       "avgCost": 178.39,
@@ -74,6 +29,46 @@
       "type": "etf",
       "boughtAt": "2026-05-22",
       "previousClose": 191.56
+    },
+    {
+      "symbol": "CRDO",
+      "shares": 5.780772129727313,
+      "avgCost": 218.41,
+      "currentPrice": 218.41,
+      "type": "stock",
+      "boughtAt": "2026-05-25"
+    },
+    {
+      "symbol": "EL",
+      "shares": 14.295498650970817,
+      "avgCost": 88.32,
+      "currentPrice": 88.32,
+      "type": "stock",
+      "boughtAt": "2026-05-25"
+    },
+    {
+      "symbol": "VSH",
+      "shares": 26.721236843465448,
+      "avgCost": 47.25,
+      "currentPrice": 47.25,
+      "type": "stock",
+      "boughtAt": "2026-05-25"
+    },
+    {
+      "symbol": "NIO",
+      "shares": 242.80354631802737,
+      "avgCost": 5.2,
+      "currentPrice": 5.2,
+      "type": "stock",
+      "boughtAt": "2026-05-25"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 23.581525202251402,
+      "avgCost": 59.49,
+      "currentPrice": 59.49,
+      "type": "etf",
+      "boughtAt": "2026-05-25"
     }
   ],
   "trades": [
@@ -176,6 +171,101 @@
       "total": 154.25,
       "realizedPnL": 20.21,
       "reason": "Rebalance: 12.1% drift"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 40.9511,
+      "price": 30.05,
+      "total": 1230.58,
+      "realizedPnL": -19.66,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "APA",
+      "action": "SELL",
+      "shares": 31.7965,
+      "price": 38.8,
+      "total": 1233.7,
+      "realizedPnL": -16.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 20.157,
+      "price": 68.36,
+      "total": 1377.93,
+      "realizedPnL": -7.46,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 9.0288,
+      "price": 136.88,
+      "total": 1235.87,
+      "realizedPnL": -4.83,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "AGNC",
+      "action": "SELL",
+      "shares": 120.9256,
+      "price": 10.21,
+      "total": 1234.65,
+      "realizedPnL": -6.05,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 5.7808,
+      "price": 218.41,
+      "total": 1262.58,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "EL",
+      "action": "BUY",
+      "shares": 14.2955,
+      "price": 88.32,
+      "total": 1262.58,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "VSH",
+      "action": "BUY",
+      "shares": 26.7212,
+      "price": 47.25,
+      "total": 1262.58,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "NIO",
+      "action": "BUY",
+      "shares": 242.8035,
+      "price": 5.2,
+      "total": 1262.58,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-25",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.5815,
+      "price": 59.49,
+      "total": 1402.86,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -276,6 +366,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-25",
+      "totalValue": 10521.49,
+      "cash": 83.75,
+      "positionsValue": 10437.74,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
