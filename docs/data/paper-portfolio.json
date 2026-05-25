@@ -171,101 +171,6 @@
       "total": 154.25,
       "realizedPnL": 20.21,
       "reason": "Rebalance: 12.1% drift"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "CVE",
-      "action": "SELL",
-      "shares": 40.9511,
-      "price": 30.05,
-      "total": 1230.58,
-      "realizedPnL": -19.66,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "APA",
-      "action": "SELL",
-      "shares": 31.7965,
-      "price": 38.8,
-      "total": 1233.7,
-      "realizedPnL": -16.53,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 20.157,
-      "price": 68.36,
-      "total": 1377.93,
-      "realizedPnL": -7.46,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 9.0288,
-      "price": 136.88,
-      "total": 1235.87,
-      "realizedPnL": -4.83,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "AGNC",
-      "action": "SELL",
-      "shares": 120.9256,
-      "price": 10.21,
-      "total": 1234.65,
-      "realizedPnL": -6.05,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "CRDO",
-      "action": "BUY",
-      "shares": 5.7808,
-      "price": 218.41,
-      "total": 1262.58,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "EL",
-      "action": "BUY",
-      "shares": 14.2955,
-      "price": 88.32,
-      "total": 1262.58,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "VSH",
-      "action": "BUY",
-      "shares": 26.7212,
-      "price": 47.25,
-      "total": 1262.58,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "NIO",
-      "action": "BUY",
-      "shares": 242.8035,
-      "price": 5.2,
-      "total": 1262.58,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-25",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.5815,
-      "price": 59.49,
-      "total": 1402.86,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -373,7 +278,7 @@
       "cash": 83.75,
       "positionsValue": 10437.74,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
