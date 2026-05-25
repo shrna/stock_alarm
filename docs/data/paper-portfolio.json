@@ -10,7 +10,7 @@
       "currentPrice": 285.12,
       "type": "etf",
       "boughtAt": "2026-05-15",
-      "previousClose": 284.76
+      "previousClose": 285.12
     },
     {
       "symbol": "QUBT",
@@ -19,7 +19,7 @@
       "currentPrice": 12.31,
       "type": "stock",
       "boughtAt": "2026-05-22",
-      "previousClose": 13.13
+      "previousClose": 12.31
     },
     {
       "symbol": "SOXL",
@@ -28,7 +28,7 @@
       "currentPrice": 190.56,
       "type": "etf",
       "boughtAt": "2026-05-22",
-      "previousClose": 191.56
+      "previousClose": 190.56
     },
     {
       "symbol": "CRDO",
@@ -36,7 +36,8 @@
       "avgCost": 218.41,
       "currentPrice": 218.41,
       "type": "stock",
-      "boughtAt": "2026-05-25"
+      "boughtAt": "2026-05-25",
+      "previousClose": 218.41
     },
     {
       "symbol": "EL",
@@ -44,7 +45,8 @@
       "avgCost": 88.32,
       "currentPrice": 88.32,
       "type": "stock",
-      "boughtAt": "2026-05-25"
+      "boughtAt": "2026-05-25",
+      "previousClose": 88.32
     },
     {
       "symbol": "VSH",
@@ -52,7 +54,8 @@
       "avgCost": 47.25,
       "currentPrice": 47.25,
       "type": "stock",
-      "boughtAt": "2026-05-25"
+      "boughtAt": "2026-05-25",
+      "previousClose": 47.25
     },
     {
       "symbol": "NIO",
@@ -60,7 +63,8 @@
       "avgCost": 5.2,
       "currentPrice": 5.2,
       "type": "stock",
-      "boughtAt": "2026-05-25"
+      "boughtAt": "2026-05-25",
+      "previousClose": 5.2
     },
     {
       "symbol": "XLE",
@@ -68,7 +72,8 @@
       "avgCost": 59.49,
       "currentPrice": 59.49,
       "type": "etf",
-      "boughtAt": "2026-05-25"
+      "boughtAt": "2026-05-25",
+      "previousClose": 59.49
     }
   ],
   "trades": [
@@ -279,7 +284,7 @@
       "positionsValue": 10437.74,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
