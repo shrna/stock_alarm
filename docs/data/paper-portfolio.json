@@ -1,31 +1,31 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 83.74850597829186,
+  "cash": 206.41073209645742,
   "positions": [
     {
       "symbol": "IWM",
       "shares": 4.808349066082498,
       "avgCost": 283.7904977015762,
-      "currentPrice": 285.12,
+      "currentPrice": 288.98,
       "type": "etf",
       "boughtAt": "2026-05-15",
       "previousClose": 285.12
     },
     {
       "symbol": "QUBT",
-      "shares": 96.98980972228995,
-      "avgCost": 11.41,
-      "currentPrice": 12.31,
+      "shares": 103.94444964181594,
+      "avgCost": 11.4120072182623,
+      "currentPrice": 11.44,
       "type": "stock",
       "boughtAt": "2026-05-22",
       "previousClose": 12.31
     },
     {
       "symbol": "SOXL",
-      "shares": 7.449930520762438,
+      "shares": 6.5231509295729655,
       "avgCost": 178.39,
-      "currentPrice": 190.56,
+      "currentPrice": 218.2,
       "type": "etf",
       "boughtAt": "2026-05-22",
       "previousClose": 190.56
@@ -34,7 +34,7 @@
       "symbol": "CRDO",
       "shares": 5.780772129727313,
       "avgCost": 218.41,
-      "currentPrice": 218.41,
+      "currentPrice": 214.51,
       "type": "stock",
       "boughtAt": "2026-05-25",
       "previousClose": 218.41
@@ -43,7 +43,7 @@
       "symbol": "EL",
       "shares": 14.295498650970817,
       "avgCost": 88.32,
-      "currentPrice": 88.32,
+      "currentPrice": 88.06,
       "type": "stock",
       "boughtAt": "2026-05-25",
       "previousClose": 88.32
@@ -52,7 +52,7 @@
       "symbol": "VSH",
       "shares": 26.721236843465448,
       "avgCost": 47.25,
-      "currentPrice": 47.25,
+      "currentPrice": 48.81,
       "type": "stock",
       "boughtAt": "2026-05-25",
       "previousClose": 47.25
@@ -61,7 +61,7 @@
       "symbol": "NIO",
       "shares": 242.80354631802737,
       "avgCost": 5.2,
-      "currentPrice": 5.2,
+      "currentPrice": 5.27,
       "type": "stock",
       "boughtAt": "2026-05-25",
       "previousClose": 5.2
@@ -70,7 +70,7 @@
       "symbol": "XLE",
       "shares": 23.581525202251402,
       "avgCost": 59.49,
-      "currentPrice": 59.49,
+      "currentPrice": 58.69,
       "type": "etf",
       "boughtAt": "2026-05-25",
       "previousClose": 59.49
@@ -176,6 +176,25 @@
       "total": 154.25,
       "realizedPnL": 20.21,
       "reason": "Rebalance: 12.1% drift"
+    },
+    {
+      "date": "2026-05-26",
+      "symbol": "QUBT",
+      "action": "BUY",
+      "shares": 6.9546,
+      "price": 11.44,
+      "total": 79.56,
+      "reason": "Rebalance: 13.4% drift"
+    },
+    {
+      "date": "2026-05-26",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 0.9268,
+      "price": 218.2,
+      "total": 202.22,
+      "realizedPnL": 36.9,
+      "reason": "Rebalance: 14.2% drift"
     }
   ],
   "history": [
@@ -285,6 +304,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-26",
+      "totalValue": 10675.14,
+      "cash": 206.41,
+      "positionsValue": 10468.73,
+      "positionCount": 8,
+      "tradesExecuted": 2,
+      "session": "open"
     }
   ]
 }
