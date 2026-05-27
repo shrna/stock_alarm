@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 206.41073209645742,
+  "cash": 72.44810809888531,
   "positions": [
     {
       "symbol": "IWM",
@@ -13,15 +13,6 @@
       "previousClose": 288.98
     },
     {
-      "symbol": "QUBT",
-      "shares": 103.94444964181594,
-      "avgCost": 11.4120072182623,
-      "currentPrice": 11.68,
-      "type": "stock",
-      "boughtAt": "2026-05-22",
-      "previousClose": 11.44
-    },
-    {
       "symbol": "SOXL",
       "shares": 6.5231509295729655,
       "avgCost": 178.39,
@@ -31,49 +22,52 @@
       "previousClose": 218.2
     },
     {
-      "symbol": "CRDO",
-      "shares": 5.780772129727313,
-      "avgCost": 218.41,
-      "currentPrice": 221.64,
+      "symbol": "ASX",
+      "shares": 33.26339844072101,
+      "avgCost": 38.95,
+      "currentPrice": 38.95,
       "type": "stock",
-      "boughtAt": "2026-05-25",
-      "previousClose": 214.51
+      "boughtAt": "2026-05-27"
     },
     {
-      "symbol": "EL",
-      "shares": 14.295498650970817,
-      "avgCost": 88.32,
-      "currentPrice": 86.6,
+      "symbol": "CVE",
+      "shares": 44.7997707215105,
+      "avgCost": 28.92,
+      "currentPrice": 28.92,
       "type": "stock",
-      "boughtAt": "2026-05-25",
-      "previousClose": 88.06
+      "boughtAt": "2026-05-27"
     },
     {
-      "symbol": "VSH",
-      "shares": 26.721236843465448,
-      "avgCost": 47.25,
-      "currentPrice": 50.37,
+      "symbol": "VICR",
+      "shares": 3.891303106370577,
+      "avgCost": 332.95,
+      "currentPrice": 332.95,
       "type": "stock",
-      "boughtAt": "2026-05-25",
-      "previousClose": 48.81
+      "boughtAt": "2026-05-27"
     },
     {
-      "symbol": "NIO",
-      "shares": 242.80354631802737,
-      "avgCost": 5.2,
-      "currentPrice": 5.26,
+      "symbol": "AGNC",
+      "shares": 124.21949849147494,
+      "avgCost": 10.43,
+      "currentPrice": 10.43,
       "type": "stock",
-      "boughtAt": "2026-05-25",
-      "previousClose": 5.27
+      "boughtAt": "2026-05-27"
     },
     {
-      "symbol": "XLE",
-      "shares": 23.581525202251402,
-      "avgCost": 59.49,
-      "currentPrice": 57.85,
+      "symbol": "MOD",
+      "shares": 4.378833882878476,
+      "avgCost": 295.88,
+      "currentPrice": 295.88,
+      "type": "stock",
+      "boughtAt": "2026-05-27"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 20.124474471912595,
+      "avgCost": 68.4,
+      "currentPrice": 68.4,
       "type": "etf",
-      "boughtAt": "2026-05-25",
-      "previousClose": 58.69
+      "boughtAt": "2026-05-27"
     }
   ],
   "trades": [
@@ -195,6 +189,120 @@
       "total": 202.22,
       "realizedPnL": 36.9,
       "reason": "Rebalance: 14.2% drift"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "QUBT",
+      "action": "SELL",
+      "shares": 103.9444,
+      "price": 11.68,
+      "total": 1214.07,
+      "realizedPnL": 27.86,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 5.7808,
+      "price": 221.64,
+      "total": 1281.25,
+      "realizedPnL": 18.67,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "EL",
+      "action": "SELL",
+      "shares": 14.2955,
+      "price": 86.6,
+      "total": 1237.99,
+      "realizedPnL": -24.59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "VSH",
+      "action": "SELL",
+      "shares": 26.7212,
+      "price": 50.37,
+      "total": 1345.95,
+      "realizedPnL": 83.37,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "NIO",
+      "action": "SELL",
+      "shares": 242.8035,
+      "price": 5.26,
+      "total": 1277.15,
+      "realizedPnL": 14.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 23.5815,
+      "price": 57.85,
+      "total": 1364.19,
+      "realizedPnL": -38.67,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "ASX",
+      "action": "BUY",
+      "shares": 33.2634,
+      "price": 38.95,
+      "total": 1295.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 44.7998,
+      "price": 28.92,
+      "total": 1295.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "VICR",
+      "action": "BUY",
+      "shares": 3.8913,
+      "price": 332.95,
+      "total": 1295.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "AGNC",
+      "action": "BUY",
+      "shares": 124.2195,
+      "price": 10.43,
+      "total": 1295.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "MOD",
+      "action": "BUY",
+      "shares": 4.3788,
+      "price": 295.88,
+      "total": 1295.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-27",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 20.1245,
+      "price": 68.4,
+      "total": 1376.51,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -313,6 +421,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-27",
+      "totalValue": 10796.74,
+      "cash": 72.45,
+      "positionsValue": 10724.3,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
