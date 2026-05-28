@@ -7,67 +7,73 @@
       "symbol": "CVE",
       "shares": 44.7997707215105,
       "avgCost": 28.92,
-      "currentPrice": 28.19,
+      "currentPrice": 28.44,
       "type": "stock",
       "boughtAt": "2026-05-27",
-      "previousClose": 28.655
+      "previousClose": 28.19
     },
     {
       "symbol": "AGNC",
       "shares": 124.21949849147494,
       "avgCost": 10.43,
-      "currentPrice": 10.51,
+      "currentPrice": 10.47,
       "type": "stock",
       "boughtAt": "2026-05-27",
-      "previousClose": 10.5599
+      "previousClose": 10.51
     },
     {
       "symbol": "ZS",
       "shares": 10.163562711669774,
       "avgCost": 126.41,
-      "currentPrice": 126.41,
+      "currentPrice": 127.26,
       "type": "stock",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 126.41
     },
     {
       "symbol": "APH",
       "shares": 9.161266132217456,
       "avgCost": 140.24,
-      "currentPrice": 140.24,
+      "currentPrice": 147.86,
       "type": "stock",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 140.24
     },
     {
       "symbol": "PLTR",
       "shares": 9.695690607366812,
       "avgCost": 132.51,
-      "currentPrice": 132.51,
+      "currentPrice": 140.215,
       "type": "stock",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 132.51
     },
     {
       "symbol": "ARKK",
       "shares": 18.313391239144416,
       "avgCost": 77.95,
-      "currentPrice": 77.95,
+      "currentPrice": 80.175,
       "type": "etf",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 77.95
     },
     {
       "symbol": "ARKG",
       "shares": 44.526788742710764,
       "avgCost": 32.06,
-      "currentPrice": 32.06,
+      "currentPrice": 33.5201,
       "type": "etf",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 32.06
     },
     {
       "symbol": "XBI",
       "shares": 10.094435781088375,
       "avgCost": 134.45,
-      "currentPrice": 134.45,
+      "currentPrice": 135.225,
       "type": "etf",
-      "boughtAt": "2026-05-28"
+      "boughtAt": "2026-05-28",
+      "previousClose": 134.45
     }
   ],
   "trades": [
@@ -433,12 +439,12 @@
     },
     {
       "date": "2026-05-28",
-      "totalValue": 10706.47,
+      "totalValue": 10979.43,
       "cash": 71.43,
-      "positionsValue": 10635.03,
+      "positionsValue": 10908,
       "positionCount": 8,
-      "tradesExecuted": 12,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
