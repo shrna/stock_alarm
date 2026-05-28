@@ -1,35 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 72.44810809888531,
+  "cash": 71.43141530354387,
   "positions": [
-    {
-      "symbol": "IWM",
-      "shares": 4.808349066082498,
-      "avgCost": 283.7904977015762,
-      "currentPrice": 290.37,
-      "type": "etf",
-      "boughtAt": "2026-05-15",
-      "previousClose": 289.82
-    },
-    {
-      "symbol": "SOXL",
-      "shares": 6.5231509295729655,
-      "avgCost": 178.39,
-      "currentPrice": 217.98,
-      "type": "etf",
-      "boughtAt": "2026-05-22",
-      "previousClose": 207.55
-    },
-    {
-      "symbol": "ASX",
-      "shares": 33.26339844072101,
-      "avgCost": 38.95,
-      "currentPrice": 39.07,
-      "type": "stock",
-      "boughtAt": "2026-05-27",
-      "previousClose": 38.34
-    },
     {
       "symbol": "CVE",
       "shares": 44.7997707215105,
@@ -38,15 +11,6 @@
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 28.655
-    },
-    {
-      "symbol": "VICR",
-      "shares": 3.891303106370577,
-      "avgCost": 332.95,
-      "currentPrice": 345.84,
-      "type": "stock",
-      "boughtAt": "2026-05-27",
-      "previousClose": 345.98
     },
     {
       "symbol": "AGNC",
@@ -58,22 +22,52 @@
       "previousClose": 10.5599
     },
     {
-      "symbol": "MOD",
-      "shares": 4.378833882878476,
-      "avgCost": 295.88,
-      "currentPrice": 279.93,
+      "symbol": "ZS",
+      "shares": 10.163562711669774,
+      "avgCost": 126.41,
+      "currentPrice": 126.41,
       "type": "stock",
-      "boughtAt": "2026-05-27",
-      "previousClose": 275.4
+      "boughtAt": "2026-05-28"
     },
     {
-      "symbol": "EEM",
-      "shares": 20.124474471912595,
-      "avgCost": 68.4,
-      "currentPrice": 68.39,
+      "symbol": "APH",
+      "shares": 9.161266132217456,
+      "avgCost": 140.24,
+      "currentPrice": 140.24,
+      "type": "stock",
+      "boughtAt": "2026-05-28"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 9.695690607366812,
+      "avgCost": 132.51,
+      "currentPrice": 132.51,
+      "type": "stock",
+      "boughtAt": "2026-05-28"
+    },
+    {
+      "symbol": "ARKK",
+      "shares": 18.313391239144416,
+      "avgCost": 77.95,
+      "currentPrice": 77.95,
       "type": "etf",
-      "boughtAt": "2026-05-27",
-      "previousClose": 68.05
+      "boughtAt": "2026-05-28"
+    },
+    {
+      "symbol": "ARKG",
+      "shares": 44.526788742710764,
+      "avgCost": 32.06,
+      "currentPrice": 32.06,
+      "type": "etf",
+      "boughtAt": "2026-05-28"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 10.094435781088375,
+      "avgCost": 134.45,
+      "currentPrice": 134.45,
+      "type": "etf",
+      "boughtAt": "2026-05-28"
     }
   ],
   "trades": [
@@ -195,6 +189,120 @@
       "total": 202.22,
       "realizedPnL": 36.9,
       "reason": "Rebalance: 14.2% drift"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.8083,
+      "price": 290.37,
+      "total": 1396.2,
+      "realizedPnL": 31.64,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 6.5232,
+      "price": 217.98,
+      "total": 1421.92,
+      "realizedPnL": 258.25,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "ASX",
+      "action": "SELL",
+      "shares": 33.2634,
+      "price": 39.07,
+      "total": 1299.6,
+      "realizedPnL": 3.99,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "VICR",
+      "action": "SELL",
+      "shares": 3.8913,
+      "price": 345.84,
+      "total": 1345.77,
+      "realizedPnL": 50.16,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "MOD",
+      "action": "SELL",
+      "shares": 4.3788,
+      "price": 279.93,
+      "total": 1225.77,
+      "realizedPnL": -69.84,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "EEM",
+      "action": "SELL",
+      "shares": 20.1245,
+      "price": 68.39,
+      "total": 1376.31,
+      "realizedPnL": -0.2,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "ZS",
+      "action": "BUY",
+      "shares": 10.1636,
+      "price": 126.41,
+      "total": 1284.78,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "APH",
+      "action": "BUY",
+      "shares": 9.1613,
+      "price": 140.24,
+      "total": 1284.78,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 9.6957,
+      "price": 132.51,
+      "total": 1284.78,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "ARKK",
+      "action": "BUY",
+      "shares": 18.3134,
+      "price": 77.95,
+      "total": 1427.53,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 44.5268,
+      "price": 32.06,
+      "total": 1427.53,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-28",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 10.0944,
+      "price": 134.45,
+      "total": 1357.2,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -322,6 +430,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-28",
+      "totalValue": 10706.47,
+      "cash": 71.43,
+      "positionsValue": 10635.03,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
