@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 71.43141530354387,
+  "cash": 74.3175041699808,
   "positions": [
     {
       "symbol": "CVE",
@@ -58,22 +58,20 @@
       "previousClose": 80.175
     },
     {
-      "symbol": "ARKG",
-      "shares": 44.526788742710764,
-      "avgCost": 32.06,
-      "currentPrice": 34.12,
+      "symbol": "TQQQ",
+      "shares": 17.651501979868893,
+      "avgCost": 83.68,
+      "currentPrice": 83.68,
       "type": "etf",
-      "boughtAt": "2026-05-28",
-      "previousClose": 33.5201
+      "boughtAt": "2026-05-29"
     },
     {
-      "symbol": "XBI",
-      "shares": 10.094435781088375,
-      "avgCost": 134.45,
-      "currentPrice": 135.99,
+      "symbol": "SOXL",
+      "shares": 6.286037391397557,
+      "avgCost": 224.63,
+      "currentPrice": 224.63,
       "type": "etf",
-      "boughtAt": "2026-05-28",
-      "previousClose": 135.225
+      "boughtAt": "2026-05-29"
     }
   ],
   "trades": [
@@ -309,6 +307,44 @@
       "price": 134.45,
       "total": 1357.2,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-29",
+      "symbol": "ARKG",
+      "action": "SELL",
+      "shares": 44.5268,
+      "price": 34.12,
+      "total": 1519.25,
+      "realizedPnL": 91.73,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-29",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 10.0944,
+      "price": 135.99,
+      "total": 1372.74,
+      "realizedPnL": 15.55,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-05-29",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 17.6515,
+      "price": 83.68,
+      "total": 1477.08,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-05-29",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 6.286,
+      "price": 224.63,
+      "total": 1412.03,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -445,6 +481,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-05-29",
+      "totalValue": 11078.08,
+      "cash": 74.32,
+      "positionsValue": 11003.77,
+      "positionCount": 8,
+      "tradesExecuted": 4,
+      "session": "open"
     }
   ]
 }
