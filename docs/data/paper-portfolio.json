@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 74.3175041699808,
+  "cash": 171.51061171660717,
   "positions": [
     {
       "symbol": "CVE",
-      "shares": 44.7997707215105,
-      "avgCost": 28.92,
-      "currentPrice": 28.04,
+      "shares": 47.347011897885984,
+      "avgCost": 28.855273933106766,
+      "currentPrice": 27.7169,
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 28.44
@@ -16,7 +16,7 @@
       "symbol": "AGNC",
       "shares": 124.21949849147494,
       "avgCost": 10.43,
-      "currentPrice": 10.55,
+      "currentPrice": 10.415,
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 10.47
@@ -25,7 +25,7 @@
       "symbol": "ZS",
       "shares": 10.163562711669774,
       "avgCost": 126.41,
-      "currentPrice": 130.04,
+      "currentPrice": 136.06,
       "type": "stock",
       "boughtAt": "2026-05-28",
       "previousClose": 127.26
@@ -34,16 +34,16 @@
       "symbol": "APH",
       "shares": 9.161266132217456,
       "avgCost": 140.24,
-      "currentPrice": 147.68,
+      "currentPrice": 147.98,
       "type": "stock",
       "boughtAt": "2026-05-28",
       "previousClose": 147.86
     },
     {
       "symbol": "PLTR",
-      "shares": 9.695690607366812,
+      "shares": 8.625229768399615,
       "avgCost": 132.51,
-      "currentPrice": 143.34,
+      "currentPrice": 156.75,
       "type": "stock",
       "boughtAt": "2026-05-28",
       "previousClose": 140.215
@@ -52,7 +52,7 @@
       "symbol": "ARKK",
       "shares": 18.313391239144416,
       "avgCost": 77.95,
-      "currentPrice": 81.01,
+      "currentPrice": 81.83,
       "type": "etf",
       "boughtAt": "2026-05-28",
       "previousClose": 80.175
@@ -61,7 +61,7 @@
       "symbol": "TQQQ",
       "shares": 17.651501979868893,
       "avgCost": 83.68,
-      "currentPrice": 83.68,
+      "currentPrice": 84.4399,
       "type": "etf",
       "boughtAt": "2026-05-29"
     },
@@ -69,7 +69,7 @@
       "symbol": "SOXL",
       "shares": 6.286037391397557,
       "avgCost": 224.63,
-      "currentPrice": 224.63,
+      "currentPrice": 224.23,
       "type": "etf",
       "boughtAt": "2026-05-29"
     }
@@ -310,41 +310,22 @@
     },
     {
       "date": "2026-05-29",
-      "symbol": "ARKG",
-      "action": "SELL",
-      "shares": 44.5268,
-      "price": 34.12,
-      "total": 1519.25,
-      "realizedPnL": 91.73,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-29",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 10.0944,
-      "price": 135.99,
-      "total": 1372.74,
-      "realizedPnL": 15.55,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-05-29",
-      "symbol": "TQQQ",
+      "symbol": "CVE",
       "action": "BUY",
-      "shares": 17.6515,
-      "price": 83.68,
-      "total": 1477.08,
-      "reason": "Top 3 ETF pick"
+      "shares": 2.5472,
+      "price": 27.7169,
+      "total": 70.6,
+      "reason": "Rebalance: 8.2% drift"
     },
     {
       "date": "2026-05-29",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 6.286,
-      "price": 224.63,
-      "total": 1412.03,
-      "reason": "Top 3 ETF pick"
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 1.0705,
+      "price": 156.75,
+      "total": 167.79,
+      "realizedPnL": 25.95,
+      "reason": "Rebalance: 12.4% drift"
     }
   ],
   "history": [
@@ -484,11 +465,11 @@
     },
     {
       "date": "2026-05-29",
-      "totalValue": 11078.08,
-      "cash": 74.32,
-      "positionsValue": 11003.77,
+      "totalValue": 11266.71,
+      "cash": 171.51,
+      "positionsValue": 11095.2,
       "positionCount": 8,
-      "tradesExecuted": 4,
+      "tradesExecuted": 2,
       "session": "open"
     }
   ]
