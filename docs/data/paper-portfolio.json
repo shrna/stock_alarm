@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 171.51061171660717,
+  "cash": 92.05352142440393,
   "positions": [
-    {
-      "symbol": "CVE",
-      "shares": 47.347011897885984,
-      "avgCost": 28.855273933106766,
-      "currentPrice": 27.57,
-      "type": "stock",
-      "boughtAt": "2026-05-27",
-      "previousClose": 27.7169
-    },
     {
       "symbol": "AGNC",
       "shares": 124.21949849147494,
@@ -20,24 +11,6 @@
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 10.415
-    },
-    {
-      "symbol": "ZS",
-      "shares": 10.163562711669774,
-      "avgCost": 126.41,
-      "currentPrice": 139.73,
-      "type": "stock",
-      "boughtAt": "2026-05-28",
-      "previousClose": 136.06
-    },
-    {
-      "symbol": "APH",
-      "shares": 9.161266132217456,
-      "avgCost": 140.24,
-      "currentPrice": 148.76,
-      "type": "stock",
-      "boughtAt": "2026-05-28",
-      "previousClose": 147.98
     },
     {
       "symbol": "PLTR",
@@ -67,13 +40,36 @@
       "previousClose": 84.4399
     },
     {
-      "symbol": "SOXL",
-      "shares": 6.286037391397557,
-      "avgCost": 224.63,
-      "currentPrice": 224.34,
+      "symbol": "TEAM",
+      "shares": 12.608613094357255,
+      "avgCost": 107.61,
+      "currentPrice": 107.61,
+      "type": "stock",
+      "boughtAt": "2026-06-01"
+    },
+    {
+      "symbol": "YMM",
+      "shares": 153.83365703897778,
+      "avgCost": 8.82,
+      "currentPrice": 8.82,
+      "type": "stock",
+      "boughtAt": "2026-06-01"
+    },
+    {
+      "symbol": "WDAY",
+      "shares": 9.28116051086794,
+      "avgCost": 146.19,
+      "currentPrice": 146.19,
+      "type": "stock",
+      "boughtAt": "2026-06-01"
+    },
+    {
+      "symbol": "XLK",
+      "shares": 7.892209396827465,
+      "avgCost": 191.02,
+      "currentPrice": 191.02,
       "type": "etf",
-      "boughtAt": "2026-05-29",
-      "previousClose": 224.23
+      "boughtAt": "2026-06-01"
     }
   ],
   "trades": [
@@ -328,6 +324,82 @@
       "total": 167.79,
       "realizedPnL": 25.95,
       "reason": "Rebalance: 12.4% drift"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 47.347,
+      "price": 27.57,
+      "total": 1305.36,
+      "realizedPnL": -60.85,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "ZS",
+      "action": "SELL",
+      "shares": 10.1636,
+      "price": 139.73,
+      "total": 1420.15,
+      "realizedPnL": 135.38,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "APH",
+      "action": "SELL",
+      "shares": 9.1613,
+      "price": 148.76,
+      "total": 1362.83,
+      "realizedPnL": 78.05,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 6.286,
+      "price": 224.34,
+      "total": 1410.21,
+      "realizedPnL": -1.82,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "TEAM",
+      "action": "BUY",
+      "shares": 12.6086,
+      "price": 107.61,
+      "total": 1356.81,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "YMM",
+      "action": "BUY",
+      "shares": 153.8337,
+      "price": 8.82,
+      "total": 1356.81,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "WDAY",
+      "action": "BUY",
+      "shares": 9.2812,
+      "price": 146.19,
+      "total": 1356.81,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-01",
+      "symbol": "XLK",
+      "action": "BUY",
+      "shares": 7.8922,
+      "price": 191.02,
+      "total": 1507.57,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -473,6 +545,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-01",
+      "totalValue": 11306.77,
+      "cash": 92.05,
+      "positionsValue": 11214.72,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
