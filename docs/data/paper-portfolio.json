@@ -1,12 +1,12 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 92.05352142440393,
+  "cash": 39.51310470915769,
   "positions": [
     {
       "symbol": "AGNC",
-      "shares": 124.21949849147494,
-      "avgCost": 10.43,
+      "shares": 136.17768456487272,
+      "avgCost": 10.412437377883744,
       "currentPrice": 10.23,
       "type": "stock",
       "boughtAt": "2026-05-27",
@@ -22,15 +22,6 @@
       "previousClose": 163.025
     },
     {
-      "symbol": "ARKK",
-      "shares": 18.313391239144416,
-      "avgCost": 77.95,
-      "currentPrice": 81.26,
-      "type": "etf",
-      "boughtAt": "2026-05-28",
-      "previousClose": 82.0325
-    },
-    {
       "symbol": "TQQQ",
       "shares": 17.651501979868893,
       "avgCost": 83.68,
@@ -40,33 +31,6 @@
       "previousClose": 86.96
     },
     {
-      "symbol": "TEAM",
-      "shares": 12.608613094357255,
-      "avgCost": 107.61,
-      "currentPrice": 115.95,
-      "type": "stock",
-      "boughtAt": "2026-06-01",
-      "previousClose": 117.04
-    },
-    {
-      "symbol": "YMM",
-      "shares": 153.83365703897778,
-      "avgCost": 8.82,
-      "currentPrice": 9.02,
-      "type": "stock",
-      "boughtAt": "2026-06-01",
-      "previousClose": 9.03
-    },
-    {
-      "symbol": "WDAY",
-      "shares": 9.28116051086794,
-      "avgCost": 146.19,
-      "currentPrice": 157.23,
-      "type": "stock",
-      "boughtAt": "2026-06-01",
-      "previousClose": 157.54
-    },
-    {
       "symbol": "XLK",
       "shares": 7.892209396827465,
       "avgCost": 191.02,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-06-01",
       "previousClose": 196.35
+    },
+    {
+      "symbol": "KVYO",
+      "shares": 75.87678175918562,
+      "avgCost": 18.36,
+      "currentPrice": 18.36,
+      "type": "stock",
+      "boughtAt": "2026-06-02"
+    },
+    {
+      "symbol": "ACHR",
+      "shares": 203.66925630097194,
+      "avgCost": 6.84,
+      "currentPrice": 6.84,
+      "type": "stock",
+      "boughtAt": "2026-06-02"
+    },
+    {
+      "symbol": "DELL",
+      "shares": 2.989736700786866,
+      "avgCost": 465.96,
+      "currentPrice": 465.96,
+      "type": "stock",
+      "boughtAt": "2026-06-02"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 22.087419347708142,
+      "avgCost": 70.08,
+      "currentPrice": 70.08,
+      "type": "etf",
+      "boughtAt": "2026-06-02"
     }
   ],
   "trades": [
@@ -404,6 +400,91 @@
       "price": 191.02,
       "total": 1507.57,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "ARKK",
+      "action": "SELL",
+      "shares": 18.3134,
+      "price": 81.26,
+      "total": 1488.15,
+      "realizedPnL": 60.62,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "TEAM",
+      "action": "SELL",
+      "shares": 12.6086,
+      "price": 115.95,
+      "total": 1461.97,
+      "realizedPnL": 105.16,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "YMM",
+      "action": "SELL",
+      "shares": 153.8337,
+      "price": 9.02,
+      "total": 1387.58,
+      "realizedPnL": 30.77,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "WDAY",
+      "action": "SELL",
+      "shares": 9.2812,
+      "price": 157.23,
+      "total": 1459.28,
+      "realizedPnL": 102.46,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "KVYO",
+      "action": "BUY",
+      "shares": 75.8768,
+      "price": 18.36,
+      "total": 1393.1,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "ACHR",
+      "action": "BUY",
+      "shares": 203.6693,
+      "price": 6.84,
+      "total": 1393.1,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "DELL",
+      "action": "BUY",
+      "shares": 2.9897,
+      "price": 465.96,
+      "total": 1393.1,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 22.0874,
+      "price": 70.08,
+      "total": 1547.89,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-02",
+      "symbol": "AGNC",
+      "action": "BUY",
+      "shares": 11.9582,
+      "price": 10.23,
+      "total": 122.33,
+      "reason": "Rebalance: 8.8% drift"
     }
   ],
   "history": [
@@ -558,6 +639,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-02",
+      "totalValue": 11609.15,
+      "cash": 39.51,
+      "positionsValue": 11569.63,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
