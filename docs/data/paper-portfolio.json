@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 39.51310470915769,
+  "cash": 74.13416250587693,
   "positions": [
     {
       "symbol": "AGNC",
@@ -13,42 +13,6 @@
       "previousClose": 10.255
     },
     {
-      "symbol": "PLTR",
-      "shares": 8.625229768399615,
-      "avgCost": 132.51,
-      "currentPrice": 152.17,
-      "type": "stock",
-      "boughtAt": "2026-05-28",
-      "previousClose": 153.49
-    },
-    {
-      "symbol": "TQQQ",
-      "shares": 17.651501979868893,
-      "avgCost": 83.68,
-      "currentPrice": 87.22,
-      "type": "etf",
-      "boughtAt": "2026-05-29",
-      "previousClose": 86.77
-    },
-    {
-      "symbol": "XLK",
-      "shares": 7.892209396827465,
-      "avgCost": 191.02,
-      "currentPrice": 198.21,
-      "type": "etf",
-      "boughtAt": "2026-06-01",
-      "previousClose": 197.09
-    },
-    {
-      "symbol": "KVYO",
-      "shares": 75.87678175918562,
-      "avgCost": 18.36,
-      "currentPrice": 16.95,
-      "type": "stock",
-      "boughtAt": "2026-06-02",
-      "previousClose": 16.785
-    },
-    {
       "symbol": "ACHR",
       "shares": 203.66925630097194,
       "avgCost": 6.84,
@@ -58,22 +22,52 @@
       "previousClose": 6.72
     },
     {
-      "symbol": "DELL",
-      "shares": 2.989736700786866,
-      "avgCost": 465.96,
-      "currentPrice": 435.31,
+      "symbol": "LITE",
+      "shares": 1.3256375851545348,
+      "avgCost": 1029.15,
+      "currentPrice": 1029.15,
       "type": "stock",
-      "boughtAt": "2026-06-02",
-      "previousClose": 443.46
+      "boughtAt": "2026-06-03"
     },
     {
-      "symbol": "EEM",
-      "shares": 22.087419347708142,
-      "avgCost": 70.08,
-      "currentPrice": 70.8,
+      "symbol": "SIMO",
+      "shares": 4.528429384810268,
+      "avgCost": 301.27,
+      "currentPrice": 301.27,
+      "type": "stock",
+      "boughtAt": "2026-06-03"
+    },
+    {
+      "symbol": "FN",
+      "shares": 1.9458856966264773,
+      "avgCost": 701.11,
+      "currentPrice": 701.11,
+      "type": "stock",
+      "boughtAt": "2026-06-03"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 5.691899138721128,
+      "avgCost": 266.32,
+      "currentPrice": 266.32,
       "type": "etf",
-      "boughtAt": "2026-06-02",
-      "previousClose": 70.59
+      "boughtAt": "2026-06-03"
+    },
+    {
+      "symbol": "IWM",
+      "shares": 5.197375638154737,
+      "avgCost": 291.66,
+      "currentPrice": 291.66,
+      "type": "etf",
+      "boughtAt": "2026-06-03"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 24.302089158241216,
+      "avgCost": 57.96,
+      "currentPrice": 57.96,
+      "type": "etf",
+      "boughtAt": "2026-06-03"
     }
   ],
   "trades": [
@@ -489,6 +483,120 @@
       "price": 10.23,
       "total": 122.33,
       "reason": "Rebalance: 8.8% drift"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 8.6252,
+      "price": 152.17,
+      "total": 1312.5,
+      "realizedPnL": 169.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 17.6515,
+      "price": 87.22,
+      "total": 1539.56,
+      "realizedPnL": 62.49,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "XLK",
+      "action": "SELL",
+      "shares": 7.8922,
+      "price": 198.21,
+      "total": 1564.31,
+      "realizedPnL": 56.74,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "KVYO",
+      "action": "SELL",
+      "shares": 75.8768,
+      "price": 16.95,
+      "total": 1286.11,
+      "realizedPnL": -106.99,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "DELL",
+      "action": "SELL",
+      "shares": 2.9897,
+      "price": 435.31,
+      "total": 1301.46,
+      "realizedPnL": -91.64,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "EEM",
+      "action": "SELL",
+      "shares": 22.0874,
+      "price": 70.8,
+      "total": 1563.79,
+      "realizedPnL": 15.9,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "LITE",
+      "action": "BUY",
+      "shares": 1.3256,
+      "price": 1029.15,
+      "total": 1364.28,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "SIMO",
+      "action": "BUY",
+      "shares": 4.5284,
+      "price": 301.27,
+      "total": 1364.28,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "FN",
+      "action": "BUY",
+      "shares": 1.9459,
+      "price": 701.11,
+      "total": 1364.28,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 5.6919,
+      "price": 266.32,
+      "total": 1515.87,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 5.1974,
+      "price": 291.66,
+      "total": 1515.87,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-03",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 24.3021,
+      "price": 57.96,
+      "total": 1408.55,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -652,6 +760,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-03",
+      "totalValue": 11369,
+      "cash": 74.13,
+      "positionsValue": 11294.87,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
