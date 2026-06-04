@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 74.13416250587693,
+  "cash": 76.2838577789662,
   "positions": [
     {
       "symbol": "AGNC",
@@ -22,33 +22,6 @@
       "previousClose": 6.455
     },
     {
-      "symbol": "LITE",
-      "shares": 1.3256375851545348,
-      "avgCost": 1029.15,
-      "currentPrice": 938,
-      "type": "stock",
-      "boughtAt": "2026-06-03",
-      "previousClose": 943.325
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.528429384810268,
-      "avgCost": 301.27,
-      "currentPrice": 306.57,
-      "type": "stock",
-      "boughtAt": "2026-06-03",
-      "previousClose": 307
-    },
-    {
-      "symbol": "FN",
-      "shares": 1.9458856966264773,
-      "avgCost": 701.11,
-      "currentPrice": 725,
-      "type": "stock",
-      "boughtAt": "2026-06-03",
-      "previousClose": 711.87
-    },
-    {
       "symbol": "SOXL",
       "shares": 5.691899138721128,
       "avgCost": 266.32,
@@ -58,15 +31,6 @@
       "previousClose": 276.61
     },
     {
-      "symbol": "IWM",
-      "shares": 5.197375638154737,
-      "avgCost": 291.66,
-      "currentPrice": 287.67,
-      "type": "etf",
-      "boughtAt": "2026-06-03",
-      "previousClose": 287.06
-    },
-    {
       "symbol": "XLE",
       "shares": 24.302089158241216,
       "avgCost": 57.96,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-06-03",
       "previousClose": 59.135
+    },
+    {
+      "symbol": "DELL",
+      "shares": 3.23460453926804,
+      "avgCost": 421.08,
+      "currentPrice": 421.08,
+      "type": "stock",
+      "boughtAt": "2026-06-04"
+    },
+    {
+      "symbol": "STRL",
+      "shares": 1.423181383441466,
+      "avgCost": 957.03,
+      "currentPrice": 957.03,
+      "type": "stock",
+      "boughtAt": "2026-06-04"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 9.578250909950677,
+      "avgCost": 142.2,
+      "currentPrice": 142.2,
+      "type": "stock",
+      "boughtAt": "2026-06-04"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 11.163778000464903,
+      "avgCost": 129.83,
+      "currentPrice": 129.83,
+      "type": "etf",
+      "boughtAt": "2026-06-04"
     }
   ],
   "trades": [
@@ -603,6 +599,82 @@
       "price": 57.96,
       "total": 1408.55,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "LITE",
+      "action": "SELL",
+      "shares": 1.3256,
+      "price": 938,
+      "total": 1243.45,
+      "realizedPnL": -120.83,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.5284,
+      "price": 306.57,
+      "total": 1388.28,
+      "realizedPnL": 24,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "FN",
+      "action": "SELL",
+      "shares": 1.9459,
+      "price": 725,
+      "total": 1410.77,
+      "realizedPnL": 46.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 5.1974,
+      "price": 287.67,
+      "total": 1495.13,
+      "realizedPnL": -20.74,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "DELL",
+      "action": "BUY",
+      "shares": 3.2346,
+      "price": 421.08,
+      "total": 1362.03,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "STRL",
+      "action": "BUY",
+      "shares": 1.4232,
+      "price": 957.03,
+      "total": 1362.03,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 9.5783,
+      "price": 142.2,
+      "total": 1362.03,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-04",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 11.1638,
+      "price": 129.83,
+      "total": 1449.39,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -775,6 +847,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-04",
+      "totalValue": 11350.23,
+      "cash": 76.28,
+      "positionsValue": 11273.94,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }

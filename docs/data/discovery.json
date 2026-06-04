@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-03T12:19:09.326Z",
+  "date": "2026-06-04T10:47:11.136Z",
   "stocks": [
     {
-      "symbol": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "price": 1029.15,
-      "dayChangePct": 13.7182,
-      "marketCap": 80067870720,
+      "symbol": "DELL",
+      "name": "Dell Technologies Inc.",
+      "price": 421.08,
+      "dayChangePct": -3.26894,
+      "marketCap": 273520197632,
       "sector": "Technology",
-      "industry": "Communication Equipment",
-      "pe": 181.82863,
-      "forwardPE": 56.857014,
-      "eps": 5.66,
-      "forwardEps": 18.10067,
-      "pegRatio": 0.63,
-      "beta": 1.533,
-      "priceToBook": 86.79683,
-      "dividendYield": 0,
-      "revenueGrowth": 0.901,
-      "earningsGrowth": 0,
-      "profitMargins": 0.17678,
-      "grossMargins": 0.40837002,
-      "operatingMargins": 0.21771,
-      "debtToEquity": 111.445,
-      "returnOnEquity": 0.22834998,
-      "freeCashflow": 93350000,
-      "totalRevenue": 2488399872,
-      "ebitda": 508800000,
+      "industry": "Computer Hardware",
+      "pe": 48.56747,
+      "forwardPE": 19.738478,
+      "eps": 8.67,
+      "forwardEps": 21.33295,
+      "pegRatio": 0.71,
+      "beta": 1.062,
+      "priceToBook": 0,
+      "dividendYield": 0.006,
+      "revenueGrowth": 0.875,
+      "earningsGrowth": 2.825,
+      "profitMargins": 0.062750004,
+      "grossMargins": 0.19173999,
+      "operatingMargins": 0.08339,
+      "debtToEquity": 0,
+      "returnOnEquity": 0,
+      "freeCashflow": -128125000,
+      "totalRevenue": 134001999872,
+      "ebitda": 13918999552,
       "zacks": {
         "rank": 1,
         "label": "Strong Buy"
       },
-      "targetMean": 1104.6777,
-      "targetHigh": 1400,
-      "targetLow": 600,
-      "strongBuy": 4,
-      "buy": 15,
-      "hold": 5,
+      "targetMean": 483.82608,
+      "targetHigh": 700,
+      "targetLow": 213,
+      "strongBuy": 5,
+      "buy": 14,
+      "hold": 8,
       "sell": 0,
       "strongSell": 0,
-      "earningsDate": "2026-05-05T20:00:00.000Z",
-      "analysis": "Lumentum Holdings Inc. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 19 Buy vs 0 Sell. Target: $1105 (+7.3%). Revenue: 90% YoY. EPS: $5.66. P/E: 181.8. Finviz: Buy (1.5). MarketBeat: Strong Buy. Earnings: May 5.",
-      "source": "day_gainers"
+      "earningsDate": "2026-09-03T20:00:00.000Z",
+      "analysis": "Dell Technologies Inc. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 19 Buy vs 0 Sell. Target: $484 (+14.9%). Revenue: 88% YoY. EPS: $8.67. P/E: 48.6. Finviz: Buy (1.8). MarketBeat: Moderate Buy. Earnings: Sep 3.",
+      "source": "growth_technology_stocks"
     },
     {
-      "symbol": "SIMO",
-      "name": "Silicon Motion Technology Corpo",
-      "price": 301.27,
-      "dayChangePct": 12.3932,
-      "marketCap": 10215413760,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "pe": 59.539524,
-      "forwardPE": 31.151188,
-      "eps": 5.06,
-      "forwardEps": 9.67122,
-      "pegRatio": 0.7,
-      "beta": 1.668,
-      "priceToBook": 11.197546,
-      "dividendYield": 0.0066000004,
-      "revenueGrowth": 1.055,
-      "earningsGrowth": 2.387,
-      "profitMargins": 0.16016,
-      "grossMargins": 0.48095,
-      "operatingMargins": 0.1526,
-      "debtToEquity": 0,
-      "returnOnEquity": 0.20253,
-      "freeCashflow": -125356128,
-      "totalRevenue": 1061240000,
-      "ebitda": 167378000,
+      "symbol": "STRL",
+      "name": "Sterling Infrastructure, Inc.",
+      "price": 957.03,
+      "dayChangePct": 9.3099,
+      "marketCap": 29367379968,
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "pe": 85.44911,
+      "forwardPE": 41.812244,
+      "eps": 11.2,
+      "forwardEps": 22.88875,
+      "pegRatio": 1.64,
+      "beta": 1.639,
+      "priceToBook": 26.489246,
+      "dividendYield": 0,
+      "revenueGrowth": 0.916,
+      "earningsGrowth": 1.414,
+      "profitMargins": 0.12016,
+      "grossMargins": 0.23287001,
+      "operatingMargins": 0.17163,
+      "debtToEquity": 28.628,
+      "returnOnEquity": 0.36683,
+      "freeCashflow": 346893376,
+      "totalRevenue": 2884774912,
+      "ebitda": 580780032,
       "zacks": {
         "rank": 1,
         "label": "Strong Buy"
       },
-      "targetMean": 256.7,
-      "targetHigh": 450,
-      "targetLow": 145,
-      "strongBuy": 3,
+      "targetMean": 938.1667,
+      "targetHigh": 1000,
+      "targetLow": 884,
+      "strongBuy": 0,
       "buy": 7,
-      "hold": 1,
+      "hold": 0,
       "sell": 0,
       "strongSell": 0,
-      "earningsDate": "2026-04-28T20:00:00.000Z",
-      "analysis": "Silicon Motion Technology Corporation, together with its subsidiaries, designs, develops, and markets NAND flash controllers for s. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 10 Buy vs 0 Sell. Target: $257 (-14.8%). Revenue: 106% YoY. EPS: $5.06. P/E: 59.5. Finviz: Strong Buy (1.0). MarketBeat: Strong Buy. Earnings: Apr 28.",
+      "earningsDate": "2026-08-03T20:00:00.000Z",
+      "analysis": "Sterling Infrastructure, Inc. Sector: Industrials. Zacks #1 (Strong Buy). Analysts: 7 Buy vs 0 Sell. Target: $938 (-2.0%). Revenue: 92% YoY. EPS: $11.20. P/E: 85.4. Finviz: Strong Buy (1.2). MarketBeat: Strong Buy. Earnings: Aug 3.",
       "source": "day_gainers"
     },
     {
       "symbol": "ACHR",
       "name": "Archer Aviation Inc.",
-      "price": 6.74,
-      "dayChangePct": -1.46199,
-      "marketCap": 5141709312,
+      "price": 6.53,
+      "dayChangePct": -3.11572,
+      "marketCap": 4981508096,
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "pe": 0,
-      "forwardPE": -7.1130056,
+      "forwardPE": -6.891384,
       "eps": -1.1,
       "forwardEps": -0.94756,
       "pegRatio": 0,
       "beta": 3.131,
-      "priceToBook": 2.456268,
+      "priceToBook": 2.3797376,
       "dividendYield": 0,
       "revenueGrowth": 0,
       "earningsGrowth": 0,
@@ -124,25 +124,67 @@
       "sell": 0,
       "strongSell": 0,
       "earningsDate": "2026-08-10T20:00:00.000Z",
-      "analysis": "Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services for comm. Sector: Industrials. Zacks #2 (Buy). Analysts: 6 Buy vs 0 Sell. Target: $11 (+57.4%). EPS: $-1.10. Finviz: Buy (1.6). MarketBeat: Moderate Buy. Earnings: Aug 10.",
+      "analysis": "Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services for comm. Sector: Industrials. Zacks #2 (Buy). Analysts: 6 Buy vs 0 Sell. Target: $11 (+62.5%). EPS: $-1.10. Finviz: Buy (1.6). MarketBeat: Moderate Buy. Earnings: Aug 10.",
       "source": "most_actives"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "price": 142.2,
+      "dayChangePct": -6.55188,
+      "marketCap": 340897759232,
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "pe": 158,
+      "forwardPE": 68.55391,
+      "eps": 0.9,
+      "forwardEps": 2.07428,
+      "pegRatio": 2.18,
+      "beta": 1.521,
+      "priceToBook": 40.340424,
+      "dividendYield": 0,
+      "revenueGrowth": 0.847,
+      "earningsGrowth": 3.25,
+      "profitMargins": 0.43673,
+      "grossMargins": 0.84073997,
+      "operatingMargins": 0.46183997,
+      "debtToEquity": 2.477,
+      "returnOnEquity": 0.32587,
+      "freeCashflow": 1752997120,
+      "totalRevenue": 5224174080,
+      "ebitda": 2018253056,
+      "zacks": {
+        "rank": 2,
+        "label": "Buy"
+      },
+      "targetMean": 183.7289,
+      "targetHigh": 255,
+      "targetLow": 70,
+      "strongBuy": 1,
+      "buy": 18,
+      "hold": 10,
+      "sell": 1,
+      "strongSell": 1,
+      "earningsDate": "2026-08-03T20:00:00.000Z",
+      "analysis": "Palantir Technologies Inc. Sector: Technology. Zacks #2 (Buy). Analysts: 19 Buy vs 2 Sell. Target: $184 (+29.2%). Revenue: 85% YoY. EPS: $0.90. P/E: 158.0. Finviz: Buy (2.0). MarketBeat: Strong Buy. Earnings: Aug 3.",
+      "source": "growth_technology_stocks"
     },
     {
       "symbol": "AGNC",
       "name": "AGNC Investment Corp.",
-      "price": 10.2,
-      "dayChangePct": -0.293253,
-      "marketCap": 11708877824,
+      "price": 10.17,
+      "dayChangePct": -0.294115,
+      "marketCap": 11674440704,
       "sector": "Real Estate",
       "industry": "REIT - Mortgage",
-      "pe": 7.96875,
-      "forwardPE": 6.7391677,
+      "pe": 7.9453125,
+      "forwardPE": 6.7193465,
       "eps": 1.28,
       "forwardEps": 1.51354,
       "pegRatio": 3.48,
       "beta": 1.335,
-      "priceToBook": 1.146325,
-      "dividendYield": 0.1412,
+      "priceToBook": 1.1429535,
+      "dividendYield": 0.1416,
       "revenueGrowth": 0,
       "earningsGrowth": 0,
       "profitMargins": 0.91713,
@@ -166,67 +208,25 @@
       "sell": 0,
       "strongSell": 0,
       "earningsDate": "2026-07-20T20:00:00.000Z",
-      "analysis": "AGNC Investment Corp. Sector: Real Estate. Zacks #2 (Buy). Analysts: 5 Buy vs 0 Sell. Target: $11 (+12.2%). EPS: $1.28. P/E: 8.0. Finviz: Buy (2.3). MarketBeat: Strong Buy. Earnings: Jul 20.",
+      "analysis": "AGNC Investment Corp. Sector: Real Estate. Zacks #2 (Buy). Analysts: 5 Buy vs 0 Sell. Target: $11 (+12.5%). EPS: $1.28. P/E: 7.9. Finviz: Buy (2.3). MarketBeat: Strong Buy. Earnings: Jul 20.",
       "source": "undervalued_large_caps"
-    },
-    {
-      "symbol": "FN",
-      "name": "Fabrinet",
-      "price": 701.11,
-      "dayChangePct": 12.6534,
-      "marketCap": 25120587776,
-      "sector": "Technology",
-      "industry": "Electronic Components",
-      "pe": 60.232815,
-      "forwardPE": 40.60209,
-      "eps": 11.64,
-      "forwardEps": 17.26783,
-      "pegRatio": 0,
-      "beta": 1.217,
-      "priceToBook": 10.899495,
-      "dividendYield": 0,
-      "revenueGrowth": 0.393,
-      "earningsGrowth": 0.533,
-      "profitMargins": 0.0994,
-      "grossMargins": 0.12037,
-      "operatingMargins": 0.098859996,
-      "debtToEquity": 0.192,
-      "returnOnEquity": 0.1999,
-      "freeCashflow": -79178376,
-      "totalRevenue": 4235001088,
-      "ebitda": 479712000,
-      "zacks": {
-        "rank": 2,
-        "label": "Buy"
-      },
-      "targetMean": 749.1111,
-      "targetHigh": 850,
-      "targetLow": 635,
-      "strongBuy": 3,
-      "buy": 4,
-      "hold": 2,
-      "sell": 0,
-      "strongSell": 0,
-      "earningsDate": "2026-05-04T20:00:00.000Z",
-      "analysis": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North Amer. Sector: Technology. Zacks #2 (Buy). Analysts: 7 Buy vs 0 Sell. Target: $749 (+6.8%). Revenue: 39% YoY. EPS: $11.64. P/E: 60.2. Finviz: Buy (1.8). MarketBeat: Moderate Buy. Earnings: May 4.",
-      "source": "day_gainers"
     },
     {
       "symbol": "CNQ",
       "name": "Canadian Natural Resources Limi",
-      "price": 47.21,
-      "dayChangePct": 2.71976,
-      "marketCap": 98466365440,
+      "price": 47.69,
+      "dayChangePct": 1.01673,
+      "marketCap": 99467501568,
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "pe": 11.8025,
-      "forwardPE": 9.273773,
-      "eps": 4,
-      "forwardEps": 3.6776743,
+      "pe": 11.804455,
+      "forwardPE": 9.368063,
+      "eps": 4.04,
+      "forwardEps": 3.6767073,
       "pegRatio": 3.42,
       "beta": 0.913,
-      "priceToBook": 3.043669,
-      "dividendYield": 0.0387,
+      "priceToBook": 3.074615,
+      "dividendYield": 0.0383,
       "revenueGrowth": -0.012,
       "earningsGrowth": -0.453,
       "profitMargins": 0.25134,
@@ -241,117 +241,75 @@
         "rank": 2,
         "label": "Buy"
       },
-      "targetMean": 45.73837,
-      "targetHigh": 52.567802,
-      "targetLow": 40.84886,
+      "targetMean": 45.60146,
+      "targetHigh": 52.41045,
+      "targetLow": 40.72659,
       "strongBuy": 4,
       "buy": 7,
       "hold": 10,
       "sell": 0,
       "strongSell": 1,
       "earningsDate": "2026-08-06T12:30:00.000Z",
-      "analysis": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude . Sector: Energy. Zacks #2 (Buy). Analysts: 11 Buy vs 1 Sell. Target: $46 (-3.1%). Revenue: -1% YoY. EPS: $4.00. P/E: 11.8. Finviz: Buy (2.1). MarketBeat: Moderate Buy. Earnings: Aug 6.",
+      "analysis": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude . Sector: Energy. Zacks #2 (Buy). Analysts: 11 Buy vs 1 Sell. Target: $46 (-4.4%). Revenue: -1% YoY. EPS: $4.04. P/E: 11.8. Finviz: Buy (2.1). MarketBeat: Moderate Buy. Earnings: Aug 6.",
       "source": "undervalued_large_caps"
     },
     {
-      "symbol": "TE",
-      "name": "T1 Energy Inc.",
-      "price": 12.04,
-      "dayChangePct": 15.658,
-      "marketCap": 3362427648,
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "pe": 0,
-      "forwardPE": 31.684212,
-      "eps": -1.87,
-      "forwardEps": 0.38,
-      "pegRatio": 0,
-      "beta": 1.779,
-      "priceToBook": 12.808511,
+      "symbol": "SOLV",
+      "name": "Solventum Corporation",
+      "price": 78.36,
+      "dayChangePct": 2.52519,
+      "marketCap": 13569971200,
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "pe": 9.5911875,
+      "forwardPE": 11.129006,
+      "eps": 8.17,
+      "forwardEps": 7.04106,
+      "pegRatio": 1.22,
+      "beta": 0.655,
+      "priceToBook": 2.6925986,
       "dividendYield": 0,
-      "revenueGrowth": 2.323,
-      "earningsGrowth": 0,
-      "profitMargins": -0.42299,
-      "grossMargins": 0.07605,
-      "operatingMargins": -0.12668,
-      "debtToEquity": 177.803,
-      "returnOnEquity": -1.11059,
-      "freeCashflow": -42172752,
-      "totalRevenue": 879489984,
-      "ebitda": -72919000,
+      "revenueGrowth": -0.03,
+      "earningsGrowth": -0.91,
+      "profitMargins": 0.17332001,
+      "grossMargins": 0.53655,
+      "operatingMargins": 0.0558,
+      "debtToEquity": 106.46,
+      "returnOnEquity": 0.34794998,
+      "freeCashflow": 378500000,
+      "totalRevenue": 8262000128,
+      "ebitda": 1124000000,
       "zacks": {
         "rank": 2,
         "label": "Buy"
       },
-      "targetMean": 9.1,
-      "targetHigh": 11,
-      "targetLow": 8,
+      "targetMean": 82.15385,
+      "targetHigh": 100,
+      "targetLow": 60,
       "strongBuy": 1,
-      "buy": 4,
-      "hold": 0,
-      "sell": 0,
+      "buy": 6,
+      "hold": 6,
+      "sell": 2,
       "strongSell": 0,
-      "earningsDate": "2026-05-12T12:30:00.000Z",
-      "analysis": "T1 Energy Inc. Sector: Industrials. Zacks #2 (Buy). Analysts: 5 Buy vs 0 Sell. Target: $9 (-24.4%). Revenue: 232% YoY. EPS: $-1.87. Finviz: Strong Buy (1.0). MarketBeat: Moderate Buy. Earnings: May 12.",
-      "source": "day_gainers"
-    },
-    {
-      "symbol": "AEHR",
-      "name": "Aehr Test Systems",
-      "price": 113,
-      "dayChangePct": 20.7007,
-      "marketCap": 3554217728,
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "pe": 0,
-      "forwardPE": 753.3333,
-      "eps": -0.38,
-      "forwardEps": 0.15,
-      "pegRatio": 0.9,
-      "beta": 3.271,
-      "priceToBook": 25.200712,
-      "dividendYield": 0,
-      "revenueGrowth": -0.437,
-      "earningsGrowth": 0,
-      "profitMargins": -0.25226,
-      "grossMargins": 0.30724,
-      "operatingMargins": -0.41006002,
-      "debtToEquity": 7.223,
-      "returnOnEquity": -0.08681,
-      "freeCashflow": -7451625,
-      "totalRevenue": 45255000,
-      "ebitda": -11928000,
-      "zacks": {
-        "rank": 2,
-        "label": "Buy"
-      },
-      "targetMean": 63.66667,
-      "targetHigh": 68,
-      "targetLow": 56,
-      "strongBuy": 0,
-      "buy": 3,
-      "hold": 1,
-      "sell": 0,
-      "strongSell": 0,
-      "earningsDate": "2026-04-07T20:00:00.000Z",
-      "analysis": "Aehr Test Systems, Inc. Sector: Technology. Zacks #2 (Buy). Analysts: 3 Buy vs 0 Sell. Target: $64 (-43.7%). Revenue: -44% YoY. EPS: $-0.38. Finviz: Buy (1.8). MarketBeat: Strong Buy. Earnings: Apr 7.",
-      "source": "day_gainers"
+      "earningsDate": "2026-05-05T20:00:00.000Z",
+      "analysis": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critic. Sector: Healthcare. Zacks #2 (Buy). Analysts: 7 Buy vs 2 Sell. Target: $82 (+4.8%). Revenue: -3% YoY. EPS: $8.17. P/E: 9.6. Finviz: Buy (2.3). MarketBeat: Moderate Buy. Earnings: May 5.",
+      "source": "undervalued_large_caps"
     },
     {
       "symbol": "PLUG",
       "name": "Plug Power, Inc.",
-      "price": 4.09,
-      "dayChangePct": 3.80711,
-      "marketCap": 5705832448,
+      "price": 3.69,
+      "dayChangePct": -9.77995,
+      "marketCap": 5147804672,
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
       "pe": 0,
-      "forwardPE": -24.895004,
+      "forwardPE": -22.460285,
       "eps": -1.39,
       "forwardEps": -0.16429,
       "pegRatio": 0.84,
       "beta": 2.065,
-      "priceToBook": 7.602231,
+      "priceToBook": 6.8587365,
       "dividendYield": 0,
       "revenueGrowth": 0.223,
       "earningsGrowth": 0,
@@ -376,24 +334,24 @@
       "sell": 3,
       "strongSell": 0,
       "earningsDate": "2026-08-10T20:00:00.000Z",
-      "analysis": "Plug Power Inc. Sector: Industrials. Zacks #2 (Buy). Analysts: 5 Buy vs 3 Sell. Target: $4 (-11.6%). Revenue: 22% YoY. EPS: $-1.39. Finviz: Hold (2.7). MarketBeat: Strong Buy. Earnings: Aug 10.",
+      "analysis": "Plug Power Inc. Sector: Industrials. Zacks #2 (Buy). Analysts: 5 Buy vs 3 Sell. Target: $4 (-2.0%). Revenue: 22% YoY. EPS: $-1.39. Finviz: Hold (2.7). MarketBeat: Strong Buy. Earnings: Aug 10.",
       "source": "most_actives"
     },
     {
       "symbol": "BB",
       "name": "BlackBerry Limited",
-      "price": 10.32,
-      "dayChangePct": 6.17283,
-      "marketCap": 6048153088,
+      "price": 10.18,
+      "dayChangePct": -1.35658,
+      "marketCap": 5966105088,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "pe": 114.66666,
-      "forwardPE": 51.23368,
+      "pe": 113.11111,
+      "forwardPE": 50.53865,
       "eps": 0.09,
       "forwardEps": 0.20143,
       "pegRatio": 1.69,
       "beta": 1.465,
-      "priceToBook": 8.125984,
+      "priceToBook": 8.015748,
       "dividendYield": 0,
       "revenueGrowth": 0.101,
       "earningsGrowth": 0,
@@ -418,17 +376,59 @@
       "sell": 1,
       "strongSell": 0,
       "earningsDate": "2026-06-25T20:00:00.000Z",
-      "analysis": "BlackBerry Limited provides intelligent software and services to enterprises and governments worldwide. Sector: Technology. Zacks #2 (Buy). Analysts: 1 Buy vs 1 Sell. Target: $5 (-50.0%). Revenue: 10% YoY. EPS: $0.09. P/E: 114.7. Finviz: Hold (2.8). MarketBeat: Buy. Earnings: Jun 25.",
+      "analysis": "BlackBerry Limited provides intelligent software and services to enterprises and governments worldwide. Sector: Technology. Zacks #2 (Buy). Analysts: 1 Buy vs 1 Sell. Target: $5 (-49.3%). Revenue: 10% YoY. EPS: $0.09. P/E: 113.1. Finviz: Hold (2.8). MarketBeat: Buy. Earnings: Jun 25.",
       "source": "most_actives"
+    },
+    {
+      "symbol": "EC",
+      "name": "Ecopetrol S.A.",
+      "price": 15.58,
+      "dayChangePct": -2.50313,
+      "marketCap": 32029904896,
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "pe": 11.714285,
+      "forwardPE": 9.731174,
+      "eps": 1.33,
+      "forwardEps": 1.59979,
+      "pegRatio": 0.77,
+      "beta": -0.043,
+      "priceToBook": 0.007936642,
+      "dividendYield": 0.0417,
+      "revenueGrowth": -0.087,
+      "earningsGrowth": -0.077,
+      "profitMargins": 0.07515,
+      "grossMargins": 0.33897,
+      "operatingMargins": 0,
+      "debtToEquity": 103.173,
+      "returnOnEquity": 0.12037,
+      "freeCashflow": 8922439090176,
+      "totalRevenue": 0,
+      "ebitda": 43172000432128,
+      "zacks": {
+        "rank": 2,
+        "label": "Buy"
+      },
+      "targetMean": 12.70909,
+      "targetHigh": 14.5,
+      "targetLow": 9,
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 6,
+      "sell": 3,
+      "strongSell": 1,
+      "earningsDate": "2026-05-12T20:00:00.000Z",
+      "analysis": "Ecopetrol S.A. Sector: Energy. Zacks #2 (Buy). Analysts: 1 Buy vs 4 Sell. Target: $13 (-18.4%). Revenue: -9% YoY. EPS: $1.33. P/E: 11.7. Finviz: Hold (3.5). MarketBeat: Buy. Earnings: May 12.",
+      "source": "undervalued_large_caps"
     }
   ],
   "etfs": [
     {
       "symbol": "SOXL",
       "name": "Direxion Daily Semiconductor Bu",
-      "price": 266.32,
-      "dayChangePct": 17.3061,
-      "fiftyTwoWeekChangePct": 1295.0759,
+      "price": 280.54,
+      "dayChangePct": 5.33944,
+      "fiftyTwoWeekChangePct": 1315.8427,
       "category": "Trading--Leveraged Equity",
       "fundFamily": "Direxion Funds",
       "legalType": "Exchange Traded Fund",
@@ -481,154 +481,14 @@
         "treynor": null
       },
       "zacks": null,
-      "analysis": "Direxion Daily Semiconductor Bu (Trading--Leveraged Equity). By Direxion Funds. 52wk: +1295.1%. Yield: 0.06%. ER: 0.75%. AUM: $17.3B. Top: Advanced Micro Devices Inc, Broadcom Inc, Micron Technology Inc. $266.32 (+17.3% today)."
-    },
-    {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 Index Fund",
-      "price": 291.66,
-      "dayChangePct": 0.927397,
-      "fiftyTwoWeekChangePct": 39.92516,
-      "category": "Small Blend",
-      "fundFamily": "iShares",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0019,
-      "yield": 0.0091,
-      "totalAssets": 76877807616,
-      "beta": 1.3,
-      "holdings": [
-        {
-          "symbol": "BE",
-          "name": "Bloom Energy Corp Class A",
-          "pct": 0.018810399
-        },
-        {
-          "symbol": "CRDO",
-          "name": "Credo Technology Group Holding Ltd",
-          "pct": 0.008531201
-        },
-        {
-          "symbol": "FN",
-          "name": "Fabrinet",
-          "pct": 0.0075033996
-        },
-        {
-          "symbol": "CDE",
-          "name": "Coeur Mining Inc",
-          "pct": 0.0055734003
-        },
-        {
-          "symbol": "NXT",
-          "name": "Nextpower Inc Class A",
-          "pct": 0.0052758995
-        },
-        {
-          "symbol": "SATS",
-          "name": "EchoStar Corp Class A",
-          "pct": 0.0050694
-        },
-        {
-          "symbol": "TTMI",
-          "name": "TTM Technologies Inc",
-          "pct": 0.0049211998
-        },
-        {
-          "symbol": "IONQ",
-          "name": "IonQ Inc Class A",
-          "pct": 0.0047299997
-        },
-        {
-          "symbol": "STRL",
-          "name": "Sterling Infrastructure Inc",
-          "pct": 0.0046721
-        },
-        {
-          "symbol": "AEIS",
-          "name": "Advanced Energy Industries Inc",
-          "pct": 0.0043964
-        }
-      ],
-      "topHoldings": [
-        "Bloom Energy Corp Class A",
-        "Credo Technology Group Holding Ltd",
-        "Fabrinet",
-        "Coeur Mining Inc",
-        "Nextpower Inc Class A"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "industrials",
-          "pct": 0.1768
-        },
-        {
-          "sector": "technology",
-          "pct": 0.1708
-        },
-        {
-          "sector": "healthcare",
-          "pct": 0.1649
-        },
-        {
-          "sector": "financial services",
-          "pct": 0.15689999
-        },
-        {
-          "sector": "consumer cyclical",
-          "pct": 0.0841
-        },
-        {
-          "sector": "realestate",
-          "pct": 0.060900003
-        },
-        {
-          "sector": "energy",
-          "pct": 0.060700003
-        },
-        {
-          "sector": "basic materials",
-          "pct": 0.0478
-        },
-        {
-          "sector": "utilities",
-          "pct": 0.028900001
-        },
-        {
-          "sector": "communication services",
-          "pct": 0.024500001
-        },
-        {
-          "sector": "consumer defensive",
-          "pct": 0.0239
-        }
-      ],
-      "returns": {
-        "ytd": 0.1316127,
-        "oneMonth": 0.1219868,
-        "threeMonth": 0.0740948,
-        "oneYear": 0.4420099,
-        "threeYear": 0.18016452,
-        "fiveYear": 0.0562157
-      },
-      "risk": {
-        "alpha": -6.8,
-        "beta": 1.3,
-        "sharpe": 0.68,
-        "stdDev": 20.29,
-        "rSquared": 71.16,
-        "treynor": 10.09
-      },
-      "zacks": {
-        "rank": 2,
-        "label": "Buy"
-      },
-      "analysis": "iShares Russell 2000 Index Fund (Small Blend). By iShares. 52wk: +39.9%. YTD: 13.2%. Yield: 0.91%. ER: 0.19%. AUM: $76.9B. Sharpe: 0.68. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, Credo Technology Group Holding Ltd, Fabrinet. $291.66 (+0.9% today)."
+      "analysis": "Direxion Daily Semiconductor Bu (Trading--Leveraged Equity). By Direxion Funds. 52wk: +1315.8%. Yield: 0.06%. ER: 0.75%. AUM: $17.3B. Top: Advanced Micro Devices Inc, Broadcom Inc, Micron Technology Inc. $280.54 (+5.3% today)."
     },
     {
       "symbol": "XLE",
       "name": "State Street Energy Select Sect",
-      "price": 57.96,
-      "dayChangePct": 1.15183,
-      "fiftyTwoWeekChangePct": 41.45211,
+      "price": 58.71,
+      "dayChangePct": 1.294,
+      "fiftyTwoWeekChangePct": 41.59032,
       "category": "Equity Energy",
       "fundFamily": "State Street Investment Management",
       "legalType": "Exchange Traded Fund",
@@ -721,14 +581,118 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "State Street Energy Select Sect (Equity Energy). By State Street Investment Management. 52wk: +41.5%. YTD: 34.2%. Yield: 2.50%. ER: 0.08%. AUM: $41.4B. Sharpe: 0.59. Zacks #1 (Strong Buy). Top: Exxon Mobil Corp, Chevron Corp, ConocoPhillips. $57.96 (+1.2% today)."
+      "analysis": "State Street Energy Select Sect (Equity Energy). By State Street Investment Management. 52wk: +41.6%. YTD: 34.2%. Yield: 2.50%. ER: 0.08%. AUM: $41.4B. Sharpe: 0.59. Zacks #1 (Strong Buy). Top: Exxon Mobil Corp, Chevron Corp, ConocoPhillips. $58.71 (+1.3% today)."
+    },
+    {
+      "symbol": "XBI",
+      "name": "State Street SPDR S&P Biotech E",
+      "price": 129.83,
+      "dayChangePct": 1.62023,
+      "fiftyTwoWeekChangePct": 54.74806,
+      "category": "Health",
+      "fundFamily": "State Street Investment Management",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.0034999999,
+      "yield": 0.0034,
+      "totalAssets": 8295757312,
+      "beta": 1.09,
+      "holdings": [
+        {
+          "symbol": "APLS",
+          "name": "Apellis Pharmaceuticals Inc",
+          "pct": 0.0186512
+        },
+        {
+          "symbol": "RVMD",
+          "name": "Revolution Medicines Inc Ordinary Shares",
+          "pct": 0.0164747
+        },
+        {
+          "symbol": "TVTX",
+          "name": "Travere Therapeutics Inc Ordinary Shares",
+          "pct": 0.016204601
+        },
+        {
+          "symbol": "ARWR",
+          "name": "Arrowhead Pharmaceuticals Inc",
+          "pct": 0.014397699
+        },
+        {
+          "symbol": "TWST",
+          "name": "Twist Bioscience Corp",
+          "pct": 0.0141993
+        },
+        {
+          "symbol": "SMMT",
+          "name": "Summit Therapeutics Inc Ordinary Shares",
+          "pct": 0.0140325
+        },
+        {
+          "symbol": "ALKS",
+          "name": "Alkermes PLC",
+          "pct": 0.0138196
+        },
+        {
+          "symbol": "TGTX",
+          "name": "TG Therapeutics Inc",
+          "pct": 0.013710001
+        },
+        {
+          "symbol": "MDGL",
+          "name": "Madrigal Pharmaceuticals Inc",
+          "pct": 0.013647701
+        },
+        {
+          "symbol": "BEAM",
+          "name": "Beam Therapeutics Inc",
+          "pct": 0.0132399
+        }
+      ],
+      "topHoldings": [
+        "Apellis Pharmaceuticals Inc",
+        "Revolution Medicines Inc Ordinary Shares",
+        "Travere Therapeutics Inc Ordinary Shares",
+        "Arrowhead Pharmaceuticals Inc",
+        "Twist Bioscience Corp"
+      ],
+      "sectorWeightings": [
+        {
+          "sector": "healthcare",
+          "pct": 0.998
+        },
+        {
+          "sector": "financial services",
+          "pct": 0.002
+        }
+      ],
+      "returns": {
+        "ytd": 0.076574996,
+        "oneMonth": 0.0284224,
+        "threeMonth": 0.052644502,
+        "oneYear": 0.5875201,
+        "threeYear": 0.1804443,
+        "fiveYear": -0.0069619
+      },
+      "risk": {
+        "alpha": -0.82,
+        "beta": 1.09,
+        "sharpe": 0.61,
+        "stdDev": 24.28,
+        "rSquared": 32.84,
+        "treynor": 12.08
+      },
+      "zacks": {
+        "rank": 3,
+        "label": "Hold"
+      },
+      "analysis": "State Street SPDR S&P Biotech E (Health). By State Street Investment Management. 52wk: +54.7%. YTD: 7.7%. Yield: 0.34%. ER: 0.35%. AUM: $8.3B. Sharpe: 0.61. Zacks #3 (Hold). Top: Apellis Pharmaceuticals Inc, Revolution Medicines Inc Ordinary Shares, Travere Therapeutics Inc Ordinary Shares. $129.83 (+1.6% today)."
     },
     {
       "symbol": "SMH",
       "name": "VanEck Semiconductor ETF",
-      "price": 632.21,
-      "dayChangePct": 4.01442,
-      "fiftyTwoWeekChangePct": 151.12613,
+      "price": 637.9,
+      "dayChangePct": 0.900018,
+      "fiftyTwoWeekChangePct": 151.5758,
       "category": "Technology",
       "fundFamily": "VanEck",
       "legalType": "Exchange Traded Fund",
@@ -821,14 +785,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "VanEck Semiconductor ETF (Technology). By VanEck. 52wk: +151.1%. YTD: 40.7%. Yield: 0.22%. ER: 0.35%. AUM: $58.8B. Sharpe: 1.58. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Taiwan Semiconductor Manufacturing Co Ltd ADR, Broadcom Inc. $632.21 (+4.0% today)."
+      "analysis": "VanEck Semiconductor ETF (Technology). By VanEck. 52wk: +151.6%. YTD: 40.7%. Yield: 0.22%. ER: 0.35%. AUM: $58.8B. Sharpe: 1.58. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Taiwan Semiconductor Manufacturing Co Ltd ADR, Broadcom Inc. $637.90 (+0.9% today)."
     },
     {
       "symbol": "SOXX",
       "name": "iShares PHLX SOX Semiconductor ",
-      "price": 605.02,
-      "dayChangePct": 5.78568,
-      "fiftyTwoWeekChangePct": 179.06825,
+      "price": 615.68,
+      "dayChangePct": 1.76192,
+      "fiftyTwoWeekChangePct": 180.24457,
       "category": "Technology",
       "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
@@ -921,378 +885,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "iShares PHLX SOX Semiconductor  (Technology). By iShares. 52wk: +179.1%. YTD: 53.4%. Yield: 0.36%. ER: 0.34%. AUM: $29.6B. Sharpe: 1.24. Zacks #1 (Strong Buy). Top: Advanced Micro Devices Inc, Broadcom Inc, Micron Technology Inc. $605.02 (+5.8% today)."
-    },
-    {
-      "symbol": "ICLN",
-      "name": "iShares Global Clean Energy ETF",
-      "price": 23.75,
-      "dayChangePct": 3.08159,
-      "fiftyTwoWeekChangePct": 85.40202,
-      "category": "Miscellaneous Sector",
-      "fundFamily": "iShares",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0039,
-      "yield": 0.012999999,
-      "totalAssets": 2502674688,
-      "beta": 1.26,
-      "holdings": [
-        {
-          "symbol": "BE",
-          "name": "Bloom Energy Corp Class A",
-          "pct": 0.13727629
-        },
-        {
-          "symbol": "NXT",
-          "name": "Nextpower Inc Class A",
-          "pct": 0.0727705
-        },
-        {
-          "symbol": "FSLR",
-          "name": "First Solar Inc",
-          "pct": 0.071502
-        },
-        {
-          "symbol": "600900.SS",
-          "name": "China Yangtze Power Co Ltd Class A",
-          "pct": 0.0588774
-        },
-        {
-          "symbol": "VWS.CO",
-          "name": "Vestas Wind Systems AS",
-          "pct": 0.0335126
-        },
-        {
-          "symbol": "PLUG",
-          "name": "Plug Power Inc",
-          "pct": 0.0327682
-        },
-        {
-          "symbol": "ENPH",
-          "name": "Enphase Energy Inc",
-          "pct": 0.0324491
-        },
-        {
-          "symbol": "EQTL3.SA",
-          "name": "Equatorial SA",
-          "pct": 0.0287076
-        },
-        {
-          "symbol": "SUZLON.BO",
-          "name": "Suzlon Energy Ltd",
-          "pct": 0.0236133
-        },
-        {
-          "symbol": "EDP.LS",
-          "name": "EDP-Energias De Portugal SA",
-          "pct": 0.023309901
-        }
-      ],
-      "topHoldings": [
-        "Bloom Energy Corp Class A",
-        "Nextpower Inc Class A",
-        "First Solar Inc",
-        "China Yangtze Power Co Ltd Class A",
-        "Vestas Wind Systems AS"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "utilities",
-          "pct": 0.36
-        },
-        {
-          "sector": "industrials",
-          "pct": 0.3158
-        },
-        {
-          "sector": "technology",
-          "pct": 0.307
-        },
-        {
-          "sector": "basic materials",
-          "pct": 0.0173
-        }
-      ],
-      "returns": {
-        "ytd": null,
-        "oneMonth": null,
-        "threeMonth": null,
-        "oneYear": null,
-        "threeYear": null,
-        "fiveYear": null
-      },
-      "risk": {
-        "alpha": null,
-        "beta": null,
-        "sharpe": null,
-        "stdDev": null,
-        "rSquared": null,
-        "treynor": null
-      },
-      "zacks": {
-        "rank": 2,
-        "label": "Buy"
-      },
-      "analysis": "iShares Global Clean Energy ETF (Miscellaneous Sector). By iShares. 52wk: +85.4%. Yield: 1.30%. ER: 0.39%. AUM: $2.5B. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, Nextpower Inc Class A, First Solar Inc. $23.75 (+3.1% today)."
-    },
-    {
-      "symbol": "EEM",
-      "name": "iShares MSCI Emerging Index Fun",
-      "price": 70.8,
-      "dayChangePct": 1.0274,
-      "fiftyTwoWeekChangePct": 52.159893,
-      "category": "Diversified Emerging Mkts",
-      "fundFamily": "iShares",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0072000003,
-      "yield": 0.0191,
-      "totalAssets": 28104833024,
-      "beta": 1,
-      "holdings": [
-        {
-          "symbol": "2330.TW",
-          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-          "pct": 0.1418186
-        },
-        {
-          "symbol": "005930.KS",
-          "name": "Samsung Electronics Co Ltd",
-          "pct": 0.0601371
-        },
-        {
-          "symbol": "000660.KS",
-          "name": "SK Hynix Inc",
-          "pct": 0.0404314
-        },
-        {
-          "symbol": "0700.HK",
-          "name": "Tencent Holdings Ltd",
-          "pct": 0.032543
-        },
-        {
-          "symbol": "9988.HK",
-          "name": "Alibaba Group Holding Ltd Ordinary Shares",
-          "pct": 0.0235694
-        },
-        {
-          "symbol": "2308.TW",
-          "name": "Delta Electronics Inc",
-          "pct": 0.011389
-        },
-        {
-          "symbol": "2454.TW",
-          "name": "MediaTek Inc",
-          "pct": 0.010732
-        },
-        {
-          "symbol": "00939",
-          "name": "China Construction Bank Corp Class H",
-          "pct": 0.0092101
-        },
-        {
-          "symbol": "HDFCBANK.NS",
-          "name": "HDFC Bank Ltd",
-          "pct": 0.0079391
-        },
-        {
-          "symbol": "RELIANCE.NS",
-          "name": "Reliance Industries Ltd",
-          "pct": 0.0078384
-        }
-      ],
-      "topHoldings": [
-        "Taiwan Semiconductor Manufacturing Co Ltd",
-        "Samsung Electronics Co Ltd",
-        "SK Hynix Inc",
-        "Tencent Holdings Ltd",
-        "Alibaba Group Holding Ltd Ordinary Shares"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "technology",
-          "pct": 0.3688
-        },
-        {
-          "sector": "financial services",
-          "pct": 0.19469999
-        },
-        {
-          "sector": "consumer cyclical",
-          "pct": 0.0954
-        },
-        {
-          "sector": "industrials",
-          "pct": 0.075
-        },
-        {
-          "sector": "communication services",
-          "pct": 0.0692
-        },
-        {
-          "sector": "basic materials",
-          "pct": 0.065
-        },
-        {
-          "sector": "energy",
-          "pct": 0.040700004
-        },
-        {
-          "sector": "consumer defensive",
-          "pct": 0.03
-        },
-        {
-          "sector": "healthcare",
-          "pct": 0.029000001
-        },
-        {
-          "sector": "utilities",
-          "pct": 0.0214
-        },
-        {
-          "sector": "realestate",
-          "pct": 0.0109
-        }
-      ],
-      "returns": {
-        "ytd": 0.1599203,
-        "oneMonth": 0.1284528,
-        "threeMonth": 0.0734587,
-        "oneYear": 0.48153228,
-        "threeYear": 0.20370479,
-        "fiveYear": 0.0567473
-      },
-      "risk": {
-        "alpha": 2.72,
-        "beta": 1,
-        "sharpe": 0.96,
-        "stdDev": 15.66,
-        "rSquared": 81.53,
-        "treynor": 15.48
-      },
-      "zacks": {
-        "rank": 3,
-        "label": "Hold"
-      },
-      "analysis": "iShares MSCI Emerging Index Fun (Diversified Emerging Mkts). By iShares. 52wk: +52.2%. YTD: 16.0%. Yield: 1.91%. ER: 0.72%. AUM: $28.1B. Sharpe: 0.96. Zacks #3 (Hold). Top: Taiwan Semiconductor Manufacturing Co Ltd, Samsung Electronics Co Ltd, SK Hynix Inc. $70.80 (+1.0% today)."
-    },
-    {
-      "symbol": "TQQQ",
-      "name": "ProShares UltraPro QQQ",
-      "price": 87.22,
-      "dayChangePct": 1.37146,
-      "fiftyTwoWeekChangePct": 136.14456,
-      "category": "Trading--Leveraged Equity",
-      "fundFamily": "ProShares",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0082,
-      "yield": 0.005,
-      "totalAssets": 31344125952,
-      "beta": 3.75,
-      "holdings": [
-        {
-          "symbol": "IQMM",
-          "name": "ProShares GENIUS Money Market ETF",
-          "pct": 0.2660729
-        },
-        {
-          "symbol": "NVDA",
-          "name": "NVIDIA Corp",
-          "pct": 0.0348771
-        },
-        {
-          "symbol": "AAPL",
-          "name": "Apple Inc",
-          "pct": 0.0286501
-        },
-        {
-          "symbol": "MSFT",
-          "name": "Microsoft Corp",
-          "pct": 0.0217765
-        },
-        {
-          "symbol": "AMZN",
-          "name": "Amazon.com Inc",
-          "pct": 0.020466799
-        }
-      ],
-      "topHoldings": [
-        "ProShares GENIUS Money Market ETF",
-        "NVIDIA Corp",
-        "Apple Inc",
-        "Microsoft Corp",
-        "Amazon.com Inc"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "technology",
-          "pct": 0.5376
-        },
-        {
-          "sector": "communication services",
-          "pct": 0.15810001
-        },
-        {
-          "sector": "consumer cyclical",
-          "pct": 0.122600004
-        },
-        {
-          "sector": "consumer defensive",
-          "pct": 0.0769
-        },
-        {
-          "sector": "healthcare",
-          "pct": 0.0419
-        },
-        {
-          "sector": "industrials",
-          "pct": 0.028399998
-        },
-        {
-          "sector": "utilities",
-          "pct": 0.0139999995
-        },
-        {
-          "sector": "basic materials",
-          "pct": 0.0113
-        },
-        {
-          "sector": "energy",
-          "pct": 0.0062
-        },
-        {
-          "sector": "financial services",
-          "pct": 0.0023
-        },
-        {
-          "sector": "realestate",
-          "pct": 0.0007
-        }
-      ],
-      "returns": {
-        "ytd": null,
-        "oneMonth": null,
-        "threeMonth": null,
-        "oneYear": null,
-        "threeYear": null,
-        "fiveYear": null
-      },
-      "risk": {
-        "alpha": null,
-        "beta": null,
-        "sharpe": null,
-        "stdDev": null,
-        "rSquared": null,
-        "treynor": null
-      },
-      "zacks": null,
-      "analysis": "ProShares UltraPro QQQ (Trading--Leveraged Equity). By ProShares. 52wk: +136.1%. Yield: 0.50%. ER: 0.82%. AUM: $31.3B. Top: ProShares GENIUS Money Market ETF, NVIDIA Corp, Apple Inc. $87.22 (+1.4% today)."
+      "analysis": "iShares PHLX SOX Semiconductor  (Technology). By iShares. 52wk: +180.2%. YTD: 53.4%. Yield: 0.36%. ER: 0.34%. AUM: $29.6B. Sharpe: 1.24. Zacks #1 (Strong Buy). Top: Advanced Micro Devices Inc, Broadcom Inc, Micron Technology Inc. $615.68 (+1.8% today)."
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 746.16,
-      "dayChangePct": 0.460455,
-      "fiftyTwoWeekChangePct": 41.11239,
+      "price": 744.21,
+      "dayChangePct": -0.261331,
+      "fiftyTwoWeekChangePct": 42.182587,
       "category": "Large Growth",
       "fundFamily": "Invesco",
       "legalType": "Exchange Traded Fund",
@@ -1425,111 +1025,437 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +41.1%. YTD: 8.9%. Yield: 0.42%. ER: 0.18%. AUM: $440.3B. Sharpe: 1.29. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $746.16 (+0.5% today)."
+      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +42.2%. YTD: 8.9%. Yield: 0.42%. ER: 0.18%. AUM: $440.3B. Sharpe: 1.29. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $744.21 (-0.3% today)."
     },
     {
-      "symbol": "XLK",
-      "name": "State Street Technology Select ",
-      "price": 198.21,
-      "dayChangePct": 1.25154,
-      "fiftyTwoWeekChangePct": 67.4071,
-      "category": "Technology",
-      "fundFamily": "State Street Investment Management",
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 Index Fund",
+      "price": 287.67,
+      "dayChangePct": -1.36803,
+      "fiftyTwoWeekChangePct": 39.864765,
+      "category": "Small Blend",
+      "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0008,
-      "yield": 0.0047999998,
-      "totalAssets": 103332429824,
-      "beta": 1.26,
+      "expenseRatio": 0.0019,
+      "yield": 0.0091,
+      "totalAssets": 76877807616,
+      "beta": 1.3,
       "holdings": [
         {
-          "symbol": "NVDA",
-          "name": "NVIDIA Corp",
-          "pct": 0.1478414
+          "symbol": "BE",
+          "name": "Bloom Energy Corp Class A",
+          "pct": 0.018810399
         },
         {
-          "symbol": "AAPL",
-          "name": "Apple Inc",
-          "pct": 0.1214464
+          "symbol": "CRDO",
+          "name": "Credo Technology Group Holding Ltd",
+          "pct": 0.008531201
         },
         {
-          "symbol": "MSFT",
-          "name": "Microsoft Corp",
-          "pct": 0.092311405
+          "symbol": "FN",
+          "name": "Fabrinet",
+          "pct": 0.0075033996
         },
         {
-          "symbol": "AVGO",
-          "name": "Broadcom Inc",
-          "pct": 0.060335398
+          "symbol": "CDE",
+          "name": "Coeur Mining Inc",
+          "pct": 0.0055734003
         },
         {
-          "symbol": "MU",
-          "name": "Micron Technology Inc",
-          "pct": 0.0432189
+          "symbol": "NXT",
+          "name": "Nextpower Inc Class A",
+          "pct": 0.0052758995
         },
         {
-          "symbol": "AMD",
-          "name": "Advanced Micro Devices Inc",
-          "pct": 0.0429145
+          "symbol": "SATS",
+          "name": "EchoStar Corp Class A",
+          "pct": 0.0050694
         },
         {
-          "symbol": "INTC",
-          "name": "Intel Corp",
-          "pct": 0.0329387
+          "symbol": "TTMI",
+          "name": "TTM Technologies Inc",
+          "pct": 0.0049211998
         },
         {
-          "symbol": "CSCO",
-          "name": "Cisco Systems Inc",
-          "pct": 0.0268437
+          "symbol": "IONQ",
+          "name": "IonQ Inc Class A",
+          "pct": 0.0047299997
         },
         {
-          "symbol": "LRCX",
-          "name": "Lam Research Corp",
-          "pct": 0.0239092
+          "symbol": "STRL",
+          "name": "Sterling Infrastructure Inc",
+          "pct": 0.0046721
         },
         {
-          "symbol": "PLTR",
-          "name": "Palantir Technologies Inc Ordinary Shares - Class A",
-          "pct": 0.023595
+          "symbol": "AEIS",
+          "name": "Advanced Energy Industries Inc",
+          "pct": 0.0043964
         }
       ],
       "topHoldings": [
-        "NVIDIA Corp",
-        "Apple Inc",
-        "Microsoft Corp",
-        "Broadcom Inc",
-        "Micron Technology Inc"
+        "Bloom Energy Corp Class A",
+        "Credo Technology Group Holding Ltd",
+        "Fabrinet",
+        "Coeur Mining Inc",
+        "Nextpower Inc Class A"
+      ],
+      "sectorWeightings": [
+        {
+          "sector": "industrials",
+          "pct": 0.1768
+        },
+        {
+          "sector": "technology",
+          "pct": 0.1708
+        },
+        {
+          "sector": "healthcare",
+          "pct": 0.1649
+        },
+        {
+          "sector": "financial services",
+          "pct": 0.15689999
+        },
+        {
+          "sector": "consumer cyclical",
+          "pct": 0.0841
+        },
+        {
+          "sector": "realestate",
+          "pct": 0.060900003
+        },
+        {
+          "sector": "energy",
+          "pct": 0.060700003
+        },
+        {
+          "sector": "basic materials",
+          "pct": 0.0478
+        },
+        {
+          "sector": "utilities",
+          "pct": 0.028900001
+        },
+        {
+          "sector": "communication services",
+          "pct": 0.024500001
+        },
+        {
+          "sector": "consumer defensive",
+          "pct": 0.0239
+        }
+      ],
+      "returns": {
+        "ytd": 0.1316127,
+        "oneMonth": 0.1219868,
+        "threeMonth": 0.0740948,
+        "oneYear": 0.4420099,
+        "threeYear": 0.18016452,
+        "fiveYear": 0.0562157
+      },
+      "risk": {
+        "alpha": -6.8,
+        "beta": 1.3,
+        "sharpe": 0.68,
+        "stdDev": 20.29,
+        "rSquared": 71.16,
+        "treynor": 10.09
+      },
+      "zacks": {
+        "rank": 2,
+        "label": "Buy"
+      },
+      "analysis": "iShares Russell 2000 Index Fund (Small Blend). By iShares. 52wk: +39.9%. YTD: 13.2%. Yield: 0.91%. ER: 0.19%. AUM: $76.9B. Sharpe: 0.68. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, Credo Technology Group Holding Ltd, Fabrinet. $287.67 (-1.4% today)."
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Index Fun",
+      "price": 69.92,
+      "dayChangePct": -1.24294,
+      "fiftyTwoWeekChangePct": 51.379086,
+      "category": "Diversified Emerging Mkts",
+      "fundFamily": "iShares",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.0072000003,
+      "yield": 0.0191,
+      "totalAssets": 28104833024,
+      "beta": 1,
+      "holdings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "pct": 0.1418186
+        },
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "pct": 0.0601371
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "pct": 0.0404314
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "pct": 0.032543
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "pct": 0.0235694
+        },
+        {
+          "symbol": "2308.TW",
+          "name": "Delta Electronics Inc",
+          "pct": 0.011389
+        },
+        {
+          "symbol": "2454.TW",
+          "name": "MediaTek Inc",
+          "pct": 0.010732
+        },
+        {
+          "symbol": "00939",
+          "name": "China Construction Bank Corp Class H",
+          "pct": 0.0092101
+        },
+        {
+          "symbol": "HDFCBANK.NS",
+          "name": "HDFC Bank Ltd",
+          "pct": 0.0079391
+        },
+        {
+          "symbol": "RELIANCE.NS",
+          "name": "Reliance Industries Ltd",
+          "pct": 0.0078384
+        }
+      ],
+      "topHoldings": [
+        "Taiwan Semiconductor Manufacturing Co Ltd",
+        "Samsung Electronics Co Ltd",
+        "SK Hynix Inc",
+        "Tencent Holdings Ltd",
+        "Alibaba Group Holding Ltd Ordinary Shares"
       ],
       "sectorWeightings": [
         {
           "sector": "technology",
-          "pct": 0.991
+          "pct": 0.3688
+        },
+        {
+          "sector": "financial services",
+          "pct": 0.19469999
+        },
+        {
+          "sector": "consumer cyclical",
+          "pct": 0.0954
+        },
+        {
+          "sector": "industrials",
+          "pct": 0.075
         },
         {
           "sector": "communication services",
-          "pct": 0.009
+          "pct": 0.0692
+        },
+        {
+          "sector": "basic materials",
+          "pct": 0.065
+        },
+        {
+          "sector": "energy",
+          "pct": 0.040700004
+        },
+        {
+          "sector": "consumer defensive",
+          "pct": 0.03
+        },
+        {
+          "sector": "healthcare",
+          "pct": 0.029000001
+        },
+        {
+          "sector": "utilities",
+          "pct": 0.0214
+        },
+        {
+          "sector": "realestate",
+          "pct": 0.0109
         }
       ],
       "returns": {
-        "ytd": 0.1090018,
-        "oneMonth": 0.1992219,
-        "threeMonth": 0.109419696,
-        "oneYear": 0.5254413,
-        "threeYear": 0.292338,
-        "fiveYear": 0.1886166
+        "ytd": 0.1599203,
+        "oneMonth": 0.1284528,
+        "threeMonth": 0.0734587,
+        "oneYear": 0.48153228,
+        "threeYear": 0.20370479,
+        "fiveYear": 0.0567473
       },
       "risk": {
-        "alpha": 5.11,
-        "beta": 1.26,
-        "sharpe": 1.13,
-        "stdDev": 20.41,
-        "rSquared": 62.16,
-        "treynor": 19.32
+        "alpha": 2.72,
+        "beta": 1,
+        "sharpe": 0.96,
+        "stdDev": 15.66,
+        "rSquared": 81.53,
+        "treynor": 15.48
       },
       "zacks": {
-        "rank": 1,
-        "label": "Strong Buy"
+        "rank": 3,
+        "label": "Hold"
       },
-      "analysis": "State Street Technology Select  (Technology). By State Street Investment Management. 52wk: +67.4%. YTD: 10.9%. Yield: 0.48%. ER: 0.08%. AUM: $103.3B. Sharpe: 1.13. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $198.21 (+1.3% today)."
+      "analysis": "iShares MSCI Emerging Index Fun (Diversified Emerging Mkts). By iShares. 52wk: +51.4%. YTD: 16.0%. Yield: 1.91%. ER: 0.72%. AUM: $28.1B. Sharpe: 0.96. Zacks #3 (Hold). Top: Taiwan Semiconductor Manufacturing Co Ltd, Samsung Electronics Co Ltd, SK Hynix Inc. $69.92 (-1.2% today)."
+    },
+    {
+      "symbol": "SLV",
+      "name": "iShares Silver Trust",
+      "price": 66.21,
+      "dayChangePct": -2.61803,
+      "fiftyTwoWeekChangePct": 109.52234,
+      "category": "Commodities Focused",
+      "fundFamily": "iShares",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.005,
+      "yield": null,
+      "totalAssets": 35607912448,
+      "beta": 0.98,
+      "holdings": [],
+      "topHoldings": [],
+      "sectorWeightings": [],
+      "returns": {
+        "ytd": 0.019982899,
+        "oneMonth": 0.011488301,
+        "threeMonth": -0.2881701,
+        "oneYear": 1.2713627,
+        "threeYear": 0.43031928,
+        "fiveYear": 0.2262578
+      },
+      "risk": {
+        "alpha": 28.44,
+        "beta": 0.98,
+        "sharpe": 0.95,
+        "stdDev": 40.89,
+        "rSquared": 9.06,
+        "treynor": 39.11
+      },
+      "zacks": {
+        "rank": 3,
+        "label": "Hold"
+      },
+      "analysis": "iShares Silver Trust (Commodities Focused). By iShares. 52wk: +109.5%. YTD: 2.0%. ER: 0.50%. AUM: $35.6B. Sharpe: 0.95. Zacks #3 (Hold). $66.21 (-2.6% today)."
+    },
+    {
+      "symbol": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "price": 86.56,
+      "dayChangePct": -0.756711,
+      "fiftyTwoWeekChangePct": 141.77408,
+      "category": "Trading--Leveraged Equity",
+      "fundFamily": "ProShares",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.0082,
+      "yield": 0.005,
+      "totalAssets": 31344125952,
+      "beta": 3.75,
+      "holdings": [
+        {
+          "symbol": "IQMM",
+          "name": "ProShares GENIUS Money Market ETF",
+          "pct": 0.2660729
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "pct": 0.0348771
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "pct": 0.0286501
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "pct": 0.0217765
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "pct": 0.020466799
+        }
+      ],
+      "topHoldings": [
+        "ProShares GENIUS Money Market ETF",
+        "NVIDIA Corp",
+        "Apple Inc",
+        "Microsoft Corp",
+        "Amazon.com Inc"
+      ],
+      "sectorWeightings": [
+        {
+          "sector": "technology",
+          "pct": 0.5376
+        },
+        {
+          "sector": "communication services",
+          "pct": 0.15810001
+        },
+        {
+          "sector": "consumer cyclical",
+          "pct": 0.122600004
+        },
+        {
+          "sector": "consumer defensive",
+          "pct": 0.0769
+        },
+        {
+          "sector": "healthcare",
+          "pct": 0.0419
+        },
+        {
+          "sector": "industrials",
+          "pct": 0.028399998
+        },
+        {
+          "sector": "utilities",
+          "pct": 0.0139999995
+        },
+        {
+          "sector": "basic materials",
+          "pct": 0.0113
+        },
+        {
+          "sector": "energy",
+          "pct": 0.0062
+        },
+        {
+          "sector": "financial services",
+          "pct": 0.0023
+        },
+        {
+          "sector": "realestate",
+          "pct": 0.0007
+        }
+      ],
+      "returns": {
+        "ytd": null,
+        "oneMonth": null,
+        "threeMonth": null,
+        "oneYear": null,
+        "threeYear": null,
+        "fiveYear": null
+      },
+      "risk": {
+        "alpha": null,
+        "beta": null,
+        "sharpe": null,
+        "stdDev": null,
+        "rSquared": null,
+        "treynor": null
+      },
+      "zacks": null,
+      "analysis": "ProShares UltraPro QQQ (Trading--Leveraged Equity). By ProShares. 52wk: +141.8%. Yield: 0.50%. ER: 0.82%. AUM: $31.3B. Top: ProShares GENIUS Money Market ETF, NVIDIA Corp, Apple Inc. $86.56 (-0.8% today)."
     }
   ]
 }
