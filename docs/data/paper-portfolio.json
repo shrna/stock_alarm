@@ -1,22 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 77.51565652768613,
+  "cash": 3.8757828263843095,
   "positions": [
     {
       "symbol": "AGNC",
       "shares": 136.17768456487272,
       "avgCost": 10.412437377883744,
-      "currentPrice": 10.29,
+      "currentPrice": 10.195,
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 10.41
     },
     {
       "symbol": "ACHR",
-      "shares": 203.66925630097194,
-      "avgCost": 6.84,
-      "currentPrice": 6.38,
+      "shares": 216.30370319147582,
+      "avgCost": 6.780917594839179,
+      "currentPrice": 5.8285,
       "type": "stock",
       "boughtAt": "2026-06-02",
       "previousClose": 6.58
@@ -25,7 +25,7 @@
       "symbol": "PLTR",
       "shares": 9.578250909950677,
       "avgCost": 142.2,
-      "currentPrice": 141.7,
+      "currentPrice": 138.7,
       "type": "stock",
       "boughtAt": "2026-06-04",
       "previousClose": 142.49
@@ -34,7 +34,7 @@
       "symbol": "XBI",
       "shares": 11.163778000464903,
       "avgCost": 129.83,
-      "currentPrice": 133.42,
+      "currentPrice": 131.905,
       "type": "etf",
       "boughtAt": "2026-06-04",
       "previousClose": 134.05
@@ -43,7 +43,7 @@
       "symbol": "LQDA",
       "shares": 21.732238421774845,
       "avgCost": 62.54,
-      "currentPrice": 62.54,
+      "currentPrice": 63.54,
       "type": "stock",
       "boughtAt": "2026-06-05"
     },
@@ -51,7 +51,7 @@
       "symbol": "CVE",
       "shares": 45.62383990929167,
       "avgCost": 29.79,
-      "currentPrice": 29.79,
+      "currentPrice": 29.275,
       "type": "stock",
       "boughtAt": "2026-06-05"
     },
@@ -59,7 +59,7 @@
       "symbol": "IWM",
       "shares": 5.171566388129016,
       "avgCost": 292.01,
-      "currentPrice": 292.01,
+      "currentPrice": 287.77,
       "type": "etf",
       "boughtAt": "2026-06-05"
     },
@@ -67,7 +67,7 @@
       "symbol": "ARKK",
       "shares": 18.393873785762946,
       "avgCost": 80.07,
-      "currentPrice": 80.07,
+      "currentPrice": 76.48,
       "type": "etf",
       "boughtAt": "2026-06-05"
     }
@@ -602,79 +602,12 @@
     },
     {
       "date": "2026-06-05",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 5.6919,
-      "price": 262.7,
-      "total": 1495.26,
-      "realizedPnL": -20.6,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 24.3021,
-      "price": 58.75,
-      "total": 1427.75,
-      "realizedPnL": 19.2,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "DELL",
-      "action": "SELL",
-      "shares": 3.2346,
-      "price": 422.05,
-      "total": 1365.16,
-      "realizedPnL": 3.14,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "STRL",
-      "action": "SELL",
-      "shares": 1.4232,
-      "price": 993.74,
-      "total": 1414.27,
-      "realizedPnL": 52.24,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "LQDA",
+      "symbol": "ACHR",
       "action": "BUY",
-      "shares": 21.7322,
-      "price": 62.54,
-      "total": 1359.13,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 45.6238,
-      "price": 29.79,
-      "total": 1359.13,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 5.1716,
-      "price": 292.01,
-      "total": 1510.15,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-05",
-      "symbol": "ARKK",
-      "action": "BUY",
-      "shares": 18.3939,
-      "price": 80.07,
-      "total": 1472.8,
-      "reason": "Top 3 ETF pick"
+      "shares": 12.6344,
+      "price": 5.8285,
+      "total": 73.64,
+      "reason": "Rebalance: 10.6% drift"
     }
   ],
   "history": [
@@ -859,11 +792,11 @@
     },
     {
       "date": "2026-06-05",
-      "totalValue": 11326.12,
-      "cash": 77.52,
-      "positionsValue": 11248.6,
+      "totalValue": 11065.48,
+      "cash": 3.88,
+      "positionsValue": 11061.61,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
