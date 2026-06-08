@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.8757828263843095,
+  "cash": 71.40966679898656,
   "positions": [
     {
       "symbol": "AGNC",
@@ -22,33 +22,6 @@
       "previousClose": 5.8285
     },
     {
-      "symbol": "PLTR",
-      "shares": 9.578250909950677,
-      "avgCost": 142.2,
-      "currentPrice": 135.53,
-      "type": "stock",
-      "boughtAt": "2026-06-04",
-      "previousClose": 138.7
-    },
-    {
-      "symbol": "XBI",
-      "shares": 11.163778000464903,
-      "avgCost": 129.83,
-      "currentPrice": 128.67,
-      "type": "etf",
-      "boughtAt": "2026-06-04",
-      "previousClose": 131.905
-    },
-    {
-      "symbol": "LQDA",
-      "shares": 21.732238421774845,
-      "avgCost": 62.54,
-      "currentPrice": 61.85,
-      "type": "stock",
-      "boughtAt": "2026-06-05",
-      "previousClose": 63.54
-    },
-    {
       "symbol": "CVE",
       "shares": 45.62383990929167,
       "avgCost": 29.79,
@@ -67,13 +40,36 @@
       "previousClose": 287.77
     },
     {
-      "symbol": "ARKK",
-      "shares": 18.393873785762946,
-      "avgCost": 80.07,
-      "currentPrice": 74.49,
+      "symbol": "KVUE",
+      "shares": 73.04404778196964,
+      "avgCost": 17.71,
+      "currentPrice": 17.71,
+      "type": "stock",
+      "boughtAt": "2026-06-08"
+    },
+    {
+      "symbol": "BMNR",
+      "shares": 81.35912491941399,
+      "avgCost": 15.9,
+      "currentPrice": 15.9,
+      "type": "stock",
+      "boughtAt": "2026-06-08"
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 2.038613082919157,
+      "avgCost": 705.06,
+      "currentPrice": 705.06,
       "type": "etf",
-      "boughtAt": "2026-06-05",
-      "previousClose": 76.48
+      "boughtAt": "2026-06-08"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 23.52668058229136,
+      "avgCost": 57.67,
+      "currentPrice": 57.67,
+      "type": "etf",
+      "boughtAt": "2026-06-08"
     }
   ],
   "trades": [
@@ -612,6 +608,82 @@
       "price": 5.8285,
       "total": 73.64,
       "reason": "Rebalance: 10.6% drift"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 9.5783,
+      "price": 135.53,
+      "total": 1298.14,
+      "realizedPnL": -63.89,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 11.1638,
+      "price": 128.67,
+      "total": 1436.44,
+      "realizedPnL": -12.95,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "LQDA",
+      "action": "SELL",
+      "shares": 21.7322,
+      "price": 61.85,
+      "total": 1344.14,
+      "realizedPnL": -15,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "ARKK",
+      "action": "SELL",
+      "shares": 18.3939,
+      "price": 74.49,
+      "total": 1370.16,
+      "realizedPnL": -102.64,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "KVUE",
+      "action": "BUY",
+      "shares": 73.044,
+      "price": 17.71,
+      "total": 1293.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "BMNR",
+      "action": "BUY",
+      "shares": 81.3591,
+      "price": 15.9,
+      "total": 1293.61,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 2.0386,
+      "price": 705.06,
+      "total": 1437.34,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-08",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.5267,
+      "price": 57.67,
+      "total": 1356.78,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -802,6 +874,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-08",
+      "totalValue": 10780.08,
+      "cash": 71.41,
+      "positionsValue": 10708.67,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
