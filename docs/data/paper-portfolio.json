@@ -7,7 +7,7 @@
       "symbol": "AGNC",
       "shares": 136.17768456487272,
       "avgCost": 10.412437377883744,
-      "currentPrice": 10.195,
+      "currentPrice": 10.11,
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 10.195
@@ -16,60 +16,64 @@
       "symbol": "ACHR",
       "shares": 216.30370319147582,
       "avgCost": 6.780917594839179,
-      "currentPrice": 5.7299,
+      "currentPrice": 5.73,
       "type": "stock",
       "boughtAt": "2026-06-02",
-      "previousClose": 5.8285
+      "previousClose": 5.7299
     },
     {
       "symbol": "CVE",
       "shares": 45.62383990929167,
       "avgCost": 29.79,
-      "currentPrice": 29.005,
+      "currentPrice": 28.72,
       "type": "stock",
       "boughtAt": "2026-06-05",
-      "previousClose": 29.275
+      "previousClose": 29.005
     },
     {
       "symbol": "IWM",
       "shares": 5.171566388129016,
       "avgCost": 292.01,
-      "currentPrice": 285.58,
+      "currentPrice": 284.11,
       "type": "etf",
       "boughtAt": "2026-06-05",
-      "previousClose": 287.77
+      "previousClose": 285.58
     },
     {
       "symbol": "KVUE",
       "shares": 73.04404778196964,
       "avgCost": 17.71,
-      "currentPrice": 17.575,
+      "currentPrice": 17.55,
       "type": "stock",
-      "boughtAt": "2026-06-08"
+      "boughtAt": "2026-06-08",
+      "previousClose": 17.575
     },
     {
       "symbol": "BMNR",
       "shares": 81.35912491941399,
       "avgCost": 15.9,
-      "currentPrice": 17.075,
+      "currentPrice": 16.85,
       "type": "stock",
-      "boughtAt": "2026-06-08"
+      "boughtAt": "2026-06-08",
+      "previousClose": 17.075
     },
     {
       "symbol": "QQQ",
       "shares": 2.038613082919157,
       "avgCost": 705.06,
-      "currentPrice": 720,
+      "currentPrice": 716.07,
       "type": "etf",
-      "boughtAt": "2026-06-08"
+      "boughtAt": "2026-06-08",
+      "previousClose": 720
     },
     {
       "symbol": "XLE",
       "shares": 23.52668058229136,
       "avgCost": 57.67,
-      "currentPrice": 58.3419,
+      "currentPrice": 58.33,
       "type": "etf",
-      "boughtAt": "2026-06-08"
+      "boughtAt": "2026-06-08",
+      "previousClose": 58.3419
     }
   ],
   "trades": [
@@ -801,12 +805,12 @@
     },
     {
       "date": "2026-06-08",
-      "totalValue": 11012.7,
+      "totalValue": 10952.12,
       "cash": 71.41,
-      "positionsValue": 10941.29,
+      "positionsValue": 10880.71,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
