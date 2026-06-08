@@ -7,7 +7,7 @@
       "symbol": "AGNC",
       "shares": 136.17768456487272,
       "avgCost": 10.412437377883744,
-      "currentPrice": 10.17,
+      "currentPrice": 10.195,
       "type": "stock",
       "boughtAt": "2026-05-27",
       "previousClose": 10.195
@@ -16,7 +16,7 @@
       "symbol": "ACHR",
       "shares": 216.30370319147582,
       "avgCost": 6.780917594839179,
-      "currentPrice": 5.54,
+      "currentPrice": 5.7299,
       "type": "stock",
       "boughtAt": "2026-06-02",
       "previousClose": 5.8285
@@ -25,7 +25,7 @@
       "symbol": "CVE",
       "shares": 45.62383990929167,
       "avgCost": 29.79,
-      "currentPrice": 28.22,
+      "currentPrice": 29.005,
       "type": "stock",
       "boughtAt": "2026-06-05",
       "previousClose": 29.275
@@ -34,7 +34,7 @@
       "symbol": "IWM",
       "shares": 5.171566388129016,
       "avgCost": 292.01,
-      "currentPrice": 281.65,
+      "currentPrice": 285.58,
       "type": "etf",
       "boughtAt": "2026-06-05",
       "previousClose": 287.77
@@ -43,7 +43,7 @@
       "symbol": "KVUE",
       "shares": 73.04404778196964,
       "avgCost": 17.71,
-      "currentPrice": 17.71,
+      "currentPrice": 17.575,
       "type": "stock",
       "boughtAt": "2026-06-08"
     },
@@ -51,7 +51,7 @@
       "symbol": "BMNR",
       "shares": 81.35912491941399,
       "avgCost": 15.9,
-      "currentPrice": 15.9,
+      "currentPrice": 17.075,
       "type": "stock",
       "boughtAt": "2026-06-08"
     },
@@ -59,7 +59,7 @@
       "symbol": "QQQ",
       "shares": 2.038613082919157,
       "avgCost": 705.06,
-      "currentPrice": 705.06,
+      "currentPrice": 720,
       "type": "etf",
       "boughtAt": "2026-06-08"
     },
@@ -67,7 +67,7 @@
       "symbol": "XLE",
       "shares": 23.52668058229136,
       "avgCost": 57.67,
-      "currentPrice": 57.67,
+      "currentPrice": 58.3419,
       "type": "etf",
       "boughtAt": "2026-06-08"
     }
@@ -608,82 +608,6 @@
       "price": 5.8285,
       "total": 73.64,
       "reason": "Rebalance: 10.6% drift"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 9.5783,
-      "price": 135.53,
-      "total": 1298.14,
-      "realizedPnL": -63.89,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 11.1638,
-      "price": 128.67,
-      "total": 1436.44,
-      "realizedPnL": -12.95,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "LQDA",
-      "action": "SELL",
-      "shares": 21.7322,
-      "price": 61.85,
-      "total": 1344.14,
-      "realizedPnL": -15,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "ARKK",
-      "action": "SELL",
-      "shares": 18.3939,
-      "price": 74.49,
-      "total": 1370.16,
-      "realizedPnL": -102.64,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "KVUE",
-      "action": "BUY",
-      "shares": 73.044,
-      "price": 17.71,
-      "total": 1293.61,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "BMNR",
-      "action": "BUY",
-      "shares": 81.3591,
-      "price": 15.9,
-      "total": 1293.61,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "QQQ",
-      "action": "BUY",
-      "shares": 2.0386,
-      "price": 705.06,
-      "total": 1437.34,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-08",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.5267,
-      "price": 57.67,
-      "total": 1356.78,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -877,11 +801,11 @@
     },
     {
       "date": "2026-06-08",
-      "totalValue": 10780.08,
+      "totalValue": 11012.7,
       "cash": 71.41,
-      "positionsValue": 10708.67,
+      "positionsValue": 10941.29,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
