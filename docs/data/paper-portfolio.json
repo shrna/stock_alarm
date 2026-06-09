@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 71.40966679898656,
+  "cash": 95.724697573512,
   "positions": [
     {
       "symbol": "AGNC",
@@ -40,24 +40,6 @@
       "previousClose": 285.58
     },
     {
-      "symbol": "KVUE",
-      "shares": 73.04404778196964,
-      "avgCost": 17.71,
-      "currentPrice": 17.55,
-      "type": "stock",
-      "boughtAt": "2026-06-08",
-      "previousClose": 17.575
-    },
-    {
-      "symbol": "BMNR",
-      "shares": 81.35912491941399,
-      "avgCost": 15.9,
-      "currentPrice": 16.85,
-      "type": "stock",
-      "boughtAt": "2026-06-08",
-      "previousClose": 17.075
-    },
-    {
       "symbol": "QQQ",
       "shares": 2.038613082919157,
       "avgCost": 705.06,
@@ -74,6 +56,22 @@
       "type": "etf",
       "boughtAt": "2026-06-08",
       "previousClose": 58.3419
+    },
+    {
+      "symbol": "DELL",
+      "shares": 3.279323879895162,
+      "avgCost": 400.77,
+      "currentPrice": 400.77,
+      "type": "stock",
+      "boughtAt": "2026-06-09"
+    },
+    {
+      "symbol": "CRDO",
+      "shares": 5.912874573021927,
+      "avgCost": 222.27,
+      "currentPrice": 222.27,
+      "type": "stock",
+      "boughtAt": "2026-06-09"
     }
   ],
   "trades": [
@@ -612,6 +610,44 @@
       "price": 5.8285,
       "total": 73.64,
       "reason": "Rebalance: 10.6% drift"
+    },
+    {
+      "date": "2026-06-09",
+      "symbol": "KVUE",
+      "action": "SELL",
+      "shares": 73.044,
+      "price": 17.55,
+      "total": 1281.92,
+      "realizedPnL": -11.69,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-09",
+      "symbol": "BMNR",
+      "action": "SELL",
+      "shares": 81.3591,
+      "price": 16.85,
+      "total": 1370.9,
+      "realizedPnL": 77.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-09",
+      "symbol": "DELL",
+      "action": "BUY",
+      "shares": 3.2793,
+      "price": 400.77,
+      "total": 1314.25,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-09",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 5.9129,
+      "price": 222.27,
+      "total": 1314.25,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -811,6 +847,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-09",
+      "totalValue": 10952.12,
+      "cash": 95.72,
+      "positionsValue": 10856.4,
+      "positionCount": 8,
+      "tradesExecuted": 4,
+      "session": "open"
     }
   ]
 }
