@@ -7,7 +7,7 @@
       "symbol": "ACHR",
       "shares": 243.30310448651352,
       "avgCost": 6.618799234346862,
-      "currentPrice": 5.32,
+      "currentPrice": 5.2299,
       "type": "stock",
       "boughtAt": "2026-06-02",
       "previousClose": 5.73
@@ -16,7 +16,7 @@
       "symbol": "CVE",
       "shares": 45.62383990929167,
       "avgCost": 29.79,
-      "currentPrice": 27.65,
+      "currentPrice": 28.38,
       "type": "stock",
       "boughtAt": "2026-06-05",
       "previousClose": 28.72
@@ -25,7 +25,7 @@
       "symbol": "IWM",
       "shares": 5.171566388129016,
       "avgCost": 292.01,
-      "currentPrice": 285.02,
+      "currentPrice": 284.71,
       "type": "etf",
       "boughtAt": "2026-06-05",
       "previousClose": 284.11
@@ -34,7 +34,7 @@
       "symbol": "QQQ",
       "shares": 2.038613082919157,
       "avgCost": 705.06,
-      "currentPrice": 707.83,
+      "currentPrice": 700.08,
       "type": "etf",
       "boughtAt": "2026-06-08",
       "previousClose": 716.07
@@ -43,7 +43,7 @@
       "symbol": "ALHC",
       "shares": 67.60390056106054,
       "avgCost": 19.2,
-      "currentPrice": 19.2,
+      "currentPrice": 20.59,
       "type": "stock",
       "boughtAt": "2026-06-10"
     },
@@ -51,7 +51,7 @@
       "symbol": "UCTT",
       "shares": 14.127066725863761,
       "avgCost": 91.88,
-      "currentPrice": 91.88,
+      "currentPrice": 92.035,
       "type": "stock",
       "boughtAt": "2026-06-10"
     },
@@ -59,7 +59,7 @@
       "symbol": "CECO",
       "shares": 13.599401653018623,
       "avgCost": 95.445,
-      "currentPrice": 95.445,
+      "currentPrice": 95.595,
       "type": "stock",
       "boughtAt": "2026-06-10"
     },
@@ -67,7 +67,7 @@
       "symbol": "XBI",
       "shares": 10.977443639082244,
       "avgCost": 131.38,
-      "currentPrice": 131.38,
+      "currentPrice": 130.165,
       "type": "etf",
       "boughtAt": "2026-06-10"
     }
@@ -646,91 +646,6 @@
       "price": 222.27,
       "total": 1314.25,
       "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "AGNC",
-      "action": "SELL",
-      "shares": 136.1777,
-      "price": 10.31,
-      "total": 1403.99,
-      "realizedPnL": -13.95,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 23.5267,
-      "price": 57.39,
-      "total": 1350.2,
-      "realizedPnL": -6.59,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "DELL",
-      "action": "SELL",
-      "shares": 3.2793,
-      "price": 381.78,
-      "total": 1251.98,
-      "realizedPnL": -62.27,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 5.9129,
-      "price": 234.32,
-      "total": 1385.5,
-      "realizedPnL": 71.25,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "ALHC",
-      "action": "BUY",
-      "shares": 67.6039,
-      "price": 19.2,
-      "total": 1297.99,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "UCTT",
-      "action": "BUY",
-      "shares": 14.1271,
-      "price": 91.88,
-      "total": 1297.99,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "CECO",
-      "action": "BUY",
-      "shares": 13.5994,
-      "price": 95.445,
-      "total": 1297.99,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 10.9774,
-      "price": 131.38,
-      "total": 1442.22,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-10",
-      "symbol": "ACHR",
-      "action": "BUY",
-      "shares": 26.9994,
-      "price": 5.32,
-      "total": 143.64,
-      "reason": "Rebalance: 11.3% drift"
     }
   ],
   "history": [
@@ -942,11 +857,11 @@
     },
     {
       "date": "2026-06-10",
-      "totalValue": 10816.62,
+      "totalValue": 10895.47,
       "cash": 7.56,
-      "positionsValue": 10809.06,
+      "positionsValue": 10887.91,
       "positionCount": 8,
-      "tradesExecuted": 9,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
