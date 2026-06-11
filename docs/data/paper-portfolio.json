@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 7.559832362610564,
+  "cash": 3.255571822010147,
   "positions": [
-    {
-      "symbol": "ACHR",
-      "shares": 243.30310448651352,
-      "avgCost": 6.618799234346862,
-      "currentPrice": 5.05,
-      "type": "stock",
-      "boughtAt": "2026-06-02",
-      "previousClose": 5.2299
-    },
     {
       "symbol": "CVE",
       "shares": 45.62383990929167,
@@ -31,15 +22,6 @@
       "previousClose": 284.71
     },
     {
-      "symbol": "QQQ",
-      "shares": 2.038613082919157,
-      "avgCost": 705.06,
-      "currentPrice": 693.69,
-      "type": "etf",
-      "boughtAt": "2026-06-08",
-      "previousClose": 700.08
-    },
-    {
       "symbol": "ALHC",
       "shares": 67.60390056106054,
       "avgCost": 19.2,
@@ -49,31 +31,44 @@
       "previousClose": 20.59
     },
     {
-      "symbol": "UCTT",
-      "shares": 14.127066725863761,
-      "avgCost": 91.88,
-      "currentPrice": 90.9,
+      "symbol": "DELL",
+      "shares": 3.4871201178522053,
+      "avgCost": 369.83,
+      "currentPrice": 369.83,
       "type": "stock",
-      "boughtAt": "2026-06-10",
-      "previousClose": 92.035
+      "boughtAt": "2026-06-11"
     },
     {
-      "symbol": "CECO",
-      "shares": 13.599401653018623,
-      "avgCost": 95.445,
-      "currentPrice": 92.29,
+      "symbol": "CRDO",
+      "shares": 5.425957729658705,
+      "avgCost": 237.68,
+      "currentPrice": 237.68,
       "type": "stock",
-      "boughtAt": "2026-06-10",
-      "previousClose": 95.595
+      "boughtAt": "2026-06-11"
     },
     {
-      "symbol": "XBI",
-      "shares": 10.977443639082244,
-      "avgCost": 131.38,
-      "currentPrice": 128.85,
+      "symbol": "COCO",
+      "shares": 16.37848149841607,
+      "avgCost": 78.74,
+      "currentPrice": 78.74,
+      "type": "stock",
+      "boughtAt": "2026-06-11"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 24.59974502976216,
+      "avgCost": 58.25,
+      "currentPrice": 58.25,
       "type": "etf",
-      "boughtAt": "2026-06-10",
-      "previousClose": 130.165
+      "boughtAt": "2026-06-11"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 20.089284828055153,
+      "avgCost": 64.66,
+      "currentPrice": 64.66,
+      "type": "etf",
+      "boughtAt": "2026-06-11"
     }
   ],
   "trades": [
@@ -650,6 +645,110 @@
       "price": 222.27,
       "total": 1314.25,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "ACHR",
+      "action": "SELL",
+      "shares": 243.3031,
+      "price": 5.05,
+      "total": 1228.68,
+      "realizedPnL": -381.69,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "QQQ",
+      "action": "SELL",
+      "shares": 2.0386,
+      "price": 693.69,
+      "total": 1414.17,
+      "realizedPnL": -23.18,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "UCTT",
+      "action": "SELL",
+      "shares": 14.1271,
+      "price": 90.9,
+      "total": 1284.15,
+      "realizedPnL": -13.84,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "CECO",
+      "action": "SELL",
+      "shares": 13.5994,
+      "price": 92.29,
+      "total": 1255.09,
+      "realizedPnL": -42.91,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 10.9774,
+      "price": 128.85,
+      "total": 1414.44,
+      "realizedPnL": -27.77,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "DELL",
+      "action": "BUY",
+      "shares": 3.4871,
+      "price": 369.83,
+      "total": 1289.64,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 5.426,
+      "price": 237.68,
+      "total": 1289.64,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "COCO",
+      "action": "BUY",
+      "shares": 16.3785,
+      "price": 78.74,
+      "total": 1289.64,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 24.5997,
+      "price": 58.25,
+      "total": 1432.94,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 19.1327,
+      "price": 64.66,
+      "total": 1237.12,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-11",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 0.9566,
+      "price": 64.66,
+      "total": 61.86,
+      "reason": "Rebalance: 13.7% drift"
     }
   ],
   "history": [
@@ -867,6 +966,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-11",
+      "totalValue": 10747.01,
+      "cash": 3.26,
+      "positionsValue": 10743.76,
+      "positionCount": 8,
+      "tradesExecuted": 11,
+      "session": "open"
     }
   ]
 }
