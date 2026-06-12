@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.255571822010147,
+  "cash": 81.76309134383564,
   "positions": [
-    {
-      "symbol": "CVE",
-      "shares": 45.62383990929167,
-      "avgCost": 29.79,
-      "currentPrice": 28.48,
-      "type": "stock",
-      "boughtAt": "2026-06-05",
-      "previousClose": 29.11
-    },
     {
       "symbol": "IWM",
       "shares": 5.171566388129016,
@@ -22,51 +13,6 @@
       "previousClose": 286.07
     },
     {
-      "symbol": "ALHC",
-      "shares": 67.60390056106054,
-      "avgCost": 19.2,
-      "currentPrice": 20.24,
-      "type": "stock",
-      "boughtAt": "2026-06-10",
-      "previousClose": 20.865
-    },
-    {
-      "symbol": "DELL",
-      "shares": 3.4871201178522053,
-      "avgCost": 369.83,
-      "currentPrice": 391.45,
-      "type": "stock",
-      "boughtAt": "2026-06-11",
-      "previousClose": 379.2999
-    },
-    {
-      "symbol": "CRDO",
-      "shares": 5.425957729658705,
-      "avgCost": 237.68,
-      "currentPrice": 264.76,
-      "type": "stock",
-      "boughtAt": "2026-06-11",
-      "previousClose": 259.03
-    },
-    {
-      "symbol": "COCO",
-      "shares": 16.37848149841607,
-      "avgCost": 78.74,
-      "currentPrice": 78.65,
-      "type": "stock",
-      "boughtAt": "2026-06-11",
-      "previousClose": 79.11
-    },
-    {
-      "symbol": "XLE",
-      "shares": 24.59974502976216,
-      "avgCost": 58.25,
-      "currentPrice": 57.12,
-      "type": "etf",
-      "boughtAt": "2026-06-11",
-      "previousClose": 58.395
-    },
-    {
       "symbol": "EEM",
       "shares": 20.089284828055153,
       "avgCost": 64.66,
@@ -74,6 +20,54 @@
       "type": "etf",
       "boughtAt": "2026-06-11",
       "previousClose": 65.77
+    },
+    {
+      "symbol": "ONTO",
+      "shares": 4.358214955379526,
+      "avgCost": 303.53,
+      "currentPrice": 303.53,
+      "type": "stock",
+      "boughtAt": "2026-06-12"
+    },
+    {
+      "symbol": "FORM",
+      "shares": 10.157010023083133,
+      "avgCost": 130.24,
+      "currentPrice": 130.24,
+      "type": "stock",
+      "boughtAt": "2026-06-12"
+    },
+    {
+      "symbol": "UCTT",
+      "shares": 12.618992515561837,
+      "avgCost": 104.83,
+      "currentPrice": 104.83,
+      "type": "stock",
+      "boughtAt": "2026-06-12"
+    },
+    {
+      "symbol": "TE",
+      "shares": 156.18051775753804,
+      "avgCost": 8.47,
+      "currentPrice": 8.47,
+      "type": "stock",
+      "boughtAt": "2026-06-12"
+    },
+    {
+      "symbol": "ICHR",
+      "shares": 15.740706632631452,
+      "avgCost": 84.04,
+      "currentPrice": 84.04,
+      "type": "stock",
+      "boughtAt": "2026-06-12"
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 2.0496321480464257,
+      "avgCost": 717.12,
+      "currentPrice": 717.12,
+      "type": "etf",
+      "boughtAt": "2026-06-12"
     }
   ],
   "trades": [
@@ -754,6 +748,120 @@
       "price": 64.66,
       "total": 61.86,
       "reason": "Rebalance: 13.7% drift"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 45.6238,
+      "price": 28.48,
+      "total": 1299.37,
+      "realizedPnL": -59.77,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "ALHC",
+      "action": "SELL",
+      "shares": 67.6039,
+      "price": 20.24,
+      "total": 1368.3,
+      "realizedPnL": 70.31,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "DELL",
+      "action": "SELL",
+      "shares": 3.4871,
+      "price": 391.45,
+      "total": 1365.03,
+      "realizedPnL": 75.39,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 5.426,
+      "price": 264.76,
+      "total": 1436.58,
+      "realizedPnL": 146.93,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "COCO",
+      "action": "SELL",
+      "shares": 16.3785,
+      "price": 78.65,
+      "total": 1288.17,
+      "realizedPnL": -1.47,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 24.5997,
+      "price": 57.12,
+      "total": 1405.14,
+      "realizedPnL": -27.8,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "ONTO",
+      "action": "BUY",
+      "shares": 4.3582,
+      "price": 303.53,
+      "total": 1322.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "FORM",
+      "action": "BUY",
+      "shares": 10.157,
+      "price": 130.24,
+      "total": 1322.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "UCTT",
+      "action": "BUY",
+      "shares": 12.619,
+      "price": 104.83,
+      "total": 1322.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "TE",
+      "action": "BUY",
+      "shares": 156.1805,
+      "price": 8.47,
+      "total": 1322.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "ICHR",
+      "action": "BUY",
+      "shares": 15.7407,
+      "price": 84.04,
+      "total": 1322.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-12",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 2.0496,
+      "price": 717.12,
+      "total": 1469.83,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -980,6 +1088,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-12",
+      "totalValue": 11023.74,
+      "cash": 81.76,
+      "positionsValue": 10941.98,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
