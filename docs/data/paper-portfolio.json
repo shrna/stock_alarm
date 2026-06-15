@@ -7,68 +7,73 @@
       "symbol": "IWM",
       "shares": 5.171566388129016,
       "avgCost": 292.01,
-      "currentPrice": 292.95,
+      "currentPrice": 295.61,
       "type": "etf",
       "boughtAt": "2026-06-05",
-      "previousClose": 295.23
+      "previousClose": 292.95
     },
     {
       "symbol": "EEM",
       "shares": 21.230388644371356,
       "avgCost": 64.84328274996838,
-      "currentPrice": 67.88,
+      "currentPrice": 69.735,
       "type": "etf",
       "boughtAt": "2026-06-11",
-      "previousClose": 68.07
+      "previousClose": 67.88
     },
     {
       "symbol": "QQQ",
       "shares": 2.0496321480464257,
       "avgCost": 717.12,
-      "currentPrice": 721.34,
+      "currentPrice": 743.72,
       "type": "etf",
       "boughtAt": "2026-06-12",
-      "previousClose": 723.125
+      "previousClose": 721.34
     },
     {
       "symbol": "CVE",
       "shares": 48.10285536390187,
       "avgCost": 28.27,
-      "currentPrice": 28.27,
+      "currentPrice": 26.9,
       "type": "stock",
-      "boughtAt": "2026-06-15"
+      "boughtAt": "2026-06-15",
+      "previousClose": 28.27
     },
     {
       "symbol": "CRDO",
       "shares": 5.421903915862628,
       "avgCost": 250.81,
-      "currentPrice": 250.81,
+      "currentPrice": 257.56,
       "type": "stock",
-      "boughtAt": "2026-06-15"
+      "boughtAt": "2026-06-15",
+      "previousClose": 250.81
     },
     {
       "symbol": "VECO",
       "shares": 17.55120961715934,
       "avgCost": 77.48,
-      "currentPrice": 77.48,
+      "currentPrice": 85.1401,
       "type": "stock",
-      "boughtAt": "2026-06-15"
+      "boughtAt": "2026-06-15",
+      "previousClose": 77.48
     },
     {
       "symbol": "ROAD",
       "shares": 11.942282612957808,
       "avgCost": 113.87,
-      "currentPrice": 113.87,
+      "currentPrice": 121.07,
       "type": "stock",
-      "boughtAt": "2026-06-15"
+      "boughtAt": "2026-06-15",
+      "previousClose": 113.87
     },
     {
       "symbol": "PLTR",
       "shares": 10.624796633623765,
       "avgCost": 127.99,
-      "currentPrice": 127.99,
+      "currentPrice": 134.02,
       "type": "stock",
-      "boughtAt": "2026-06-15"
+      "boughtAt": "2026-06-15",
+      "previousClose": 127.99
     }
   ],
   "trades": [
@@ -1091,12 +1096,12 @@
     },
     {
       "date": "2026-06-15",
-      "totalValue": 11332.23,
+      "totalValue": 11686.43,
       "cash": 98.28,
-      "positionsValue": 11233.95,
+      "positionsValue": 11588.15,
       "positionCount": 8,
-      "tradesExecuted": 10,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
