@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 4.088154567191779,
+  "cash": 98.28159553755586,
   "positions": [
     {
       "symbol": "IWM",
@@ -22,51 +22,6 @@
       "previousClose": 68.07
     },
     {
-      "symbol": "ONTO",
-      "shares": 4.358214955379526,
-      "avgCost": 303.53,
-      "currentPrice": 323.88,
-      "type": "stock",
-      "boughtAt": "2026-06-12",
-      "previousClose": 323
-    },
-    {
-      "symbol": "FORM",
-      "shares": 10.157010023083133,
-      "avgCost": 130.24,
-      "currentPrice": 139.21,
-      "type": "stock",
-      "boughtAt": "2026-06-12",
-      "previousClose": 137.01
-    },
-    {
-      "symbol": "UCTT",
-      "shares": 12.618992515561837,
-      "avgCost": 104.83,
-      "currentPrice": 108.9,
-      "type": "stock",
-      "boughtAt": "2026-06-12",
-      "previousClose": 109.145
-    },
-    {
-      "symbol": "TE",
-      "shares": 156.18051775753804,
-      "avgCost": 8.47,
-      "currentPrice": 8.5,
-      "type": "stock",
-      "boughtAt": "2026-06-12",
-      "previousClose": 8.745
-    },
-    {
-      "symbol": "ICHR",
-      "shares": 15.740706632631452,
-      "avgCost": 84.04,
-      "currentPrice": 86.8,
-      "type": "stock",
-      "boughtAt": "2026-06-12",
-      "previousClose": 86.9
-    },
-    {
       "symbol": "QQQ",
       "shares": 2.0496321480464257,
       "avgCost": 717.12,
@@ -74,6 +29,46 @@
       "type": "etf",
       "boughtAt": "2026-06-12",
       "previousClose": 723.125
+    },
+    {
+      "symbol": "CVE",
+      "shares": 48.10285536390187,
+      "avgCost": 28.27,
+      "currentPrice": 28.27,
+      "type": "stock",
+      "boughtAt": "2026-06-15"
+    },
+    {
+      "symbol": "CRDO",
+      "shares": 5.421903915862628,
+      "avgCost": 250.81,
+      "currentPrice": 250.81,
+      "type": "stock",
+      "boughtAt": "2026-06-15"
+    },
+    {
+      "symbol": "VECO",
+      "shares": 17.55120961715934,
+      "avgCost": 77.48,
+      "currentPrice": 77.48,
+      "type": "stock",
+      "boughtAt": "2026-06-15"
+    },
+    {
+      "symbol": "ROAD",
+      "shares": 11.942282612957808,
+      "avgCost": 113.87,
+      "currentPrice": 113.87,
+      "type": "stock",
+      "boughtAt": "2026-06-15"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 10.624796633623765,
+      "avgCost": 127.99,
+      "currentPrice": 127.99,
+      "type": "stock",
+      "boughtAt": "2026-06-15"
     }
   ],
   "trades": [
@@ -763,6 +758,101 @@
       "price": 68.07,
       "total": 77.67,
       "reason": "Rebalance: 9.8% drift"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "ONTO",
+      "action": "SELL",
+      "shares": 4.3582,
+      "price": 323.88,
+      "total": 1411.54,
+      "realizedPnL": 88.69,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "FORM",
+      "action": "SELL",
+      "shares": 10.157,
+      "price": 139.21,
+      "total": 1413.96,
+      "realizedPnL": 91.11,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "UCTT",
+      "action": "SELL",
+      "shares": 12.619,
+      "price": 108.9,
+      "total": 1374.21,
+      "realizedPnL": 51.36,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "TE",
+      "action": "SELL",
+      "shares": 156.1805,
+      "price": 8.5,
+      "total": 1327.53,
+      "realizedPnL": 4.69,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "ICHR",
+      "action": "SELL",
+      "shares": 15.7407,
+      "price": 86.8,
+      "total": 1366.29,
+      "realizedPnL": 43.44,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 48.1029,
+      "price": 28.27,
+      "total": 1359.87,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 5.4219,
+      "price": 250.81,
+      "total": 1359.87,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "VECO",
+      "action": "BUY",
+      "shares": 17.5512,
+      "price": 77.48,
+      "total": 1359.87,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "ROAD",
+      "action": "BUY",
+      "shares": 11.9423,
+      "price": 113.87,
+      "total": 1359.87,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-15",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 10.6248,
+      "price": 127.99,
+      "total": 1359.87,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -998,6 +1088,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-15",
+      "totalValue": 11332.23,
+      "cash": 98.28,
+      "positionsValue": 11233.95,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
