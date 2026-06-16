@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 98.28159553755586,
+  "cash": 104.51511384657715,
   "positions": [
-    {
-      "symbol": "IWM",
-      "shares": 5.171566388129016,
-      "avgCost": 292.01,
-      "currentPrice": 294.64,
-      "type": "etf",
-      "boughtAt": "2026-06-05",
-      "previousClose": 295.61
-    },
     {
       "symbol": "EEM",
       "shares": 21.230388644371356,
@@ -31,49 +22,52 @@
       "previousClose": 743.72
     },
     {
-      "symbol": "CVE",
-      "shares": 48.10285536390187,
-      "avgCost": 28.27,
-      "currentPrice": 27.11,
+      "symbol": "GPGI",
+      "shares": 96.06159697818177,
+      "avgCost": 14.57,
+      "currentPrice": 14.57,
       "type": "stock",
-      "boughtAt": "2026-06-15",
-      "previousClose": 26.9
+      "boughtAt": "2026-06-16"
     },
     {
-      "symbol": "CRDO",
-      "shares": 5.421903915862628,
-      "avgCost": 250.81,
-      "currentPrice": 259.41,
+      "symbol": "WDC",
+      "shares": 2.141626961229184,
+      "avgCost": 653.53,
+      "currentPrice": 653.53,
       "type": "stock",
-      "boughtAt": "2026-06-15",
-      "previousClose": 257.56
+      "boughtAt": "2026-06-16"
     },
     {
-      "symbol": "VECO",
-      "shares": 17.55120961715934,
-      "avgCost": 77.48,
-      "currentPrice": 83.04,
+      "symbol": "BMNR",
+      "shares": 81.80113781251364,
+      "avgCost": 17.11,
+      "currentPrice": 17.11,
       "type": "stock",
-      "boughtAt": "2026-06-15",
-      "previousClose": 85.1401
+      "boughtAt": "2026-06-16"
     },
     {
-      "symbol": "ROAD",
-      "shares": 11.942282612957808,
-      "avgCost": 113.87,
-      "currentPrice": 120.28,
+      "symbol": "ACHR",
+      "shares": 252.18332756254208,
+      "avgCost": 5.55,
+      "currentPrice": 5.55,
       "type": "stock",
-      "boughtAt": "2026-06-15",
-      "previousClose": 121.07
+      "boughtAt": "2026-06-16"
     },
     {
-      "symbol": "PLTR",
-      "shares": 10.624796633623765,
-      "avgCost": 127.99,
-      "currentPrice": 134.71,
+      "symbol": "QUBT",
+      "shares": 126.09166378127104,
+      "avgCost": 11.1,
+      "currentPrice": 11.1,
       "type": "stock",
-      "boughtAt": "2026-06-15",
-      "previousClose": 134.02
+      "boughtAt": "2026-06-16"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 24.501820071986916,
+      "avgCost": 63.47,
+      "currentPrice": 63.47,
+      "type": "etf",
+      "boughtAt": "2026-06-16"
     }
   ],
   "trades": [
@@ -858,6 +852,120 @@
       "price": 127.99,
       "total": 1359.87,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 5.1716,
+      "price": 294.64,
+      "total": 1523.75,
+      "realizedPnL": 13.6,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 48.1029,
+      "price": 27.11,
+      "total": 1304.07,
+      "realizedPnL": -55.8,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 5.4219,
+      "price": 259.41,
+      "total": 1406.5,
+      "realizedPnL": 46.63,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "VECO",
+      "action": "SELL",
+      "shares": 17.5512,
+      "price": 83.04,
+      "total": 1457.45,
+      "realizedPnL": 97.58,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "ROAD",
+      "action": "SELL",
+      "shares": 11.9423,
+      "price": 120.28,
+      "total": 1436.42,
+      "realizedPnL": 76.55,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 10.6248,
+      "price": 134.71,
+      "total": 1431.27,
+      "realizedPnL": 71.4,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "GPGI",
+      "action": "BUY",
+      "shares": 96.0616,
+      "price": 14.57,
+      "total": 1399.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "WDC",
+      "action": "BUY",
+      "shares": 2.1416,
+      "price": 653.53,
+      "total": 1399.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "BMNR",
+      "action": "BUY",
+      "shares": 81.8011,
+      "price": 17.11,
+      "total": 1399.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "ACHR",
+      "action": "BUY",
+      "shares": 252.1833,
+      "price": 5.55,
+      "total": 1399.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "QUBT",
+      "action": "BUY",
+      "shares": 126.0917,
+      "price": 11.1,
+      "total": 1399.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-16",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 24.5018,
+      "price": 63.47,
+      "total": 1555.13,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1102,6 +1210,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-16",
+      "totalValue": 11663.48,
+      "cash": 104.52,
+      "positionsValue": 11558.96,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
