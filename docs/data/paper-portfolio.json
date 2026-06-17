@@ -7,69 +7,73 @@
       "symbol": "EEM",
       "shares": 21.230388644371356,
       "avgCost": 64.84328274996838,
-      "currentPrice": 69.835,
+      "currentPrice": 68.56,
       "type": "etf",
       "boughtAt": "2026-06-11",
-      "previousClose": 68.9
+      "previousClose": 69.835
     },
     {
       "symbol": "QQQ",
       "shares": 2.0496321480464257,
       "avgCost": 717.12,
-      "currentPrice": 732.825,
+      "currentPrice": 722.51,
       "type": "etf",
       "boughtAt": "2026-06-12",
-      "previousClose": 734.195
+      "previousClose": 732.825
     },
     {
       "symbol": "ACHR",
       "shares": 252.18332756254208,
       "avgCost": 5.55,
-      "currentPrice": 5.5845,
+      "currentPrice": 5.36,
       "type": "stock",
       "boughtAt": "2026-06-16",
-      "previousClose": 5.435
+      "previousClose": 5.5845
     },
     {
       "symbol": "SLV",
       "shares": 24.501820071986916,
       "avgCost": 63.47,
-      "currentPrice": 63.815,
+      "currentPrice": 60.61,
       "type": "etf",
       "boughtAt": "2026-06-16",
-      "previousClose": 63.405
+      "previousClose": 63.815
     },
     {
       "symbol": "FOX",
       "shares": 28.505213300692205,
       "avgCost": 47.95,
-      "currentPrice": 47.27,
+      "currentPrice": 46.73,
       "type": "stock",
-      "boughtAt": "2026-06-17"
+      "boughtAt": "2026-06-17",
+      "previousClose": 47.27
     },
     {
       "symbol": "NIO",
       "shares": 272.81935683995835,
       "avgCost": 5.01,
-      "currentPrice": 5.1217,
+      "currentPrice": 5.05,
       "type": "stock",
-      "boughtAt": "2026-06-17"
+      "boughtAt": "2026-06-17",
+      "previousClose": 5.1217
     },
     {
       "symbol": "GRND",
       "shares": 102.30725881498438,
       "avgCost": 13.36,
-      "currentPrice": 13.356,
+      "currentPrice": 13.28,
       "type": "stock",
-      "boughtAt": "2026-06-17"
+      "boughtAt": "2026-06-17",
+      "previousClose": 13.356
     },
     {
       "symbol": "BBD",
       "shares": 387.54704775159666,
       "avgCost": 3.46,
-      "currentPrice": 3.5001,
+      "currentPrice": 3.43,
       "type": "stock",
-      "boughtAt": "2026-06-17"
+      "boughtAt": "2026-06-17",
+      "previousClose": 3.5001
     }
   ],
   "trades": [
@@ -1224,12 +1228,12 @@
     },
     {
       "date": "2026-06-17",
-      "totalValue": 11494.73,
+      "totalValue": 11241.48,
       "cash": 70.57,
-      "positionsValue": 11424.16,
+      "positionsValue": 11170.91,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
