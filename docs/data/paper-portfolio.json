@@ -7,7 +7,7 @@
       "symbol": "EEM",
       "shares": 21.230388644371356,
       "avgCost": 64.84328274996838,
-      "currentPrice": 68.64,
+      "currentPrice": 69.835,
       "type": "etf",
       "boughtAt": "2026-06-11",
       "previousClose": 68.9
@@ -16,7 +16,7 @@
       "symbol": "QQQ",
       "shares": 2.0496321480464257,
       "avgCost": 717.12,
-      "currentPrice": 729.86,
+      "currentPrice": 732.825,
       "type": "etf",
       "boughtAt": "2026-06-12",
       "previousClose": 734.195
@@ -25,7 +25,7 @@
       "symbol": "ACHR",
       "shares": 252.18332756254208,
       "avgCost": 5.55,
-      "currentPrice": 5.44,
+      "currentPrice": 5.5845,
       "type": "stock",
       "boughtAt": "2026-06-16",
       "previousClose": 5.435
@@ -34,7 +34,7 @@
       "symbol": "SLV",
       "shares": 24.501820071986916,
       "avgCost": 63.47,
-      "currentPrice": 63.39,
+      "currentPrice": 63.815,
       "type": "etf",
       "boughtAt": "2026-06-16",
       "previousClose": 63.405
@@ -43,7 +43,7 @@
       "symbol": "FOX",
       "shares": 28.505213300692205,
       "avgCost": 47.95,
-      "currentPrice": 47.95,
+      "currentPrice": 47.27,
       "type": "stock",
       "boughtAt": "2026-06-17"
     },
@@ -51,7 +51,7 @@
       "symbol": "NIO",
       "shares": 272.81935683995835,
       "avgCost": 5.01,
-      "currentPrice": 5.01,
+      "currentPrice": 5.1217,
       "type": "stock",
       "boughtAt": "2026-06-17"
     },
@@ -59,7 +59,7 @@
       "symbol": "GRND",
       "shares": 102.30725881498438,
       "avgCost": 13.36,
-      "currentPrice": 13.36,
+      "currentPrice": 13.356,
       "type": "stock",
       "boughtAt": "2026-06-17"
     },
@@ -67,7 +67,7 @@
       "symbol": "BBD",
       "shares": 387.54704775159666,
       "avgCost": 3.46,
-      "currentPrice": 3.46,
+      "currentPrice": 3.5001,
       "type": "stock",
       "boughtAt": "2026-06-17"
     }
@@ -968,82 +968,6 @@
       "price": 63.47,
       "total": 1555.13,
       "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "GPGI",
-      "action": "SELL",
-      "shares": 96.0616,
-      "price": 14.02,
-      "total": 1346.78,
-      "realizedPnL": -52.83,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "WDC",
-      "action": "SELL",
-      "shares": 2.1416,
-      "price": 681.08,
-      "total": 1458.62,
-      "realizedPnL": 59,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "BMNR",
-      "action": "SELL",
-      "shares": 81.8011,
-      "price": 16.21,
-      "total": 1326,
-      "realizedPnL": -73.62,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "QUBT",
-      "action": "SELL",
-      "shares": 126.0917,
-      "price": 10.12,
-      "total": 1276.05,
-      "realizedPnL": -123.57,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "FOX",
-      "action": "BUY",
-      "shares": 28.5052,
-      "price": 47.95,
-      "total": 1366.82,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "NIO",
-      "action": "BUY",
-      "shares": 272.8194,
-      "price": 5.01,
-      "total": 1366.82,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "GRND",
-      "action": "BUY",
-      "shares": 102.3073,
-      "price": 13.36,
-      "total": 1366.82,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-17",
-      "symbol": "BBD",
-      "action": "BUY",
-      "shares": 387.547,
-      "price": 3.46,
-      "total": 1340.91,
-      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -1300,11 +1224,11 @@
     },
     {
       "date": "2026-06-17",
-      "totalValue": 11390.21,
+      "totalValue": 11494.73,
       "cash": 70.57,
-      "positionsValue": 11319.63,
+      "positionsValue": 11424.16,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
