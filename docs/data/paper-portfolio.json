@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 104.51511384657715,
+  "cash": 70.5743571168698,
   "positions": [
     {
       "symbol": "EEM",
@@ -22,33 +22,6 @@
       "previousClose": 734.195
     },
     {
-      "symbol": "GPGI",
-      "shares": 96.06159697818177,
-      "avgCost": 14.57,
-      "currentPrice": 14.02,
-      "type": "stock",
-      "boughtAt": "2026-06-16",
-      "previousClose": 14.66
-    },
-    {
-      "symbol": "WDC",
-      "shares": 2.141626961229184,
-      "avgCost": 653.53,
-      "currentPrice": 681.08,
-      "type": "stock",
-      "boughtAt": "2026-06-16",
-      "previousClose": 698.985
-    },
-    {
-      "symbol": "BMNR",
-      "shares": 81.80113781251364,
-      "avgCost": 17.11,
-      "currentPrice": 16.21,
-      "type": "stock",
-      "boughtAt": "2026-06-16",
-      "previousClose": 16.305
-    },
-    {
       "symbol": "ACHR",
       "shares": 252.18332756254208,
       "avgCost": 5.55,
@@ -58,15 +31,6 @@
       "previousClose": 5.435
     },
     {
-      "symbol": "QUBT",
-      "shares": 126.09166378127104,
-      "avgCost": 11.1,
-      "currentPrice": 10.12,
-      "type": "stock",
-      "boughtAt": "2026-06-16",
-      "previousClose": 10.41
-    },
-    {
       "symbol": "SLV",
       "shares": 24.501820071986916,
       "avgCost": 63.47,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-06-16",
       "previousClose": 63.405
+    },
+    {
+      "symbol": "FOX",
+      "shares": 28.505213300692205,
+      "avgCost": 47.95,
+      "currentPrice": 47.95,
+      "type": "stock",
+      "boughtAt": "2026-06-17"
+    },
+    {
+      "symbol": "NIO",
+      "shares": 272.81935683995835,
+      "avgCost": 5.01,
+      "currentPrice": 5.01,
+      "type": "stock",
+      "boughtAt": "2026-06-17"
+    },
+    {
+      "symbol": "GRND",
+      "shares": 102.30725881498438,
+      "avgCost": 13.36,
+      "currentPrice": 13.36,
+      "type": "stock",
+      "boughtAt": "2026-06-17"
+    },
+    {
+      "symbol": "BBD",
+      "shares": 387.54704775159666,
+      "avgCost": 3.46,
+      "currentPrice": 3.46,
+      "type": "stock",
+      "boughtAt": "2026-06-17"
     }
   ],
   "trades": [
@@ -972,6 +968,82 @@
       "price": 63.47,
       "total": 1555.13,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "GPGI",
+      "action": "SELL",
+      "shares": 96.0616,
+      "price": 14.02,
+      "total": 1346.78,
+      "realizedPnL": -52.83,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 2.1416,
+      "price": 681.08,
+      "total": 1458.62,
+      "realizedPnL": 59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "BMNR",
+      "action": "SELL",
+      "shares": 81.8011,
+      "price": 16.21,
+      "total": 1326,
+      "realizedPnL": -73.62,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "QUBT",
+      "action": "SELL",
+      "shares": 126.0917,
+      "price": 10.12,
+      "total": 1276.05,
+      "realizedPnL": -123.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "FOX",
+      "action": "BUY",
+      "shares": 28.5052,
+      "price": 47.95,
+      "total": 1366.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "NIO",
+      "action": "BUY",
+      "shares": 272.8194,
+      "price": 5.01,
+      "total": 1366.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "GRND",
+      "action": "BUY",
+      "shares": 102.3073,
+      "price": 13.36,
+      "total": 1366.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-17",
+      "symbol": "BBD",
+      "action": "BUY",
+      "shares": 387.547,
+      "price": 3.46,
+      "total": 1340.91,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -1225,6 +1297,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-17",
+      "totalValue": 11390.21,
+      "cash": 70.57,
+      "positionsValue": 11319.63,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
