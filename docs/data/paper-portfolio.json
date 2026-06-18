@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 76.69073897993098,
+  "cash": 277.86661999617786,
   "positions": [
     {
       "symbol": "QQQ",
       "shares": 2.0496321480464257,
       "avgCost": 717.12,
-      "currentPrice": 722.51,
+      "currentPrice": 736.82,
       "type": "etf",
       "boughtAt": "2026-06-12",
       "previousClose": 732.825
@@ -16,7 +16,7 @@
       "symbol": "ACHR",
       "shares": 252.18332756254208,
       "avgCost": 5.55,
-      "currentPrice": 5.36,
+      "currentPrice": 5.5,
       "type": "stock",
       "boughtAt": "2026-06-16",
       "previousClose": 5.5845
@@ -25,7 +25,7 @@
       "symbol": "BBD",
       "shares": 387.54704775159666,
       "avgCost": 3.46,
-      "currentPrice": 3.43,
+      "currentPrice": 3.395,
       "type": "stock",
       "boughtAt": "2026-06-17",
       "previousClose": 3.5001
@@ -34,7 +34,7 @@
       "symbol": "DELL",
       "shares": 3.2170601783628108,
       "avgCost": 419.32,
-      "currentPrice": 419.32,
+      "currentPrice": 429.885,
       "type": "stock",
       "boughtAt": "2026-06-18"
     },
@@ -42,7 +42,7 @@
       "symbol": "SIMO",
       "shares": 4.392347206274725,
       "avgCost": 307.12,
-      "currentPrice": 307.12,
+      "currentPrice": 324.85,
       "type": "stock",
       "boughtAt": "2026-06-18"
     },
@@ -50,15 +50,15 @@
       "symbol": "WDC",
       "shares": 1.8942856978235627,
       "avgCost": 712.13,
-      "currentPrice": 712.13,
+      "currentPrice": 779.03,
       "type": "stock",
       "boughtAt": "2026-06-18"
     },
     {
       "symbol": "SOXL",
-      "shares": 6.409236646764418,
+      "shares": 5.682720762196617,
       "avgCost": 233.86,
-      "currentPrice": 233.86,
+      "currentPrice": 276.905,
       "type": "etf",
       "boughtAt": "2026-06-18"
     },
@@ -66,7 +66,7 @@
       "symbol": "XBI",
       "shares": 10.453576588124582,
       "avgCost": 139.39,
-      "currentPrice": 139.39,
+      "currentPrice": 138.89,
       "type": "etf",
       "boughtAt": "2026-06-18"
     }
@@ -970,98 +970,13 @@
     },
     {
       "date": "2026-06-18",
-      "symbol": "EEM",
-      "action": "SELL",
-      "shares": 21.2304,
-      "price": 68.56,
-      "total": 1455.56,
-      "realizedPnL": 78.91,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 24.5018,
-      "price": 60.61,
-      "total": 1485.06,
-      "realizedPnL": -70.08,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "FOX",
-      "action": "SELL",
-      "shares": 28.5052,
-      "price": 46.73,
-      "total": 1332.05,
-      "realizedPnL": -34.78,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "NIO",
-      "action": "SELL",
-      "shares": 272.8194,
-      "price": 5.05,
-      "total": 1377.74,
-      "realizedPnL": 10.91,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "GRND",
-      "action": "SELL",
-      "shares": 102.3073,
-      "price": 13.28,
-      "total": 1358.64,
-      "realizedPnL": -8.18,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "DELL",
-      "action": "BUY",
-      "shares": 3.2171,
-      "price": 419.32,
-      "total": 1348.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "SIMO",
-      "action": "BUY",
-      "shares": 4.3923,
-      "price": 307.12,
-      "total": 1348.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "WDC",
-      "action": "BUY",
-      "shares": 1.8943,
-      "price": 712.13,
-      "total": 1348.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-18",
       "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 6.4092,
-      "price": 233.86,
-      "total": 1498.86,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-18",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 10.4536,
-      "price": 139.39,
-      "total": 1457.12,
-      "reason": "Top 3 ETF pick"
+      "action": "SELL",
+      "shares": 0.7265,
+      "price": 276.905,
+      "total": 201.18,
+      "realizedPnL": 31.27,
+      "reason": "Rebalance: 12.8% drift"
     }
   ],
   "history": [
@@ -1327,11 +1242,11 @@
     },
     {
       "date": "2026-06-18",
-      "totalValue": 11241.48,
-      "cash": 76.69,
-      "positionsValue": 11164.79,
+      "totalValue": 11801.8,
+      "cash": 277.87,
+      "positionsValue": 11523.94,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
