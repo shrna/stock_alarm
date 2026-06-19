@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 277.86661999617786,
+  "cash": 118.51046281827348,
   "positions": [
     {
       "symbol": "QQQ",
@@ -13,15 +13,6 @@
       "previousClose": 736.82
     },
     {
-      "symbol": "ACHR",
-      "shares": 252.18332756254208,
-      "avgCost": 5.55,
-      "currentPrice": 5.57,
-      "type": "stock",
-      "boughtAt": "2026-06-16",
-      "previousClose": 5.5
-    },
-    {
       "symbol": "BBD",
       "shares": 387.54704775159666,
       "avgCost": 3.46,
@@ -29,33 +20,6 @@
       "type": "stock",
       "boughtAt": "2026-06-17",
       "previousClose": 3.395
-    },
-    {
-      "symbol": "DELL",
-      "shares": 3.2170601783628108,
-      "avgCost": 419.32,
-      "currentPrice": 409.5,
-      "type": "stock",
-      "boughtAt": "2026-06-18",
-      "previousClose": 429.885
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.392347206274725,
-      "avgCost": 307.12,
-      "currentPrice": 321.66,
-      "type": "stock",
-      "boughtAt": "2026-06-18",
-      "previousClose": 324.85
-    },
-    {
-      "symbol": "WDC",
-      "shares": 1.8942856978235627,
-      "avgCost": 712.13,
-      "currentPrice": 746.23,
-      "type": "stock",
-      "boughtAt": "2026-06-18",
-      "previousClose": 779.03
     },
     {
       "symbol": "SOXL",
@@ -67,13 +31,44 @@
       "previousClose": 276.905
     },
     {
-      "symbol": "XBI",
-      "shares": 10.453576588124582,
-      "avgCost": 139.39,
-      "currentPrice": 140.72,
+      "symbol": "FLEX",
+      "shares": 9.51532292172829,
+      "avgCost": 147.61,
+      "currentPrice": 147.61,
+      "type": "stock",
+      "boughtAt": "2026-06-19"
+    },
+    {
+      "symbol": "PENG",
+      "shares": 20.91670612771873,
+      "avgCost": 67.15,
+      "currentPrice": 67.15,
+      "type": "stock",
+      "boughtAt": "2026-06-19"
+    },
+    {
+      "symbol": "SEZL",
+      "shares": 8.602136308649637,
+      "avgCost": 163.28,
+      "currentPrice": 163.28,
+      "type": "stock",
+      "boughtAt": "2026-06-19"
+    },
+    {
+      "symbol": "BE",
+      "shares": 4.270337832465759,
+      "avgCost": 328.91,
+      "currentPrice": 328.91,
+      "type": "stock",
+      "boughtAt": "2026-06-19"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 22.045750599995493,
+      "avgCost": 70.79,
+      "currentPrice": 70.79,
       "type": "etf",
-      "boughtAt": "2026-06-18",
-      "previousClose": 138.89
+      "boughtAt": "2026-06-19"
     }
   ],
   "trades": [
@@ -982,6 +977,101 @@
       "total": 201.18,
       "realizedPnL": 31.27,
       "reason": "Rebalance: 12.8% drift"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "ACHR",
+      "action": "SELL",
+      "shares": 252.1833,
+      "price": 5.57,
+      "total": 1404.66,
+      "realizedPnL": 5.04,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "DELL",
+      "action": "SELL",
+      "shares": 3.2171,
+      "price": 409.5,
+      "total": 1317.39,
+      "realizedPnL": -31.59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.3923,
+      "price": 321.66,
+      "total": 1412.84,
+      "realizedPnL": 63.86,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 1.8943,
+      "price": 746.23,
+      "total": 1413.57,
+      "realizedPnL": 64.6,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 10.4536,
+      "price": 140.72,
+      "total": 1471.03,
+      "realizedPnL": 13.9,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "FLEX",
+      "action": "BUY",
+      "shares": 9.5153,
+      "price": 147.61,
+      "total": 1404.56,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "PENG",
+      "action": "BUY",
+      "shares": 20.9167,
+      "price": 67.15,
+      "total": 1404.56,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "SEZL",
+      "action": "BUY",
+      "shares": 8.6021,
+      "price": 163.28,
+      "total": 1404.56,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "BE",
+      "action": "BUY",
+      "shares": 4.2703,
+      "price": 328.91,
+      "total": 1404.56,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-19",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 22.0458,
+      "price": 70.79,
+      "total": 1560.62,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1253,6 +1343,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-19",
+      "totalValue": 11704.64,
+      "cash": 118.51,
+      "positionsValue": 11586.13,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
