@@ -10,7 +10,7 @@
       "currentPrice": 740.62,
       "type": "etf",
       "boughtAt": "2026-06-12",
-      "previousClose": 736.82
+      "previousClose": 740.62
     },
     {
       "symbol": "BBD",
@@ -19,7 +19,7 @@
       "currentPrice": 3.36,
       "type": "stock",
       "boughtAt": "2026-06-17",
-      "previousClose": 3.395
+      "previousClose": 3.36
     },
     {
       "symbol": "SOXL",
@@ -28,7 +28,7 @@
       "currentPrice": 279.29,
       "type": "etf",
       "boughtAt": "2026-06-18",
-      "previousClose": 276.905
+      "previousClose": 279.29
     },
     {
       "symbol": "FLEX",
@@ -36,7 +36,8 @@
       "avgCost": 147.61,
       "currentPrice": 147.61,
       "type": "stock",
-      "boughtAt": "2026-06-19"
+      "boughtAt": "2026-06-19",
+      "previousClose": 147.61
     },
     {
       "symbol": "PENG",
@@ -44,7 +45,8 @@
       "avgCost": 67.15,
       "currentPrice": 67.15,
       "type": "stock",
-      "boughtAt": "2026-06-19"
+      "boughtAt": "2026-06-19",
+      "previousClose": 67.15
     },
     {
       "symbol": "SEZL",
@@ -52,7 +54,8 @@
       "avgCost": 163.28,
       "currentPrice": 163.28,
       "type": "stock",
-      "boughtAt": "2026-06-19"
+      "boughtAt": "2026-06-19",
+      "previousClose": 163.28
     },
     {
       "symbol": "BE",
@@ -60,7 +63,8 @@
       "avgCost": 328.91,
       "currentPrice": 328.91,
       "type": "stock",
-      "boughtAt": "2026-06-19"
+      "boughtAt": "2026-06-19",
+      "previousClose": 328.91
     },
     {
       "symbol": "EEM",
@@ -68,7 +72,8 @@
       "avgCost": 70.79,
       "currentPrice": 70.79,
       "type": "etf",
-      "boughtAt": "2026-06-19"
+      "boughtAt": "2026-06-19",
+      "previousClose": 70.79
     }
   ],
   "trades": [
@@ -1256,7 +1261,7 @@
       "positionsValue": 11586.13,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
