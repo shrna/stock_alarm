@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-19T11:47:02.017Z",
+  "date": "2026-06-20T10:17:24.575Z",
   "stocks": [
     {
       "symbol": "FLEX",
@@ -44,6 +44,48 @@
       "source": "most_actives"
     },
     {
+      "symbol": "SEZL",
+      "name": "Sezzle Inc.",
+      "price": 163.28,
+      "dayChangePct": 11.2792,
+      "marketCap": 5490619904,
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "pe": 26.592834,
+      "forwardPE": 25.14321,
+      "eps": 6.14,
+      "forwardEps": 6.5225,
+      "pegRatio": 0.07,
+      "beta": 6.974,
+      "priceToBook": 27.882513,
+      "dividendYield": 0,
+      "revenueGrowth": 0.292,
+      "earningsGrowth": 0.47,
+      "profitMargins": 0.30831,
+      "grossMargins": 0.74297,
+      "operatingMargins": 0.61024,
+      "debtToEquity": 73.791,
+      "returnOnEquity": 0.91954005,
+      "freeCashflow": 72545000,
+      "totalRevenue": 480905984,
+      "ebitda": 286588000,
+      "zacks": {
+        "rank": 1,
+        "label": "Strong Buy"
+      },
+      "targetMean": 134.33333,
+      "targetHigh": 166,
+      "targetLow": 108,
+      "strongBuy": 2,
+      "buy": 3,
+      "hold": 1,
+      "sell": 0,
+      "strongSell": 0,
+      "earningsDate": "2026-08-06T20:00:00.000Z",
+      "analysis": "Sezzle Inc. Sector: Financial Services. Zacks #1 (Strong Buy). Analysts: 5 Buy vs 0 Sell. Target: $134 (-17.7%). Revenue: 29% YoY. EPS: $6.14. P/E: 26.6. Finviz: Strong Buy (1.3). MarketBeat: Strong Buy. Earnings: Aug 6.",
+      "source": "day_gainers"
+    },
+    {
       "symbol": "PENG",
       "name": "Penguin Solutions, Inc.",
       "price": 67.15,
@@ -83,48 +125,6 @@
       "strongSell": 0,
       "earningsDate": "2026-07-07T20:00:00.000Z",
       "analysis": "Penguin Solutions, Inc. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 6 Buy vs 0 Sell. Target: $50 (-25.3%). Revenue: -6% YoY. EPS: $0.70. P/E: 95.9. Finviz: Strong Buy (1.4). MarketBeat: Strong Buy. Earnings: Jul 7.",
-      "source": "day_gainers"
-    },
-    {
-      "symbol": "SEZL",
-      "name": "Sezzle Inc.",
-      "price": 163.28,
-      "dayChangePct": 11.2792,
-      "marketCap": 5490619904,
-      "sector": "Financial Services",
-      "industry": "Credit Services",
-      "pe": 26.592834,
-      "forwardPE": 25.033346,
-      "eps": 6.14,
-      "forwardEps": 6.5225,
-      "pegRatio": 0.07,
-      "beta": 6.974,
-      "priceToBook": 27.882513,
-      "dividendYield": 0,
-      "revenueGrowth": 0.292,
-      "earningsGrowth": 0.47,
-      "profitMargins": 0.30831,
-      "grossMargins": 0.74297,
-      "operatingMargins": 0.61024,
-      "debtToEquity": 73.791,
-      "returnOnEquity": 0.91954005,
-      "freeCashflow": 72545000,
-      "totalRevenue": 480905984,
-      "ebitda": 286588000,
-      "zacks": {
-        "rank": 1,
-        "label": "Strong Buy"
-      },
-      "targetMean": 120.33333,
-      "targetHigh": 141,
-      "targetLow": 108,
-      "strongBuy": 2,
-      "buy": 3,
-      "hold": 1,
-      "sell": 0,
-      "strongSell": 0,
-      "earningsDate": "2026-08-06T20:00:00.000Z",
-      "analysis": "Sezzle Inc. Sector: Financial Services. Zacks #1 (Strong Buy). Analysts: 5 Buy vs 0 Sell. Target: $120 (-26.3%). Revenue: 29% YoY. EPS: $6.14. P/E: 26.6. Finviz: Strong Buy (1.3). MarketBeat: Strong Buy. Earnings: Aug 6.",
       "source": "day_gainers"
     },
     {
@@ -184,7 +184,7 @@
       "pegRatio": 1.78,
       "beta": 0.256,
       "priceToBook": 1.0005131,
-      "dividendYield": 0,
+      "dividendYield": 0.0494,
       "revenueGrowth": 0.105,
       "earningsGrowth": -0.075,
       "profitMargins": 0.25358,
@@ -391,7 +391,7 @@
       "forwardPE": 38.66685,
       "eps": 1.61,
       "forwardEps": 4.62334,
-      "pegRatio": 1.86,
+      "pegRatio": 2.19,
       "beta": 1.363,
       "priceToBook": 6.7239633,
       "dividendYield": 0.0026,
@@ -414,11 +414,11 @@
       "targetLow": 115,
       "strongBuy": 1,
       "buy": 5,
-      "hold": 4,
+      "hold": 3,
       "sell": 1,
-      "strongSell": 0,
+      "strongSell": 1,
       "earningsDate": "2026-07-30T12:30:00.000Z",
-      "analysis": "Entegris, Inc. Sector: Technology. Zacks #2 (Buy). Analysts: 6 Buy vs 1 Sell. Target: $161 (-10.2%). Revenue: 5% YoY. EPS: $1.61. P/E: 111.0. Finviz: Buy (2.4). MarketBeat: Strong Buy. Earnings: Jul 30.",
+      "analysis": "Entegris, Inc. Sector: Technology. Zacks #2 (Buy). Analysts: 6 Buy vs 2 Sell. Target: $161 (-10.2%). Revenue: 5% YoY. EPS: $1.61. P/E: 111.0. Finviz: Buy (2.4). MarketBeat: Strong Buy. Earnings: Jul 30.",
       "source": "day_gainers"
     }
   ],
@@ -428,7 +428,7 @@
       "name": "Invesco QQQ Trust, Series 1",
       "price": 740.62,
       "dayChangePct": 2.50654,
-      "fiftyTwoWeekChangePct": 40.580452,
+      "fiftyTwoWeekChangePct": 39.30594,
       "category": "Large Growth",
       "fundFamily": "Invesco",
       "legalType": "Exchange Traded Fund",
@@ -557,14 +557,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +40.6%. YTD: 20.4%. Yield: 0.38%. ER: 0.18%. AUM: $494.0B. Sharpe: 1.32. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $740.62 (+2.5% today)."
+      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +39.3%. YTD: 20.4%. Yield: 0.38%. ER: 0.18%. AUM: $494.0B. Sharpe: 1.32. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $740.62 (+2.5% today)."
     },
     {
       "symbol": "EEM",
       "name": "iShares MSCI Emerging Index Fun",
       "price": 70.79,
       "dayChangePct": 3.25263,
-      "fiftyTwoWeekChangePct": 52.79516,
+      "fiftyTwoWeekChangePct": 51.552128,
       "category": "Diversified Emerging Mkts",
       "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
@@ -697,14 +697,14 @@
         "rank": 3,
         "label": "Hold"
       },
-      "analysis": "iShares MSCI Emerging Index Fun (Diversified Emerging Mkts). By iShares. 52wk: +52.8%. YTD: 25.2%. Yield: 1.77%. ER: 0.72%. AUM: $30.3B. Sharpe: 1.16. Zacks #3 (Hold). Top: Taiwan Semiconductor Manufacturing Co Ltd, Samsung Electronics Co Ltd, SK Hynix Inc. $70.79 (+3.3% today)."
+      "analysis": "iShares MSCI Emerging Index Fun (Diversified Emerging Mkts). By iShares. 52wk: +51.6%. YTD: 25.2%. Yield: 1.77%. ER: 0.72%. AUM: $30.3B. Sharpe: 1.16. Zacks #3 (Hold). Top: Taiwan Semiconductor Manufacturing Co Ltd, Samsung Electronics Co Ltd, SK Hynix Inc. $70.79 (+3.3% today)."
     },
     {
       "symbol": "TQQQ",
       "name": "ProShares UltraPro QQQ",
       "price": 82.87,
       "dayChangePct": 6.87387,
-      "fiftyTwoWeekChangePct": 128.76468,
+      "fiftyTwoWeekChangePct": 121.87417,
       "category": "Trading--Leveraged Equity",
       "fundFamily": "ProShares",
       "legalType": "Exchange Traded Fund",
@@ -785,14 +785,14 @@
         "treynor": null
       },
       "zacks": null,
-      "analysis": "ProShares UltraPro QQQ (Trading--Leveraged Equity). By ProShares. 52wk: +128.8%. Yield: 0.37%. ER: 0.82%. AUM: $39.8B. Top: ProShares GENIUS Money Market ETF. $82.87 (+6.9% today)."
+      "analysis": "ProShares UltraPro QQQ (Trading--Leveraged Equity). By ProShares. 52wk: +121.9%. Yield: 0.37%. ER: 0.82%. AUM: $39.8B. Top: ProShares GENIUS Money Market ETF. $82.87 (+6.9% today)."
     },
     {
       "symbol": "SOXL",
       "name": "Direxion Daily Semiconductor Bu",
       "price": 279.29,
       "dayChangePct": 19.4262,
-      "fiftyTwoWeekChangePct": 1216.7845,
+      "fiftyTwoWeekChangePct": 1194.2075,
       "category": "Trading--Leveraged Equity",
       "fundFamily": "Direxion Funds",
       "legalType": "Exchange Traded Fund",
@@ -851,14 +851,14 @@
         "treynor": null
       },
       "zacks": null,
-      "analysis": "Direxion Daily Semiconductor Bu (Trading--Leveraged Equity). By Direxion Funds. 52wk: +1216.8%. Yield: 0.03%. ER: 0.75%. AUM: $26.0B. Top: Micron Technology Inc, Advanced Micro Devices Inc, Broadcom Inc. $279.29 (+19.4% today)."
+      "analysis": "Direxion Daily Semiconductor Bu (Trading--Leveraged Equity). By Direxion Funds. 52wk: +1194.2%. Yield: 0.03%. ER: 0.75%. AUM: $26.0B. Top: Micron Technology Inc, Advanced Micro Devices Inc, Broadcom Inc. $279.29 (+19.4% today)."
     },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 Index Fund",
       "price": 295.59,
       "dayChangePct": 1.96978,
-      "fiftyTwoWeekChangePct": 41.288662,
+      "fiftyTwoWeekChangePct": 39.58068,
       "category": "Small Blend",
       "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
@@ -991,14 +991,14 @@
         "rank": 2,
         "label": "Buy"
       },
-      "analysis": "iShares Russell 2000 Index Fund (Small Blend). By iShares. 52wk: +41.3%. YTD: 18.1%. Yield: 0.87%. ER: 0.19%. AUM: $80.9B. Sharpe: 0.77. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, Credo Technology Group Holding Ltd, Sterling Infrastructure Inc. $295.59 (+2.0% today)."
+      "analysis": "iShares Russell 2000 Index Fund (Small Blend). By iShares. 52wk: +39.6%. YTD: 18.1%. Yield: 0.87%. ER: 0.19%. AUM: $80.9B. Sharpe: 0.77. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, Credo Technology Group Holding Ltd, Sterling Infrastructure Inc. $295.59 (+2.0% today)."
     },
     {
       "symbol": "XLK",
       "name": "State Street Technology Select ",
       "price": 191.44,
       "dayChangePct": 3.03552,
-      "fiftyTwoWeekChangePct": 59.175194,
+      "fiftyTwoWeekChangePct": 57.641636,
       "category": "Technology",
       "fundFamily": "State Street Investment Management",
       "legalType": "Exchange Traded Fund",
@@ -1095,14 +1095,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "State Street Technology Select  (Technology). By State Street Investment Management. 52wk: +59.2%. YTD: 32.9%. Yield: 0.40%. ER: 0.08%. AUM: $124.5B. Sharpe: 1.19. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $191.44 (+3.0% today)."
+      "analysis": "State Street Technology Select  (Technology). By State Street Investment Management. 52wk: +57.6%. YTD: 32.9%. Yield: 0.40%. ER: 0.08%. AUM: $124.5B. Sharpe: 1.19. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $191.44 (+3.0% today)."
     },
     {
       "symbol": "SMH",
       "name": "VanEck Semiconductor ETF",
       "price": 659.88,
       "dayChangePct": 5.75509,
-      "fiftyTwoWeekChangePct": 153.5367,
+      "fiftyTwoWeekChangePct": 151.93953,
       "category": "Technology",
       "fundFamily": "VanEck",
       "legalType": "Exchange Traded Fund",
@@ -1195,14 +1195,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "VanEck Semiconductor ETF (Technology). By VanEck. 52wk: +153.5%. YTD: 66.2%. Yield: 0.18%. ER: 0.35%. AUM: $67.8B. Sharpe: 1.58. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Taiwan Semiconductor Manufacturing Co Ltd ADR, Micron Technology Inc. $659.88 (+5.8% today)."
+      "analysis": "VanEck Semiconductor ETF (Technology). By VanEck. 52wk: +151.9%. YTD: 66.2%. Yield: 0.18%. ER: 0.35%. AUM: $67.8B. Sharpe: 1.58. Zacks #1 (Strong Buy). Top: NVIDIA Corp, Taiwan Semiconductor Manufacturing Co Ltd ADR, Micron Technology Inc. $659.88 (+5.8% today)."
     },
     {
       "symbol": "SOXX",
       "name": "iShares PHLX SOX Semiconductor ",
       "price": 639.45,
       "dayChangePct": 6.62299,
-      "fiftyTwoWeekChangePct": 184.06113,
+      "fiftyTwoWeekChangePct": 182.3054,
       "category": "Technology",
       "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
@@ -1295,14 +1295,14 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "analysis": "iShares PHLX SOX Semiconductor  (Technology). By iShares. 52wk: +184.1%. YTD: 89.1%. Yield: 0.29%. ER: 0.34%. AUM: $38.4B. Sharpe: 1.27. Zacks #1 (Strong Buy). Top: Micron Technology Inc, Advanced Micro Devices Inc, Broadcom Inc. $639.45 (+6.6% today)."
+      "analysis": "iShares PHLX SOX Semiconductor  (Technology). By iShares. 52wk: +182.3%. YTD: 89.1%. Yield: 0.29%. ER: 0.34%. AUM: $38.4B. Sharpe: 1.27. Zacks #1 (Strong Buy). Top: Micron Technology Inc, Advanced Micro Devices Inc, Broadcom Inc. $639.45 (+6.6% today)."
     },
     {
       "symbol": "ICLN",
       "name": "iShares Global Clean Energy ETF",
       "price": 21.1,
       "dayChangePct": 3.02735,
-      "fiftyTwoWeekChangePct": 67.062546,
+      "fiftyTwoWeekChangePct": 66.14174,
       "category": "Miscellaneous Sector",
       "fundFamily": "iShares",
       "legalType": "Exchange Traded Fund",
@@ -1407,14 +1407,14 @@
         "rank": 2,
         "label": "Buy"
       },
-      "analysis": "iShares Global Clean Energy ETF (Miscellaneous Sector). By iShares. 52wk: +67.1%. Yield: 1.14%. ER: 0.39%. AUM: $3.2B. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, First Solar Inc, Nextpower Inc Class A. $21.10 (+3.0% today)."
+      "analysis": "iShares Global Clean Energy ETF (Miscellaneous Sector). By iShares. 52wk: +66.1%. Yield: 1.14%. ER: 0.39%. AUM: $3.2B. Zacks #2 (Buy). Top: Bloom Energy Corp Class A, First Solar Inc, Nextpower Inc Class A. $21.10 (+3.0% today)."
     },
     {
       "symbol": "SPY",
       "name": "State Street SPDR S&P 500 ETF T",
       "price": 746.74,
       "dayChangePct": 1.03964,
-      "fiftyTwoWeekChangePct": 25.65458,
+      "fiftyTwoWeekChangePct": 24.425566,
       "category": "Large Blend",
       "fundFamily": "State Street Investment Management",
       "legalType": "Exchange Traded Fund",
@@ -1547,7 +1547,7 @@
         "rank": 2,
         "label": "Buy"
       },
-      "analysis": "State Street SPDR S&P 500 ETF T (Large Blend). By State Street Investment Management. 52wk: +25.7%. YTD: 11.2%. Yield: 0.98%. ER: 0.09%. AUM: $783.8B. Sharpe: 1.31. Zacks #2 (Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $746.74 (+1.0% today)."
+      "analysis": "State Street SPDR S&P 500 ETF T (Large Blend). By State Street Investment Management. 52wk: +24.4%. YTD: 11.2%. Yield: 0.98%. ER: 0.09%. AUM: $783.8B. Sharpe: 1.31. Zacks #2 (Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $746.74 (+1.0% today)."
     }
   ]
 }
