@@ -16,58 +16,64 @@
       "symbol": "SOXL",
       "shares": 6.002560730195086,
       "avgCost": 233.9680757756982,
-      "currentPrice": 235.8883,
+      "currentPrice": 231.42,
       "type": "etf",
       "boughtAt": "2026-06-18",
-      "previousClose": 293.95
+      "previousClose": 235.8883
     },
     {
       "symbol": "CRDO",
       "shares": 4.746500908549405,
       "avgCost": 302.52,
-      "currentPrice": 268.915,
+      "currentPrice": 272.005,
       "type": "stock",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 268.915
     },
     {
       "symbol": "PLTR",
       "shares": 12.01599543811185,
       "avgCost": 119.5,
-      "currentPrice": 119.12,
+      "currentPrice": 116.7,
       "type": "stock",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 119.12
     },
     {
       "symbol": "VIAV",
       "shares": 27.123374666686175,
       "avgCost": 52.94,
-      "currentPrice": 50.17,
+      "currentPrice": 49.97,
       "type": "stock",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 50.17
     },
     {
       "symbol": "SMTC",
       "shares": 8.217887339634672,
       "avgCost": 174.73,
-      "currentPrice": 164.28,
+      "currentPrice": 163.28,
       "type": "stock",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 164.28
     },
     {
       "symbol": "IWM",
       "shares": 5.350651190758625,
       "avgCost": 298.18,
-      "currentPrice": 296.04,
+      "currentPrice": 295.32,
       "type": "etf",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 296.04
     },
     {
       "symbol": "XBI",
       "shares": 10.345057770905397,
       "avgCost": 145.86,
-      "currentPrice": 147.71,
+      "currentPrice": 147.03,
       "type": "etf",
-      "boughtAt": "2026-06-23"
+      "boughtAt": "2026-06-23",
+      "previousClose": 147.71
     }
   ],
   "trades": [
@@ -1277,12 +1283,12 @@
     },
     {
       "date": "2026-06-23",
-      "totalValue": 11279.83,
+      "totalValue": 11214.07,
       "cash": 3.97,
-      "positionsValue": 11275.86,
+      "positionsValue": 11210.1,
       "positionCount": 8,
-      "tradesExecuted": 1,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
