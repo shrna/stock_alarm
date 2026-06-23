@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 79.41737507706648,
+  "cash": 3.970868753853324,
   "positions": [
     {
       "symbol": "BBD",
@@ -14,9 +14,9 @@
     },
     {
       "symbol": "SOXL",
-      "shares": 5.682720762196617,
-      "avgCost": 233.86,
-      "currentPrice": 300.77,
+      "shares": 6.002560730195086,
+      "avgCost": 233.9680757756982,
+      "currentPrice": 235.8883,
       "type": "etf",
       "boughtAt": "2026-06-18",
       "previousClose": 293.95
@@ -25,7 +25,7 @@
       "symbol": "CRDO",
       "shares": 4.746500908549405,
       "avgCost": 302.52,
-      "currentPrice": 302.52,
+      "currentPrice": 268.915,
       "type": "stock",
       "boughtAt": "2026-06-23"
     },
@@ -33,7 +33,7 @@
       "symbol": "PLTR",
       "shares": 12.01599543811185,
       "avgCost": 119.5,
-      "currentPrice": 119.5,
+      "currentPrice": 119.12,
       "type": "stock",
       "boughtAt": "2026-06-23"
     },
@@ -41,7 +41,7 @@
       "symbol": "VIAV",
       "shares": 27.123374666686175,
       "avgCost": 52.94,
-      "currentPrice": 52.94,
+      "currentPrice": 50.17,
       "type": "stock",
       "boughtAt": "2026-06-23"
     },
@@ -49,7 +49,7 @@
       "symbol": "SMTC",
       "shares": 8.217887339634672,
       "avgCost": 174.73,
-      "currentPrice": 174.73,
+      "currentPrice": 164.28,
       "type": "stock",
       "boughtAt": "2026-06-23"
     },
@@ -57,7 +57,7 @@
       "symbol": "IWM",
       "shares": 5.350651190758625,
       "avgCost": 298.18,
-      "currentPrice": 298.18,
+      "currentPrice": 296.04,
       "type": "etf",
       "boughtAt": "2026-06-23"
     },
@@ -65,7 +65,7 @@
       "symbol": "XBI",
       "shares": 10.345057770905397,
       "avgCost": 145.86,
-      "currentPrice": 145.86,
+      "currentPrice": 147.71,
       "type": "etf",
       "boughtAt": "2026-06-23"
     }
@@ -979,117 +979,12 @@
     },
     {
       "date": "2026-06-23",
-      "symbol": "QQQ",
-      "action": "SELL",
-      "shares": 2.0496,
-      "price": 737.95,
-      "total": 1512.53,
-      "realizedPnL": 42.69,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "FLEX",
-      "action": "SELL",
-      "shares": 9.5153,
-      "price": 155.81,
-      "total": 1482.58,
-      "realizedPnL": 78.03,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "PENG",
-      "action": "SELL",
-      "shares": 20.9167,
-      "price": 67.94,
-      "total": 1421.08,
-      "realizedPnL": 16.52,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "SEZL",
-      "action": "SELL",
-      "shares": 8.6021,
-      "price": 156.47,
-      "total": 1345.98,
-      "realizedPnL": -58.58,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "BE",
-      "action": "SELL",
-      "shares": 4.2703,
-      "price": 345.85,
-      "total": 1476.9,
-      "realizedPnL": 72.34,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "EEM",
-      "action": "SELL",
-      "shares": 22.0458,
-      "price": 71.21,
-      "total": 1569.88,
-      "realizedPnL": 9.26,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "CRDO",
+      "symbol": "SOXL",
       "action": "BUY",
-      "shares": 4.7465,
-      "price": 302.52,
-      "total": 1435.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 12.016,
-      "price": 119.5,
-      "total": 1435.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "VIAV",
-      "action": "BUY",
-      "shares": 27.1234,
-      "price": 52.94,
-      "total": 1435.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "SMTC",
-      "action": "BUY",
-      "shares": 8.2179,
-      "price": 174.73,
-      "total": 1435.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 5.3507,
-      "price": 298.18,
-      "total": 1595.46,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-23",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 10.3451,
-      "price": 145.86,
-      "total": 1508.93,
-      "reason": "Top 3 ETF pick"
+      "shares": 0.3198,
+      "price": 235.8883,
+      "total": 75.45,
+      "reason": "Rebalance: 10.9% drift"
     }
   ],
   "history": [
@@ -1382,11 +1277,11 @@
     },
     {
       "date": "2026-06-23",
-      "totalValue": 11965.93,
-      "cash": 79.42,
-      "positionsValue": 11886.51,
+      "totalValue": 11279.83,
+      "cash": 3.97,
+      "positionsValue": 11275.86,
       "positionCount": 8,
-      "tradesExecuted": 12,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
