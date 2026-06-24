@@ -7,69 +7,73 @@
       "symbol": "CRDO",
       "shares": 4.746500908549405,
       "avgCost": 302.52,
-      "currentPrice": 273.62,
+      "currentPrice": 268.99,
       "type": "stock",
       "boughtAt": "2026-06-23",
-      "previousClose": 268.915
+      "previousClose": 273.62
     },
     {
       "symbol": "PLTR",
       "shares": 12.01599543811185,
       "avgCost": 119.5,
-      "currentPrice": 115.935,
+      "currentPrice": 113.5,
       "type": "stock",
       "boughtAt": "2026-06-23",
-      "previousClose": 119.12
+      "previousClose": 115.935
     },
     {
       "symbol": "IWM",
       "shares": 5.350651190758625,
       "avgCost": 298.18,
-      "currentPrice": 297.96,
+      "currentPrice": 296.69,
       "type": "etf",
       "boughtAt": "2026-06-23",
-      "previousClose": 296.04
+      "previousClose": 297.96
     },
     {
       "symbol": "XBI",
       "shares": 10.345057770905397,
       "avgCost": 145.86,
-      "currentPrice": 150.23,
+      "currentPrice": 149.71,
       "type": "etf",
       "boughtAt": "2026-06-23",
-      "previousClose": 147.71
+      "previousClose": 150.23
     },
     {
       "symbol": "AXON",
       "shares": 3.1075378693706237,
       "avgCost": 433.04,
-      "currentPrice": 459.1075,
+      "currentPrice": 456.73,
       "type": "stock",
-      "boughtAt": "2026-06-24"
+      "boughtAt": "2026-06-24",
+      "previousClose": 459.1075
     },
     {
       "symbol": "WDC",
       "shares": 2.006244053600082,
       "avgCost": 670.75,
-      "currentPrice": 656.52,
+      "currentPrice": 643.83,
       "type": "stock",
-      "boughtAt": "2026-06-24"
+      "boughtAt": "2026-06-24",
+      "previousClose": 656.52
     },
     {
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
-      "currentPrice": 135.07,
+      "currentPrice": 131.65,
       "type": "stock",
-      "boughtAt": "2026-06-24"
+      "boughtAt": "2026-06-24",
+      "previousClose": 135.07
     },
     {
       "symbol": "XLE",
       "shares": 25.321717489161358,
       "avgCost": 54.459999999999994,
-      "currentPrice": 53.365,
+      "currentPrice": 53.57,
       "type": "etf",
-      "boughtAt": "2026-06-24"
+      "boughtAt": "2026-06-24",
+      "previousClose": 53.365
     }
   ],
   "trades": [
@@ -1288,12 +1292,12 @@
     },
     {
       "date": "2026-06-24",
-      "totalValue": 11312.88,
+      "totalValue": 11187.03,
       "cash": 3.46,
-      "positionsValue": 11309.43,
+      "positionsValue": 11183.57,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
