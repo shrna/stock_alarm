@@ -1,26 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.970868753853324,
+  "cash": 3.4561923169416815,
   "positions": [
-    {
-      "symbol": "BBD",
-      "shares": 387.54704775159666,
-      "avgCost": 3.46,
-      "currentPrice": 3.43,
-      "type": "stock",
-      "boughtAt": "2026-06-17",
-      "previousClose": 3.43
-    },
-    {
-      "symbol": "SOXL",
-      "shares": 6.002560730195086,
-      "avgCost": 233.9680757756982,
-      "currentPrice": 231.42,
-      "type": "etf",
-      "boughtAt": "2026-06-18",
-      "previousClose": 235.8883
-    },
     {
       "symbol": "CRDO",
       "shares": 4.746500908549405,
@@ -40,24 +22,6 @@
       "previousClose": 119.12
     },
     {
-      "symbol": "VIAV",
-      "shares": 27.123374666686175,
-      "avgCost": 52.94,
-      "currentPrice": 49.97,
-      "type": "stock",
-      "boughtAt": "2026-06-23",
-      "previousClose": 50.17
-    },
-    {
-      "symbol": "SMTC",
-      "shares": 8.217887339634672,
-      "avgCost": 174.73,
-      "currentPrice": 163.28,
-      "type": "stock",
-      "boughtAt": "2026-06-23",
-      "previousClose": 164.28
-    },
-    {
       "symbol": "IWM",
       "shares": 5.350651190758625,
       "avgCost": 298.18,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-06-23",
       "previousClose": 147.71
+    },
+    {
+      "symbol": "AXON",
+      "shares": 3.1075378693706237,
+      "avgCost": 433.04,
+      "currentPrice": 433.04,
+      "type": "stock",
+      "boughtAt": "2026-06-24"
+    },
+    {
+      "symbol": "WDC",
+      "shares": 2.006244053600082,
+      "avgCost": 670.75,
+      "currentPrice": 670.75,
+      "type": "stock",
+      "boughtAt": "2026-06-24"
+    },
+    {
+      "symbol": "INTC",
+      "shares": 10.173028416633315,
+      "avgCost": 132.28,
+      "currentPrice": 132.28,
+      "type": "stock",
+      "boughtAt": "2026-06-24"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 25.321717489161358,
+      "avgCost": 54.459999999999994,
+      "currentPrice": 54.46,
+      "type": "etf",
+      "boughtAt": "2026-06-24"
     }
   ],
   "trades": [
@@ -991,6 +987,91 @@
       "price": 235.8883,
       "total": 75.45,
       "reason": "Rebalance: 10.9% drift"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "BBD",
+      "action": "SELL",
+      "shares": 387.547,
+      "price": 3.43,
+      "total": 1329.29,
+      "realizedPnL": -11.63,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 6.0026,
+      "price": 231.42,
+      "total": 1389.11,
+      "realizedPnL": -15.29,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "VIAV",
+      "action": "SELL",
+      "shares": 27.1234,
+      "price": 49.97,
+      "total": 1355.36,
+      "realizedPnL": -80.56,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "SMTC",
+      "action": "SELL",
+      "shares": 8.2179,
+      "price": 163.28,
+      "total": 1341.82,
+      "realizedPnL": -94.09,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "AXON",
+      "action": "BUY",
+      "shares": 3.1075,
+      "price": 433.04,
+      "total": 1345.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "WDC",
+      "action": "BUY",
+      "shares": 2.0062,
+      "price": 670.75,
+      "total": 1345.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "INTC",
+      "action": "BUY",
+      "shares": 10.173,
+      "price": 132.28,
+      "total": 1345.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 24.1159,
+      "price": 54.46,
+      "total": 1313.35,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-24",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 1.2058,
+      "price": 54.46,
+      "total": 65.67,
+      "reason": "Rebalance: 12.2% drift"
     }
   ],
   "history": [
@@ -1289,6 +1370,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-24",
+      "totalValue": 11214.07,
+      "cash": 3.46,
+      "positionsValue": 11210.61,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
