@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.4561923169416815,
+  "cash": 3.4278036827074345,
   "positions": [
-    {
-      "symbol": "CRDO",
-      "shares": 4.746500908549405,
-      "avgCost": 302.52,
-      "currentPrice": 268.99,
-      "type": "stock",
-      "boughtAt": "2026-06-23",
-      "previousClose": 273.62
-    },
     {
       "symbol": "PLTR",
       "shares": 12.01599543811185,
@@ -40,15 +31,6 @@
       "previousClose": 150.23
     },
     {
-      "symbol": "AXON",
-      "shares": 3.1075378693706237,
-      "avgCost": 433.04,
-      "currentPrice": 456.73,
-      "type": "stock",
-      "boughtAt": "2026-06-24",
-      "previousClose": 459.1075
-    },
-    {
       "symbol": "WDC",
       "shares": 2.006244053600082,
       "avgCost": 670.75,
@@ -67,13 +49,28 @@
       "previousClose": 135.07
     },
     {
-      "symbol": "XLE",
-      "shares": 25.321717489161358,
-      "avgCost": 54.459999999999994,
-      "currentPrice": 53.57,
+      "symbol": "PATH",
+      "shares": 130.20786496589216,
+      "avgCost": 10.31,
+      "currentPrice": 10.31,
+      "type": "stock",
+      "boughtAt": "2026-06-25"
+    },
+    {
+      "symbol": "LYG",
+      "shares": 239.29466805674653,
+      "avgCost": 5.61,
+      "currentPrice": 5.61,
+      "type": "stock",
+      "boughtAt": "2026-06-25"
+    },
+    {
+      "symbol": "ARKG",
+      "shares": 35.45084679627427,
+      "avgCost": 38.58,
+      "currentPrice": 38.58,
       "type": "etf",
-      "boughtAt": "2026-06-24",
-      "previousClose": 53.365
+      "boughtAt": "2026-06-25"
     }
   ],
   "trades": [
@@ -991,6 +988,72 @@
       "price": 235.8883,
       "total": 75.45,
       "reason": "Rebalance: 10.9% drift"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 4.7465,
+      "price": 268.99,
+      "total": 1276.76,
+      "realizedPnL": -159.15,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "AXON",
+      "action": "SELL",
+      "shares": 3.1075,
+      "price": 456.73,
+      "total": 1419.31,
+      "realizedPnL": 73.62,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 25.3217,
+      "price": 53.57,
+      "total": 1356.48,
+      "realizedPnL": -22.54,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "PATH",
+      "action": "BUY",
+      "shares": 130.2079,
+      "price": 10.31,
+      "total": 1342.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "LYG",
+      "action": "BUY",
+      "shares": 239.2947,
+      "price": 5.61,
+      "total": 1342.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 33.7627,
+      "price": 38.58,
+      "total": 1302.57,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-25",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 1.6881,
+      "price": 38.58,
+      "total": 65.13,
+      "reason": "Rebalance: 12.7% drift"
     }
   ],
   "history": [
@@ -1298,6 +1361,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-25",
+      "totalValue": 11187.03,
+      "cash": 3.43,
+      "positionsValue": 11183.6,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
