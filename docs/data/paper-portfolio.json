@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.4278036827074345,
+  "cash": 76.0858133433835,
   "positions": [
     {
       "symbol": "PLTR",
@@ -22,24 +22,6 @@
       "previousClose": 300.42
     },
     {
-      "symbol": "XBI",
-      "shares": 10.345057770905397,
-      "avgCost": 145.86,
-      "currentPrice": 151.59,
-      "type": "etf",
-      "boughtAt": "2026-06-23",
-      "previousClose": 153.49
-    },
-    {
-      "symbol": "WDC",
-      "shares": 2.006244053600082,
-      "avgCost": 670.75,
-      "currentPrice": 675.39,
-      "type": "stock",
-      "boughtAt": "2026-06-24",
-      "previousClose": 664.24
-    },
-    {
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
@@ -58,22 +40,36 @@
       "previousClose": 10.2201
     },
     {
-      "symbol": "LYG",
-      "shares": 239.29466805674653,
-      "avgCost": 5.61,
-      "currentPrice": 5.75,
+      "symbol": "UCTT",
+      "shares": 11.195905968936216,
+      "avgCost": 120.66,
+      "currentPrice": 120.66,
       "type": "stock",
-      "boughtAt": "2026-06-25",
-      "previousClose": 5.795
+      "boughtAt": "2026-06-26"
     },
     {
-      "symbol": "ARKG",
-      "shares": 35.45084679627427,
-      "avgCost": 38.58,
-      "currentPrice": 40.11,
+      "symbol": "TER",
+      "shares": 2.862314633044843,
+      "avgCost": 471.96,
+      "currentPrice": 471.96,
+      "type": "stock",
+      "boughtAt": "2026-06-26"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 20.026655017594603,
+      "avgCost": 74.95,
+      "currentPrice": 74.95,
       "type": "etf",
-      "boughtAt": "2026-06-25",
-      "previousClose": 40.07
+      "boughtAt": "2026-06-26"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 5.722776032319716,
+      "avgCost": 252.61,
+      "currentPrice": 252.61,
+      "type": "etf",
+      "boughtAt": "2026-06-26"
     }
   ],
   "trades": [
@@ -991,6 +987,82 @@
       "price": 235.8883,
       "total": 75.45,
       "reason": "Rebalance: 10.9% drift"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 10.3451,
+      "price": 151.59,
+      "total": 1568.21,
+      "realizedPnL": 59.28,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 2.0062,
+      "price": 675.39,
+      "total": 1355,
+      "realizedPnL": 9.31,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "LYG",
+      "action": "SELL",
+      "shares": 239.2947,
+      "price": 5.75,
+      "total": 1375.94,
+      "realizedPnL": 33.5,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "ARKG",
+      "action": "SELL",
+      "shares": 35.4508,
+      "price": 40.11,
+      "total": 1421.93,
+      "realizedPnL": 54.24,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "UCTT",
+      "action": "BUY",
+      "shares": 11.1959,
+      "price": 120.66,
+      "total": 1350.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "TER",
+      "action": "BUY",
+      "shares": 2.8623,
+      "price": 471.96,
+      "total": 1350.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 20.0267,
+      "price": 74.95,
+      "total": 1501,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-26",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 5.7228,
+      "price": 252.61,
+      "total": 1445.63,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1307,6 +1379,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-26",
+      "totalValue": 11257.48,
+      "cash": 76.09,
+      "positionsValue": 11181.4,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
