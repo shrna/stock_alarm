@@ -1,22 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 76.0858133433835,
+  "cash": 32.26737645138155,
   "positions": [
     {
       "symbol": "PLTR",
       "shares": 12.01599543811185,
       "avgCost": 119.5,
-      "currentPrice": 107.27,
+      "currentPrice": 112.47,
       "type": "stock",
       "boughtAt": "2026-06-23",
       "previousClose": 107.9
     },
     {
       "symbol": "IWM",
-      "shares": 5.350651190758625,
+      "shares": 4.897011462050672,
       "avgCost": 298.18,
-      "currentPrice": 298.91,
+      "currentPrice": 299.4023,
       "type": "etf",
       "boughtAt": "2026-06-23",
       "previousClose": 300.42
@@ -25,7 +25,7 @@
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
-      "currentPrice": 132.87,
+      "currentPrice": 129.9,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 128.92
@@ -34,7 +34,7 @@
       "symbol": "PATH",
       "shares": 130.20786496589216,
       "avgCost": 10.31,
-      "currentPrice": 9.93,
+      "currentPrice": 10.2911,
       "type": "stock",
       "boughtAt": "2026-06-25",
       "previousClose": 10.2201
@@ -43,7 +43,7 @@
       "symbol": "UCTT",
       "shares": 11.195905968936216,
       "avgCost": 120.66,
-      "currentPrice": 120.66,
+      "currentPrice": 116.18,
       "type": "stock",
       "boughtAt": "2026-06-26"
     },
@@ -51,7 +51,7 @@
       "symbol": "TER",
       "shares": 2.862314633044843,
       "avgCost": 471.96,
-      "currentPrice": 471.96,
+      "currentPrice": 433.6,
       "type": "stock",
       "boughtAt": "2026-06-26"
     },
@@ -59,15 +59,15 @@
       "symbol": "TQQQ",
       "shares": 20.026655017594603,
       "avgCost": 74.95,
-      "currentPrice": 74.95,
+      "currentPrice": 73.75,
       "type": "etf",
       "boughtAt": "2026-06-26"
     },
     {
       "symbol": "SOXL",
-      "shares": 5.722776032319716,
-      "avgCost": 252.61,
-      "currentPrice": 252.61,
+      "shares": 6.521847314907408,
+      "avgCost": 249.20388198108205,
+      "currentPrice": 224.81,
       "type": "etf",
       "boughtAt": "2026-06-26"
     }
@@ -990,79 +990,22 @@
     },
     {
       "date": "2026-06-26",
-      "symbol": "XBI",
+      "symbol": "IWM",
       "action": "SELL",
-      "shares": 10.3451,
-      "price": 151.59,
-      "total": 1568.21,
-      "realizedPnL": 59.28,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "WDC",
-      "action": "SELL",
-      "shares": 2.0062,
-      "price": 675.39,
-      "total": 1355,
-      "realizedPnL": 9.31,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "LYG",
-      "action": "SELL",
-      "shares": 239.2947,
-      "price": 5.75,
-      "total": 1375.94,
-      "realizedPnL": 33.5,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "ARKG",
-      "action": "SELL",
-      "shares": 35.4508,
-      "price": 40.11,
-      "total": 1421.93,
-      "realizedPnL": 54.24,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "UCTT",
-      "action": "BUY",
-      "shares": 11.1959,
-      "price": 120.66,
-      "total": 1350.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "TER",
-      "action": "BUY",
-      "shares": 2.8623,
-      "price": 471.96,
-      "total": 1350.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-26",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 20.0267,
-      "price": 74.95,
-      "total": 1501,
-      "reason": "Top 3 ETF pick"
+      "shares": 0.4536,
+      "price": 299.4023,
+      "total": 135.82,
+      "realizedPnL": 0.55,
+      "reason": "Rebalance: 9.3% drift"
     },
     {
       "date": "2026-06-26",
       "symbol": "SOXL",
       "action": "BUY",
-      "shares": 5.7228,
-      "price": 252.61,
-      "total": 1445.63,
-      "reason": "Top 3 ETF pick"
+      "shares": 0.7991,
+      "price": 224.81,
+      "total": 179.64,
+      "reason": "Rebalance: 12.3% drift"
     }
   ],
   "history": [
@@ -1382,11 +1325,11 @@
     },
     {
       "date": "2026-06-26",
-      "totalValue": 11257.48,
-      "cash": 76.09,
-      "positionsValue": 11181.4,
+      "totalValue": 10996.32,
+      "cash": 32.27,
+      "positionsValue": 10964.06,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 2,
       "session": "open"
     }
   ]
