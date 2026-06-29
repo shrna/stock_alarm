@@ -7,7 +7,7 @@
       "symbol": "IWM",
       "shares": 4.897011462050672,
       "avgCost": 298.18,
-      "currentPrice": 299.83,
+      "currentPrice": 296.35,
       "type": "etf",
       "boughtAt": "2026-06-23",
       "previousClose": 299.4023
@@ -16,7 +16,7 @@
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
-      "currentPrice": 128.32,
+      "currentPrice": 125.79,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 129.9
@@ -25,7 +25,7 @@
       "symbol": "CCC",
       "shares": 262.4993950008639,
       "avgCost": 5.01,
-      "currentPrice": 5.01,
+      "currentPrice": 4.885,
       "type": "stock",
       "boughtAt": "2026-06-29"
     },
@@ -33,7 +33,7 @@
       "symbol": "CHYM",
       "shares": 64.72056933830355,
       "avgCost": 20.32,
-      "currentPrice": 20.32,
+      "currentPrice": 20.205,
       "type": "stock",
       "boughtAt": "2026-06-29"
     },
@@ -41,7 +41,7 @@
       "symbol": "PAY",
       "shares": 56.129832221695615,
       "avgCost": 23.43,
-      "currentPrice": 23.43,
+      "currentPrice": 23.85,
       "type": "stock",
       "boughtAt": "2026-06-29"
     },
@@ -49,7 +49,7 @@
       "symbol": "ABCL",
       "shares": 178.2008088013995,
       "avgCost": 7.38,
-      "currentPrice": 7.38,
+      "currentPrice": 7.925,
       "type": "stock",
       "boughtAt": "2026-06-29"
     },
@@ -57,7 +57,7 @@
       "symbol": "XBI",
       "shares": 9.404341821157649,
       "avgCost": 155.38,
-      "currentPrice": 155.38,
+      "currentPrice": 156.08,
       "type": "etf",
       "boughtAt": "2026-06-29"
     },
@@ -65,7 +65,7 @@
       "symbol": "SLV",
       "shares": 26.10255661031953,
       "avgCost": 53.28,
-      "currentPrice": 53.28,
+      "currentPrice": 52.495,
       "type": "etf",
       "boughtAt": "2026-06-29"
     }
@@ -1004,120 +1004,6 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 12.016,
-      "price": 112.93,
-      "total": 1356.97,
-      "realizedPnL": -78.95,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "PATH",
-      "action": "SELL",
-      "shares": 130.2079,
-      "price": 10.53,
-      "total": 1371.09,
-      "realizedPnL": 28.65,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "UCTT",
-      "action": "SELL",
-      "shares": 11.1959,
-      "price": 118.82,
-      "total": 1330.3,
-      "realizedPnL": -20.6,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "TER",
-      "action": "SELL",
-      "shares": 2.8623,
-      "price": 436.86,
-      "total": 1250.43,
-      "realizedPnL": -100.47,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 20.0267,
-      "price": 71.83,
-      "total": 1438.51,
-      "realizedPnL": -62.48,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 6.5218,
-      "price": 215.6,
-      "total": 1406.11,
-      "realizedPnL": -219.16,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "CCC",
-      "action": "BUY",
-      "shares": 262.4994,
-      "price": 5.01,
-      "total": 1315.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "CHYM",
-      "action": "BUY",
-      "shares": 64.7206,
-      "price": 20.32,
-      "total": 1315.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "PAY",
-      "action": "BUY",
-      "shares": 56.1298,
-      "price": 23.43,
-      "total": 1315.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "ABCL",
-      "action": "BUY",
-      "shares": 178.2008,
-      "price": 7.38,
-      "total": 1315.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 9.4043,
-      "price": 155.38,
-      "total": 1461.25,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-29",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 26.1026,
-      "price": 53.28,
-      "total": 1390.74,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1446,11 +1332,11 @@
     },
     {
       "date": "2026-06-29",
-      "totalValue": 10959.35,
+      "totalValue": 10983.1,
       "cash": 73.2,
-      "positionsValue": 10886.15,
+      "positionsValue": 10909.9,
       "positionCount": 8,
-      "tradesExecuted": 12,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
