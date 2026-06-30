@@ -7,66 +7,73 @@
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
-      "currentPrice": 137.16,
+      "currentPrice": 139.63,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 125.79
+      "previousClose": 137.16
     },
     {
       "symbol": "FRSH",
       "shares": 131.41444172987215,
       "avgCost": 10.21,
-      "currentPrice": 10.115,
+      "currentPrice": 10.12,
       "type": "stock",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 10.115
     },
     {
       "symbol": "PLTR",
       "shares": 11.596728176853887,
       "avgCost": 115.7,
-      "currentPrice": 116.195,
+      "currentPrice": 116.67,
       "type": "stock",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 116.195
     },
     {
       "symbol": "BBD",
       "shares": 384.4531375535801,
       "avgCost": 3.49,
-      "currentPrice": 3.4499,
+      "currentPrice": 3.47,
       "type": "stock",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 3.4499
     },
     {
       "symbol": "VICR",
       "shares": 3.6580644239537468,
       "avgCost": 366.79,
-      "currentPrice": 372.27,
+      "currentPrice": 379.78,
       "type": "stock",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 372.27
     },
     {
       "symbol": "QQQ",
       "shares": 2.0589214360322288,
       "avgCost": 724.08,
-      "currentPrice": 732.84,
+      "currentPrice": 736.4,
       "type": "etf",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 732.84
     },
     {
       "symbol": "TQQQ",
       "shares": 19.31369132532992,
       "avgCost": 77.19,
-      "currentPrice": 80.01,
+      "currentPrice": 81,
       "type": "etf",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 80.01
     },
     {
       "symbol": "SOXL",
       "shares": 5.995033322357558,
       "avgCost": 236.52,
-      "currentPrice": 262.31,
+      "currentPrice": 266.71,
       "type": "etf",
-      "boughtAt": "2026-06-30"
+      "boughtAt": "2026-06-30",
+      "previousClose": 262.31
     }
   ],
   "trades": [
@@ -1340,12 +1347,12 @@
     },
     {
       "date": "2026-06-30",
-      "totalValue": 11461.52,
+      "totalValue": 11580.84,
       "cash": 74.63,
-      "positionsValue": 11386.89,
+      "positionsValue": 11506.21,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
