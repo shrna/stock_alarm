@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 73.19706401041185,
+  "cash": 74.62869902126363,
   "positions": [
-    {
-      "symbol": "IWM",
-      "shares": 4.897011462050672,
-      "avgCost": 298.18,
-      "currentPrice": 298.97,
-      "type": "etf",
-      "boughtAt": "2026-06-23",
-      "previousClose": 296.35
-    },
     {
       "symbol": "INTC",
       "shares": 10.173028416633315,
@@ -22,58 +13,60 @@
       "previousClose": 125.79
     },
     {
-      "symbol": "CCC",
-      "shares": 262.4993950008639,
-      "avgCost": 5.01,
-      "currentPrice": 4.9,
+      "symbol": "FRSH",
+      "shares": 131.41444172987215,
+      "avgCost": 10.21,
+      "currentPrice": 10.21,
       "type": "stock",
-      "boughtAt": "2026-06-29",
-      "previousClose": 4.885
+      "boughtAt": "2026-06-30"
     },
     {
-      "symbol": "CHYM",
-      "shares": 64.72056933830355,
-      "avgCost": 20.32,
-      "currentPrice": 21,
+      "symbol": "PLTR",
+      "shares": 11.596728176853887,
+      "avgCost": 115.7,
+      "currentPrice": 115.7,
       "type": "stock",
-      "boughtAt": "2026-06-29",
-      "previousClose": 20.205
+      "boughtAt": "2026-06-30"
     },
     {
-      "symbol": "PAY",
-      "shares": 56.129832221695615,
-      "avgCost": 23.43,
-      "currentPrice": 24.01,
+      "symbol": "BBD",
+      "shares": 384.4531375535801,
+      "avgCost": 3.49,
+      "currentPrice": 3.49,
       "type": "stock",
-      "boughtAt": "2026-06-29",
-      "previousClose": 23.85
+      "boughtAt": "2026-06-30"
     },
     {
-      "symbol": "ABCL",
-      "shares": 178.2008088013995,
-      "avgCost": 7.38,
-      "currentPrice": 8.12,
+      "symbol": "VICR",
+      "shares": 3.6580644239537468,
+      "avgCost": 366.79,
+      "currentPrice": 366.79,
       "type": "stock",
-      "boughtAt": "2026-06-29",
-      "previousClose": 7.925
+      "boughtAt": "2026-06-30"
     },
     {
-      "symbol": "XBI",
-      "shares": 9.404341821157649,
-      "avgCost": 155.38,
-      "currentPrice": 158.31,
+      "symbol": "QQQ",
+      "shares": 2.0589214360322288,
+      "avgCost": 724.08,
+      "currentPrice": 724.08,
       "type": "etf",
-      "boughtAt": "2026-06-29",
-      "previousClose": 156.08
+      "boughtAt": "2026-06-30"
     },
     {
-      "symbol": "SLV",
-      "shares": 26.10255661031953,
-      "avgCost": 53.28,
-      "currentPrice": 52.68,
+      "symbol": "TQQQ",
+      "shares": 19.31369132532992,
+      "avgCost": 77.19,
+      "currentPrice": 77.19,
       "type": "etf",
-      "boughtAt": "2026-06-29",
-      "previousClose": 52.495
+      "boughtAt": "2026-06-30"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 5.995033322357558,
+      "avgCost": 236.52,
+      "currentPrice": 236.52,
+      "type": "etf",
+      "boughtAt": "2026-06-30"
     }
   ],
   "trades": [
@@ -1010,6 +1003,139 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.897,
+      "price": 298.97,
+      "total": 1464.06,
+      "realizedPnL": 3.87,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "CCC",
+      "action": "SELL",
+      "shares": 262.4994,
+      "price": 4.9,
+      "total": 1286.25,
+      "realizedPnL": -28.87,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "CHYM",
+      "action": "SELL",
+      "shares": 64.7206,
+      "price": 21,
+      "total": 1359.13,
+      "realizedPnL": 44.01,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "PAY",
+      "action": "SELL",
+      "shares": 56.1298,
+      "price": 24.01,
+      "total": 1347.68,
+      "realizedPnL": 32.56,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "ABCL",
+      "action": "SELL",
+      "shares": 178.2008,
+      "price": 8.12,
+      "total": 1446.99,
+      "realizedPnL": 131.87,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 9.4043,
+      "price": 158.31,
+      "total": 1488.8,
+      "realizedPnL": 27.55,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 26.1026,
+      "price": 52.68,
+      "total": 1375.08,
+      "realizedPnL": -15.66,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "FRSH",
+      "action": "BUY",
+      "shares": 131.4144,
+      "price": 10.21,
+      "total": 1341.74,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 11.5967,
+      "price": 115.7,
+      "total": 1341.74,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "BBD",
+      "action": "BUY",
+      "shares": 384.4531,
+      "price": 3.49,
+      "total": 1341.74,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "VICR",
+      "action": "BUY",
+      "shares": 3.6581,
+      "price": 366.79,
+      "total": 1341.74,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 2.0589,
+      "price": 724.08,
+      "total": 1490.82,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 19.3137,
+      "price": 77.19,
+      "total": 1490.82,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 5.995,
+      "price": 236.52,
+      "total": 1417.95,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1344,6 +1470,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-06-30",
+      "totalValue": 11181.18,
+      "cash": 74.63,
+      "positionsValue": 11106.55,
+      "positionCount": 8,
+      "tradesExecuted": 14,
+      "session": "open"
     }
   ]
 }
