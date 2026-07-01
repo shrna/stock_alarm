@@ -7,69 +7,73 @@
       "symbol": "INTC",
       "shares": 10.173028416633315,
       "avgCost": 132.28,
-      "currentPrice": 129.79,
+      "currentPrice": 127.02,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 137.16
+      "previousClose": 129.79
     },
     {
       "symbol": "QQQ",
       "shares": 2.0589214360322288,
       "avgCost": 724.08,
-      "currentPrice": 728.5764,
+      "currentPrice": 725.17,
       "type": "etf",
       "boughtAt": "2026-06-30",
-      "previousClose": 732.84
+      "previousClose": 728.5764
     },
     {
       "symbol": "TQQQ",
       "shares": 19.31369132532992,
       "avgCost": 77.19,
-      "currentPrice": 78.54,
+      "currentPrice": 77.46,
       "type": "etf",
       "boughtAt": "2026-06-30",
-      "previousClose": 80.01
+      "previousClose": 78.54
     },
     {
       "symbol": "SOXL",
       "shares": 5.995033322357558,
       "avgCost": 236.52,
-      "currentPrice": 230.19,
+      "currentPrice": 217.55,
       "type": "etf",
       "boughtAt": "2026-06-30",
-      "previousClose": 262.31
+      "previousClose": 230.19
     },
     {
       "symbol": "CRDO",
       "shares": 5.110133153018219,
       "avgCost": 271.95,
-      "currentPrice": 264.57,
+      "currentPrice": 259.09,
       "type": "stock",
-      "boughtAt": "2026-07-01"
+      "boughtAt": "2026-07-01",
+      "previousClose": 264.57
     },
     {
       "symbol": "FORM",
       "shares": 8.68943106961361,
       "avgCost": 159.93,
-      "currentPrice": 150.4032,
+      "currentPrice": 147.13,
       "type": "stock",
-      "boughtAt": "2026-07-01"
+      "boughtAt": "2026-07-01",
+      "previousClose": 150.4032
     },
     {
       "symbol": "PENG",
       "shares": 18.283129995570377,
       "avgCost": 76.01,
-      "currentPrice": 72.6801,
+      "currentPrice": 68.81,
       "type": "stock",
-      "boughtAt": "2026-07-01"
+      "boughtAt": "2026-07-01",
+      "previousClose": 72.6801
     },
     {
       "symbol": "FIGR",
       "shares": 42.60708985195697,
       "avgCost": 30.709999999999997,
-      "currentPrice": 33.015,
+      "currentPrice": 32.67,
       "type": "stock",
-      "boughtAt": "2026-07-01"
+      "boughtAt": "2026-07-01",
+      "previousClose": 33.015
     }
   ],
   "trades": [
@@ -1352,12 +1356,12 @@
     },
     {
       "date": "2026-07-01",
-      "totalValue": 11115.01,
+      "totalValue": 10841.28,
       "cash": 3.28,
-      "positionsValue": 11111.73,
+      "positionsValue": 10838,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
