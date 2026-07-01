@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 74.62869902126363,
+  "cash": 3.279357717678195,
   "positions": [
     {
       "symbol": "INTC",
@@ -11,42 +11,6 @@
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 137.16
-    },
-    {
-      "symbol": "FRSH",
-      "shares": 131.41444172987215,
-      "avgCost": 10.21,
-      "currentPrice": 10.12,
-      "type": "stock",
-      "boughtAt": "2026-06-30",
-      "previousClose": 10.115
-    },
-    {
-      "symbol": "PLTR",
-      "shares": 11.596728176853887,
-      "avgCost": 115.7,
-      "currentPrice": 116.67,
-      "type": "stock",
-      "boughtAt": "2026-06-30",
-      "previousClose": 116.195
-    },
-    {
-      "symbol": "BBD",
-      "shares": 384.4531375535801,
-      "avgCost": 3.49,
-      "currentPrice": 3.47,
-      "type": "stock",
-      "boughtAt": "2026-06-30",
-      "previousClose": 3.4499
-    },
-    {
-      "symbol": "VICR",
-      "shares": 3.6580644239537468,
-      "avgCost": 366.79,
-      "currentPrice": 379.78,
-      "type": "stock",
-      "boughtAt": "2026-06-30",
-      "previousClose": 372.27
     },
     {
       "symbol": "QQQ",
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-06-30",
       "previousClose": 262.31
+    },
+    {
+      "symbol": "CRDO",
+      "shares": 5.110133153018219,
+      "avgCost": 271.95,
+      "currentPrice": 271.95,
+      "type": "stock",
+      "boughtAt": "2026-07-01"
+    },
+    {
+      "symbol": "FORM",
+      "shares": 8.68943106961361,
+      "avgCost": 159.93,
+      "currentPrice": 159.93,
+      "type": "stock",
+      "boughtAt": "2026-07-01"
+    },
+    {
+      "symbol": "PENG",
+      "shares": 18.283129995570377,
+      "avgCost": 76.01,
+      "currentPrice": 76.01,
+      "type": "stock",
+      "boughtAt": "2026-07-01"
+    },
+    {
+      "symbol": "FIGR",
+      "shares": 42.60708985195697,
+      "avgCost": 30.709999999999997,
+      "currentPrice": 30.71,
+      "type": "stock",
+      "boughtAt": "2026-07-01"
     }
   ],
   "trades": [
@@ -1010,6 +1006,91 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "FRSH",
+      "action": "SELL",
+      "shares": 131.4144,
+      "price": 10.12,
+      "total": 1329.91,
+      "realizedPnL": -11.83,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 11.5967,
+      "price": 116.67,
+      "total": 1352.99,
+      "realizedPnL": 11.25,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "BBD",
+      "action": "SELL",
+      "shares": 384.4531,
+      "price": 3.47,
+      "total": 1334.05,
+      "realizedPnL": -7.69,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "VICR",
+      "action": "SELL",
+      "shares": 3.6581,
+      "price": 379.78,
+      "total": 1389.26,
+      "realizedPnL": 47.52,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 5.1101,
+      "price": 271.95,
+      "total": 1389.7,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "FORM",
+      "action": "BUY",
+      "shares": 8.6894,
+      "price": 159.93,
+      "total": 1389.7,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "PENG",
+      "action": "BUY",
+      "shares": 18.2831,
+      "price": 76.01,
+      "total": 1389.7,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "FIGR",
+      "action": "BUY",
+      "shares": 40.5782,
+      "price": 30.71,
+      "total": 1246.16,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-01",
+      "symbol": "FIGR",
+      "action": "BUY",
+      "shares": 2.0289,
+      "price": 30.71,
+      "total": 62.31,
+      "reason": "Rebalance: 10.3% drift"
     }
   ],
   "history": [
@@ -1353,6 +1434,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-01",
+      "totalValue": 11580.84,
+      "cash": 3.28,
+      "positionsValue": 11577.56,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
