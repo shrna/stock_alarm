@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.279357717678195,
+  "cash": 3.4592113137655645,
   "positions": [
     {
       "symbol": "INTC",
@@ -22,24 +22,6 @@
       "previousClose": 728.5764
     },
     {
-      "symbol": "TQQQ",
-      "shares": 19.31369132532992,
-      "avgCost": 77.19,
-      "currentPrice": 77.46,
-      "type": "etf",
-      "boughtAt": "2026-06-30",
-      "previousClose": 78.54
-    },
-    {
-      "symbol": "SOXL",
-      "shares": 5.995033322357558,
-      "avgCost": 236.52,
-      "currentPrice": 217.55,
-      "type": "etf",
-      "boughtAt": "2026-06-30",
-      "previousClose": 230.19
-    },
-    {
       "symbol": "CRDO",
       "shares": 5.110133153018219,
       "avgCost": 271.95,
@@ -49,31 +31,44 @@
       "previousClose": 264.57
     },
     {
-      "symbol": "FORM",
-      "shares": 8.68943106961361,
-      "avgCost": 159.93,
-      "currentPrice": 147.13,
+      "symbol": "CVE",
+      "shares": 53.100145501965294,
+      "avgCost": 24.5,
+      "currentPrice": 24.5,
       "type": "stock",
-      "boughtAt": "2026-07-01",
-      "previousClose": 150.4032
+      "boughtAt": "2026-07-02"
     },
     {
-      "symbol": "PENG",
-      "shares": 18.283129995570377,
-      "avgCost": 76.01,
-      "currentPrice": 68.81,
+      "symbol": "WDC",
+      "shares": 2.1741624158934267,
+      "avgCost": 598.37,
+      "currentPrice": 598.37,
       "type": "stock",
-      "boughtAt": "2026-07-01",
-      "previousClose": 72.6801
+      "boughtAt": "2026-07-02"
     },
     {
-      "symbol": "FIGR",
-      "shares": 42.60708985195697,
-      "avgCost": 30.709999999999997,
-      "currentPrice": 32.67,
+      "symbol": "PLTR",
+      "shares": 10.347200865331661,
+      "avgCost": 125.73,
+      "currentPrice": 125.73,
       "type": "stock",
-      "boughtAt": "2026-07-01",
-      "previousClose": 33.015
+      "boughtAt": "2026-07-02"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 26.978424055372024,
+      "avgCost": 53.58,
+      "currentPrice": 53.58,
+      "type": "etf",
+      "boughtAt": "2026-07-02"
+    },
+    {
+      "symbol": "IWM",
+      "shares": 4.611203107685606,
+      "avgCost": 299.32,
+      "currentPrice": 299.32,
+      "type": "etf",
+      "boughtAt": "2026-07-02"
     }
   ],
   "trades": [
@@ -1010,6 +1005,110 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 19.3137,
+      "price": 77.46,
+      "total": 1496.04,
+      "realizedPnL": 5.21,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 5.995,
+      "price": 217.55,
+      "total": 1304.22,
+      "realizedPnL": -113.73,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "FORM",
+      "action": "SELL",
+      "shares": 8.6894,
+      "price": 147.13,
+      "total": 1278.48,
+      "realizedPnL": -111.22,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "PENG",
+      "action": "SELL",
+      "shares": 18.2831,
+      "price": 68.81,
+      "total": 1258.06,
+      "realizedPnL": -131.64,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "FIGR",
+      "action": "SELL",
+      "shares": 42.6071,
+      "price": 32.67,
+      "total": 1391.97,
+      "realizedPnL": 83.51,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 53.1001,
+      "price": 24.5,
+      "total": 1300.95,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "WDC",
+      "action": "BUY",
+      "shares": 2.1742,
+      "price": 598.37,
+      "total": 1300.95,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 10.3472,
+      "price": 125.73,
+      "total": 1300.95,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 26.9784,
+      "price": 53.58,
+      "total": 1445.5,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 4.3916,
+      "price": 299.32,
+      "total": 1314.5,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-02",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 0.2196,
+      "price": 299.32,
+      "total": 65.73,
+      "reason": "Rebalance: 9.1% drift"
     }
   ],
   "history": [
@@ -1362,6 +1461,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-02",
+      "totalValue": 10841.28,
+      "cash": 3.46,
+      "positionsValue": 10837.82,
+      "positionCount": 8,
+      "tradesExecuted": 11,
+      "session": "open"
     }
   ]
 }
