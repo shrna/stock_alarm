@@ -1006,91 +1006,6 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "QQQ",
-      "action": "SELL",
-      "shares": 2.0589,
-      "price": 712.6,
-      "total": 1467.19,
-      "realizedPnL": -23.64,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 5.1101,
-      "price": 241.91,
-      "total": 1236.19,
-      "realizedPnL": -153.51,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "WDC",
-      "action": "SELL",
-      "shares": 2.1742,
-      "price": 539,
-      "total": 1171.87,
-      "realizedPnL": -129.08,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.6112,
-      "price": 297.58,
-      "total": 1372.2,
-      "realizedPnL": -8.02,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "IMNM",
-      "action": "BUY",
-      "shares": 53.908,
-      "price": 23.61,
-      "total": 1272.77,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "BBD",
-      "action": "BUY",
-      "shares": 368.9184,
-      "price": 3.45,
-      "total": 1272.77,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 8.8133,
-      "price": 160.46,
-      "total": 1414.19,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.0483,
-      "price": 53.22,
-      "total": 1226.63,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-03",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 1.1524,
-      "price": 53.22,
-      "total": 61.33,
-      "reason": "Rebalance: 13.3% drift"
     }
   ],
   "history": [
@@ -1459,7 +1374,7 @@
       "cash": 3.23,
       "positionsValue": 10603.17,
       "positionCount": 8,
-      "tradesExecuted": 9,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
