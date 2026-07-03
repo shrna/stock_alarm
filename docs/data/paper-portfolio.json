@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.4592113137655645,
+  "cash": 3.2279764523375576,
   "positions": [
     {
       "symbol": "INTC",
@@ -13,24 +13,6 @@
       "previousClose": 129.21
     },
     {
-      "symbol": "QQQ",
-      "shares": 2.0589214360322288,
-      "avgCost": 724.08,
-      "currentPrice": 712.6,
-      "type": "etf",
-      "boughtAt": "2026-06-30",
-      "previousClose": 729
-    },
-    {
-      "symbol": "CRDO",
-      "shares": 5.110133153018219,
-      "avgCost": 271.95,
-      "currentPrice": 241.91,
-      "type": "stock",
-      "boughtAt": "2026-07-01",
-      "previousClose": 274.89
-    },
-    {
       "symbol": "CVE",
       "shares": 53.100145501965294,
       "avgCost": 24.5,
@@ -38,15 +20,6 @@
       "type": "stock",
       "boughtAt": "2026-07-02",
       "previousClose": 24.7
-    },
-    {
-      "symbol": "WDC",
-      "shares": 2.1741624158934267,
-      "avgCost": 598.37,
-      "currentPrice": 539,
-      "type": "stock",
-      "boughtAt": "2026-07-02",
-      "previousClose": 597.923
     },
     {
       "symbol": "PLTR",
@@ -67,13 +40,36 @@
       "previousClose": 55.865
     },
     {
-      "symbol": "IWM",
-      "shares": 4.611203107685606,
-      "avgCost": 299.32,
-      "currentPrice": 297.58,
+      "symbol": "IMNM",
+      "shares": 53.90801941859124,
+      "avgCost": 23.61,
+      "currentPrice": 23.61,
+      "type": "stock",
+      "boughtAt": "2026-07-03"
+    },
+    {
+      "symbol": "BBD",
+      "shares": 368.9183589776635,
+      "avgCost": 3.45,
+      "currentPrice": 3.45,
+      "type": "stock",
+      "boughtAt": "2026-07-03"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 8.81333069143531,
+      "avgCost": 160.46,
+      "currentPrice": 160.46,
       "type": "etf",
-      "boughtAt": "2026-07-02",
-      "previousClose": 301.3477
+      "boughtAt": "2026-07-03"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 24.20072537547319,
+      "avgCost": 53.22,
+      "currentPrice": 53.22,
+      "type": "etf",
+      "boughtAt": "2026-07-03"
     }
   ],
   "trades": [
@@ -1010,6 +1006,91 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "QQQ",
+      "action": "SELL",
+      "shares": 2.0589,
+      "price": 712.6,
+      "total": 1467.19,
+      "realizedPnL": -23.64,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 5.1101,
+      "price": 241.91,
+      "total": 1236.19,
+      "realizedPnL": -153.51,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 2.1742,
+      "price": 539,
+      "total": 1171.87,
+      "realizedPnL": -129.08,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.6112,
+      "price": 297.58,
+      "total": 1372.2,
+      "realizedPnL": -8.02,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "IMNM",
+      "action": "BUY",
+      "shares": 53.908,
+      "price": 23.61,
+      "total": 1272.77,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "BBD",
+      "action": "BUY",
+      "shares": 368.9184,
+      "price": 3.45,
+      "total": 1272.77,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 8.8133,
+      "price": 160.46,
+      "total": 1414.19,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.0483,
+      "price": 53.22,
+      "total": 1226.63,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-03",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 1.1524,
+      "price": 53.22,
+      "total": 61.33,
+      "reason": "Rebalance: 13.3% drift"
     }
   ],
   "history": [
@@ -1371,6 +1452,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-03",
+      "totalValue": 10606.4,
+      "cash": 3.23,
+      "positionsValue": 10603.17,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
