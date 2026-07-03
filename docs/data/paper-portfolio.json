@@ -10,7 +10,7 @@
       "currentPrice": 120.35,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 129.21
+      "previousClose": 120.35
     },
     {
       "symbol": "CVE",
@@ -19,7 +19,7 @@
       "currentPrice": 24.65,
       "type": "stock",
       "boughtAt": "2026-07-02",
-      "previousClose": 24.7
+      "previousClose": 24.65
     },
     {
       "symbol": "PLTR",
@@ -28,7 +28,7 @@
       "currentPrice": 129.3,
       "type": "stock",
       "boughtAt": "2026-07-02",
-      "previousClose": 131.93
+      "previousClose": 129.3
     },
     {
       "symbol": "SLV",
@@ -37,7 +37,7 @@
       "currentPrice": 55.02,
       "type": "etf",
       "boughtAt": "2026-07-02",
-      "previousClose": 55.865
+      "previousClose": 55.02
     },
     {
       "symbol": "IMNM",
@@ -45,7 +45,8 @@
       "avgCost": 23.61,
       "currentPrice": 23.61,
       "type": "stock",
-      "boughtAt": "2026-07-03"
+      "boughtAt": "2026-07-03",
+      "previousClose": 23.61
     },
     {
       "symbol": "BBD",
@@ -53,7 +54,8 @@
       "avgCost": 3.45,
       "currentPrice": 3.45,
       "type": "stock",
-      "boughtAt": "2026-07-03"
+      "boughtAt": "2026-07-03",
+      "previousClose": 3.45
     },
     {
       "symbol": "XBI",
@@ -61,7 +63,8 @@
       "avgCost": 160.46,
       "currentPrice": 160.46,
       "type": "etf",
-      "boughtAt": "2026-07-03"
+      "boughtAt": "2026-07-03",
+      "previousClose": 160.46
     },
     {
       "symbol": "XLE",
@@ -69,7 +72,8 @@
       "avgCost": 53.22,
       "currentPrice": 53.22,
       "type": "etf",
-      "boughtAt": "2026-07-03"
+      "boughtAt": "2026-07-03",
+      "previousClose": 53.22
     }
   ],
   "trades": [
@@ -1375,7 +1379,7 @@
       "positionsValue": 10603.17,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
