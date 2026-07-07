@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.2279764523375576,
+  "cash": 72.7303877370091,
   "positions": [
     {
       "symbol": "INTC",
@@ -22,33 +22,6 @@
       "previousClose": 24.7
     },
     {
-      "symbol": "PLTR",
-      "shares": 10.347200865331661,
-      "avgCost": 125.73,
-      "currentPrice": 132.54,
-      "type": "stock",
-      "boughtAt": "2026-07-02",
-      "previousClose": 132.915
-    },
-    {
-      "symbol": "SLV",
-      "shares": 26.978424055372024,
-      "avgCost": 53.58,
-      "currentPrice": 56.11,
-      "type": "etf",
-      "boughtAt": "2026-07-02",
-      "previousClose": 55.905
-    },
-    {
-      "symbol": "IMNM",
-      "shares": 53.90801941859124,
-      "avgCost": 23.61,
-      "currentPrice": 23.9,
-      "type": "stock",
-      "boughtAt": "2026-07-03",
-      "previousClose": 23.75
-    },
-    {
       "symbol": "BBD",
       "shares": 368.9183589776635,
       "avgCost": 3.45,
@@ -58,22 +31,44 @@
       "previousClose": 3.4705
     },
     {
-      "symbol": "XBI",
-      "shares": 8.81333069143531,
-      "avgCost": 160.46,
-      "currentPrice": 160.81,
-      "type": "etf",
-      "boughtAt": "2026-07-03",
-      "previousClose": 160.6122
+      "symbol": "CRDO",
+      "shares": 4.838745759990453,
+      "avgCost": 265.55,
+      "currentPrice": 265.55,
+      "type": "stock",
+      "boughtAt": "2026-07-07"
     },
     {
-      "symbol": "XLE",
-      "shares": 24.20072537547319,
-      "avgCost": 53.22,
-      "currentPrice": 53.13,
+      "symbol": "F",
+      "shares": 92.90881681601337,
+      "avgCost": 13.83,
+      "currentPrice": 13.83,
+      "type": "stock",
+      "boughtAt": "2026-07-07"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 21.129181861862843,
+      "avgCost": 67.57,
+      "currentPrice": 67.57,
       "type": "etf",
-      "boughtAt": "2026-07-03",
-      "previousClose": 53.305
+      "boughtAt": "2026-07-07"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 18.682266663256637,
+      "avgCost": 76.42,
+      "currentPrice": 76.42,
+      "type": "etf",
+      "boughtAt": "2026-07-07"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 7.099292920643051,
+      "avgCost": 194.65,
+      "currentPrice": 194.65,
+      "type": "etf",
+      "boughtAt": "2026-07-07"
     }
   ],
   "trades": [
@@ -1010,6 +1005,101 @@
       "price": 224.81,
       "total": 179.64,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 10.3472,
+      "price": 132.54,
+      "total": 1371.42,
+      "realizedPnL": 70.46,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 26.9784,
+      "price": 56.11,
+      "total": 1513.76,
+      "realizedPnL": 68.26,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "IMNM",
+      "action": "SELL",
+      "shares": 53.908,
+      "price": 23.9,
+      "total": 1288.4,
+      "realizedPnL": 15.63,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 8.8133,
+      "price": 160.81,
+      "total": 1417.27,
+      "realizedPnL": 3.08,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 24.2007,
+      "price": 53.13,
+      "total": 1285.78,
+      "realizedPnL": -2.18,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 4.8387,
+      "price": 265.55,
+      "total": 1284.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "F",
+      "action": "BUY",
+      "shares": 92.9088,
+      "price": 13.83,
+      "total": 1284.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 21.1292,
+      "price": 67.57,
+      "total": 1427.7,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 18.6823,
+      "price": 76.42,
+      "total": 1427.7,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-07",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 7.0993,
+      "price": 194.65,
+      "total": 1381.88,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1389,6 +1479,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-07",
+      "totalValue": 10707.74,
+      "cash": 72.73,
+      "positionsValue": 10635.01,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
