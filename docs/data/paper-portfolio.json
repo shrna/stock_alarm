@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 97.05017932042347,
+  "cash": 4.852508966021176,
   "positions": [
     {
       "symbol": "INTC",
-      "shares": 10.173028416633315,
-      "avgCost": 132.28,
-      "currentPrice": 110.39,
+      "shares": 11.02505383345618,
+      "avgCost": 130.419850190963,
+      "currentPrice": 108.21,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 108.5
@@ -16,7 +16,7 @@
       "symbol": "KNSA",
       "shares": 18.131234748589346,
       "avgCost": 67.29,
-      "currentPrice": 67.29,
+      "currentPrice": 65.88,
       "type": "stock",
       "boughtAt": "2026-07-08"
     },
@@ -24,7 +24,7 @@
       "symbol": "AMZN",
       "shares": 4.959959290318633,
       "avgCost": 245.98,
-      "currentPrice": 245.98,
+      "currentPrice": 243.63,
       "type": "stock",
       "boughtAt": "2026-07-08"
     },
@@ -32,7 +32,7 @@
       "symbol": "PTEN",
       "shares": 133.33888374126525,
       "avgCost": 9.15,
-      "currentPrice": 9.15,
+      "currentPrice": 9.7,
       "type": "stock",
       "boughtAt": "2026-07-08"
     },
@@ -40,7 +40,7 @@
       "symbol": "PLTR",
       "shares": 9.07978556398435,
       "avgCost": 134.37,
-      "currentPrice": 134.37,
+      "currentPrice": 128.29,
       "type": "stock",
       "boughtAt": "2026-07-08"
     },
@@ -48,7 +48,7 @@
       "symbol": "XLE",
       "shares": 24.8098825897303,
       "avgCost": 54.64,
-      "currentPrice": 54.64,
+      "currentPrice": 55.505,
       "type": "etf",
       "boughtAt": "2026-07-08"
     },
@@ -56,7 +56,7 @@
       "symbol": "XBI",
       "shares": 8.272484192975307,
       "avgCost": 163.87,
-      "currentPrice": 163.87,
+      "currentPrice": 162.09,
       "type": "etf",
       "boughtAt": "2026-07-08"
     },
@@ -64,7 +64,7 @@
       "symbol": "SCHD",
       "shares": 41.659864311704474,
       "avgCost": 32.54,
-      "currentPrice": 32.54,
+      "currentPrice": 32.435,
       "type": "etf",
       "boughtAt": "2026-07-08"
     }
@@ -1025,136 +1025,12 @@
     },
     {
       "date": "2026-07-08",
-      "symbol": "CVE",
-      "action": "SELL",
-      "shares": 48.3825,
-      "price": 25.21,
-      "total": 1219.72,
-      "realizedPnL": 34.35,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "BBD",
-      "action": "SELL",
-      "shares": 368.9184,
-      "price": 3.4,
-      "total": 1254.32,
-      "realizedPnL": -18.45,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 4.8387,
-      "price": 246.4,
-      "total": 1192.27,
-      "realizedPnL": -92.66,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "F",
-      "action": "SELL",
-      "shares": 92.9088,
-      "price": 13.56,
-      "total": 1259.84,
-      "realizedPnL": -25.09,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "EEM",
-      "action": "SELL",
-      "shares": 21.1292,
-      "price": 65.72,
-      "total": 1388.61,
-      "realizedPnL": -39.09,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 18.6823,
-      "price": 72.23,
-      "total": 1349.42,
-      "realizedPnL": -78.28,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 8.2916,
-      "price": 165.28,
-      "total": 1370.44,
-      "realizedPnL": -191.28,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "KNSA",
+      "symbol": "INTC",
       "action": "BUY",
-      "shares": 18.1312,
-      "price": 67.29,
-      "total": 1220.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "AMZN",
-      "action": "BUY",
-      "shares": 4.96,
-      "price": 245.98,
-      "total": 1220.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "PTEN",
-      "action": "BUY",
-      "shares": 133.3389,
-      "price": 9.15,
-      "total": 1220.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 9.0798,
-      "price": 134.37,
-      "total": 1220.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 24.8099,
-      "price": 54.64,
-      "total": 1355.61,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 8.2725,
-      "price": 163.87,
-      "total": 1355.61,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-08",
-      "symbol": "SCHD",
-      "action": "BUY",
-      "shares": 41.6599,
-      "price": 32.54,
-      "total": 1355.61,
-      "reason": "Top 3 ETF pick"
+      "shares": 0.852,
+      "price": 108.21,
+      "total": 92.2,
+      "reason": "Rebalance: 9.4% drift"
     }
   ],
   "history": [
@@ -1546,11 +1422,11 @@
     },
     {
       "date": "2026-07-08",
-      "totalValue": 10167.09,
-      "cash": 97.05,
-      "positionsValue": 10070.04,
+      "totalValue": 10128.18,
+      "cash": 4.85,
+      "positionsValue": 10123.33,
       "positionCount": 8,
-      "tradesExecuted": 14,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
