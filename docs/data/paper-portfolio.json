@@ -7,26 +7,28 @@
       "symbol": "INTC",
       "shares": 11.02505383345618,
       "avgCost": 130.419850190963,
-      "currentPrice": 108.21,
+      "currentPrice": 110.24,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 108.5
+      "previousClose": 108.21
     },
     {
       "symbol": "KNSA",
       "shares": 18.131234748589346,
       "avgCost": 67.29,
-      "currentPrice": 65.88,
+      "currentPrice": 64.76,
       "type": "stock",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 65.88
     },
     {
       "symbol": "AMZN",
       "shares": 4.959959290318633,
       "avgCost": 245.98,
-      "currentPrice": 243.63,
+      "currentPrice": 243.62,
       "type": "stock",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 243.63
     },
     {
       "symbol": "PTEN",
@@ -34,39 +36,44 @@
       "avgCost": 9.15,
       "currentPrice": 9.7,
       "type": "stock",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 9.7
     },
     {
       "symbol": "PLTR",
       "shares": 9.07978556398435,
       "avgCost": 134.37,
-      "currentPrice": 128.29,
+      "currentPrice": 132.22,
       "type": "stock",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 128.29
     },
     {
       "symbol": "XLE",
       "shares": 24.8098825897303,
       "avgCost": 54.64,
-      "currentPrice": 55.505,
+      "currentPrice": 55.6,
       "type": "etf",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 55.505
     },
     {
       "symbol": "XBI",
       "shares": 8.272484192975307,
       "avgCost": 163.87,
-      "currentPrice": 162.09,
+      "currentPrice": 162.97,
       "type": "etf",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 162.09
     },
     {
       "symbol": "SCHD",
       "shares": 41.659864311704474,
       "avgCost": 32.54,
-      "currentPrice": 32.435,
+      "currentPrice": 32.34,
       "type": "etf",
-      "boughtAt": "2026-07-08"
+      "boughtAt": "2026-07-08",
+      "previousClose": 32.435
     }
   ],
   "trades": [
@@ -1422,12 +1429,12 @@
     },
     {
       "date": "2026-07-08",
-      "totalValue": 10128.18,
+      "totalValue": 10171.57,
       "cash": 4.85,
-      "positionsValue": 10123.33,
+      "positionsValue": 10166.72,
       "positionCount": 8,
-      "tradesExecuted": 1,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
