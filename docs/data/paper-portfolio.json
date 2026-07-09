@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 66.90880505375776,
+  "cash": 114.81913128585416,
   "positions": [
     {
       "symbol": "INTC",
       "shares": 11.02505383345618,
       "avgCost": 130.419850190963,
-      "currentPrice": 110.24,
+      "currentPrice": 113.295,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 108.21
@@ -16,7 +16,7 @@
       "symbol": "XLE",
       "shares": 24.8098825897303,
       "avgCost": 54.64,
-      "currentPrice": 55.6,
+      "currentPrice": 55.02,
       "type": "etf",
       "boughtAt": "2026-07-08",
       "previousClose": 55.505
@@ -25,7 +25,7 @@
       "symbol": "GDS",
       "shares": 37.19038808230822,
       "avgCost": 32.82,
-      "currentPrice": 32.82,
+      "currentPrice": 33.145,
       "type": "stock",
       "boughtAt": "2026-07-09"
     },
@@ -33,7 +33,7 @@
       "symbol": "FRSH",
       "shares": 120.01853853110677,
       "avgCost": 10.17,
-      "currentPrice": 10.17,
+      "currentPrice": 10.265,
       "type": "stock",
       "boughtAt": "2026-07-09"
     },
@@ -41,7 +41,7 @@
       "symbol": "PARR",
       "shares": 17.800620342151902,
       "avgCost": 68.57,
-      "currentPrice": 68.57,
+      "currentPrice": 67.215,
       "type": "stock",
       "boughtAt": "2026-07-09"
     },
@@ -49,23 +49,23 @@
       "symbol": "UCTT",
       "shares": 12.0958134660723,
       "avgCost": 100.91,
-      "currentPrice": 100.91,
+      "currentPrice": 108.21,
       "type": "stock",
       "boughtAt": "2026-07-09"
     },
     {
       "symbol": "SOXL",
-      "shares": 7.757747885834039,
+      "shares": 6.934910917563062,
       "avgCost": 174.82,
-      "currentPrice": 174.82,
+      "currentPrice": 201.85,
       "type": "etf",
       "boughtAt": "2026-07-09"
     },
     {
       "symbol": "EEM",
-      "shares": 19.19473495427144,
-      "avgCost": 66.23,
-      "currentPrice": 66.23,
+      "shares": 20.96468127467582,
+      "avgCost": 66.2755895799462,
+      "currentPrice": 66.77,
       "type": "etf",
       "boughtAt": "2026-07-09"
     }
@@ -1035,117 +1035,22 @@
     },
     {
       "date": "2026-07-09",
-      "symbol": "KNSA",
-      "action": "SELL",
-      "shares": 18.1312,
-      "price": 64.76,
-      "total": 1174.18,
-      "realizedPnL": -45.87,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "AMZN",
-      "action": "SELL",
-      "shares": 4.96,
-      "price": 243.62,
-      "total": 1208.35,
-      "realizedPnL": -11.71,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "PTEN",
-      "action": "SELL",
-      "shares": 133.3389,
-      "price": 9.7,
-      "total": 1293.39,
-      "realizedPnL": 73.34,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 9.0798,
-      "price": 132.22,
-      "total": 1200.53,
-      "realizedPnL": -19.52,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 8.2725,
-      "price": 162.97,
-      "total": 1348.17,
-      "realizedPnL": -7.45,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "SCHD",
-      "action": "SELL",
-      "shares": 41.6599,
-      "price": 32.34,
-      "total": 1347.28,
-      "realizedPnL": -8.33,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "GDS",
-      "action": "BUY",
-      "shares": 37.1904,
-      "price": 32.82,
-      "total": 1220.59,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "FRSH",
-      "action": "BUY",
-      "shares": 120.0185,
-      "price": 10.17,
-      "total": 1220.59,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "PARR",
-      "action": "BUY",
-      "shares": 17.8006,
-      "price": 68.57,
-      "total": 1220.59,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-09",
-      "symbol": "UCTT",
-      "action": "BUY",
-      "shares": 12.0958,
-      "price": 100.91,
-      "total": 1220.59,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-09",
       "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 7.7577,
-      "price": 174.82,
-      "total": 1356.21,
-      "reason": "Top 3 ETF pick"
+      "action": "SELL",
+      "shares": 0.8228,
+      "price": 201.85,
+      "total": 166.09,
+      "realizedPnL": 22.24,
+      "reason": "Rebalance: 11.9% drift"
     },
     {
       "date": "2026-07-09",
       "symbol": "EEM",
       "action": "BUY",
-      "shares": 19.1947,
-      "price": 66.23,
-      "total": 1271.27,
-      "reason": "Top 3 ETF pick"
+      "shares": 1.7699,
+      "price": 66.77,
+      "total": 118.18,
+      "reason": "Rebalance: 8.4% drift"
     }
   ],
   "history": [
@@ -1546,11 +1451,11 @@
     },
     {
       "date": "2026-07-09",
-      "totalValue": 10171.57,
-      "cash": 66.91,
-      "positionsValue": 10104.66,
+      "totalValue": 10498.59,
+      "cash": 114.82,
+      "positionsValue": 10383.77,
       "positionCount": 8,
-      "tradesExecuted": 12,
+      "tradesExecuted": 2,
       "session": "open"
     }
   ]
