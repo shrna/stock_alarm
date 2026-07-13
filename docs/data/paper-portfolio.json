@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 71.70679959009772,
+  "cash": 67.48408047492126,
   "positions": [
     {
       "symbol": "INTC",
@@ -13,15 +13,6 @@
       "previousClose": 108.669
     },
     {
-      "symbol": "SOXL",
-      "shares": 6.934910917563062,
-      "avgCost": 174.82,
-      "currentPrice": 192.26,
-      "type": "etf",
-      "boughtAt": "2026-07-09",
-      "previousClose": 183.605
-    },
-    {
       "symbol": "CVE",
       "shares": 47.895824914041405,
       "avgCost": 25.98,
@@ -29,15 +20,6 @@
       "type": "stock",
       "boughtAt": "2026-07-10",
       "previousClose": 26.27
-    },
-    {
-      "symbol": "HPE",
-      "shares": 25.337681353426913,
-      "avgCost": 49.11,
-      "currentPrice": 48.54,
-      "type": "stock",
-      "boughtAt": "2026-07-10",
-      "previousClose": 49.385
     },
     {
       "symbol": "F",
@@ -49,24 +31,6 @@
       "previousClose": 13.825
     },
     {
-      "symbol": "BAND",
-      "shares": 15.863507537822485,
-      "avgCost": 78.44,
-      "currentPrice": 75.48,
-      "type": "stock",
-      "boughtAt": "2026-07-10",
-      "previousClose": 74.4
-    },
-    {
-      "symbol": "SLV",
-      "shares": 25.537362625021462,
-      "avgCost": 54.14,
-      "currentPrice": 53.95,
-      "type": "etf",
-      "boughtAt": "2026-07-10",
-      "previousClose": 53.45
-    },
-    {
       "symbol": "TQQQ",
       "shares": 17.846858687606108,
       "avgCost": 76.34,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-07-10",
       "previousClose": 75.06
+    },
+    {
+      "symbol": "CRDO",
+      "shares": 4.81331209610702,
+      "avgCost": 257.79,
+      "currentPrice": 257.79,
+      "type": "stock",
+      "boughtAt": "2026-07-13"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 9.78644786856557,
+      "avgCost": 126.79,
+      "currentPrice": 126.79,
+      "type": "stock",
+      "boughtAt": "2026-07-13"
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 1.9003087870071917,
+      "avgCost": 725.51,
+      "currentPrice": 725.51,
+      "type": "etf",
+      "boughtAt": "2026-07-13"
+    },
+    {
+      "symbol": "SMH",
+      "shares": 2.0984199286835294,
+      "avgCost": 611.03,
+      "currentPrice": 611.03,
+      "type": "etf",
+      "boughtAt": "2026-07-13"
     }
   ],
   "trades": [
@@ -1057,6 +1053,82 @@
       "price": 66.77,
       "total": 118.18,
       "reason": "Rebalance: 8.4% drift"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 6.9349,
+      "price": 192.26,
+      "total": 1333.31,
+      "realizedPnL": 120.94,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "HPE",
+      "action": "SELL",
+      "shares": 25.3377,
+      "price": 48.54,
+      "total": 1229.89,
+      "realizedPnL": -14.44,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "BAND",
+      "action": "SELL",
+      "shares": 15.8635,
+      "price": 75.48,
+      "total": 1197.38,
+      "realizedPnL": -46.96,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 25.5374,
+      "price": 53.95,
+      "total": 1377.74,
+      "realizedPnL": -4.85,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "CRDO",
+      "action": "BUY",
+      "shares": 4.8133,
+      "price": 257.79,
+      "total": 1240.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 9.7864,
+      "price": 126.79,
+      "total": 1240.82,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 1.9003,
+      "price": 725.51,
+      "total": 1378.69,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-13",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.0984,
+      "price": 611.03,
+      "total": 1282.2,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1472,6 +1544,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-13",
+      "totalValue": 10340.2,
+      "cash": 67.48,
+      "positionsValue": 10272.71,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
