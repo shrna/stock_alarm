@@ -1061,101 +1061,6 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "CVE",
-      "action": "SELL",
-      "shares": 47.8958,
-      "price": 27.61,
-      "total": 1322.4,
-      "realizedPnL": 78.07,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 17.8469,
-      "price": 72.64,
-      "total": 1296.4,
-      "realizedPnL": -66.03,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 4.8133,
-      "price": 236.88,
-      "total": 1140.18,
-      "realizedPnL": -100.65,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 9.7864,
-      "price": 130.04,
-      "total": 1272.63,
-      "realizedPnL": 31.81,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.2059,
-      "price": 585.62,
-      "total": 1291.83,
-      "realizedPnL": -54.47,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "PARR",
-      "action": "BUY",
-      "shares": 17.0601,
-      "price": 70.92,
-      "total": 1209.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "NVDA",
-      "action": "BUY",
-      "shares": 5.9446,
-      "price": 203.53,
-      "total": 1209.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "ARX",
-      "action": "BUY",
-      "shares": 90.6973,
-      "price": 13.34,
-      "total": 1209.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.6929,
-      "price": 56.74,
-      "total": 1344.34,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-14",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.3789,
-      "price": 293.48,
-      "total": 1285.13,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1587,7 +1492,7 @@
       "cash": 67.64,
       "positionsValue": 10014.88,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
