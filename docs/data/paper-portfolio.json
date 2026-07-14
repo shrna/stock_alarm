@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.37420402374606,
+  "cash": 67.63854687965159,
   "positions": [
     {
       "symbol": "INTC",
@@ -13,15 +13,6 @@
       "previousClose": 105.2
     },
     {
-      "symbol": "CVE",
-      "shares": 47.895824914041405,
-      "avgCost": 25.98,
-      "currentPrice": 27.61,
-      "type": "stock",
-      "boughtAt": "2026-07-10",
-      "previousClose": 27.2
-    },
-    {
       "symbol": "F",
       "shares": 91.4278862062304,
       "avgCost": 13.61,
@@ -29,33 +20,6 @@
       "type": "stock",
       "boughtAt": "2026-07-10",
       "previousClose": 14.095
-    },
-    {
-      "symbol": "TQQQ",
-      "shares": 17.846858687606108,
-      "avgCost": 76.34,
-      "currentPrice": 72.64,
-      "type": "etf",
-      "boughtAt": "2026-07-10",
-      "previousClose": 74.14
-    },
-    {
-      "symbol": "CRDO",
-      "shares": 4.81331209610702,
-      "avgCost": 257.79,
-      "currentPrice": 236.88,
-      "type": "stock",
-      "boughtAt": "2026-07-13",
-      "previousClose": 247.16
-    },
-    {
-      "symbol": "PLTR",
-      "shares": 9.78644786856557,
-      "avgCost": 126.79,
-      "currentPrice": 130.04,
-      "type": "stock",
-      "boughtAt": "2026-07-13",
-      "previousClose": 128.49
     },
     {
       "symbol": "QQQ",
@@ -67,13 +31,44 @@
       "previousClose": 716.5
     },
     {
-      "symbol": "SMH",
-      "shares": 2.2059237040690833,
-      "avgCost": 610.3145829528244,
-      "currentPrice": 585.62,
+      "symbol": "PARR",
+      "shares": 17.060100483969478,
+      "avgCost": 70.92,
+      "currentPrice": 70.92,
+      "type": "stock",
+      "boughtAt": "2026-07-14"
+    },
+    {
+      "symbol": "NVDA",
+      "shares": 5.944589624738935,
+      "avgCost": 203.53,
+      "currentPrice": 203.53,
+      "type": "stock",
+      "boughtAt": "2026-07-14"
+    },
+    {
+      "symbol": "ARX",
+      "shares": 90.69732581132799,
+      "avgCost": 13.34,
+      "currentPrice": 13.34,
+      "type": "stock",
+      "boughtAt": "2026-07-14"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 23.692913608332656,
+      "avgCost": 56.74,
+      "currentPrice": 56.74,
       "type": "etf",
-      "boughtAt": "2026-07-13",
-      "previousClose": 596.35
+      "boughtAt": "2026-07-14"
+    },
+    {
+      "symbol": "IWM",
+      "shares": 4.378943678320081,
+      "avgCost": 293.48,
+      "currentPrice": 293.48,
+      "type": "etf",
+      "boughtAt": "2026-07-14"
     }
   ],
   "trades": [
@@ -1066,6 +1061,101 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 47.8958,
+      "price": 27.61,
+      "total": 1322.4,
+      "realizedPnL": 78.07,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 17.8469,
+      "price": 72.64,
+      "total": 1296.4,
+      "realizedPnL": -66.03,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "CRDO",
+      "action": "SELL",
+      "shares": 4.8133,
+      "price": 236.88,
+      "total": 1140.18,
+      "realizedPnL": -100.65,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 9.7864,
+      "price": 130.04,
+      "total": 1272.63,
+      "realizedPnL": 31.81,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "SMH",
+      "action": "SELL",
+      "shares": 2.2059,
+      "price": 585.62,
+      "total": 1291.83,
+      "realizedPnL": -54.47,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "PARR",
+      "action": "BUY",
+      "shares": 17.0601,
+      "price": 70.92,
+      "total": 1209.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 5.9446,
+      "price": 203.53,
+      "total": 1209.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "ARX",
+      "action": "BUY",
+      "shares": 90.6973,
+      "price": 13.34,
+      "total": 1209.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.6929,
+      "price": 56.74,
+      "total": 1344.34,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-14",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 4.3789,
+      "price": 293.48,
+      "total": 1285.13,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1490,6 +1580,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-14",
+      "totalValue": 10082.52,
+      "cash": 67.64,
+      "positionsValue": 10014.88,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
