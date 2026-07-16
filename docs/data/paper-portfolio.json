@@ -7,7 +7,7 @@
       "symbol": "INTC",
       "shares": 11.02505383345618,
       "avgCost": 130.419850190963,
-      "currentPrice": 102.99,
+      "currentPrice": 99.675,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 106.135
@@ -16,7 +16,7 @@
       "symbol": "AAL",
       "shares": 78.10949362572917,
       "avgCost": 15.67,
-      "currentPrice": 15.63,
+      "currentPrice": 15.585,
       "type": "stock",
       "boughtAt": "2026-07-15",
       "previousClose": 15.735
@@ -25,7 +25,7 @@
       "symbol": "BILL",
       "shares": 26.959322038520966,
       "avgCost": 44.63,
-      "currentPrice": 44.63,
+      "currentPrice": 44.91,
       "type": "stock",
       "boughtAt": "2026-07-16"
     },
@@ -33,7 +33,7 @@
       "symbol": "COMP",
       "shares": 95.11419308926409,
       "avgCost": 12.65,
-      "currentPrice": 12.65,
+      "currentPrice": 12.575,
       "type": "stock",
       "boughtAt": "2026-07-16"
     },
@@ -41,7 +41,7 @@
       "symbol": "MANE",
       "shares": 9.726714167980523,
       "avgCost": 123.7,
-      "currentPrice": 123.7,
+      "currentPrice": 119.91,
       "type": "stock",
       "boughtAt": "2026-07-16"
     },
@@ -49,7 +49,7 @@
       "symbol": "IWM",
       "shares": 4.520008199235859,
       "avgCost": 295.77,
-      "currentPrice": 295.77,
+      "currentPrice": 296.495,
       "type": "etf",
       "boughtAt": "2026-07-16"
     },
@@ -57,7 +57,7 @@
       "symbol": "SPY",
       "shares": 1.771151448825519,
       "avgCost": 754.81,
-      "currentPrice": 754.81,
+      "currentPrice": 751.895,
       "type": "etf",
       "boughtAt": "2026-07-16"
     },
@@ -65,7 +65,7 @@
       "symbol": "XLF",
       "shares": 23.29566334936602,
       "avgCost": 56.56,
-      "currentPrice": 56.56,
+      "currentPrice": 56.435,
       "type": "etf",
       "boughtAt": "2026-07-16"
     }
@@ -1060,120 +1060,6 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "NVDA",
-      "action": "SELL",
-      "shares": 5.9446,
-      "price": 212.5,
-      "total": 1263.23,
-      "realizedPnL": 53.32,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "ATAI",
-      "action": "SELL",
-      "shares": 215.8687,
-      "price": 5.36,
-      "total": 1157.06,
-      "realizedPnL": -66.92,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "CLSK",
-      "action": "SELL",
-      "shares": 91.0019,
-      "price": 14.13,
-      "total": 1285.86,
-      "realizedPnL": 61.88,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 18.1281,
-      "price": 74.44,
-      "total": 1349.46,
-      "realizedPnL": -10.51,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 7.6983,
-      "price": 165.55,
-      "total": 1274.45,
-      "realizedPnL": -85.53,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.1535,
-      "price": 590.77,
-      "total": 1272.22,
-      "realizedPnL": -20.54,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "BILL",
-      "action": "BUY",
-      "shares": 26.9593,
-      "price": 44.63,
-      "total": 1203.19,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "COMP",
-      "action": "BUY",
-      "shares": 95.1142,
-      "price": 12.65,
-      "total": 1203.19,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "MANE",
-      "action": "BUY",
-      "shares": 9.7267,
-      "price": 123.7,
-      "total": 1203.19,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.52,
-      "price": 295.77,
-      "total": 1336.88,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "SPY",
-      "action": "BUY",
-      "shares": 1.7712,
-      "price": 754.81,
-      "total": 1336.88,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-16",
-      "symbol": "XLF",
-      "action": "BUY",
-      "shares": 23.2957,
-      "price": 56.56,
-      "total": 1317.6,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1619,11 +1505,11 @@
     },
     {
       "date": "2026-07-16",
-      "totalValue": 10026.62,
+      "totalValue": 9945.31,
       "cash": 69.35,
-      "positionsValue": 9957.27,
+      "positionsValue": 9875.96,
       "positionCount": 8,
-      "tradesExecuted": 12,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
