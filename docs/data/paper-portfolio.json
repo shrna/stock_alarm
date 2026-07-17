@@ -7,68 +7,73 @@
       "symbol": "INTC",
       "shares": 11.666417185970914,
       "avgCost": 128.5814884999498,
-      "currentPrice": 89.87,
+      "currentPrice": 95.04,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 99.675
+      "previousClose": 89.87
     },
     {
       "symbol": "AAL",
       "shares": 78.10949362572917,
       "avgCost": 15.67,
-      "currentPrice": 15.065,
+      "currentPrice": 14.98,
       "type": "stock",
       "boughtAt": "2026-07-15",
-      "previousClose": 15.585
+      "previousClose": 15.065
     },
     {
       "symbol": "IWM",
       "shares": 4.520008199235859,
       "avgCost": 295.77,
-      "currentPrice": 293.58,
+      "currentPrice": 294.04,
       "type": "etf",
       "boughtAt": "2026-07-16",
-      "previousClose": 296.495
+      "previousClose": 293.58
     },
     {
       "symbol": "VG",
       "shares": 92.21791275461045,
       "avgCost": 12.67,
-      "currentPrice": 13.14,
+      "currentPrice": 13.8,
       "type": "stock",
-      "boughtAt": "2026-07-17"
+      "boughtAt": "2026-07-17",
+      "previousClose": 13.14
     },
     {
       "symbol": "JBHT",
       "shares": 3.915421583059932,
       "avgCost": 298.41,
-      "currentPrice": 295.155,
+      "currentPrice": 291.41,
       "type": "stock",
-      "boughtAt": "2026-07-17"
+      "boughtAt": "2026-07-17",
+      "previousClose": 295.155
     },
     {
       "symbol": "ATAI",
       "shares": 163.4127209232048,
       "avgCost": 7.15,
-      "currentPrice": 7.1413,
+      "currentPrice": 7.22,
       "type": "stock",
-      "boughtAt": "2026-07-17"
+      "boughtAt": "2026-07-17",
+      "previousClose": 7.1413
     },
     {
       "symbol": "XLE",
       "shares": 22.767858346017277,
       "avgCost": 57.02,
-      "currentPrice": 57.93,
+      "currentPrice": 57.68,
       "type": "etf",
-      "boughtAt": "2026-07-17"
+      "boughtAt": "2026-07-17",
+      "previousClose": 57.93
     },
     {
       "symbol": "SCHD",
       "shares": 37.650979374624036,
       "avgCost": 33.04,
-      "currentPrice": 33.305,
+      "currentPrice": 32.91,
       "type": "etf",
-      "boughtAt": "2026-07-17"
+      "boughtAt": "2026-07-17",
+      "previousClose": 33.305
     }
   ],
   "trades": [
@@ -1515,12 +1520,12 @@
     },
     {
       "date": "2026-07-17",
-      "totalValue": 9662.72,
+      "totalValue": 9756.98,
       "cash": 3.27,
-      "positionsValue": 9659.45,
+      "positionsValue": 9753.7,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
