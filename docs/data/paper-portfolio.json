@@ -1,12 +1,12 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.34751152842864,
+  "cash": 3.2736535750988907,
   "positions": [
     {
       "symbol": "INTC",
-      "shares": 11.02505383345618,
-      "avgCost": 130.419850190963,
+      "shares": 11.666417185970914,
+      "avgCost": 128.5814884999498,
       "currentPrice": 96.98,
       "type": "stock",
       "boughtAt": "2026-06-24",
@@ -22,33 +22,6 @@
       "previousClose": 15.585
     },
     {
-      "symbol": "BILL",
-      "shares": 26.959322038520966,
-      "avgCost": 44.63,
-      "currentPrice": 44.66,
-      "type": "stock",
-      "boughtAt": "2026-07-16",
-      "previousClose": 44.91
-    },
-    {
-      "symbol": "COMP",
-      "shares": 95.11419308926409,
-      "avgCost": 12.65,
-      "currentPrice": 12.18,
-      "type": "stock",
-      "boughtAt": "2026-07-16",
-      "previousClose": 12.575
-    },
-    {
-      "symbol": "MANE",
-      "shares": 9.726714167980523,
-      "avgCost": 123.7,
-      "currentPrice": 105.83,
-      "type": "stock",
-      "boughtAt": "2026-07-16",
-      "previousClose": 119.91
-    },
-    {
       "symbol": "IWM",
       "shares": 4.520008199235859,
       "avgCost": 295.77,
@@ -58,22 +31,44 @@
       "previousClose": 296.495
     },
     {
-      "symbol": "SPY",
-      "shares": 1.771151448825519,
-      "avgCost": 754.81,
-      "currentPrice": 750.72,
-      "type": "etf",
-      "boughtAt": "2026-07-16",
-      "previousClose": 751.895
+      "symbol": "VG",
+      "shares": 92.21791275461045,
+      "avgCost": 12.67,
+      "currentPrice": 12.67,
+      "type": "stock",
+      "boughtAt": "2026-07-17"
     },
     {
-      "symbol": "XLF",
-      "shares": 23.29566334936602,
-      "avgCost": 56.56,
-      "currentPrice": 56.75,
+      "symbol": "JBHT",
+      "shares": 3.915421583059932,
+      "avgCost": 298.41,
+      "currentPrice": 298.41,
+      "type": "stock",
+      "boughtAt": "2026-07-17"
+    },
+    {
+      "symbol": "ATAI",
+      "shares": 163.4127209232048,
+      "avgCost": 7.15,
+      "currentPrice": 7.15,
+      "type": "stock",
+      "boughtAt": "2026-07-17"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 22.767858346017277,
+      "avgCost": 57.02,
+      "currentPrice": 57.02,
       "type": "etf",
-      "boughtAt": "2026-07-16",
-      "previousClose": 56.435
+      "boughtAt": "2026-07-17"
+    },
+    {
+      "symbol": "SCHD",
+      "shares": 37.650979374624036,
+      "avgCost": 33.04,
+      "currentPrice": 33.04,
+      "type": "etf",
+      "boughtAt": "2026-07-17"
     }
   ],
   "trades": [
@@ -1066,6 +1061,110 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "BILL",
+      "action": "SELL",
+      "shares": 26.9593,
+      "price": 44.66,
+      "total": 1204,
+      "realizedPnL": 0.81,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "COMP",
+      "action": "SELL",
+      "shares": 95.1142,
+      "price": 12.18,
+      "total": 1158.49,
+      "realizedPnL": -44.7,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "MANE",
+      "action": "SELL",
+      "shares": 9.7267,
+      "price": 105.83,
+      "total": 1029.38,
+      "realizedPnL": -173.82,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "SPY",
+      "action": "SELL",
+      "shares": 1.7712,
+      "price": 750.72,
+      "total": 1329.64,
+      "realizedPnL": -7.24,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "XLF",
+      "action": "SELL",
+      "shares": 23.2957,
+      "price": 56.75,
+      "total": 1322.03,
+      "realizedPnL": 4.43,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 92.2179,
+      "price": 12.67,
+      "total": 1168.4,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "JBHT",
+      "action": "BUY",
+      "shares": 3.9154,
+      "price": 298.41,
+      "total": 1168.4,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "ATAI",
+      "action": "BUY",
+      "shares": 163.4127,
+      "price": 7.15,
+      "total": 1168.4,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 22.7679,
+      "price": 57.02,
+      "total": 1298.22,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "SCHD",
+      "action": "BUY",
+      "shares": 37.651,
+      "price": 33.04,
+      "total": 1243.99,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-17",
+      "symbol": "INTC",
+      "action": "BUY",
+      "shares": 0.6414,
+      "price": 96.98,
+      "total": 62.2,
+      "reason": "Rebalance: 8.5% drift"
     }
   ],
   "history": [
@@ -1517,6 +1616,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-17",
+      "totalValue": 9736.67,
+      "cash": 3.27,
+      "positionsValue": 9733.4,
+      "positionCount": 8,
+      "tradesExecuted": 11,
+      "session": "open"
     }
   ]
 }
