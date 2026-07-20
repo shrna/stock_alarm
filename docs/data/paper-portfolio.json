@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.2736535750988907,
+  "cash": 22.36533736855563,
   "positions": [
     {
       "symbol": "INTC",
@@ -32,30 +32,12 @@
     },
     {
       "symbol": "VG",
-      "shares": 92.21791275461045,
+      "shares": 84.84328011793322,
       "avgCost": 12.67,
       "currentPrice": 13.8,
       "type": "stock",
       "boughtAt": "2026-07-17",
       "previousClose": 13.14
-    },
-    {
-      "symbol": "JBHT",
-      "shares": 3.915421583059932,
-      "avgCost": 298.41,
-      "currentPrice": 291.41,
-      "type": "stock",
-      "boughtAt": "2026-07-17",
-      "previousClose": 295.155
-    },
-    {
-      "symbol": "ATAI",
-      "shares": 163.4127209232048,
-      "avgCost": 7.15,
-      "currentPrice": 7.22,
-      "type": "stock",
-      "boughtAt": "2026-07-17",
-      "previousClose": 7.1413
     },
     {
       "symbol": "XLE",
@@ -67,13 +49,28 @@
       "previousClose": 57.93
     },
     {
-      "symbol": "SCHD",
-      "shares": 37.650979374624036,
-      "avgCost": 33.04,
-      "currentPrice": 32.91,
+      "symbol": "PTGX",
+      "shares": 8.309114084362207,
+      "avgCost": 140.91,
+      "currentPrice": 140.91,
+      "type": "stock",
+      "boughtAt": "2026-07-20"
+    },
+    {
+      "symbol": "ORKA",
+      "shares": 12.630391214967405,
+      "avgCost": 92.7,
+      "currentPrice": 92.7,
+      "type": "stock",
+      "boughtAt": "2026-07-20"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 25.618950278488434,
+      "avgCost": 50.78,
+      "currentPrice": 50.78,
       "type": "etf",
-      "boughtAt": "2026-07-17",
-      "previousClose": 33.305
+      "boughtAt": "2026-07-20"
     }
   ],
   "trades": [
@@ -1066,6 +1063,82 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "JBHT",
+      "action": "SELL",
+      "shares": 3.9154,
+      "price": 291.41,
+      "total": 1140.99,
+      "realizedPnL": -27.41,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "ATAI",
+      "action": "SELL",
+      "shares": 163.4127,
+      "price": 7.22,
+      "total": 1179.84,
+      "realizedPnL": 11.44,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 37.651,
+      "price": 32.91,
+      "total": 1239.09,
+      "realizedPnL": -4.89,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "PTGX",
+      "action": "BUY",
+      "shares": 8.3091,
+      "price": 140.91,
+      "total": 1170.84,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "ORKA",
+      "action": "BUY",
+      "shares": 12.6304,
+      "price": 92.7,
+      "total": 1170.84,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 22.8525,
+      "price": 50.78,
+      "total": 1160.45,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 7.3746,
+      "price": 13.8,
+      "total": 101.77,
+      "realizedPnL": 8.33,
+      "reason": "Rebalance: 8.7% drift"
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 2.7665,
+      "price": 50.78,
+      "total": 140.48,
+      "reason": "Rebalance: 10.8% drift"
     }
   ],
   "history": [
@@ -1526,6 +1599,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-20",
+      "totalValue": 9756.98,
+      "cash": 22.37,
+      "positionsValue": 9734.61,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
