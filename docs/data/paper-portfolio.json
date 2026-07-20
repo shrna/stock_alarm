@@ -7,7 +7,7 @@
       "symbol": "INTC",
       "shares": 11.666417185970914,
       "avgCost": 128.5814884999498,
-      "currentPrice": 95.04,
+      "currentPrice": 98.1862,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 89.87
@@ -16,7 +16,7 @@
       "symbol": "AAL",
       "shares": 78.10949362572917,
       "avgCost": 15.67,
-      "currentPrice": 14.98,
+      "currentPrice": 15.07,
       "type": "stock",
       "boughtAt": "2026-07-15",
       "previousClose": 15.065
@@ -25,7 +25,7 @@
       "symbol": "IWM",
       "shares": 4.520008199235859,
       "avgCost": 295.77,
-      "currentPrice": 294.04,
+      "currentPrice": 293.97,
       "type": "etf",
       "boughtAt": "2026-07-16",
       "previousClose": 293.58
@@ -34,7 +34,7 @@
       "symbol": "VG",
       "shares": 84.84328011793322,
       "avgCost": 12.67,
-      "currentPrice": 13.8,
+      "currentPrice": 13.905,
       "type": "stock",
       "boughtAt": "2026-07-17",
       "previousClose": 13.14
@@ -43,7 +43,7 @@
       "symbol": "XLE",
       "shares": 22.767858346017277,
       "avgCost": 57.02,
-      "currentPrice": 57.68,
+      "currentPrice": 57.81,
       "type": "etf",
       "boughtAt": "2026-07-17",
       "previousClose": 57.93
@@ -52,7 +52,7 @@
       "symbol": "PTGX",
       "shares": 8.309114084362207,
       "avgCost": 140.91,
-      "currentPrice": 140.91,
+      "currentPrice": 141.17,
       "type": "stock",
       "boughtAt": "2026-07-20"
     },
@@ -60,7 +60,7 @@
       "symbol": "ORKA",
       "shares": 12.630391214967405,
       "avgCost": 92.7,
-      "currentPrice": 92.7,
+      "currentPrice": 93.22,
       "type": "stock",
       "boughtAt": "2026-07-20"
     },
@@ -68,7 +68,7 @@
       "symbol": "SLV",
       "shares": 25.618950278488434,
       "avgCost": 50.78,
-      "currentPrice": 50.78,
+      "currentPrice": 51.15,
       "type": "etf",
       "boughtAt": "2026-07-20"
     }
@@ -1063,82 +1063,6 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "JBHT",
-      "action": "SELL",
-      "shares": 3.9154,
-      "price": 291.41,
-      "total": 1140.99,
-      "realizedPnL": -27.41,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "ATAI",
-      "action": "SELL",
-      "shares": 163.4127,
-      "price": 7.22,
-      "total": 1179.84,
-      "realizedPnL": 11.44,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "SCHD",
-      "action": "SELL",
-      "shares": 37.651,
-      "price": 32.91,
-      "total": 1239.09,
-      "realizedPnL": -4.89,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "PTGX",
-      "action": "BUY",
-      "shares": 8.3091,
-      "price": 140.91,
-      "total": 1170.84,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "ORKA",
-      "action": "BUY",
-      "shares": 12.6304,
-      "price": 92.7,
-      "total": 1170.84,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 22.8525,
-      "price": 50.78,
-      "total": 1160.45,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "VG",
-      "action": "SELL",
-      "shares": 7.3746,
-      "price": 13.8,
-      "total": 101.77,
-      "realizedPnL": 8.33,
-      "reason": "Rebalance: 8.7% drift"
-    },
-    {
-      "date": "2026-07-20",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 2.7665,
-      "price": 50.78,
-      "total": 140.48,
-      "reason": "Rebalance: 10.8% drift"
     }
   ],
   "history": [
@@ -1602,11 +1526,11 @@
     },
     {
       "date": "2026-07-20",
-      "totalValue": 9756.98,
+      "totalValue": 9830.47,
       "cash": 22.37,
-      "positionsValue": 9734.61,
+      "positionsValue": 9808.11,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
