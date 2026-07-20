@@ -7,10 +7,10 @@
       "symbol": "INTC",
       "shares": 11.666417185970914,
       "avgCost": 128.5814884999498,
-      "currentPrice": 98.1862,
+      "currentPrice": 97.06,
       "type": "stock",
       "boughtAt": "2026-06-24",
-      "previousClose": 89.87
+      "previousClose": 98.1862
     },
     {
       "symbol": "AAL",
@@ -25,19 +25,19 @@
       "symbol": "IWM",
       "shares": 4.520008199235859,
       "avgCost": 295.77,
-      "currentPrice": 293.97,
+      "currentPrice": 292.31,
       "type": "etf",
       "boughtAt": "2026-07-16",
-      "previousClose": 293.58
+      "previousClose": 293.97
     },
     {
       "symbol": "VG",
       "shares": 84.84328011793322,
       "avgCost": 12.67,
-      "currentPrice": 13.905,
+      "currentPrice": 14.29,
       "type": "stock",
       "boughtAt": "2026-07-17",
-      "previousClose": 13.14
+      "previousClose": 13.905
     },
     {
       "symbol": "XLE",
@@ -52,9 +52,10 @@
       "symbol": "PTGX",
       "shares": 8.309114084362207,
       "avgCost": 140.91,
-      "currentPrice": 141.17,
+      "currentPrice": 134.27,
       "type": "stock",
-      "boughtAt": "2026-07-20"
+      "boughtAt": "2026-07-20",
+      "previousClose": 141.17
     },
     {
       "symbol": "ORKA",
@@ -68,9 +69,10 @@
       "symbol": "SLV",
       "shares": 25.618950278488434,
       "avgCost": 50.78,
-      "currentPrice": 51.15,
+      "currentPrice": 50.98,
       "type": "etf",
-      "boughtAt": "2026-07-20"
+      "boughtAt": "2026-07-20",
+      "previousClose": 51.15
     }
   ],
   "trades": [
@@ -1526,12 +1528,12 @@
     },
     {
       "date": "2026-07-20",
-      "totalValue": 9830.47,
+      "totalValue": 9780.81,
       "cash": 22.37,
-      "positionsValue": 9808.11,
+      "positionsValue": 9758.44,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
