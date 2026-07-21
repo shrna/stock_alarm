@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 22.36533736855563,
+  "cash": 63.638407225151695,
   "positions": [
     {
       "symbol": "INTC",
@@ -16,19 +16,10 @@
       "symbol": "AAL",
       "shares": 78.10949362572917,
       "avgCost": 15.67,
-      "currentPrice": 15.07,
+      "currentPrice": 15.14,
       "type": "stock",
       "boughtAt": "2026-07-15",
       "previousClose": 15.065
-    },
-    {
-      "symbol": "IWM",
-      "shares": 4.520008199235859,
-      "avgCost": 295.77,
-      "currentPrice": 292.31,
-      "type": "etf",
-      "boughtAt": "2026-07-16",
-      "previousClose": 293.97
     },
     {
       "symbol": "VG",
@@ -43,27 +34,10 @@
       "symbol": "XLE",
       "shares": 22.767858346017277,
       "avgCost": 57.02,
-      "currentPrice": 57.81,
+      "currentPrice": 57.94,
       "type": "etf",
       "boughtAt": "2026-07-17",
       "previousClose": 57.93
-    },
-    {
-      "symbol": "PTGX",
-      "shares": 8.309114084362207,
-      "avgCost": 140.91,
-      "currentPrice": 134.27,
-      "type": "stock",
-      "boughtAt": "2026-07-20",
-      "previousClose": 141.17
-    },
-    {
-      "symbol": "ORKA",
-      "shares": 12.630391214967405,
-      "avgCost": 92.7,
-      "currentPrice": 93.22,
-      "type": "stock",
-      "boughtAt": "2026-07-20"
     },
     {
       "symbol": "SLV",
@@ -73,6 +47,30 @@
       "type": "etf",
       "boughtAt": "2026-07-20",
       "previousClose": 51.15
+    },
+    {
+      "symbol": "ET",
+      "shares": 57.811605424460865,
+      "avgCost": 20.28,
+      "currentPrice": 20.28,
+      "type": "stock",
+      "boughtAt": "2026-07-21"
+    },
+    {
+      "symbol": "VSXY",
+      "shares": 13.412874476696791,
+      "avgCost": 87.41,
+      "currentPrice": 87.41,
+      "type": "stock",
+      "boughtAt": "2026-07-21"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 8.838021615948245,
+      "avgCost": 136.81,
+      "currentPrice": 136.81,
+      "type": "etf",
+      "boughtAt": "2026-07-21"
     }
   ],
   "trades": [
@@ -1065,6 +1063,63 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.52,
+      "price": 292.31,
+      "total": 1321.24,
+      "realizedPnL": -15.64,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "PTGX",
+      "action": "SELL",
+      "shares": 8.3091,
+      "price": 134.27,
+      "total": 1115.66,
+      "realizedPnL": -55.17,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "ORKA",
+      "action": "SELL",
+      "shares": 12.6304,
+      "price": 91.71,
+      "total": 1158.33,
+      "realizedPnL": -12.5,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "ET",
+      "action": "BUY",
+      "shares": 57.8116,
+      "price": 20.28,
+      "total": 1172.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "VSXY",
+      "action": "BUY",
+      "shares": 13.4129,
+      "price": 87.41,
+      "total": 1172.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-21",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 8.838,
+      "price": 136.81,
+      "total": 1209.13,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1534,6 +1589,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-21",
+      "totalValue": 9770.16,
+      "cash": 63.64,
+      "positionsValue": 9706.52,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
