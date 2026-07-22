@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 63.638407225151695,
+  "cash": 3.1675049103692174,
   "positions": [
     {
       "symbol": "INTC",
@@ -13,33 +13,6 @@
       "previousClose": 102.38
     },
     {
-      "symbol": "AAL",
-      "shares": 78.10949362572917,
-      "avgCost": 15.67,
-      "currentPrice": 15.28,
-      "type": "stock",
-      "boughtAt": "2026-07-15",
-      "previousClose": 15.255
-    },
-    {
-      "symbol": "VG",
-      "shares": 84.84328011793322,
-      "avgCost": 12.67,
-      "currentPrice": 14.06,
-      "type": "stock",
-      "boughtAt": "2026-07-17",
-      "previousClose": 14.255
-    },
-    {
-      "symbol": "XLE",
-      "shares": 22.767858346017277,
-      "avgCost": 57.02,
-      "currentPrice": 58.5,
-      "type": "etf",
-      "boughtAt": "2026-07-17",
-      "previousClose": 57.995
-    },
-    {
       "symbol": "SLV",
       "shares": 25.618950278488434,
       "avgCost": 50.78,
@@ -49,24 +22,6 @@
       "previousClose": 52.795
     },
     {
-      "symbol": "ET",
-      "shares": 57.811605424460865,
-      "avgCost": 20.28,
-      "currentPrice": 20.25,
-      "type": "stock",
-      "boughtAt": "2026-07-21",
-      "previousClose": 20.205
-    },
-    {
-      "symbol": "VSXY",
-      "shares": 13.412874476696791,
-      "avgCost": 87.41,
-      "currentPrice": 87.09,
-      "type": "stock",
-      "boughtAt": "2026-07-21",
-      "previousClose": 87.72
-    },
-    {
       "symbol": "SOXL",
       "shares": 8.838021615948245,
       "avgCost": 136.81,
@@ -74,6 +29,46 @@
       "type": "etf",
       "boughtAt": "2026-07-21",
       "previousClose": 151.3193
+    },
+    {
+      "symbol": "NVDA",
+      "shares": 5.853849661584756,
+      "avgCost": 207.29,
+      "currentPrice": 207.29,
+      "type": "stock",
+      "boughtAt": "2026-07-22"
+    },
+    {
+      "symbol": "AEHR",
+      "shares": 12.268167994640624,
+      "avgCost": 98.91,
+      "currentPrice": 98.91,
+      "type": "stock",
+      "boughtAt": "2026-07-22"
+    },
+    {
+      "symbol": "WDC",
+      "shares": 2.212740014132103,
+      "avgCost": 548.39,
+      "currentPrice": 548.39,
+      "type": "stock",
+      "boughtAt": "2026-07-22"
+    },
+    {
+      "symbol": "UCTT",
+      "shares": 11.54012835330389,
+      "avgCost": 105.15,
+      "currentPrice": 105.15,
+      "type": "stock",
+      "boughtAt": "2026-07-22"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 19.342431270849634,
+      "avgCost": 65.34,
+      "currentPrice": 65.34,
+      "type": "etf",
+      "boughtAt": "2026-07-22"
     }
   ],
   "trades": [
@@ -1066,6 +1061,110 @@
       "price": 596.35,
       "total": 64.11,
       "reason": "Rebalance: 8.0% drift"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "AAL",
+      "action": "SELL",
+      "shares": 78.1095,
+      "price": 15.28,
+      "total": 1193.51,
+      "realizedPnL": -30.46,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 84.8433,
+      "price": 14.06,
+      "total": 1192.9,
+      "realizedPnL": 117.93,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 22.7679,
+      "price": 58.5,
+      "total": 1331.92,
+      "realizedPnL": 33.7,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "ET",
+      "action": "SELL",
+      "shares": 57.8116,
+      "price": 20.25,
+      "total": 1170.69,
+      "realizedPnL": -1.73,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "VSXY",
+      "action": "SELL",
+      "shares": 13.4129,
+      "price": 87.09,
+      "total": 1168.13,
+      "realizedPnL": -4.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 5.8538,
+      "price": 207.29,
+      "total": 1213.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "AEHR",
+      "action": "BUY",
+      "shares": 12.2682,
+      "price": 98.91,
+      "total": 1213.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "WDC",
+      "action": "BUY",
+      "shares": 2.2127,
+      "price": 548.39,
+      "total": 1213.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "UCTT",
+      "action": "BUY",
+      "shares": 11.5401,
+      "price": 105.15,
+      "total": 1213.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 18.4214,
+      "price": 65.34,
+      "total": 1203.65,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-22",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 0.9211,
+      "price": 65.34,
+      "total": 60.18,
+      "reason": "Rebalance: 10.7% drift"
     }
   ],
   "history": [
@@ -1544,6 +1643,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-22",
+      "totalValue": 10112.04,
+      "cash": 3.17,
+      "positionsValue": 10108.87,
+      "positionCount": 8,
+      "tradesExecuted": 11,
+      "session": "open"
     }
   ]
 }
