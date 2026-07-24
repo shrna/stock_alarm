@@ -7,7 +7,7 @@
       "symbol": "INTC",
       "shares": 11.666417185970914,
       "avgCost": 128.5814884999498,
-      "currentPrice": 100.23,
+      "currentPrice": 98.07,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 103.42
@@ -16,7 +16,7 @@
       "symbol": "NVDA",
       "shares": 5.853849661584756,
       "avgCost": 207.29,
-      "currentPrice": 208.76,
+      "currentPrice": 207.9198,
       "type": "stock",
       "boughtAt": "2026-07-22",
       "previousClose": 209.53
@@ -25,7 +25,7 @@
       "symbol": "AAL",
       "shares": 81.56759386322356,
       "avgCost": 14.79,
-      "currentPrice": 13.555,
+      "currentPrice": 14.0051,
       "type": "stock",
       "boughtAt": "2026-07-23",
       "previousClose": 13.56
@@ -34,7 +34,7 @@
       "symbol": "XLE",
       "shares": 21.794545463489566,
       "avgCost": 59.27624750653015,
-      "currentPrice": 59.38,
+      "currentPrice": 59.7,
       "type": "etf",
       "boughtAt": "2026-07-23",
       "previousClose": 60.165
@@ -43,7 +43,7 @@
       "symbol": "PONY",
       "shares": 161.3259955509764,
       "avgCost": 7.32,
-      "currentPrice": 7.32,
+      "currentPrice": 7.195,
       "type": "stock",
       "boughtAt": "2026-07-24"
     },
@@ -51,7 +51,7 @@
       "symbol": "RTX",
       "shares": 5.645947061738129,
       "avgCost": 209.16,
-      "currentPrice": 209.16,
+      "currentPrice": 212.2,
       "type": "stock",
       "boughtAt": "2026-07-24"
     },
@@ -59,7 +59,7 @@
       "symbol": "IWM",
       "shares": 4.492170554102987,
       "avgCost": 292.09,
-      "currentPrice": 292.09,
+      "currentPrice": 292.4,
       "type": "etf",
       "boughtAt": "2026-07-24"
     },
@@ -67,7 +67,7 @@
       "symbol": "XLV",
       "shares": 8.095781616342094,
       "avgCost": 161.44,
-      "currentPrice": 161.44,
+      "currentPrice": 162.66,
       "type": "etf",
       "boughtAt": "2026-07-24"
     }
@@ -1081,82 +1081,6 @@
       "price": 60.165,
       "total": 103.61,
       "reason": "Rebalance: 8.5% drift"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 25.619,
-      "price": 52.06,
-      "total": 1333.72,
-      "realizedPnL": 32.79,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 8.1803,
-      "price": 157.5,
-      "total": 1288.39,
-      "realizedPnL": 169.25,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "DELL",
-      "action": "SELL",
-      "shares": 2.7306,
-      "price": 439.34,
-      "total": 1199.67,
-      "realizedPnL": -6.72,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "AMC",
-      "action": "SELL",
-      "shares": 536.171,
-      "price": 2.28,
-      "total": 1222.47,
-      "realizedPnL": 16.09,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "PONY",
-      "action": "BUY",
-      "shares": 161.326,
-      "price": 7.32,
-      "total": 1180.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "RTX",
-      "action": "BUY",
-      "shares": 5.6459,
-      "price": 209.16,
-      "total": 1180.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.4922,
-      "price": 292.09,
-      "total": 1312.12,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-24",
-      "symbol": "XLV",
-      "action": "BUY",
-      "shares": 8.0958,
-      "price": 161.44,
-      "total": 1306.98,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1656,11 +1580,11 @@
     },
     {
       "date": "2026-07-24",
-      "totalValue": 9840.89,
+      "totalValue": 9862.72,
       "cash": 68.79,
-      "positionsValue": 9772.1,
+      "positionsValue": 9793.93,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
