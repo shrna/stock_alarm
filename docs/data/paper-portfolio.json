@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.6447904272467753,
+  "cash": 99.73599162448339,
   "positions": [
     {
       "symbol": "INTC",
       "shares": 12.416536532999602,
       "avgCost": 126.39082574922384,
-      "currentPrice": 92.32,
+      "currentPrice": 87.4045,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 98.07
@@ -16,7 +16,7 @@
       "symbol": "NVDA",
       "shares": 5.853849661584756,
       "avgCost": 207.29,
-      "currentPrice": 206.84,
+      "currentPrice": 198.555,
       "type": "stock",
       "boughtAt": "2026-07-22",
       "previousClose": 207.9198
@@ -25,7 +25,7 @@
       "symbol": "AAL",
       "shares": 81.56759386322356,
       "avgCost": 14.79,
-      "currentPrice": 14.475,
+      "currentPrice": 14.575,
       "type": "stock",
       "boughtAt": "2026-07-23",
       "previousClose": 14.0051
@@ -34,16 +34,16 @@
       "symbol": "XLE",
       "shares": 21.794545463489566,
       "avgCost": 59.27624750653015,
-      "currentPrice": 59.62,
+      "currentPrice": 58.76,
       "type": "etf",
       "boughtAt": "2026-07-23",
       "previousClose": 59.7
     },
     {
       "symbol": "HUBS",
-      "shares": 5.746983926739112,
+      "shares": 5.312083717654538,
       "avgCost": 204.89,
-      "currentPrice": 204.89,
+      "currentPrice": 220.95,
       "type": "stock",
       "boughtAt": "2026-07-27"
     },
@@ -51,7 +51,7 @@
       "symbol": "ET",
       "shares": 57.833965459213005,
       "avgCost": 20.36,
-      "currentPrice": 20.36,
+      "currentPrice": 20.03,
       "type": "stock",
       "boughtAt": "2026-07-27"
     },
@@ -59,7 +59,7 @@
       "symbol": "SLV",
       "shares": 24.87797715555506,
       "avgCost": 52.59,
-      "currentPrice": 52.59,
+      "currentPrice": 52.77,
       "type": "etf",
       "boughtAt": "2026-07-27"
     },
@@ -67,7 +67,7 @@
       "symbol": "SCHD",
       "shares": 39.301075957063404,
       "avgCost": 33.29,
-      "currentPrice": 33.29,
+      "currentPrice": 33.565,
       "type": "etf",
       "boughtAt": "2026-07-27"
     }
@@ -1084,88 +1084,13 @@
     },
     {
       "date": "2026-07-27",
-      "symbol": "PONY",
-      "action": "SELL",
-      "shares": 161.326,
-      "price": 7.13,
-      "total": 1150.25,
-      "realizedPnL": -30.65,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "RTX",
-      "action": "SELL",
-      "shares": 5.6459,
-      "price": 212.79,
-      "total": 1201.4,
-      "realizedPnL": 20.49,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.4922,
-      "price": 291.17,
-      "total": 1307.99,
-      "realizedPnL": -4.13,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "XLV",
-      "action": "SELL",
-      "shares": 8.0958,
-      "price": 162.57,
-      "total": 1316.13,
-      "realizedPnL": 9.15,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-07-27",
       "symbol": "HUBS",
-      "action": "BUY",
-      "shares": 5.747,
-      "price": 204.89,
-      "total": 1177.5,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "ET",
-      "action": "BUY",
-      "shares": 57.834,
-      "price": 20.36,
-      "total": 1177.5,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 24.878,
-      "price": 52.59,
-      "total": 1308.33,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "SCHD",
-      "action": "BUY",
-      "shares": 39.3011,
-      "price": 33.29,
-      "total": 1308.33,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-07-27",
-      "symbol": "INTC",
-      "action": "BUY",
-      "shares": 0.7501,
-      "price": 92.32,
-      "total": 69.25,
-      "reason": "Rebalance: 8.5% drift"
+      "action": "SELL",
+      "shares": 0.4349,
+      "price": 220.95,
+      "total": 96.09,
+      "realizedPnL": 6.98,
+      "reason": "Rebalance: 8.2% drift"
     }
   ],
   "history": [
@@ -1674,11 +1599,11 @@
     },
     {
       "date": "2026-07-27",
-      "totalValue": 9812.5,
-      "cash": 3.64,
-      "positionsValue": 9808.85,
+      "totalValue": 9780.87,
+      "cash": 99.74,
+      "positionsValue": 9681.14,
       "positionCount": 8,
-      "tradesExecuted": 9,
+      "tradesExecuted": 1,
       "session": "open"
     }
   ]
