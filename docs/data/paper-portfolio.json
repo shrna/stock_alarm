@@ -1,12 +1,12 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 68.78857811275111,
+  "cash": 3.6447904272467753,
   "positions": [
     {
       "symbol": "INTC",
-      "shares": 11.666417185970914,
-      "avgCost": 128.5814884999498,
+      "shares": 12.416536532999602,
+      "avgCost": 126.39082574922384,
       "currentPrice": 92.32,
       "type": "stock",
       "boughtAt": "2026-06-24",
@@ -40,40 +40,36 @@
       "previousClose": 59.7
     },
     {
-      "symbol": "PONY",
-      "shares": 161.3259955509764,
-      "avgCost": 7.32,
-      "currentPrice": 7.13,
+      "symbol": "HUBS",
+      "shares": 5.746983926739112,
+      "avgCost": 204.89,
+      "currentPrice": 204.89,
       "type": "stock",
-      "boughtAt": "2026-07-24",
-      "previousClose": 7.195
+      "boughtAt": "2026-07-27"
     },
     {
-      "symbol": "RTX",
-      "shares": 5.645947061738129,
-      "avgCost": 209.16,
-      "currentPrice": 212.79,
+      "symbol": "ET",
+      "shares": 57.833965459213005,
+      "avgCost": 20.36,
+      "currentPrice": 20.36,
       "type": "stock",
-      "boughtAt": "2026-07-24",
-      "previousClose": 212.2
+      "boughtAt": "2026-07-27"
     },
     {
-      "symbol": "IWM",
-      "shares": 4.492170554102987,
-      "avgCost": 292.09,
-      "currentPrice": 291.17,
+      "symbol": "SLV",
+      "shares": 24.87797715555506,
+      "avgCost": 52.59,
+      "currentPrice": 52.59,
       "type": "etf",
-      "boughtAt": "2026-07-24",
-      "previousClose": 292.4
+      "boughtAt": "2026-07-27"
     },
     {
-      "symbol": "XLV",
-      "shares": 8.095781616342094,
-      "avgCost": 161.44,
-      "currentPrice": 162.57,
+      "symbol": "SCHD",
+      "shares": 39.301075957063404,
+      "avgCost": 33.29,
+      "currentPrice": 33.29,
       "type": "etf",
-      "boughtAt": "2026-07-24",
-      "previousClose": 162.66
+      "boughtAt": "2026-07-27"
     }
   ],
   "trades": [
@@ -1085,6 +1081,91 @@
       "price": 60.165,
       "total": 103.61,
       "reason": "Rebalance: 8.5% drift"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "PONY",
+      "action": "SELL",
+      "shares": 161.326,
+      "price": 7.13,
+      "total": 1150.25,
+      "realizedPnL": -30.65,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "RTX",
+      "action": "SELL",
+      "shares": 5.6459,
+      "price": 212.79,
+      "total": 1201.4,
+      "realizedPnL": 20.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.4922,
+      "price": 291.17,
+      "total": 1307.99,
+      "realizedPnL": -4.13,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "XLV",
+      "action": "SELL",
+      "shares": 8.0958,
+      "price": 162.57,
+      "total": 1316.13,
+      "realizedPnL": 9.15,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "HUBS",
+      "action": "BUY",
+      "shares": 5.747,
+      "price": 204.89,
+      "total": 1177.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "ET",
+      "action": "BUY",
+      "shares": 57.834,
+      "price": 20.36,
+      "total": 1177.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 24.878,
+      "price": 52.59,
+      "total": 1308.33,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "SCHD",
+      "action": "BUY",
+      "shares": 39.3011,
+      "price": 33.29,
+      "total": 1308.33,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-27",
+      "symbol": "INTC",
+      "action": "BUY",
+      "shares": 0.7501,
+      "price": 92.32,
+      "total": 69.25,
+      "reason": "Rebalance: 8.5% drift"
     }
   ],
   "history": [
@@ -1590,6 +1671,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-27",
+      "totalValue": 9812.5,
+      "cash": 3.64,
+      "positionsValue": 9808.85,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
