@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 99.73599162448339,
+  "cash": 108.48639184199646,
   "positions": [
     {
       "symbol": "INTC",
@@ -22,15 +22,6 @@
       "previousClose": 198.555
     },
     {
-      "symbol": "AAL",
-      "shares": 81.56759386322356,
-      "avgCost": 14.79,
-      "currentPrice": 14.95,
-      "type": "stock",
-      "boughtAt": "2026-07-23",
-      "previousClose": 14.575
-    },
-    {
       "symbol": "XLE",
       "shares": 21.794545463489566,
       "avgCost": 59.27624750653015,
@@ -49,15 +40,6 @@
       "previousClose": 220.95
     },
     {
-      "symbol": "ET",
-      "shares": 57.833965459213005,
-      "avgCost": 20.36,
-      "currentPrice": 19.91,
-      "type": "stock",
-      "boughtAt": "2026-07-27",
-      "previousClose": 20.03
-    },
-    {
       "symbol": "SLV",
       "shares": 24.87797715555506,
       "avgCost": 52.59,
@@ -67,13 +49,28 @@
       "previousClose": 52.77
     },
     {
-      "symbol": "SCHD",
-      "shares": 39.301075957063404,
-      "avgCost": 33.29,
-      "currentPrice": 33.43,
+      "symbol": "AMC",
+      "shares": 470.74486548345413,
+      "avgCost": 2.51,
+      "currentPrice": 2.51,
+      "type": "stock",
+      "boughtAt": "2026-07-28"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 8.983270830711396,
+      "avgCost": 131.53,
+      "currentPrice": 131.53,
+      "type": "stock",
+      "boughtAt": "2026-07-28"
+    },
+    {
+      "symbol": "IWM",
+      "shares": 4.482110972135809,
+      "avgCost": 292.91,
+      "currentPrice": 292.91,
       "type": "etf",
-      "boughtAt": "2026-07-27",
-      "previousClose": 33.565
+      "boughtAt": "2026-07-28"
     }
   ],
   "trades": [
@@ -1095,6 +1092,63 @@
       "total": 96.09,
       "realizedPnL": 6.98,
       "reason": "Rebalance: 8.2% drift"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "AAL",
+      "action": "SELL",
+      "shares": 81.5676,
+      "price": 14.95,
+      "total": 1219.44,
+      "realizedPnL": 13.05,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "ET",
+      "action": "SELL",
+      "shares": 57.834,
+      "price": 19.91,
+      "total": 1151.47,
+      "realizedPnL": -26.03,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 39.3011,
+      "price": 33.43,
+      "total": 1313.83,
+      "realizedPnL": 5.5,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "AMC",
+      "action": "BUY",
+      "shares": 470.7449,
+      "price": 2.51,
+      "total": 1181.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 8.9833,
+      "price": 131.53,
+      "total": 1181.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-28",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 4.4821,
+      "price": 292.91,
+      "total": 1312.86,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1609,6 +1663,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-28",
+      "totalValue": 9846.41,
+      "cash": 108.49,
+      "positionsValue": 9737.93,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
