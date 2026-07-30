@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.134136301853701,
+  "cash": 70.46362484117208,
   "positions": [
     {
       "symbol": "INTC",
@@ -22,15 +22,6 @@
       "previousClose": 192.05
     },
     {
-      "symbol": "AMC",
-      "shares": 470.74486548345413,
-      "avgCost": 2.51,
-      "currentPrice": 2.75,
-      "type": "stock",
-      "boughtAt": "2026-07-28",
-      "previousClose": 2.65
-    },
-    {
       "symbol": "IWM",
       "shares": 4.482110972135809,
       "avgCost": 292.91,
@@ -40,40 +31,44 @@
       "previousClose": 290.4575
     },
     {
-      "symbol": "CLS",
-      "shares": 3.365654684413211,
-      "avgCost": 350.2,
-      "currentPrice": 328.43,
+      "symbol": "NLY",
+      "shares": 50.09487414588967,
+      "avgCost": 23.05,
+      "currentPrice": 23.05,
       "type": "stock",
-      "boughtAt": "2026-07-29",
-      "previousClose": 334.97
+      "boughtAt": "2026-07-30"
     },
     {
-      "symbol": "OSCR",
-      "shares": 37.536696512149895,
-      "avgCost": 31.4,
-      "currentPrice": 30.57,
+      "symbol": "EXLS",
+      "shares": 32.083546792518945,
+      "avgCost": 35.99,
+      "currentPrice": 35.99,
       "type": "stock",
-      "boughtAt": "2026-07-29",
-      "previousClose": 30.88
+      "boughtAt": "2026-07-30"
     },
     {
-      "symbol": "XLV",
-      "shares": 7.829807687841331,
-      "avgCost": 167.26,
-      "currentPrice": 166.24,
-      "type": "etf",
-      "boughtAt": "2026-07-29",
-      "previousClose": 167.2299
+      "symbol": "CLH",
+      "shares": 3.538293954350545,
+      "avgCost": 326.34,
+      "currentPrice": 326.34,
+      "type": "stock",
+      "boughtAt": "2026-07-30"
     },
     {
-      "symbol": "SCHD",
-      "shares": 36.89939169193345,
-      "avgCost": 33.89,
-      "currentPrice": 33.83,
+      "symbol": "XLE",
+      "shares": 21.87528368026441,
+      "avgCost": 58.65,
+      "currentPrice": 58.65,
       "type": "etf",
-      "boughtAt": "2026-07-29",
-      "previousClose": 34.025
+      "boughtAt": "2026-07-30"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 24.782410427805825,
+      "avgCost": 51.77,
+      "currentPrice": 51.77,
+      "type": "etf",
+      "boughtAt": "2026-07-30"
     }
   ],
   "trades": [
@@ -1104,6 +1099,101 @@
       "price": 84.78,
       "total": 103.06,
       "reason": "Rebalance: 9.5% drift"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "AMC",
+      "action": "SELL",
+      "shares": 470.7449,
+      "price": 2.75,
+      "total": 1294.55,
+      "realizedPnL": 112.98,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "CLS",
+      "action": "SELL",
+      "shares": 3.3657,
+      "price": 328.43,
+      "total": 1105.38,
+      "realizedPnL": -73.27,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "OSCR",
+      "action": "SELL",
+      "shares": 37.5367,
+      "price": 30.57,
+      "total": 1147.5,
+      "realizedPnL": -31.16,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "XLV",
+      "action": "SELL",
+      "shares": 7.8298,
+      "price": 166.24,
+      "total": 1301.63,
+      "realizedPnL": -7.99,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 36.8994,
+      "price": 33.83,
+      "total": 1248.31,
+      "realizedPnL": -2.21,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "NLY",
+      "action": "BUY",
+      "shares": 50.0949,
+      "price": 23.05,
+      "total": 1154.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "EXLS",
+      "action": "BUY",
+      "shares": 32.0835,
+      "price": 35.99,
+      "total": 1154.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "CLH",
+      "action": "BUY",
+      "shares": 3.5383,
+      "price": 326.34,
+      "total": 1154.69,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 21.8753,
+      "price": 58.65,
+      "total": 1282.99,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-30",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 24.7824,
+      "price": 51.77,
+      "total": 1282.99,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1636,6 +1726,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-30",
+      "totalValue": 9622.39,
+      "cash": 70.46,
+      "positionsValue": 9551.93,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
