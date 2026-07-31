@@ -1,60 +1,60 @@
 {
-  "date": "2026-07-30T09:57:58.778Z",
-  "dateStr": "Thursday, July 30, 2026",
+  "date": "2026-07-31T10:04:17.225Z",
+  "dateStr": "Friday, July 31, 2026",
   "totalInvested": 14302,
-  "totalCurrentValue": 15592.749999999998,
-  "totalPnL": 1290.7499999999982,
-  "totalPnLPct": 9.02496154384001,
+  "totalCurrentValue": 18285.7,
+  "totalPnL": 3983.7000000000007,
+  "totalPnLPct": 27.854146273248503,
   "stocks": [
     {
       "ticker": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "price": 58.35,
-      "dayChangePct": 0.0514382,
+      "price": 57.65,
+      "dayChangePct": -1.19965,
       "avgCost": 214,
       "quantity": 14,
-      "value": 816.9,
-      "pnl": -2179.1,
-      "pnlPct": -72.73364485981308,
+      "value": 807.1,
+      "pnl": -2188.9,
+      "pnlPct": -73.0607476635514,
       "fiftyTwoWeekHigh": 79.215,
       "fiftyTwoWeekLow": 38.46,
-      "fiftyTwoWeekChangePct": -16.296083,
+      "fiftyTwoWeekChangePct": -15.139616,
       "fiftyDayAvg": 46.5128,
       "twoHundredDayAvg": 52.250923,
-      "marketCap": 50297700352,
-      "pe": 10.947467,
-      "forwardPE": 10.074797,
-      "volume": 17029672,
+      "marketCap": 49317318656,
+      "pe": 11.022944,
+      "forwardPE": 9.953935,
+      "volume": 11383829,
       "signal": "BUY",
-      "signalScore": 17.906976744186046,
+      "signalScore": 14.406976744186046,
       "reasons": [
         "Analysts: 8 buy vs 3 sell",
         "Above 50-day avg",
-        "Sentiment: Very Positive 🟢",
+        "Sentiment: Positive 🟢",
         "Zacks Rank: #3 Hold",
-        "Deep loss: -72.7% — consider averaging down or cutting"
+        "Deep loss: -73.1% — consider averaging down or cutting"
       ],
       "zacks": {
         "rank": 3,
         "label": "Hold"
       },
-      "sentiment": "Very Positive",
+      "sentiment": "Positive",
       "earningsDate": "2026-10-27T12:30:00.000Z",
       "news": [
-        {
-          "title": "Why Is PayPal Stock Gaining Tuesday? - PayPal Holdings (NASDAQ:PYPL) - Benzinga",
-          "source": "Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTFRUXhzcEtvTGlzNVR3c2RJQjZPUkd1Wm5ZTFZpLV8zNVFPN1BVRWd2aUFEZlIzbkVVcUtXSW5IcWFZWlZ5TnhqQ0FlVzhIbTR1dWIzdFVIRWRibnNRazlxLUtPOHU3UXBnWFNIanViMXlIeUFhOG1VTmVRdTJobndjWGV1TEpyWk0tWnFVLXZiZWplN0ZfT25Rd3FvNlYtNTJQU1oxZ1oxVTh3bnpiR0luQWFGcHVSeFBycjNsSWhiQXc0OWpFQnE5ZEk?oc=5"
-        },
         {
           "title": "Analysts’ Opinions Are Mixed on These Financial Stocks: PayPal Holdings (PYPL) and Brown & Brown (BRO) - The Globe and Mail",
           "source": "The Globe and Mail",
           "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQVXdTWkdmb2JlenVWZmtDX0ZVNHlSbExiNXV4ZFJHZUlTaVZMUkFreUxNNXFfNHNraEM1dWlqeURobUpHVGpBeDMtaG5WVkl0VjVTTnRnS2otZFZNbnNfZGl0OVVYSE5leXdTc1F3eFYtcDB4VV9tRk15VzE5RFpqVFgyX2NfUEdVTFN0ZWtjZ1Q3N0l2WXZEU1pVMm5yNUtlT1hQRVM1emlEMGxWeHpWNkpHV0JqSHdVSHZMemhFUjJBbFNUSTZqN1MxMlJSRTN6bXNoc1pab0ZvTVdVeF9ZZ0w5Zld5ckxhbVdvMUVvd1JnVjNvNDhIMjdzTDVScVhNQjY3bFF3?oc=5"
         },
         {
-          "title": "Sei Investments Co. Increases Stock Holdings in PayPal Holdings, Inc. $PYPL - MarketBeat",
+          "title": "Why Is PayPal Stock Gaining Tuesday? - PayPal Holdings (NASDAQ:PYPL) - Benzinga",
+          "source": "Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTFRUXhzcEtvTGlzNVR3c2RJQjZPUkd1Wm5ZTFZpLV8zNVFPN1BVRWd2aUFEZlIzbkVVcUtXSW5IcWFZWlZ5TnhqQ0FlVzhIbTR1dWIzdFVIRWRibnNRazlxLUtPOHU3UXBnWFNIanViMXlIeUFhOG1VTmVRdTJobndjWGV1TEpyWk0tWnFVLXZiZWplN0ZfT25Rd3FvNlYtNTJQU1oxZ1oxVTh3bnpiR0luQWFGcHVSeFBycjNsSWhiQXc0OWpFQnE5ZEk?oc=5"
+        },
+        {
+          "title": "California State Teachers Retirement System Sells 50,359 Shares of PayPal Holdings, Inc. $PYPL - MarketBeat",
           "source": "MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLW5XSFROLUVGUV9Fb0ZLV3RKQW1VV2VydXcwS3Z2UEVFMThxY2R6YmFQZ0ozcnRYTl9fVjZCcVlaa2M3bGlsRnhkQ2psbXZPYVdFV0E5T09HcHowblNPU0ZGSjB3OUJvV2hMY2k3WGdPd3ZLVkRMOThGSWZnbDVjeWk0ZUE4WnhNLVZXa1NZVkJGb2RYcEhWNmlaTkpOSVJSLWRPODR0QVJpcC13VlI5dHpzbW5uMV9wTDJqVldiMXpPa2hkMC16eDFVakg?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU2hHV0V4eTY0Uk5OWENEc01ObHBoZVRpWUlxS2JjZ2E1SjFUX2c3M0ZmU2tTMG1KUXQ4TGNjR1IxRTVhM0NmWWlhVWdnekhQd3BkOU02SzNudVdERWhMaER2WFdKQVF3WU5nQWs1aEhnMlRFTDNfcUt3WXV2cE1waFpqS291UVZSTGIxMXJpdzZDVnFPaFRKeWJFTGFmcmRTRU0xSzFwNkwzWXZHR3I1Z051MjNTc1VzNjJEN1B0S1VHdmhLeEl4YjZibVBETXdvZk1WUEpmaUZaV2YzM1EwS1g1aTBjUQ?oc=5"
         }
       ],
       "analysts": {
@@ -64,59 +64,60 @@
         "sell": 3,
         "strongSell": 0,
         "total": 33,
-        "targetLow": 32,
-        "targetMean": 53.83,
+        "targetLow": 36,
+        "targetMean": 58.13303,
         "targetHigh": 147.39
       }
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "price": 1015.89,
-      "dayChangePct": -7.31776,
+      "price": 1279.96,
+      "dayChangePct": 25.9939,
       "avgCost": 889,
       "quantity": 5,
-      "value": 5079.45,
-      "pnl": 634.4499999999999,
-      "pnlPct": 14.273340832395947,
+      "value": 6399.8,
+      "pnl": 1954.8000000000002,
+      "pnlPct": 43.97750281214849,
       "fiftyTwoWeekHigh": 2354.39,
       "fiftyTwoWeekLow": 40.1,
-      "fiftyTwoWeekChangePct": 2241.2998,
+      "fiftyTwoWeekChangePct": 2266.9385,
       "fiftyDayAvg": 1713.6458,
       "twoHundredDayAvg": 831.8701,
-      "marketCap": 150442901504,
-      "pe": 37.45907,
-      "forwardPE": 4.7706504,
-      "volume": 23282588,
+      "marketCap": 189548969984,
+      "pe": 34.724903,
+      "forwardPE": 6.0107307,
+      "volume": 23236972,
       "signal": "STRONG BUY",
-      "signalScore": 65.47826086956522,
+      "signalScore": 49.97826086956522,
       "reasons": [
         "Analysts: 18 buy vs 1 sell",
-        "Target upside: +118.3%",
-        "Sentiment: Very Positive 🟢",
-        "Zacks Rank: #1 Strong Buy"
+        "Target upside: +73.3%",
+        "Sentiment: Negative 🔴",
+        "Zacks Rank: #1 Strong Buy",
+        "Good gains: +44.0% — consider taking profits"
       ],
       "zacks": {
         "rank": 1,
         "label": "Strong Buy"
       },
-      "sentiment": "Very Positive",
+      "sentiment": "Negative",
       "earningsDate": "2026-08-05T20:00:00.000Z",
       "news": [
         {
-          "title": "SNDK Stock Rebounds After 35% Drop This Week – Sandisk’s AI-Fueled Growth Is 'Tremendous, But Finite,’ Says Analyst - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQenZaOF90eXAxR0VEWWM4Yk1tM0p5ajFaVk9WcmJnMUk0WDc2dTk3UGRQa0JUS3BLQmhaSWJiQVVtUkZIampSSXg5dWxwQi1Bdm9vQ3p2ZnJkRTA4S3FOZzc4WXRHZEZrS2FlaW9NQWJJdUttLXgzWFhSYktYR1FNSXZMV09CbEZXRlp3TE9IS0htRHdtcnZ3?oc=5"
+          "title": "Why Sandisk Stock Finally Popped Today - finance.yahoo.com",
+          "source": "finance.yahoo.com",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVTJWRFZMWXZBZk15eDNBQzJwSXZ0ZE9MekJ5Q254ZVB5TGIyQm5XMlRVRXgta3Zxa2oxUy1zRnBKalZPdTEza24tSmlnbDRrNzJnV2RSR08wOTVnUko4OTJ2cDFRZXFIQ0l2Y0tEOE43NTluLS1PangzTXhkZDk4bUVDSHZrZXNRdHVzUXdzTGI4dEN5ZGc3UWd2bS1Pdw?oc=5"
         },
         {
-          "title": "History Says Memory Stocks Like Micron and Sandisk Rarely Stay This Profitable for Long. Here's the Case for Why It's Different This Time. - The Motley Fool",
-          "source": "The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlpKZHQzWjlWVnlqS0dCRzlFXzZOak1BV1FqcGVfMmE2c2JaSndBemF1NkQwTF9hSF9aa3dfMzhHYlhlTmNOWkVmbU9EcXp1S3Y4X0xVVkt0RlhqSUQ5cEZLaFFnV3pDVFZYQ0xONExyR09fMmNJOXozcU9Sb2VTaWtEanJFa3QxMldvR19PYw?oc=5"
+          "title": "SNDK Stock Slides As Tech Sell-Off And WSB Volatility Collide - StocksToTrade",
+          "source": "StocksToTrade",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ENkc3VDNJbmF3VFVhMmZVeU5zS2xqTEVwb00wYUp1VGc1QkFNSVFSV0thRUJ1cTgwQWRsVXBNaUE3bHB3T1JRMWNHYU1COGFtNWRqU21uLXdWOEVwRGJub1M1N3hiRUNjUHNCRldDZXEtVVNKYkdJWC1LaEY?oc=5"
         },
         {
-          "title": "Does Sandisk Stock's Recent Sharp Sell-Off Offer a Buying Opportunity? - Zacks Investment Research",
-          "source": "Zacks Investment Research",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV3FwenNiRmU1RVRMQ09XWkJob1d6Nld1LU1mS0RyRHRWNjN2OTdJQ096aC02VVhHdXZTRlVKN3dRc1oyMnY3ZTRvR01vWWotcHBNcWwwek5aUGl6bDNha2xqdU1DVDJCUl9qTkVZVWpWRGxYbzFOUEs3QkhSRHZkMFozc2h3SHJxbzM4UGk5YllKZzI3WXFhUlRkYnI5SnB4MDd2NEJPWFUzUFozTlE?oc=5"
+          "title": "Sandisk Stock Is Having Its Best Day Since January. It Has Had a Tough Month. - Barron's",
+          "source": "Barron's",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSkV2cVZTMWEyeGRMZk1FZlEtNi1xMUQ1LUw4a1BOMFpWcTBIc3ZkN05QQ1BraF9Ca1V2ME9NclNreGVXYlN1ZzI2QXZGaE1KbUFPeGU4QUxSV0JjLWNfSGZpX1JwU0V4UEVfdzhJRUw2dFFDdnJwdU5nQ0w?oc=5"
         }
       ],
       "analysts": {
@@ -134,36 +135,36 @@
     {
       "ticker": "BP",
       "name": "BP p.l.c.",
-      "price": 43.32,
-      "dayChangePct": 3.95969,
+      "price": 44.22,
+      "dayChangePct": 2.07757,
       "avgCost": 45.12,
       "quantity": 30,
-      "value": 1299.6,
-      "pnl": -53.999999999999915,
-      "pnlPct": -3.9893617021276535,
+      "value": 1326.6,
+      "pnl": -26.999999999999957,
+      "pnlPct": -1.9946808510638268,
       "fiftyTwoWeekHigh": 48.27,
       "fiftyTwoWeekLow": 31.59,
-      "fiftyTwoWeekChangePct": 34.325577,
+      "fiftyTwoWeekChangePct": 34.743393,
       "fiftyDayAvg": 41.4012,
       "twoHundredDayAvg": 39.6529,
-      "marketCap": 111554633728,
-      "pe": 35.219513,
-      "forwardPE": 10.878081,
-      "volume": 8348295,
+      "marketCap": 113872257024,
+      "pe": 35.095238,
+      "forwardPE": 11.10408,
+      "volume": 9126395,
       "signal": "STRONG BUY",
-      "signalScore": 36.39473684210526,
+      "signalScore": 39.89473684210526,
       "reasons": [
         "Analysts: 9 buy vs 3 sell",
-        "Target upside: +9.2%",
+        "Target upside: +7.0%",
         "Above 50 & 200 day avg (bullish trend)",
-        "Sentiment: Positive 🟢",
+        "Sentiment: Very Positive 🟢",
         "Zacks Rank: #3 Hold"
       ],
       "zacks": {
         "rank": 3,
         "label": "Hold"
       },
-      "sentiment": "Positive",
+      "sentiment": "Very Positive",
       "earningsDate": "2026-08-04T12:30:00.000Z",
       "news": [
         {
@@ -172,14 +173,14 @@
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zSFJ6Z3BNbG1JVnNxVkFWWm1RenZfMDBFWmJabVZDSXhxNWp4UWdZSkE3N1ppcktUcC1XbjFndDdEck9haTRMX0lJcGVXbXZVTS1SOGRNVkIwRnRaZ3d6emxQV0pLcV9fYjJDbHRTWktzWkZF?oc=5"
         },
         {
-          "title": "A Look at BP PLC (BP) After 4.0% Gain -- GF Value $36.05 vs Pric - GuruFocus",
-          "source": "GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3YxUmktX1RjY0NVeXpzUEh4ZndOczlYVFRYdlctdFkyOEkzUzhmOG5NMVpvX1Q1M2JqY3BnZmhnRkJYUjFHclh4dHhCbTFTX2NlUUZWYzNYXzlQSWNyVmVNWDRYQ3pzNjRnZnJhVl9kdm5JTU1VNDBablJLeW5aVEdsNHdGS1liN3RvS0lXVzh5bGViREZGRzcya0F1SzBPYXc?oc=5"
+          "title": "Second quarter 2026 results - bp global",
+          "source": "bp global",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNVhCYTFDNE5UaW5jXzA3b2Q5REJuT3NNT3FONEhWaFhsR2ZucFFWM2tIVk9sdTZQTG1ITjF5NnFhTXRVWWJ2MmZtclBiOFJwWHl2Z0l6MEJ1dHpocVliS09DLVNRNnUzT1M5Q1p3SW5rQ0hIR05fWTB1bnhrektwcDBwbGlDQzNMcWxkMmUyQW81WE5XLTVuOV9B?oc=5"
         },
         {
-          "title": "Important Factors to Watch Ahead of BP's Q2 Earnings Release - tradingview.com",
-          "source": "tradingview.com",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSURISXVGV3VobUVRSXh3UG5GRDIwZ2FZT1BNOWJ4NTY0VlU2Qnc3WjM1NWVuMHVocF9oY2t0bVBwSnVpd3BPcUhOdWRjcEoyeEdYZGNaTUN0TzM3ellYbE15WV9RT2ZZc3NES3I2VmFpOFh2Q3FKeDBMbEUwdWRNNlVtbmluVHdaVDdlcnVzNDEtcTVaTUJpWXk3UjNrb0NpWkMtU2IwM1ZCUzVJNDdTMk5oRThYMW8?oc=5"
+          "title": "BP|BP PLC|Price:44.205|Chg%:+0.885 - TradingKey",
+          "source": "TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90TjRHNExKRnFYUEFDWXk5d2prSEFIWXlURjhRNmxGeGhia3FGa3RSNk90MGtvSWhlUmJtOTA2ZGN4S0Zjem0tOWRycGdINVVDbV81R0FTeng1SC12ODNPSDJCMVFfSFR1RVNN?oc=5"
         }
       ],
       "analysts": {
@@ -197,27 +198,27 @@
     {
       "ticker": "REPX",
       "name": "Riley Exploration Permian, Inc.",
-      "price": 33.56,
-      "dayChangePct": 3.00798,
+      "price": 33.52,
+      "dayChangePct": -0.119192,
       "avgCost": 34.58,
       "quantity": 30,
-      "value": 1006.8000000000001,
-      "pnl": -30.59999999999988,
-      "pnlPct": -2.949681897050307,
+      "value": 1005.6000000000001,
+      "pnl": -31.799999999999855,
+      "pnlPct": -3.0653556969346303,
       "fiftyTwoWeekHigh": 41.53,
       "fiftyTwoWeekLow": 24.08,
-      "fiftyTwoWeekChangePct": 25.037252,
+      "fiftyTwoWeekChangePct": 27.896345,
       "fiftyDayAvg": 34.6856,
       "twoHundredDayAvg": 31.08705,
-      "marketCap": 728116032,
-      "pe": 11.69338,
-      "forwardPE": 4.0817323,
-      "volume": 354506,
+      "marketCap": 727248192,
+      "pe": 11.679443,
+      "forwardPE": 4.076867,
+      "volume": 148001,
       "signal": "STRONG BUY",
-      "signalScore": 52,
+      "signalScore": 55.5,
       "reasons": [
         "Analysts: 4 buy vs 0 sell",
-        "Target upside: +44.5%",
+        "Target upside: +44.7%",
         "Sentiment: Very Positive 🟢",
         "Zacks Rank: #3 Hold"
       ],
@@ -229,14 +230,14 @@
       "earningsDate": "2026-08-05T20:00:00.000Z",
       "news": [
         {
+          "title": "Will Riley Exploration Permian (REPX) Beat Estimates Again in Its Next Earnings Report? - finance.yahoo.com",
+          "source": "finance.yahoo.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSlRtRllmM3FlRUx3SjBzZW94NVV2akMwdzIzc3dUTkNnS2twNkRMVUR6RmdmcHZLcWlTdGs5cURKdU9hc0NYckppSi0yZ1Bnb1lIa0VsUDg0Y1NMWlN0SG5zZ3VHckVhUGVYRFNQRG55d2Q4NjdXcHJhU0lwOXlQSWdmTFFnRHpRenlicmt3bzFjelR0emhLOEs1TDZkdU9pcmc?oc=5"
+        },
+        {
           "title": "Arrowstreet Capital Limited Partnership Has $22.19 Million Stock Holdings in Riley Exploration Permian, Inc. $REPX - MarketBeat",
           "source": "MarketBeat",
           "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObDNpaHZzYnk1SUhCaXdGcUpwaEc1cDN2YTM0RVA5UndGTzRlTTZVMnBLLWZGcnkzQ3hlaGV3RDRNLWtrYVV4R0ktUmExT3VnRzBramtPZlA5QzNBQnF6eEtkVTdhd0hkdnBMVm1QRml5b1RmM25ZRkxPODVoYjZnSVVkR0h4Wmp4VXJXd3ZGRzh4Mml4ZEV4MTQxVXphS1VQdXFxaWxUc0doSkNnVFp6ZlVIUGxsQm1mRnpXRGhZNkQ0cTNOX1luVlBiQjFnR3dqMElXZnZsblFRUzFHbmh0cy1VTEFIbWkzS2tMaTBsV2k2dW5ldVN4VGQyd1diS00?oc=5"
-        },
-        {
-          "title": "Riley Exploration Permian, Inc. (REPX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdVBld0JMSlFXWlBXMjdQZzZvcDRfZC0xOHNsTUQ2bGgwR2tXTU9MSHBjUm9ZYUE5cGdFWC1iVV94bmt6SGxJcXVtUnhlb3dwT3pJMzU3eWc1bnB2X2wtOTM2ZFdqN3gxVEFETGs3Z0tFdE1wMEZyT01TQ1R3VFNfWmpvZ3BCaG54LVo3RW1EWjBhVEFxQnh5SnlrRTNDTGpz?oc=5"
         },
         {
           "title": "BlackRock (REPX holder) discloses 5.2% ownership in Riley Exploration Permian - Stock Titan",
@@ -259,52 +260,51 @@
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "price": 739,
-      "dayChangePct": -9.93626,
+      "price": 874.66,
+      "dayChangePct": 18.3572,
       "avgCost": 447,
       "quantity": 10,
-      "value": 7390,
-      "pnl": 2920,
-      "pnlPct": 65.32438478747203,
+      "value": 8746.6,
+      "pnl": 4276.599999999999,
+      "pnlPct": 95.67337807606263,
       "fiftyTwoWeekHigh": 1255,
       "fiftyTwoWeekLow": 103.38,
-      "fiftyTwoWeekChangePct": 544.0649,
+      "fiftyTwoWeekChangePct": 577.11194,
       "fiftyDayAvg": 958.497,
       "twoHundredDayAvg": 511.4861,
-      "marketCap": 834621538304,
-      "pe": 18.553852,
-      "forwardPE": 4.8068314,
-      "volume": 67355489,
+      "marketCap": 0,
+      "pe": 16.695171,
+      "forwardPE": 5.689233,
+      "volume": 59596897,
       "signal": "STRONG BUY",
-      "signalScore": 53.72222222222222,
+      "signalScore": 57.22222222222222,
       "reasons": [
         "Analysts: 40 buy vs 0 sell",
-        "Target upside: +104.0%",
-        "Sentiment: Negative 🔴",
+        "Target upside: +72.3%",
         "Zacks Rank: #1 Strong Buy",
-        "Good gains: +65.3% — consider taking profits"
+        "Good gains: +95.7% — consider taking profits"
       ],
       "zacks": {
         "rank": 1,
         "label": "Strong Buy"
       },
-      "sentiment": "Negative",
+      "sentiment": "Neutral",
       "earningsDate": "2026-09-23T20:00:00.000Z",
       "news": [
         {
-          "title": "Micron Technology, Inc.’s Stock Price Plummets to $739, Witnessing a Sharp 9.94% Drop - Smartkarma",
-          "source": "Smartkarma",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbzVFaW8wWWI5OXNYVnhmakhOR2VuX0lyRGt2NUVScnVOWnUxb3FGSnpoaDFNVFVXN0lWQVlkUzZFek1WcFpyYWJ4U1pvRDV1QjlCSkdqb2U4UGxuekpkQTFaYmtSekxzNmxoTGo1U3VlUG9UNFlqVmFGbmhTYWpyWVZpcW13bkhTWE9NRWtZY08zZExPaFNMU3RxTy1sak0zN0NuNmQ3ZzJHRW5fZ1lxTnN1YmtEazFwMm1wNnh4N1JudlZhUHc?oc=5"
-        },
-        {
-          "title": "Micron (MU) Stock Looks Above Fair Value On Cash Flow But Below Fair Value On Earnings - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQencxWWZmQlpfd3dLQzhHR0VCd0ZmQWxpdUNxSmhoZmtydElDVG5fN3E0YWZEZGMyaFp6V2lpT19PaWRNWlpYMGJ6YUJuNFJoUW1MUzdYN3pzZTRRLW5lZTNzN2l5dmVqaVIwZTl6QXhhdnJHSDR4OEl5cXFFTlhsV0E5bDRqYVhYeTg4Z25oaEZtcTlxNEww?oc=5"
-        },
-        {
-          "title": "Why Micron Stock Just Dropped Again - The Motley Fool",
+          "title": "Why Micron Stock Finally Popped Today - The Motley Fool",
           "source": "The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTElfUkVSNUFoNDh0bzhIU0FHaUpzUTNiSkVBMXJLTjVxRDZBRzVZSWc1R3M1RHBUQUN4TWU2UlNGUTdweFRTZXpBZnduOTA4TzdsVVBtNDBudElndTNjWnJRcERWT1RfTnd2T2dSMWM4eHJCdGdQdUZtaGFHWFdhS1c0czQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdThVNE5TUVkwSUJIUThSREdvb29Jc250SjZaZjRWMUpUUGloOTR2TFpDUXNzOVZLdXROSk9xemZBQVFFUlhyRkZkRUVDN093TXZ3RHBfNXJRclhzdENsZWplQzA1cFcxQ014X3lkNjVCeG9DdFEzSlVzRVhjVkhkQS1BNUtWTVU?oc=5"
+        },
+        {
+          "title": "Fund’s Missed Bet on Micron Technology (MU) Weighs on Performance - finance.yahoo.com",
+          "source": "finance.yahoo.com",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0RrV1gwY3pEN0RxWFZJUms1dWI4Y250R1N0aGZWaFFhdEI0MDdQQWxxUHVBeDlrNm5RUTFYODhZVmZLd2p5RHhkY1dPRlhaQkdBakpvSHVSMDVxdVBhT3VGc1VuTnZHRTdOSW5NT0ZUNGtLYmNjZWd1ZDE2azRmMENJTmcwNEI1eXZwT2JuLVRFN1g0OXdtczZwNHZjems?oc=5"
+        },
+        {
+          "title": "Micron Technology (MU) Could Be 39% Undervalued After Its Latest Supply Agreements - simplywall.st",
+          "source": "simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSEJsczNlRTczSHJtV2x4Q0ZLRy1HT3g5NExrQnJlNVNVZFhVd096d3VxVUg3UlBBSWdzWW10Rkc2Qzlwb0RPWmpmRnRMNFEwanI2Vk5xVnVNTi1ITGlveGhjV19wRDFNelFtbmZhX2ZZalVzUkZpQ3J0MFV6UHBTWUZRT21hVEFDX1QxSnhoSml2UEZFWC1lbFFQVlI4eXI4YWRYWUJWSGZtYk4zOWhTd1oyREYwY2tkdk9lTzMxNmFpVGRqY2RXOGNUcWdDRG1jbXlkbjVDb9IB3AFBVV95cUxPWnc5V2g0WWtBc090TjIwUF9veWFBMkdRMDhySjlhaEJ2ZzFYTDhCRG8zZG1ocmV2WFhQa2djY2N1UVkzT25RTnhkdWJFSGhjQndtU3BDV1ZKY0xSM3l2V3J6X0NDeE9VdGRRbGxjS1B2Vjlnd2NIdlluS1NZZWdBV29mbEZuZUtwRDg4WGlvYS1nTVl2Vmhzc1RxZ3NoZ2V6X19EdzJMYmJWUGtlQW9Eb0ZhSWxRVGZqZ3NhSnFneVVXQVRhc0dCTVZ4MTl1TEJqRHVhOUFBaGM0V1lG?oc=5"
         }
       ],
       "analysts": {

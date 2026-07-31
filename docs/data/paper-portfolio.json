@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 70.46362484117208,
+  "cash": 3.1045999717950963,
   "positions": [
     {
       "symbol": "INTC",
@@ -40,33 +40,6 @@
       "previousClose": 23.065
     },
     {
-      "symbol": "EXLS",
-      "shares": 32.083546792518945,
-      "avgCost": 35.99,
-      "currentPrice": 34.36,
-      "type": "stock",
-      "boughtAt": "2026-07-30",
-      "previousClose": 34.92
-    },
-    {
-      "symbol": "CLH",
-      "shares": 3.538293954350545,
-      "avgCost": 326.34,
-      "currentPrice": 317.15,
-      "type": "stock",
-      "boughtAt": "2026-07-30",
-      "previousClose": 317.045
-    },
-    {
-      "symbol": "XLE",
-      "shares": 21.87528368026441,
-      "avgCost": 58.65,
-      "currentPrice": 58.96,
-      "type": "etf",
-      "boughtAt": "2026-07-30",
-      "previousClose": 58.45
-    },
-    {
       "symbol": "SLV",
       "shares": 24.782410427805825,
       "avgCost": 51.77,
@@ -74,6 +47,30 @@
       "type": "etf",
       "boughtAt": "2026-07-30",
       "previousClose": 52.51
+    },
+    {
+      "symbol": "SIMO",
+      "shares": 4.592220614121426,
+      "avgCost": 255.1,
+      "currentPrice": 255.1,
+      "type": "stock",
+      "boughtAt": "2026-07-31"
+    },
+    {
+      "symbol": "BE",
+      "shares": 5.656022975388064,
+      "avgCost": 207.12,
+      "currentPrice": 207.12,
+      "type": "stock",
+      "boughtAt": "2026-07-31"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 19.56927944306858,
+      "avgCost": 63.3,
+      "currentPrice": 63.3,
+      "type": "etf",
+      "boughtAt": "2026-07-31"
     }
   ],
   "trades": [
@@ -1104,6 +1101,72 @@
       "price": 84.78,
       "total": 103.06,
       "reason": "Rebalance: 9.5% drift"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "EXLS",
+      "action": "SELL",
+      "shares": 32.0835,
+      "price": 34.36,
+      "total": 1102.39,
+      "realizedPnL": -52.3,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "CLH",
+      "action": "SELL",
+      "shares": 3.5383,
+      "price": 317.15,
+      "total": 1122.17,
+      "realizedPnL": -32.52,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 21.8753,
+      "price": 58.96,
+      "total": 1289.77,
+      "realizedPnL": 6.78,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "SIMO",
+      "action": "BUY",
+      "shares": 4.5922,
+      "price": 255.1,
+      "total": 1171.48,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "BE",
+      "action": "BUY",
+      "shares": 5.656,
+      "price": 207.12,
+      "total": 1171.48,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 18.6374,
+      "price": 63.3,
+      "total": 1179.75,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-07-31",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 0.9319,
+      "price": 63.3,
+      "total": 58.99,
+      "reason": "Rebalance: 9.4% drift"
     }
   ],
   "history": [
@@ -1645,6 +1708,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-07-31",
+      "totalValue": 9762.3,
+      "cash": 3.1,
+      "positionsValue": 9759.19,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
