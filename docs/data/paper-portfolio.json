@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 106.84958987951426,
+  "cash": 69.467208836993,
   "positions": [
     {
       "symbol": "INTC",
@@ -22,51 +22,6 @@
       "previousClose": 195.5101
     },
     {
-      "symbol": "IWM",
-      "shares": 4.482110972135809,
-      "avgCost": 292.91,
-      "currentPrice": 291.2,
-      "type": "etf",
-      "boughtAt": "2026-07-28",
-      "previousClose": 288.04
-    },
-    {
-      "symbol": "NLY",
-      "shares": 50.09487414588967,
-      "avgCost": 23.05,
-      "currentPrice": 22.72,
-      "type": "stock",
-      "boughtAt": "2026-07-30",
-      "previousClose": 22.65
-    },
-    {
-      "symbol": "SLV",
-      "shares": 24.782410427805825,
-      "avgCost": 51.77,
-      "currentPrice": 52.36,
-      "type": "etf",
-      "boughtAt": "2026-07-30",
-      "previousClose": 51.67
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.592220614121426,
-      "avgCost": 255.1,
-      "currentPrice": 253.6,
-      "type": "stock",
-      "boughtAt": "2026-07-31",
-      "previousClose": 252.82
-    },
-    {
-      "symbol": "BE",
-      "shares": 5.656022975388064,
-      "avgCost": 207.12,
-      "currentPrice": 205.81,
-      "type": "stock",
-      "boughtAt": "2026-07-31",
-      "previousClose": 210.39
-    },
-    {
       "symbol": "TQQQ",
       "shares": 19.56927944306858,
       "avgCost": 63.3,
@@ -74,6 +29,46 @@
       "type": "etf",
       "boughtAt": "2026-07-31",
       "previousClose": 62.795
+    },
+    {
+      "symbol": "UMC",
+      "shares": 61.45157136800713,
+      "avgCost": 19.03,
+      "currentPrice": 19.03,
+      "type": "stock",
+      "boughtAt": "2026-08-03"
+    },
+    {
+      "symbol": "OUST",
+      "shares": 29.97752891907654,
+      "avgCost": 39.01,
+      "currentPrice": 39.01,
+      "type": "stock",
+      "boughtAt": "2026-08-03"
+    },
+    {
+      "symbol": "MPWR",
+      "shares": 0.8200552605016554,
+      "avgCost": 1426.03,
+      "currentPrice": 1426.03,
+      "type": "stock",
+      "boughtAt": "2026-08-03"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 21.819636218549793,
+      "avgCost": 59.55,
+      "currentPrice": 59.55,
+      "type": "etf",
+      "boughtAt": "2026-08-03"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 20.27397935426182,
+      "avgCost": 64.09,
+      "currentPrice": 64.09,
+      "type": "etf",
+      "boughtAt": "2026-08-03"
     }
   ],
   "trades": [
@@ -1114,6 +1109,101 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.4821,
+      "price": 291.2,
+      "total": 1305.19,
+      "realizedPnL": -7.66,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "NLY",
+      "action": "SELL",
+      "shares": 50.0949,
+      "price": 22.72,
+      "total": 1138.16,
+      "realizedPnL": -16.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 24.7824,
+      "price": 52.36,
+      "total": 1297.61,
+      "realizedPnL": 14.62,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.5922,
+      "price": 253.6,
+      "total": 1164.59,
+      "realizedPnL": -6.89,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "BE",
+      "action": "SELL",
+      "shares": 5.656,
+      "price": 205.81,
+      "total": 1164.07,
+      "realizedPnL": -7.41,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "UMC",
+      "action": "BUY",
+      "shares": 61.4516,
+      "price": 19.03,
+      "total": 1169.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "OUST",
+      "action": "BUY",
+      "shares": 29.9775,
+      "price": 39.01,
+      "total": 1169.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "MPWR",
+      "action": "BUY",
+      "shares": 0.8201,
+      "price": 1426.03,
+      "total": 1169.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 21.8196,
+      "price": 59.55,
+      "total": 1299.36,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-03",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 20.274,
+      "price": 64.09,
+      "total": 1299.36,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1664,6 +1754,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-03",
+      "totalValue": 9745.2,
+      "cash": 69.47,
+      "positionsValue": 9675.73,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
