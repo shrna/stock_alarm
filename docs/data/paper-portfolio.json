@@ -7,7 +7,7 @@
       "symbol": "INTC",
       "shares": 12.516760277935326,
       "avgCost": 122.6802051722845,
-      "currentPrice": 90.2,
+      "currentPrice": 89.8,
       "type": "stock",
       "boughtAt": "2026-06-24",
       "previousClose": 93.01
@@ -16,7 +16,7 @@
       "symbol": "NVDA",
       "shares": 5.853849661584756,
       "avgCost": 207.29,
-      "currentPrice": 200.75,
+      "currentPrice": 206.0408,
       "type": "stock",
       "boughtAt": "2026-07-22",
       "previousClose": 195.5101
@@ -25,7 +25,7 @@
       "symbol": "TQQQ",
       "shares": 19.56927944306858,
       "avgCost": 63.3,
-      "currentPrice": 64.62,
+      "currentPrice": 66.65,
       "type": "etf",
       "boughtAt": "2026-07-31",
       "previousClose": 62.795
@@ -34,7 +34,7 @@
       "symbol": "UMC",
       "shares": 61.45157136800713,
       "avgCost": 19.03,
-      "currentPrice": 19.03,
+      "currentPrice": 18.335,
       "type": "stock",
       "boughtAt": "2026-08-03"
     },
@@ -42,7 +42,7 @@
       "symbol": "OUST",
       "shares": 29.97752891907654,
       "avgCost": 39.01,
-      "currentPrice": 39.01,
+      "currentPrice": 41.31,
       "type": "stock",
       "boughtAt": "2026-08-03"
     },
@@ -50,7 +50,7 @@
       "symbol": "MPWR",
       "shares": 0.8200552605016554,
       "avgCost": 1426.03,
-      "currentPrice": 1426.03,
+      "currentPrice": 1330.34,
       "type": "stock",
       "boughtAt": "2026-08-03"
     },
@@ -58,7 +58,7 @@
       "symbol": "XLE",
       "shares": 21.819636218549793,
       "avgCost": 59.55,
-      "currentPrice": 59.55,
+      "currentPrice": 58.97,
       "type": "etf",
       "boughtAt": "2026-08-03"
     },
@@ -66,7 +66,7 @@
       "symbol": "EEM",
       "shares": 20.27397935426182,
       "avgCost": 64.09,
-      "currentPrice": 64.09,
+      "currentPrice": 63.91,
       "type": "etf",
       "boughtAt": "2026-08-03"
     }
@@ -1109,101 +1109,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.4821,
-      "price": 291.2,
-      "total": 1305.19,
-      "realizedPnL": -7.66,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "NLY",
-      "action": "SELL",
-      "shares": 50.0949,
-      "price": 22.72,
-      "total": 1138.16,
-      "realizedPnL": -16.53,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 24.7824,
-      "price": 52.36,
-      "total": 1297.61,
-      "realizedPnL": 14.62,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "SIMO",
-      "action": "SELL",
-      "shares": 4.5922,
-      "price": 253.6,
-      "total": 1164.59,
-      "realizedPnL": -6.89,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "BE",
-      "action": "SELL",
-      "shares": 5.656,
-      "price": 205.81,
-      "total": 1164.07,
-      "realizedPnL": -7.41,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "UMC",
-      "action": "BUY",
-      "shares": 61.4516,
-      "price": 19.03,
-      "total": 1169.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "OUST",
-      "action": "BUY",
-      "shares": 29.9775,
-      "price": 39.01,
-      "total": 1169.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "MPWR",
-      "action": "BUY",
-      "shares": 0.8201,
-      "price": 1426.03,
-      "total": 1169.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 21.8196,
-      "price": 59.55,
-      "total": 1299.36,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-03",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 20.274,
-      "price": 64.09,
-      "total": 1299.36,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1757,11 +1662,11 @@
     },
     {
       "date": "2026-08-03",
-      "totalValue": 9745.2,
+      "totalValue": 9742.35,
       "cash": 69.47,
-      "positionsValue": 9675.73,
+      "positionsValue": 9672.88,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
