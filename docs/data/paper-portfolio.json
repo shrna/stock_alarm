@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.467208836993,
+  "cash": 65.3638477400857,
   "positions": [
-    {
-      "symbol": "INTC",
-      "shares": 12.516760277935326,
-      "avgCost": 122.6802051722845,
-      "currentPrice": 91,
-      "type": "stock",
-      "boughtAt": "2026-06-24",
-      "previousClose": 89.8
-    },
     {
       "symbol": "NVDA",
       "shares": 5.853849661584756,
@@ -40,40 +31,44 @@
       "previousClose": 18.335
     },
     {
-      "symbol": "OUST",
-      "shares": 29.97752891907654,
-      "avgCost": 39.01,
-      "currentPrice": 42.48,
+      "symbol": "AEHR",
+      "shares": 12.900610889650794,
+      "avgCost": 91.71,
+      "currentPrice": 91.71,
       "type": "stock",
-      "boughtAt": "2026-08-03",
-      "previousClose": 41.31
+      "boughtAt": "2026-08-04"
     },
     {
-      "symbol": "MPWR",
-      "shares": 0.8200552605016554,
-      "avgCost": 1426.03,
-      "currentPrice": 1344.37,
+      "symbol": "NLY",
+      "shares": 51.93656824801906,
+      "avgCost": 22.78,
+      "currentPrice": 22.78,
       "type": "stock",
-      "boughtAt": "2026-08-03",
-      "previousClose": 1330.34
+      "boughtAt": "2026-08-04"
     },
     {
-      "symbol": "XLE",
-      "shares": 21.819636218549793,
-      "avgCost": 59.55,
-      "currentPrice": 58.79,
-      "type": "etf",
-      "boughtAt": "2026-08-03",
-      "previousClose": 58.97
+      "symbol": "LIND",
+      "shares": 35.722072001505865,
+      "avgCost": 33.12,
+      "currentPrice": 33.12,
+      "type": "stock",
+      "boughtAt": "2026-08-04"
     },
     {
-      "symbol": "EEM",
-      "shares": 20.27397935426182,
-      "avgCost": 64.09,
-      "currentPrice": 64.32,
+      "symbol": "IWM",
+      "shares": 4.437824082288218,
+      "avgCost": 296.22,
+      "currentPrice": 296.22,
       "type": "etf",
-      "boughtAt": "2026-08-03",
-      "previousClose": 63.91
+      "boughtAt": "2026-08-04"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 10.641017111315463,
+      "avgCost": 116.71,
+      "currentPrice": 116.71,
+      "type": "etf",
+      "boughtAt": "2026-08-04"
     }
   ],
   "trades": [
@@ -1114,6 +1109,101 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "INTC",
+      "action": "SELL",
+      "shares": 12.5168,
+      "price": 91,
+      "total": 1139.03,
+      "realizedPnL": -396.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "OUST",
+      "action": "SELL",
+      "shares": 29.9775,
+      "price": 42.48,
+      "total": 1273.45,
+      "realizedPnL": 104.02,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "MPWR",
+      "action": "SELL",
+      "shares": 0.8201,
+      "price": 1344.37,
+      "total": 1102.46,
+      "realizedPnL": -66.97,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 21.8196,
+      "price": 58.79,
+      "total": 1282.78,
+      "realizedPnL": -16.58,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "EEM",
+      "action": "SELL",
+      "shares": 20.274,
+      "price": 64.32,
+      "total": 1304.02,
+      "realizedPnL": 4.66,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "AEHR",
+      "action": "BUY",
+      "shares": 12.9006,
+      "price": 91.71,
+      "total": 1183.12,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "NLY",
+      "action": "BUY",
+      "shares": 51.9366,
+      "price": 22.78,
+      "total": 1183.12,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "LIND",
+      "action": "BUY",
+      "shares": 35.7221,
+      "price": 33.12,
+      "total": 1183.12,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 4.4378,
+      "price": 296.22,
+      "total": 1314.57,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-04",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 10.641,
+      "price": 116.71,
+      "total": 1241.91,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1673,6 +1763,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-04",
+      "totalValue": 9859.29,
+      "cash": 65.36,
+      "positionsValue": 9793.93,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
