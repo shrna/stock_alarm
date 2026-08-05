@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 5.853849661584756,
       "avgCost": 207.29,
-      "currentPrice": 211.94,
+      "currentPrice": 221.93,
       "type": "stock",
       "boughtAt": "2026-07-22",
       "previousClose": 209.1801
@@ -16,7 +16,7 @@
       "symbol": "TQQQ",
       "shares": 19.56927944306858,
       "avgCost": 63.3,
-      "currentPrice": 74.82,
+      "currentPrice": 75.73,
       "type": "etf",
       "boughtAt": "2026-07-31",
       "previousClose": 72.18
@@ -25,7 +25,7 @@
       "symbol": "UMC",
       "shares": 61.45157136800713,
       "avgCost": 19.03,
-      "currentPrice": 20.63,
+      "currentPrice": 19.675,
       "type": "stock",
       "boughtAt": "2026-08-03",
       "previousClose": 20.135
@@ -34,7 +34,7 @@
       "symbol": "AEHR",
       "shares": 11.665337527541844,
       "avgCost": 91.71,
-      "currentPrice": 109.89,
+      "currentPrice": 106.5,
       "type": "stock",
       "boughtAt": "2026-08-04",
       "previousClose": 101.0685
@@ -43,7 +43,7 @@
       "symbol": "SOXL",
       "shares": 10.641017111315463,
       "avgCost": 116.71,
-      "currentPrice": 139.9,
+      "currentPrice": 138.4007,
       "type": "etf",
       "boughtAt": "2026-08-04",
       "previousClose": 132.62
@@ -52,7 +52,7 @@
       "symbol": "AEIS",
       "shares": 3.754954570730172,
       "avgCost": 341.39,
-      "currentPrice": 341.39,
+      "currentPrice": 345.2599,
       "type": "stock",
       "boughtAt": "2026-08-05"
     },
@@ -60,7 +60,7 @@
       "symbol": "AMZN",
       "shares": 4.620805785096868,
       "avgCost": 277.42,
-      "currentPrice": 277.42,
+      "currentPrice": 276.79,
       "type": "stock",
       "boughtAt": "2026-08-05"
     },
@@ -68,7 +68,7 @@
       "symbol": "EEM",
       "shares": 20.6919951010907,
       "avgCost": 66.00000000000001,
-      "currentPrice": 66,
+      "currentPrice": 66.13,
       "type": "etf",
       "boughtAt": "2026-08-05"
     }
@@ -1111,82 +1111,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "NLY",
-      "action": "SELL",
-      "shares": 51.9366,
-      "price": 22.75,
-      "total": 1181.56,
-      "realizedPnL": -1.56,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "LIND",
-      "action": "SELL",
-      "shares": 35.7221,
-      "price": 34.09,
-      "total": 1217.77,
-      "realizedPnL": 34.65,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.4378,
-      "price": 301.71,
-      "total": 1338.94,
-      "realizedPnL": 24.36,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "AEIS",
-      "action": "BUY",
-      "shares": 3.755,
-      "price": 341.39,
-      "total": 1281.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "AMZN",
-      "action": "BUY",
-      "shares": 4.6208,
-      "price": 277.42,
-      "total": 1281.9,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 17.8458,
-      "price": 66,
-      "total": 1177.82,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "AEHR",
-      "action": "SELL",
-      "shares": 1.2353,
-      "price": 109.89,
-      "total": 135.74,
-      "realizedPnL": 22.46,
-      "reason": "Rebalance: 10.6% drift"
-    },
-    {
-      "date": "2026-08-05",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 2.8462,
-      "price": 66,
-      "total": 187.85,
-      "reason": "Rebalance: 17.3% drift"
     }
   ],
   "history": [
@@ -1758,11 +1682,11 @@
     },
     {
       "date": "2026-08-05",
-      "totalValue": 10682.53,
+      "totalValue": 10658.95,
       "cash": 9.89,
-      "positionsValue": 10672.65,
+      "positionsValue": 10649.06,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
