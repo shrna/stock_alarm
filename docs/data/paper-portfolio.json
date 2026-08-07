@@ -1108,63 +1108,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "SHOP",
-      "action": "SELL",
-      "shares": 8.5837,
-      "price": 147.44,
-      "total": 1265.58,
-      "realizedPnL": 27.47,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 24.5351,
-      "price": 55.85,
-      "total": 1370.29,
-      "realizedPnL": -5.4,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "GLD",
-      "action": "SELL",
-      "shares": 3.3725,
-      "price": 389.67,
-      "total": 1314.18,
-      "realizedPnL": 0.1,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "IOVA",
-      "action": "BUY",
-      "shares": 200.2774,
-      "price": 6.21,
-      "total": 1243.72,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.7606,
-      "price": 58.16,
-      "total": 1381.91,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-07",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 10.0045,
-      "price": 132.33,
-      "total": 1323.9,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1758,7 +1701,7 @@
       "cash": 69.68,
       "positionsValue": 10294.68,
       "positionCount": 8,
-      "tradesExecuted": 6,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
