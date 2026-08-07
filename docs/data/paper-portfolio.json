@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.16186505134124,
+  "cash": 69.67871863015057,
   "positions": [
     {
       "symbol": "NVDA",
@@ -38,22 +38,6 @@
       "boughtAt": "2026-08-06"
     },
     {
-      "symbol": "SHOP",
-      "shares": 8.583727349198409,
-      "avgCost": 144.24,
-      "currentPrice": 147.44,
-      "type": "stock",
-      "boughtAt": "2026-08-06"
-    },
-    {
-      "symbol": "SLV",
-      "shares": 24.535141249001818,
-      "avgCost": 56.07,
-      "currentPrice": 55.85,
-      "type": "etf",
-      "boughtAt": "2026-08-06"
-    },
-    {
       "symbol": "XBI",
       "shares": 8.990820010662912,
       "avgCost": 153.01,
@@ -62,12 +46,28 @@
       "boughtAt": "2026-08-06"
     },
     {
-      "symbol": "GLD",
-      "shares": 3.3725373061684696,
-      "avgCost": 389.64,
-      "currentPrice": 389.67,
+      "symbol": "IOVA",
+      "shares": 200.27738395618337,
+      "avgCost": 6.21,
+      "currentPrice": 6.21,
+      "type": "stock",
+      "boughtAt": "2026-08-07"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 23.760556212133178,
+      "avgCost": 58.16,
+      "currentPrice": 58.16,
       "type": "etf",
-      "boughtAt": "2026-08-06"
+      "boughtAt": "2026-08-07"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 10.004501276905152,
+      "avgCost": 132.33,
+      "currentPrice": 132.33,
+      "type": "etf",
+      "boughtAt": "2026-08-07"
     }
   ],
   "trades": [
@@ -1108,6 +1108,63 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "SHOP",
+      "action": "SELL",
+      "shares": 8.5837,
+      "price": 147.44,
+      "total": 1265.58,
+      "realizedPnL": 27.47,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 24.5351,
+      "price": 55.85,
+      "total": 1370.29,
+      "realizedPnL": -5.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "GLD",
+      "action": "SELL",
+      "shares": 3.3725,
+      "price": 389.67,
+      "total": 1314.18,
+      "realizedPnL": 0.1,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "IOVA",
+      "action": "BUY",
+      "shares": 200.2774,
+      "price": 6.21,
+      "total": 1243.72,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.7606,
+      "price": 58.16,
+      "total": 1381.91,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 10.0045,
+      "price": 132.33,
+      "total": 1323.9,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1698,10 +1755,10 @@
     {
       "date": "2026-08-07",
       "totalValue": 10364.35,
-      "cash": 69.16,
-      "positionsValue": 10295.19,
+      "cash": 69.68,
+      "positionsValue": 10294.68,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 6,
       "session": "open"
     }
   ]
