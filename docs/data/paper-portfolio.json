@@ -1111,72 +1111,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 8.9908,
-      "price": 157.37,
-      "total": 1414.89,
-      "realizedPnL": 39.2,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "IOVA",
-      "action": "SELL",
-      "shares": 200.2774,
-      "price": 6.34,
-      "total": 1269.76,
-      "realizedPnL": 26.04,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 23.7606,
-      "price": 57.5,
-      "total": 1366.23,
-      "realizedPnL": -15.68,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "ONTO",
-      "action": "BUY",
-      "shares": 4.081,
-      "price": 308.3,
-      "total": 1258.19,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 18.7725,
-      "price": 74.47,
-      "total": 1397.99,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.6132,
-      "price": 301.56,
-      "total": 1391.16,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-10",
-      "symbol": "UMC",
-      "action": "BUY",
-      "shares": 3.7157,
-      "price": 18.72,
-      "total": 69.56,
-      "reason": "Rebalance: 8.6% drift"
     }
   ],
   "history": [
@@ -1779,7 +1713,7 @@
       "cash": 3.66,
       "positionsValue": 10481.23,
       "positionCount": 8,
-      "tradesExecuted": 7,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
