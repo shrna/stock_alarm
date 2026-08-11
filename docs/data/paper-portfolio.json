@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.660954202856246,
+  "cash": 3.287511558722649,
   "positions": [
     {
       "symbol": "NVDA",
@@ -13,67 +13,60 @@
       "previousClose": 223.96
     },
     {
-      "symbol": "UMC",
-      "shares": 65.1672834328719,
-      "avgCost": 19.012324401456837,
-      "currentPrice": 18.79,
+      "symbol": "NESR",
+      "shares": 34.259182300703515,
+      "avgCost": 35.79,
+      "currentPrice": 35.79,
       "type": "stock",
-      "boughtAt": "2026-08-03",
-      "previousClose": 18.72
+      "boughtAt": "2026-08-11"
     },
     {
-      "symbol": "AMD",
-      "shares": 2.5684406863362277,
-      "avgCost": 482.05,
-      "currentPrice": 469.56,
+      "symbol": "ACHR",
+      "shares": 195.86839209938958,
+      "avgCost": 6.26,
+      "currentPrice": 6.26,
       "type": "stock",
-      "boughtAt": "2026-08-06",
-      "previousClose": 483.36
+      "boughtAt": "2026-08-11"
     },
     {
-      "symbol": "NLY",
-      "shares": 54.614769865389434,
-      "avgCost": 22.67,
-      "currentPrice": 22.91,
+      "symbol": "PTEN",
+      "shares": 111.56834709209997,
+      "avgCost": 10.99,
+      "currentPrice": 10.99,
       "type": "stock",
-      "boughtAt": "2026-08-06",
-      "previousClose": 23.04
+      "boughtAt": "2026-08-11"
     },
     {
-      "symbol": "SOXL",
-      "shares": 10.004501276905152,
-      "avgCost": 132.33,
-      "currentPrice": 130,
+      "symbol": "FIG",
+      "shares": 48.29208879646234,
+      "avgCost": 25.39,
+      "currentPrice": 25.39,
+      "type": "stock",
+      "boughtAt": "2026-08-11"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 22.638309784390884,
+      "avgCost": 60.18,
+      "currentPrice": 60.18,
       "type": "etf",
-      "boughtAt": "2026-08-07",
-      "previousClose": 140.25
+      "boughtAt": "2026-08-11"
     },
     {
-      "symbol": "ONTO",
-      "shares": 4.081048331496977,
-      "avgCost": 308.3,
-      "currentPrice": 291.35,
-      "type": "stock",
-      "boughtAt": "2026-08-10",
-      "previousClose": 308.3
-    },
-    {
-      "symbol": "TQQQ",
-      "shares": 18.772469161340403,
-      "avgCost": 74.47,
-      "currentPrice": 73.8,
+      "symbol": "SLV",
+      "shares": 22.931719960017563,
+      "avgCost": 59.41,
+      "currentPrice": 59.41,
       "type": "etf",
-      "boughtAt": "2026-08-10",
-      "previousClose": 74.47
+      "boughtAt": "2026-08-11"
     },
     {
-      "symbol": "IWM",
-      "shares": 4.613219913401546,
-      "avgCost": 301.56,
-      "currentPrice": 299.98,
+      "symbol": "ARKG",
+      "shares": 29.603184652004867,
+      "avgCost": 44.31,
+      "currentPrice": 44.31,
       "type": "etf",
-      "boughtAt": "2026-08-10",
-      "previousClose": 301.56
+      "boughtAt": "2026-08-11"
     }
   ],
   "trades": [
@@ -1114,6 +1107,148 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "UMC",
+      "action": "SELL",
+      "shares": 65.1673,
+      "price": 18.79,
+      "total": 1224.49,
+      "realizedPnL": -14.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "AMD",
+      "action": "SELL",
+      "shares": 2.5684,
+      "price": 469.56,
+      "total": 1206.04,
+      "realizedPnL": -32.08,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "NLY",
+      "action": "SELL",
+      "shares": 54.6148,
+      "price": 22.91,
+      "total": 1251.22,
+      "realizedPnL": 13.11,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 10.0045,
+      "price": 130,
+      "total": 1300.59,
+      "realizedPnL": -23.31,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "ONTO",
+      "action": "SELL",
+      "shares": 4.081,
+      "price": 291.35,
+      "total": 1189.01,
+      "realizedPnL": -69.17,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 18.7725,
+      "price": 73.8,
+      "total": 1385.41,
+      "realizedPnL": -12.58,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.6132,
+      "price": 299.98,
+      "total": 1383.87,
+      "realizedPnL": -7.29,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "NESR",
+      "action": "BUY",
+      "shares": 34.2592,
+      "price": 35.79,
+      "total": 1226.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "ACHR",
+      "action": "BUY",
+      "shares": 195.8684,
+      "price": 6.26,
+      "total": 1226.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "PTEN",
+      "action": "BUY",
+      "shares": 111.5683,
+      "price": 10.99,
+      "total": 1226.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "FIG",
+      "action": "BUY",
+      "shares": 48.2921,
+      "price": 25.39,
+      "total": 1226.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 22.6383,
+      "price": 60.18,
+      "total": 1362.37,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 22.9317,
+      "price": 59.41,
+      "total": 1362.37,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 28.1935,
+      "price": 44.31,
+      "total": 1249.25,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-11",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 1.4097,
+      "price": 44.31,
+      "total": 62.46,
+      "reason": "Rebalance: 8.3% drift"
     }
   ],
   "history": [
@@ -1718,6 +1853,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-11",
+      "totalValue": 10217.8,
+      "cash": 3.29,
+      "positionsValue": 10214.51,
+      "positionCount": 8,
+      "tradesExecuted": 15,
+      "session": "open"
     }
   ]
 }
