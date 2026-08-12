@@ -1109,110 +1109,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "NESR",
-      "action": "SELL",
-      "shares": 34.2592,
-      "price": 36.01,
-      "total": 1233.67,
-      "realizedPnL": 7.54,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "PTEN",
-      "action": "SELL",
-      "shares": 111.5683,
-      "price": 11.06,
-      "total": 1233.95,
-      "realizedPnL": 7.81,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "FIG",
-      "action": "SELL",
-      "shares": 48.2921,
-      "price": 24.87,
-      "total": 1201.02,
-      "realizedPnL": -25.11,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 22.9317,
-      "price": 58.55,
-      "total": 1342.65,
-      "realizedPnL": -19.72,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "ARKG",
-      "action": "SELL",
-      "shares": 29.6032,
-      "price": 44.55,
-      "total": 1318.82,
-      "realizedPnL": 7.1,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "SEZL",
-      "action": "BUY",
-      "shares": 9.6508,
-      "price": 128.27,
-      "total": 1237.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "ONTO",
-      "action": "BUY",
-      "shares": 3.871,
-      "price": 319.79,
-      "total": 1237.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "FORM",
-      "action": "BUY",
-      "shares": 10.2247,
-      "price": 121.07,
-      "total": 1237.91,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 10.3418,
-      "price": 133,
-      "total": 1375.46,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 3.9271,
-      "price": 300.99,
-      "total": 1182.01,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-12",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 0.1964,
-      "price": 300.99,
-      "total": 59.1,
-      "reason": "Rebalance: 14.1% drift"
     }
   ],
   "history": [
@@ -1833,7 +1729,7 @@
       "cash": 3.11,
       "positionsValue": 10312.81,
       "positionCount": 8,
-      "tradesExecuted": 11,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
