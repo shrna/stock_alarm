@@ -1110,91 +1110,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 22.6383,
-      "price": 61.03,
-      "total": 1381.62,
-      "realizedPnL": 19.24,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "SEZL",
-      "action": "SELL",
-      "shares": 9.6508,
-      "price": 125.44,
-      "total": 1210.6,
-      "realizedPnL": -27.31,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "ONTO",
-      "action": "SELL",
-      "shares": 3.871,
-      "price": 337.35,
-      "total": 1305.88,
-      "realizedPnL": 67.97,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "FORM",
-      "action": "SELL",
-      "shares": 10.2247,
-      "price": 128.77,
-      "total": 1316.64,
-      "realizedPnL": 78.73,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "BE",
-      "action": "BUY",
-      "shares": 5.3028,
-      "price": 237.16,
-      "total": 1257.6,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "ATRO",
-      "action": "BUY",
-      "shares": 14.3088,
-      "price": 87.89,
-      "total": 1257.6,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "ORCL",
-      "action": "BUY",
-      "shares": 8.2046,
-      "price": 153.28,
-      "total": 1257.6,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 18.4019,
-      "price": 74.6,
-      "total": 1372.78,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-13",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 0.2267,
-      "price": 302.71,
-      "total": 68.64,
-      "reason": "Rebalance: 10.7% drift"
     }
   ],
   "history": [
@@ -1824,7 +1739,7 @@
       "cash": 3.61,
       "positionsValue": 10476.43,
       "positionCount": 8,
-      "tradesExecuted": 9,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
