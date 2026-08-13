@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.1105494482127085,
+  "cash": 3.612589859663416,
   "positions": [
     {
       "symbol": "NVDA",
@@ -22,42 +22,6 @@
       "previousClose": 6.79
     },
     {
-      "symbol": "XLE",
-      "shares": 22.638309784390884,
-      "avgCost": 60.18,
-      "currentPrice": 61.03,
-      "type": "etf",
-      "boughtAt": "2026-08-11",
-      "previousClose": 60.93
-    },
-    {
-      "symbol": "SEZL",
-      "shares": 9.65081388842163,
-      "avgCost": 128.27,
-      "currentPrice": 125.44,
-      "type": "stock",
-      "boughtAt": "2026-08-12",
-      "previousClose": 128.27
-    },
-    {
-      "symbol": "ONTO",
-      "shares": 3.8710087790982914,
-      "avgCost": 319.79,
-      "currentPrice": 337.35,
-      "type": "stock",
-      "boughtAt": "2026-08-12",
-      "previousClose": 319.79
-    },
-    {
-      "symbol": "FORM",
-      "shares": 10.22474516781897,
-      "avgCost": 121.07,
-      "currentPrice": 128.77,
-      "type": "stock",
-      "boughtAt": "2026-08-12",
-      "previousClose": 121.07
-    },
-    {
       "symbol": "SOXL",
       "shares": 10.341770237826589,
       "avgCost": 133,
@@ -68,12 +32,44 @@
     },
     {
       "symbol": "IWM",
-      "shares": 4.123423468676264,
-      "avgCost": 300.99,
+      "shares": 4.350172526631418,
+      "avgCost": 301.0796535430021,
       "currentPrice": 302.71,
       "type": "etf",
       "boughtAt": "2026-08-12",
       "previousClose": 300.99
+    },
+    {
+      "symbol": "BE",
+      "shares": 5.302768865992999,
+      "avgCost": 237.16,
+      "currentPrice": 237.16,
+      "type": "stock",
+      "boughtAt": "2026-08-13"
+    },
+    {
+      "symbol": "ATRO",
+      "shares": 14.308848154043684,
+      "avgCost": 87.89,
+      "currentPrice": 87.89,
+      "type": "stock",
+      "boughtAt": "2026-08-13"
+    },
+    {
+      "symbol": "ORCL",
+      "shares": 8.204623331542924,
+      "avgCost": 153.28,
+      "currentPrice": 153.28,
+      "type": "stock",
+      "boughtAt": "2026-08-13"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 18.40193226101995,
+      "avgCost": 74.6,
+      "currentPrice": 74.6,
+      "type": "etf",
+      "boughtAt": "2026-08-13"
     }
   ],
   "trades": [
@@ -1114,6 +1110,91 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 22.6383,
+      "price": 61.03,
+      "total": 1381.62,
+      "realizedPnL": 19.24,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "SEZL",
+      "action": "SELL",
+      "shares": 9.6508,
+      "price": 125.44,
+      "total": 1210.6,
+      "realizedPnL": -27.31,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "ONTO",
+      "action": "SELL",
+      "shares": 3.871,
+      "price": 337.35,
+      "total": 1305.88,
+      "realizedPnL": 67.97,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "FORM",
+      "action": "SELL",
+      "shares": 10.2247,
+      "price": 128.77,
+      "total": 1316.64,
+      "realizedPnL": 78.73,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "BE",
+      "action": "BUY",
+      "shares": 5.3028,
+      "price": 237.16,
+      "total": 1257.6,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "ATRO",
+      "action": "BUY",
+      "shares": 14.3088,
+      "price": 87.89,
+      "total": 1257.6,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "ORCL",
+      "action": "BUY",
+      "shares": 8.2046,
+      "price": 153.28,
+      "total": 1257.6,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 18.4019,
+      "price": 74.6,
+      "total": 1372.78,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-13",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 0.2267,
+      "price": 302.71,
+      "total": 68.64,
+      "reason": "Rebalance: 10.7% drift"
     }
   ],
   "history": [
@@ -1736,6 +1817,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-13",
+      "totalValue": 10480.04,
+      "cash": 3.61,
+      "positionsValue": 10476.43,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
