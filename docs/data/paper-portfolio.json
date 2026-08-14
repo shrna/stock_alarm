@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.612589859663416,
+  "cash": 3.1834878304527408,
   "positions": [
     {
       "symbol": "NVDA",
@@ -32,39 +32,12 @@
     },
     {
       "symbol": "IWM",
-      "shares": 4.350172526631418,
-      "avgCost": 301.0796535430021,
+      "shares": 4.54946830514411,
+      "avgCost": 301.1856801815156,
       "currentPrice": 303.5,
       "type": "etf",
       "boughtAt": "2026-08-12",
       "previousClose": 302.71
-    },
-    {
-      "symbol": "BE",
-      "shares": 5.302768865992999,
-      "avgCost": 237.16,
-      "currentPrice": 236.22,
-      "type": "stock",
-      "boughtAt": "2026-08-13",
-      "previousClose": 237.16
-    },
-    {
-      "symbol": "ATRO",
-      "shares": 14.308848154043684,
-      "avgCost": 87.89,
-      "currentPrice": 92.61,
-      "type": "stock",
-      "boughtAt": "2026-08-13",
-      "previousClose": 87.89
-    },
-    {
-      "symbol": "ORCL",
-      "shares": 8.204623331542924,
-      "avgCost": 153.28,
-      "currentPrice": 156.22,
-      "type": "stock",
-      "boughtAt": "2026-08-13",
-      "previousClose": 153.28
     },
     {
       "symbol": "TQQQ",
@@ -74,6 +47,30 @@
       "type": "etf",
       "boughtAt": "2026-08-13",
       "previousClose": 74.6
+    },
+    {
+      "symbol": "UMC",
+      "shares": 66.81388554187455,
+      "avgCost": 19.38,
+      "currentPrice": 19.38,
+      "type": "stock",
+      "boughtAt": "2026-08-14"
+    },
+    {
+      "symbol": "SKHY",
+      "shares": 7.8158574382901485,
+      "avgCost": 165.67,
+      "currentPrice": 165.67,
+      "type": "stock",
+      "boughtAt": "2026-08-14"
+    },
+    {
+      "symbol": "FROG",
+      "shares": 12.713876779527466,
+      "avgCost": 95.15,
+      "currentPrice": 95.15,
+      "type": "stock",
+      "boughtAt": "2026-08-14"
     }
   ],
   "trades": [
@@ -1114,6 +1111,72 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "BE",
+      "action": "SELL",
+      "shares": 5.3028,
+      "price": 236.22,
+      "total": 1252.62,
+      "realizedPnL": -4.98,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "ATRO",
+      "action": "SELL",
+      "shares": 14.3088,
+      "price": 92.61,
+      "total": 1325.14,
+      "realizedPnL": 67.54,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "ORCL",
+      "action": "SELL",
+      "shares": 8.2046,
+      "price": 156.22,
+      "total": 1281.73,
+      "realizedPnL": 24.12,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "UMC",
+      "action": "BUY",
+      "shares": 66.8139,
+      "price": 19.38,
+      "total": 1294.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "SKHY",
+      "action": "BUY",
+      "shares": 7.8159,
+      "price": 165.67,
+      "total": 1294.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "FROG",
+      "action": "BUY",
+      "shares": 12.7139,
+      "price": 95.15,
+      "total": 1209.73,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-14",
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 0.1993,
+      "price": 303.5,
+      "total": 60.49,
+      "reason": "Rebalance: 8.2% drift"
     }
   ],
   "history": [
@@ -1745,6 +1808,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-14",
+      "totalValue": 10790.44,
+      "cash": 3.18,
+      "positionsValue": 10787.26,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
