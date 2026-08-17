@@ -1110,82 +1110,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 10.3418,
-      "price": 144.95,
-      "total": 1499.04,
-      "realizedPnL": 123.58,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 18.4019,
-      "price": 76.79,
-      "total": 1413.08,
-      "realizedPnL": 40.3,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "SKHY",
-      "action": "SELL",
-      "shares": 7.8159,
-      "price": 166.33,
-      "total": 1300.01,
-      "realizedPnL": 5.16,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "FROG",
-      "action": "SELL",
-      "shares": 12.7139,
-      "price": 96.17,
-      "total": 1222.69,
-      "realizedPnL": 12.97,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "SIMO",
-      "action": "BUY",
-      "shares": 4.784,
-      "price": 268.9,
-      "total": 1286.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "KEEL",
-      "action": "BUY",
-      "shares": 366.5025,
-      "price": 3.51,
-      "total": 1286.42,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 23.0877,
-      "price": 61.91,
-      "total": 1429.36,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-17",
-      "symbol": "GLD",
-      "action": "BUY",
-      "shares": 3.3975,
-      "price": 401.48,
-      "total": 1364.02,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1833,7 +1757,7 @@
       "cash": 71.79,
       "positionsValue": 10648.41,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
