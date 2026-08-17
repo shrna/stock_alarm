@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.1834878304527408,
+  "cash": 71.79027841297079,
   "positions": [
     {
       "symbol": "NVDA",
@@ -22,15 +22,6 @@
       "previousClose": 6.97
     },
     {
-      "symbol": "SOXL",
-      "shares": 10.341770237826589,
-      "avgCost": 133,
-      "currentPrice": 144.95,
-      "type": "etf",
-      "boughtAt": "2026-08-12",
-      "previousClose": 145.36
-    },
-    {
       "symbol": "IWM",
       "shares": 4.54946830514411,
       "avgCost": 301.1856801815156,
@@ -38,15 +29,6 @@
       "type": "etf",
       "boughtAt": "2026-08-12",
       "previousClose": 303.5
-    },
-    {
-      "symbol": "TQQQ",
-      "shares": 18.40193226101995,
-      "avgCost": 74.6,
-      "currentPrice": 76.79,
-      "type": "etf",
-      "boughtAt": "2026-08-13",
-      "previousClose": 77.15
     },
     {
       "symbol": "UMC",
@@ -58,22 +40,36 @@
       "previousClose": 19.38
     },
     {
-      "symbol": "SKHY",
-      "shares": 7.8158574382901485,
-      "avgCost": 165.67,
-      "currentPrice": 166.33,
+      "symbol": "SIMO",
+      "shares": 4.7840225951218125,
+      "avgCost": 268.9,
+      "currentPrice": 268.9,
       "type": "stock",
-      "boughtAt": "2026-08-14",
-      "previousClose": 165.67
+      "boughtAt": "2026-08-17"
     },
     {
-      "symbol": "FROG",
-      "shares": 12.713876779527466,
-      "avgCost": 95.15,
-      "currentPrice": 96.17,
+      "symbol": "KEEL",
+      "shares": 366.5024717459417,
+      "avgCost": 3.51,
+      "currentPrice": 3.51,
       "type": "stock",
-      "boughtAt": "2026-08-14",
-      "previousClose": 95.15
+      "boughtAt": "2026-08-17"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 23.087702145197426,
+      "avgCost": 61.91,
+      "currentPrice": 61.91,
+      "type": "etf",
+      "boughtAt": "2026-08-17"
+    },
+    {
+      "symbol": "GLD",
+      "shares": 3.397467594516397,
+      "avgCost": 401.48,
+      "currentPrice": 401.48,
+      "type": "etf",
+      "boughtAt": "2026-08-17"
     }
   ],
   "trades": [
@@ -1114,6 +1110,82 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 10.3418,
+      "price": 144.95,
+      "total": 1499.04,
+      "realizedPnL": 123.58,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 18.4019,
+      "price": 76.79,
+      "total": 1413.08,
+      "realizedPnL": 40.3,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "SKHY",
+      "action": "SELL",
+      "shares": 7.8159,
+      "price": 166.33,
+      "total": 1300.01,
+      "realizedPnL": 5.16,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "FROG",
+      "action": "SELL",
+      "shares": 12.7139,
+      "price": 96.17,
+      "total": 1222.69,
+      "realizedPnL": 12.97,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "SIMO",
+      "action": "BUY",
+      "shares": 4.784,
+      "price": 268.9,
+      "total": 1286.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "KEEL",
+      "action": "BUY",
+      "shares": 366.5025,
+      "price": 3.51,
+      "total": 1286.42,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 23.0877,
+      "price": 61.91,
+      "total": 1429.36,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "GLD",
+      "action": "BUY",
+      "shares": 3.3975,
+      "price": 401.48,
+      "total": 1364.02,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1754,6 +1826,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-17",
+      "totalValue": 10720.2,
+      "cash": 71.79,
+      "positionsValue": 10648.41,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
