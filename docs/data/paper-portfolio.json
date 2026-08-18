@@ -1,79 +1,72 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 71.79027841297079,
+  "cash": 72.25905130894398,
   "positions": [
-    {
-      "symbol": "NVDA",
-      "shares": 5.853849661584756,
-      "avgCost": 207.29,
-      "currentPrice": 225.01,
-      "type": "stock",
-      "boughtAt": "2026-07-22",
-      "previousClose": 225.16
-    },
-    {
-      "symbol": "ACHR",
-      "shares": 195.86839209938958,
-      "avgCost": 6.26,
-      "currentPrice": 6.39,
-      "type": "stock",
-      "boughtAt": "2026-08-11",
-      "previousClose": 6.62
-    },
-    {
-      "symbol": "IWM",
-      "shares": 4.54946830514411,
-      "avgCost": 301.1856801815156,
-      "currentPrice": 304.04,
-      "type": "etf",
-      "boughtAt": "2026-08-12",
-      "previousClose": 305.09
-    },
-    {
-      "symbol": "UMC",
-      "shares": 66.81388554187455,
-      "avgCost": 19.38,
-      "currentPrice": 19.53,
-      "type": "stock",
-      "boughtAt": "2026-08-14",
-      "previousClose": 19.15
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.7840225951218125,
-      "avgCost": 268.9,
-      "currentPrice": 272.7,
-      "type": "stock",
-      "boughtAt": "2026-08-17",
-      "previousClose": 268.9
-    },
-    {
-      "symbol": "KEEL",
-      "shares": 366.5024717459417,
-      "avgCost": 3.51,
-      "currentPrice": 3.77,
-      "type": "stock",
-      "boughtAt": "2026-08-17",
-      "previousClose": 3.51
-    },
     {
       "symbol": "XLE",
       "shares": 23.087702145197426,
       "avgCost": 61.91,
-      "currentPrice": 62.59,
+      "currentPrice": 62.58,
       "type": "etf",
       "boughtAt": "2026-08-17",
       "previousClose": 61.91
     },
     {
-      "symbol": "GLD",
-      "shares": 3.397467594516397,
-      "avgCost": 401.48,
-      "currentPrice": 405.49,
+      "symbol": "PGEN",
+      "shares": 198.55026593761855,
+      "avgCost": 6.55,
+      "currentPrice": 6.55,
+      "type": "stock",
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "ACMR",
+      "shares": 15.185710437779093,
+      "avgCost": 85.64,
+      "currentPrice": 85.64,
+      "type": "stock",
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "FIGR",
+      "shares": 36.372653947459135,
+      "avgCost": 35.755,
+      "currentPrice": 35.755,
+      "type": "stock",
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "AXTI",
+      "shares": 13.551153921969382,
+      "avgCost": 95.97,
+      "currentPrice": 95.97,
+      "type": "stock",
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "VICR",
+      "shares": 5.130194248092314,
+      "avgCost": 253.5,
+      "currentPrice": 253.5,
+      "type": "stock",
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 9.536096569739776,
+      "avgCost": 151.53,
+      "currentPrice": 151.53,
       "type": "etf",
-      "boughtAt": "2026-08-17",
-      "previousClose": 401.48
+      "boughtAt": "2026-08-18"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 20.39396872949995,
+      "avgCost": 67.32,
+      "currentPrice": 67.32,
+      "type": "etf",
+      "boughtAt": "2026-08-18"
     }
   ],
   "trades": [
@@ -1114,6 +1107,139 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "NVDA",
+      "action": "SELL",
+      "shares": 5.8538,
+      "price": 225.01,
+      "total": 1317.17,
+      "realizedPnL": 103.73,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "ACHR",
+      "action": "SELL",
+      "shares": 195.8684,
+      "price": 6.39,
+      "total": 1251.6,
+      "realizedPnL": 25.46,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 4.5495,
+      "price": 304.06,
+      "total": 1383.31,
+      "realizedPnL": 13.08,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "UMC",
+      "action": "SELL",
+      "shares": 66.8139,
+      "price": 19.53,
+      "total": 1304.88,
+      "realizedPnL": 10.02,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.784,
+      "price": 272.7,
+      "total": 1304.6,
+      "realizedPnL": 18.18,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "KEEL",
+      "action": "SELL",
+      "shares": 366.5025,
+      "price": 3.77,
+      "total": 1381.71,
+      "realizedPnL": 95.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "GLD",
+      "action": "SELL",
+      "shares": 3.3975,
+      "price": 405.49,
+      "total": 1377.64,
+      "realizedPnL": 13.62,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "PGEN",
+      "action": "BUY",
+      "shares": 198.5503,
+      "price": 6.55,
+      "total": 1300.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "ACMR",
+      "action": "BUY",
+      "shares": 15.1857,
+      "price": 85.64,
+      "total": 1300.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "FIGR",
+      "action": "BUY",
+      "shares": 36.3727,
+      "price": 35.755,
+      "total": 1300.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 13.5512,
+      "price": 95.97,
+      "total": 1300.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "VICR",
+      "action": "BUY",
+      "shares": 5.1302,
+      "price": 253.5,
+      "total": 1300.5,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 9.5361,
+      "price": 151.53,
+      "total": 1445,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-18",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 20.394,
+      "price": 67.32,
+      "total": 1372.92,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1763,6 +1889,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-18",
+      "totalValue": 10837.54,
+      "cash": 72.26,
+      "positionsValue": 10765.28,
+      "positionCount": 8,
+      "tradesExecuted": 14,
+      "session": "open"
     }
   ]
 }
