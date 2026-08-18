@@ -7,66 +7,73 @@
       "symbol": "XLE",
       "shares": 23.087702145197426,
       "avgCost": 61.91,
-      "currentPrice": 62.58,
+      "currentPrice": 63.68,
       "type": "etf",
       "boughtAt": "2026-08-17",
-      "previousClose": 61.91
+      "previousClose": 62.58
     },
     {
       "symbol": "PGEN",
       "shares": 198.55026593761855,
       "avgCost": 6.55,
-      "currentPrice": 6.55,
+      "currentPrice": 6.75,
       "type": "stock",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 6.55
     },
     {
       "symbol": "ACMR",
       "shares": 15.185710437779093,
       "avgCost": 85.64,
-      "currentPrice": 85.64,
+      "currentPrice": 84.37,
       "type": "stock",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 85.64
     },
     {
       "symbol": "FIGR",
       "shares": 36.372653947459135,
       "avgCost": 35.755,
-      "currentPrice": 35.755,
+      "currentPrice": 35.52,
       "type": "stock",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 35.755
     },
     {
       "symbol": "AXTI",
       "shares": 13.551153921969382,
       "avgCost": 95.97,
-      "currentPrice": 95.97,
+      "currentPrice": 82.31,
       "type": "stock",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 95.97
     },
     {
       "symbol": "VICR",
       "shares": 5.130194248092314,
       "avgCost": 253.5,
-      "currentPrice": 253.5,
+      "currentPrice": 242.41,
       "type": "stock",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 253.5
     },
     {
       "symbol": "SOXL",
       "shares": 9.536096569739776,
       "avgCost": 151.53,
-      "currentPrice": 151.53,
+      "currentPrice": 129.1,
       "type": "etf",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 151.53
     },
     {
       "symbol": "EEM",
       "shares": 20.39396872949995,
       "avgCost": 67.32,
-      "currentPrice": 67.32,
+      "currentPrice": 65.34,
       "type": "etf",
-      "boughtAt": "2026-08-18"
+      "boughtAt": "2026-08-18",
+      "previousClose": 67.32
     }
   ],
   "trades": [
@@ -1759,12 +1766,12 @@
     },
     {
       "date": "2026-08-18",
-      "totalValue": 10837.54,
+      "totalValue": 10378.53,
       "cash": 72.26,
-      "positionsValue": 10765.28,
+      "positionsValue": 10306.27,
       "positionCount": 8,
       "tradesExecuted": 0,
-      "session": "open"
+      "session": "close"
     }
   ]
 }
