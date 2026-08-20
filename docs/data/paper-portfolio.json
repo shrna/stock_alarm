@@ -1110,82 +1110,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 23.0877,
-      "price": 63.58,
-      "total": 1467.92,
-      "realizedPnL": 38.56,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "MNDY",
-      "action": "SELL",
-      "shares": 14.1461,
-      "price": 91.01,
-      "total": 1287.44,
-      "realizedPnL": 42.01,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "NUVB",
-      "action": "SELL",
-      "shares": 178.9402,
-      "price": 7.26,
-      "total": 1299.11,
-      "realizedPnL": 53.68,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "SCHD",
-      "action": "SELL",
-      "shares": 40.0986,
-      "price": 35.09,
-      "total": 1407.06,
-      "realizedPnL": 23.26,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "KEEL",
-      "action": "BUY",
-      "shares": 387.9935,
-      "price": 3.25,
-      "total": 1260.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "KC",
-      "action": "BUY",
-      "shares": 101.9385,
-      "price": 12.37,
-      "total": 1260.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 8.2636,
-      "price": 169.55,
-      "total": 1401.09,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-20",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 21.1933,
-      "price": 66.11,
-      "total": 1401.09,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1860,7 +1784,7 @@
       "cash": 140.63,
       "positionsValue": 10367.53,
       "positionCount": 8,
-      "tradesExecuted": 8,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
