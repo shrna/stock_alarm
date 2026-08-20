@@ -1,26 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.2434585703375802,
+  "cash": 140.63089301672335,
   "positions": [
-    {
-      "symbol": "XLE",
-      "shares": 23.087702145197426,
-      "avgCost": 61.91,
-      "currentPrice": 63.5661,
-      "type": "etf",
-      "boughtAt": "2026-08-17",
-      "previousClose": 63.68
-    },
-    {
-      "symbol": "MNDY",
-      "shares": 14.146112395883007,
-      "avgCost": 88.04,
-      "currentPrice": 91.01,
-      "type": "stock",
-      "boughtAt": "2026-08-19",
-      "previousClose": 88.04
-    },
     {
       "symbol": "PLTR",
       "shares": 7.260252625239245,
@@ -40,15 +22,6 @@
       "previousClose": 18.48
     },
     {
-      "symbol": "NUVB",
-      "shares": 178.94019185826724,
-      "avgCost": 6.96,
-      "currentPrice": 7.26,
-      "type": "stock",
-      "boughtAt": "2026-08-19",
-      "previousClose": 6.96
-    },
-    {
       "symbol": "SKHY",
       "shares": 8.002979921176841,
       "avgCost": 155.62,
@@ -58,15 +31,6 @@
       "previousClose": 155.62
     },
     {
-      "symbol": "SCHD",
-      "shares": 40.09864243322516,
-      "avgCost": 34.51,
-      "currentPrice": 35.09,
-      "type": "etf",
-      "boughtAt": "2026-08-19",
-      "previousClose": 34.51
-    },
-    {
       "symbol": "IWM",
       "shares": 4.3104951855733615,
       "avgCost": 300.23,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-08-19",
       "previousClose": 300.23
+    },
+    {
+      "symbol": "KEEL",
+      "shares": 387.9935353579532,
+      "avgCost": 3.25,
+      "currentPrice": 3.25,
+      "type": "stock",
+      "boughtAt": "2026-08-20"
+    },
+    {
+      "symbol": "KC",
+      "shares": 101.93847937860534,
+      "avgCost": 12.37,
+      "currentPrice": 12.37,
+      "type": "stock",
+      "boughtAt": "2026-08-20"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 8.263566892187477,
+      "avgCost": 169.55,
+      "currentPrice": 169.55,
+      "type": "etf",
+      "boughtAt": "2026-08-20"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 21.19328038981072,
+      "avgCost": 66.11,
+      "currentPrice": 66.11,
+      "type": "etf",
+      "boughtAt": "2026-08-20"
     }
   ],
   "trades": [
@@ -1114,6 +1110,82 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 23.0877,
+      "price": 63.58,
+      "total": 1467.92,
+      "realizedPnL": 38.56,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "MNDY",
+      "action": "SELL",
+      "shares": 14.1461,
+      "price": 91.01,
+      "total": 1287.44,
+      "realizedPnL": 42.01,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "NUVB",
+      "action": "SELL",
+      "shares": 178.9402,
+      "price": 7.26,
+      "total": 1299.11,
+      "realizedPnL": 53.68,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 40.0986,
+      "price": 35.09,
+      "total": 1407.06,
+      "realizedPnL": 23.26,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "KEEL",
+      "action": "BUY",
+      "shares": 387.9935,
+      "price": 3.25,
+      "total": 1260.98,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "KC",
+      "action": "BUY",
+      "shares": 101.9385,
+      "price": 12.37,
+      "total": 1260.98,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 8.2636,
+      "price": 169.55,
+      "total": 1401.09,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-20",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 21.1933,
+      "price": 66.11,
+      "total": 1401.09,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1781,6 +1853,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-20",
+      "totalValue": 10508.16,
+      "cash": 140.63,
+      "positionsValue": 10367.53,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
