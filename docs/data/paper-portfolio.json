@@ -1109,101 +1109,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 7.2603,
-      "price": 173.96,
-      "total": 1262.99,
-      "realizedPnL": 17.57,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.3105,
-      "price": 297.67,
-      "total": 1283.11,
-      "realizedPnL": -11.03,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "KEEL",
-      "action": "SELL",
-      "shares": 387.9935,
-      "price": 3.37,
-      "total": 1307.54,
-      "realizedPnL": 46.56,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "KC",
-      "action": "SELL",
-      "shares": 101.9385,
-      "price": 11.42,
-      "total": 1164.14,
-      "realizedPnL": -96.84,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 8.2636,
-      "price": 163.38,
-      "total": 1350.1,
-      "realizedPnL": -50.99,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "SMCI",
-      "action": "BUY",
-      "shares": 34.3187,
-      "price": 36.5,
-      "total": 1252.63,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "WDC",
-      "action": "BUY",
-      "shares": 2.6706,
-      "price": 469.05,
-      "total": 1252.63,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "NVDA",
-      "action": "BUY",
-      "shares": 5.7765,
-      "price": 216.85,
-      "total": 1252.63,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "SLV",
-      "action": "BUY",
-      "shares": 22.5724,
-      "price": 61.66,
-      "total": 1391.81,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-21",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 10.5626,
-      "price": 122.21,
-      "total": 1290.86,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1887,7 +1792,7 @@
       "cash": 67.94,
       "positionsValue": 10370.66,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
