@@ -1111,72 +1111,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "WDC",
-      "action": "SELL",
-      "shares": 2.6706,
-      "price": 459.44,
-      "total": 1226.97,
-      "realizedPnL": -25.66,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 22.5724,
-      "price": 62.72,
-      "total": 1415.74,
-      "realizedPnL": 23.93,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 10.5626,
-      "price": 120.6,
-      "total": 1273.85,
-      "realizedPnL": -17.01,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "PARR",
-      "action": "BUY",
-      "shares": 15.8964,
-      "price": 79.03,
-      "total": 1256.29,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 19.6133,
-      "price": 71.17,
-      "total": 1395.88,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 4.2196,
-      "price": 299.96,
-      "total": 1265.71,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-24",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 0.211,
-      "price": 299.96,
-      "total": 63.29,
-      "reason": "Rebalance: 9.3% drift"
     }
   ],
   "history": [
@@ -1869,7 +1803,7 @@
       "cash": 3.33,
       "positionsValue": 10465.77,
       "positionCount": 8,
-      "tradesExecuted": 7,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
