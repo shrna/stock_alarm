@@ -1109,101 +1109,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "UMC",
-      "action": "SELL",
-      "shares": 67.3931,
-      "price": 19.05,
-      "total": 1283.84,
-      "realizedPnL": 38.41,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "SKHY",
-      "action": "SELL",
-      "shares": 8.003,
-      "price": 155.37,
-      "total": 1243.42,
-      "realizedPnL": -2,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "PARR",
-      "action": "SELL",
-      "shares": 15.8964,
-      "price": 74.33,
-      "total": 1181.58,
-      "realizedPnL": -74.71,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 19.6133,
-      "price": 69.01,
-      "total": 1353.52,
-      "realizedPnL": -42.36,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 4.4306,
-      "price": 297.97,
-      "total": 1320.18,
-      "realizedPnL": -8.82,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "NIO",
-      "action": "BUY",
-      "shares": 280.6851,
-      "price": 4.36,
-      "total": 1223.79,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "SPCX",
-      "action": "BUY",
-      "shares": 9.0651,
-      "price": 135,
-      "total": 1223.79,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "HST",
-      "action": "BUY",
-      "shares": 52.7722,
-      "price": 23.19,
-      "total": 1223.79,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "GLD",
-      "action": "BUY",
-      "shares": 3.1868,
-      "price": 426.69,
-      "total": 1359.76,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-25",
-      "symbol": "XLF",
-      "action": "BUY",
-      "shares": 22.1059,
-      "price": 58.22,
-      "total": 1287,
-      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1905,7 +1810,7 @@
       "cash": 67.74,
       "positionsValue": 10130.49,
       "positionCount": 8,
-      "tradesExecuted": 10,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
