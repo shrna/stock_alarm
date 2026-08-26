@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 67.73703104681181,
+  "cash": 3.2431975421901384,
   "positions": [
     {
       "symbol": "EEM",
@@ -31,15 +31,6 @@
       "previousClose": 208.48
     },
     {
-      "symbol": "NIO",
-      "shares": 280.68506974274175,
-      "avgCost": 4.36,
-      "currentPrice": 4.45,
-      "type": "stock",
-      "boughtAt": "2026-08-25",
-      "previousClose": 4.36
-    },
-    {
       "symbol": "SPCX",
       "shares": 9.06508817835818,
       "avgCost": 135,
@@ -49,31 +40,36 @@
       "previousClose": 135
     },
     {
-      "symbol": "HST",
-      "shares": 52.772182150856146,
-      "avgCost": 23.19,
-      "currentPrice": 23,
+      "symbol": "PLTR",
+      "shares": 7.232135138938239,
+      "avgCost": 172.73,
+      "currentPrice": 172.73,
       "type": "stock",
-      "boughtAt": "2026-08-25",
-      "previousClose": 23.19
+      "boughtAt": "2026-08-26"
     },
     {
-      "symbol": "GLD",
-      "shares": 3.186770786176679,
-      "avgCost": 426.69,
-      "currentPrice": 428.07,
-      "type": "etf",
-      "boughtAt": "2026-08-25",
-      "previousClose": 426.69
+      "symbol": "UMC",
+      "shares": 63.73503584432663,
+      "avgCost": 19.6,
+      "currentPrice": 19.6,
+      "type": "stock",
+      "boughtAt": "2026-08-26"
     },
     {
-      "symbol": "XLF",
-      "shares": 22.105867225857516,
-      "avgCost": 58.22,
-      "currentPrice": 58.31,
+      "symbol": "SOXL",
+      "shares": 11.99971857245999,
+      "avgCost": 115.67,
+      "currentPrice": 115.67,
       "type": "etf",
-      "boughtAt": "2026-08-25",
-      "previousClose": 58.22
+      "boughtAt": "2026-08-26"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 7.652488582695831,
+      "avgCost": 169.1,
+      "currentPrice": 169.1,
+      "type": "etf",
+      "boughtAt": "2026-08-26"
     }
   ],
   "trades": [
@@ -1114,6 +1110,91 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "NIO",
+      "action": "SELL",
+      "shares": 280.6851,
+      "price": 4.45,
+      "total": 1249.05,
+      "realizedPnL": 25.26,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "HST",
+      "action": "SELL",
+      "shares": 52.7722,
+      "price": 23,
+      "total": 1213.76,
+      "realizedPnL": -10.03,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "GLD",
+      "action": "SELL",
+      "shares": 3.1868,
+      "price": 428.07,
+      "total": 1364.16,
+      "realizedPnL": 4.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "XLF",
+      "action": "SELL",
+      "shares": 22.1059,
+      "price": 58.31,
+      "total": 1288.99,
+      "realizedPnL": 1.99,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 7.2321,
+      "price": 172.73,
+      "total": 1249.21,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "UMC",
+      "action": "BUY",
+      "shares": 63.735,
+      "price": 19.6,
+      "total": 1249.21,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 11.9997,
+      "price": 115.67,
+      "total": 1388.01,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 7.2881,
+      "price": 169.1,
+      "total": 1232.42,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-08-26",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 0.3644,
+      "price": 169.1,
+      "total": 61.62,
+      "reason": "Rebalance: 11.2% drift"
     }
   ],
   "history": [
@@ -1817,6 +1898,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-26",
+      "totalValue": 10410.06,
+      "cash": 3.24,
+      "positionsValue": 10406.81,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
