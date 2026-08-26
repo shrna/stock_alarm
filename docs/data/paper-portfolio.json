@@ -1110,91 +1110,6 @@
       "total": 103.74,
       "realizedPnL": -33.09,
       "reason": "Rebalance: 8.9% drift"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "NIO",
-      "action": "SELL",
-      "shares": 280.6851,
-      "price": 4.45,
-      "total": 1249.05,
-      "realizedPnL": 25.26,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "HST",
-      "action": "SELL",
-      "shares": 52.7722,
-      "price": 23,
-      "total": 1213.76,
-      "realizedPnL": -10.03,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "GLD",
-      "action": "SELL",
-      "shares": 3.1868,
-      "price": 428.07,
-      "total": 1364.16,
-      "realizedPnL": 4.4,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "XLF",
-      "action": "SELL",
-      "shares": 22.1059,
-      "price": 58.31,
-      "total": 1288.99,
-      "realizedPnL": 1.99,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 7.2321,
-      "price": 172.73,
-      "total": 1249.21,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "UMC",
-      "action": "BUY",
-      "shares": 63.735,
-      "price": 19.6,
-      "total": 1249.21,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 11.9997,
-      "price": 115.67,
-      "total": 1388.01,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 7.2881,
-      "price": 169.1,
-      "total": 1232.42,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-26",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 0.3644,
-      "price": 169.1,
-      "total": 61.62,
-      "reason": "Rebalance: 11.2% drift"
     }
   ],
   "history": [
@@ -1905,7 +1820,7 @@
       "cash": 3.24,
       "positionsValue": 10406.81,
       "positionCount": 8,
-      "tradesExecuted": 9,
+      "tradesExecuted": 0,
       "session": "open"
     }
   ]
