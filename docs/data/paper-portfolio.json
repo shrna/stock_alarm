@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.26712340196341,
+  "cash": 68.78261169532789,
   "positions": [
     {
       "symbol": "SMCI",
       "shares": 34.31869848031745,
       "avgCost": 36.5,
-      "currentPrice": 37.08,
+      "currentPrice": 37.48,
       "type": "stock",
       "boughtAt": "2026-08-21",
       "previousClose": 37.455
@@ -16,64 +16,60 @@
       "symbol": "NVDA",
       "shares": 5.776492942271556,
       "avgCost": 216.85,
-      "currentPrice": 217.55,
+      "currentPrice": 219.2479,
       "type": "stock",
       "boughtAt": "2026-08-21",
       "previousClose": 217.3999
     },
     {
-      "symbol": "SPCX",
-      "shares": 9.06508817835818,
-      "avgCost": 135,
-      "currentPrice": 141.5,
-      "type": "stock",
-      "boughtAt": "2026-08-25",
-      "previousClose": 140.88
-    },
-    {
       "symbol": "SOXL",
       "shares": 11.99971857245999,
       "avgCost": 115.67,
-      "currentPrice": 111.34,
+      "currentPrice": 111.31,
       "type": "etf",
       "boughtAt": "2026-08-26",
       "previousClose": 112.36
     },
     {
-      "symbol": "FTNT",
-      "shares": 7.394351840449044,
-      "avgCost": 172.3,
-      "currentPrice": 166,
-      "type": "stock",
-      "boughtAt": "2026-08-27",
-      "previousClose": 166.05
-    },
-    {
-      "symbol": "KEEL",
-      "shares": 360.4092848965687,
-      "avgCost": 3.535,
-      "currentPrice": 3.22,
-      "type": "stock",
-      "boughtAt": "2026-08-27",
-      "previousClose": 3.234
-    },
-    {
-      "symbol": "TQQQ",
-      "shares": 19.522928976989693,
-      "avgCost": 72.51,
-      "currentPrice": 71.85,
-      "type": "etf",
-      "boughtAt": "2026-08-27",
-      "previousClose": 71.885
-    },
-    {
       "symbol": "XLK",
       "shares": 6.95005519378367,
       "avgCost": 187.5643,
-      "currentPrice": 185.69,
+      "currentPrice": 185.67,
       "type": "etf",
       "boughtAt": "2026-08-27",
       "previousClose": 185.86
+    },
+    {
+      "symbol": "AXTI",
+      "shares": 19.947572701378782,
+      "avgCost": 61.61,
+      "currentPrice": 61.61,
+      "type": "stock",
+      "boughtAt": "2026-08-31"
+    },
+    {
+      "symbol": "NTNX",
+      "shares": 18.022729933009924,
+      "avgCost": 68.19,
+      "currentPrice": 68.19,
+      "type": "stock",
+      "boughtAt": "2026-08-31"
+    },
+    {
+      "symbol": "UMC",
+      "shares": 61.912844036873885,
+      "avgCost": 19.85,
+      "currentPrice": 19.85,
+      "type": "stock",
+      "boughtAt": "2026-08-31"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 20.671775106156712,
+      "avgCost": 63.22,
+      "currentPrice": 63.22,
+      "type": "etf",
+      "boughtAt": "2026-08-31"
     }
   ],
   "trades": [
@@ -1199,6 +1195,82 @@
       "price": 187.5643,
       "total": 62.08,
       "reason": "Rebalance: 12.3% drift"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "SPCX",
+      "action": "SELL",
+      "shares": 9.0651,
+      "price": 143.0601,
+      "total": 1296.85,
+      "realizedPnL": 73.07,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "FTNT",
+      "action": "SELL",
+      "shares": 7.3944,
+      "price": 168.61,
+      "total": 1246.76,
+      "realizedPnL": -27.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "KEEL",
+      "action": "SELL",
+      "shares": 360.4093,
+      "price": 3.12,
+      "total": 1124.48,
+      "realizedPnL": -149.57,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 19.5229,
+      "price": 71.26,
+      "total": 1391.2,
+      "realizedPnL": -24.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 19.9476,
+      "price": 61.61,
+      "total": 1228.97,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "NTNX",
+      "action": "BUY",
+      "shares": 18.0227,
+      "price": 68.19,
+      "total": 1228.97,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "UMC",
+      "action": "BUY",
+      "shares": 61.9128,
+      "price": 19.85,
+      "total": 1228.97,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 20.6718,
+      "price": 63.22,
+      "total": 1306.87,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -1929,6 +2001,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-08-31",
+      "totalValue": 10241.42,
+      "cash": 68.78,
+      "positionsValue": 10172.63,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
