@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 68.78261169532789,
+  "cash": 67.15405564230218,
   "positions": [
     {
       "symbol": "SMCI",
@@ -31,42 +31,6 @@
       "previousClose": 111.58
     },
     {
-      "symbol": "XLK",
-      "shares": 6.95005519378367,
-      "avgCost": 187.5643,
-      "currentPrice": 186.5,
-      "type": "etf",
-      "boughtAt": "2026-08-27",
-      "previousClose": 185.84
-    },
-    {
-      "symbol": "AXTI",
-      "shares": 19.947572701378782,
-      "avgCost": 61.61,
-      "currentPrice": 60.61,
-      "type": "stock",
-      "boughtAt": "2026-08-31",
-      "previousClose": 60.78
-    },
-    {
-      "symbol": "NTNX",
-      "shares": 18.022729933009924,
-      "avgCost": 68.19,
-      "currentPrice": 68.57,
-      "type": "stock",
-      "boughtAt": "2026-08-31",
-      "previousClose": 68.57
-    },
-    {
-      "symbol": "UMC",
-      "shares": 61.912844036873885,
-      "avgCost": 19.85,
-      "currentPrice": 19.88,
-      "type": "stock",
-      "boughtAt": "2026-08-31",
-      "previousClose": 19.855
-    },
-    {
       "symbol": "XLE",
       "shares": 20.671775106156712,
       "avgCost": 63.22,
@@ -74,6 +38,38 @@
       "type": "etf",
       "boughtAt": "2026-08-31",
       "previousClose": 63.525
+    },
+    {
+      "symbol": "TSM",
+      "shares": 2.9676354817811585,
+      "avgCost": 415.32,
+      "currentPrice": 415.32,
+      "type": "stock",
+      "boughtAt": "2026-09-01"
+    },
+    {
+      "symbol": "NIO",
+      "shares": 291.37550077856986,
+      "avgCost": 4.23,
+      "currentPrice": 4.23,
+      "type": "stock",
+      "boughtAt": "2026-09-01"
+    },
+    {
+      "symbol": "SKHY",
+      "shares": 7.488870873091206,
+      "avgCost": 164.58,
+      "currentPrice": 164.58,
+      "type": "stock",
+      "boughtAt": "2026-09-01"
+    },
+    {
+      "symbol": "SMH",
+      "shares": 2.2922355194720714,
+      "avgCost": 556.63,
+      "currentPrice": 556.63,
+      "type": "etf",
+      "boughtAt": "2026-09-01"
     }
   ],
   "trades": [
@@ -1275,6 +1271,82 @@
       "price": 63.22,
       "total": 1306.87,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "XLK",
+      "action": "SELL",
+      "shares": 6.9501,
+      "price": 186.5,
+      "total": 1296.19,
+      "realizedPnL": -7.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "AXTI",
+      "action": "SELL",
+      "shares": 19.9476,
+      "price": 60.61,
+      "total": 1209.02,
+      "realizedPnL": -19.95,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "NTNX",
+      "action": "SELL",
+      "shares": 18.0227,
+      "price": 68.57,
+      "total": 1235.82,
+      "realizedPnL": 6.85,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "UMC",
+      "action": "SELL",
+      "shares": 61.9128,
+      "price": 19.88,
+      "total": 1230.83,
+      "realizedPnL": 1.86,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "TSM",
+      "action": "BUY",
+      "shares": 2.9676,
+      "price": 415.32,
+      "total": 1232.52,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "NIO",
+      "action": "BUY",
+      "shares": 291.3755,
+      "price": 4.23,
+      "total": 1232.52,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "SKHY",
+      "action": "BUY",
+      "shares": 7.4889,
+      "price": 164.58,
+      "total": 1232.52,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.2922,
+      "price": 556.63,
+      "total": 1275.93,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2014,6 +2086,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-01",
+      "totalValue": 10270.99,
+      "cash": 67.15,
+      "positionsValue": 10203.83,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
