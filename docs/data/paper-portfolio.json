@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 67.15405564230218,
+  "cash": 3.1708173750494595,
   "positions": [
     {
       "symbol": "SMCI",
@@ -22,15 +22,6 @@
       "previousClose": 219.88
     },
     {
-      "symbol": "SOXL",
-      "shares": 11.99971857245999,
-      "avgCost": 115.67,
-      "currentPrice": 105.91,
-      "type": "etf",
-      "boughtAt": "2026-08-26",
-      "previousClose": 107.11
-    },
-    {
       "symbol": "XLE",
       "shares": 20.671775106156712,
       "avgCost": 63.22,
@@ -38,15 +29,6 @@
       "type": "etf",
       "boughtAt": "2026-08-31",
       "previousClose": 64.185
-    },
-    {
-      "symbol": "TSM",
-      "shares": 2.9676354817811585,
-      "avgCost": 415.32,
-      "currentPrice": 414,
-      "type": "stock",
-      "boughtAt": "2026-09-01",
-      "previousClose": 415.555
     },
     {
       "symbol": "NIO",
@@ -67,13 +49,28 @@
       "previousClose": 162.38
     },
     {
-      "symbol": "SMH",
-      "shares": 2.2922355194720714,
-      "avgCost": 556.63,
-      "currentPrice": 545.22,
+      "symbol": "PLTR",
+      "shares": 6.708484282822044,
+      "avgCost": 179.92,
+      "currentPrice": 179.92,
+      "type": "stock",
+      "boughtAt": "2026-09-02"
+    },
+    {
+      "symbol": "XBI",
+      "shares": 8.20746968696683,
+      "avgCost": 163.4,
+      "currentPrice": 163.4,
       "type": "etf",
-      "boughtAt": "2026-09-01",
-      "previousClose": 548.08
+      "boughtAt": "2026-09-02"
+    },
+    {
+      "symbol": "XLV",
+      "shares": 7.3696984484460355,
+      "avgCost": 171.67,
+      "currentPrice": 171.67,
+      "type": "etf",
+      "boughtAt": "2026-09-02"
     }
   ],
   "trades": [
@@ -1351,6 +1348,72 @@
       "price": 556.63,
       "total": 1275.93,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 11.9997,
+      "price": 105.91,
+      "total": 1270.89,
+      "realizedPnL": -117.12,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "TSM",
+      "action": "SELL",
+      "shares": 2.9676,
+      "price": 414,
+      "total": 1228.6,
+      "realizedPnL": -3.92,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SMH",
+      "action": "SELL",
+      "shares": 2.2922,
+      "price": 545.22,
+      "total": 1249.77,
+      "realizedPnL": -26.15,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 6.7085,
+      "price": 179.92,
+      "total": 1206.99,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "XBI",
+      "action": "BUY",
+      "shares": 8.2075,
+      "price": 163.4,
+      "total": 1341.1,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "XLV",
+      "action": "BUY",
+      "shares": 7.0188,
+      "price": 171.67,
+      "total": 1204.91,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "XLV",
+      "action": "BUY",
+      "shares": 0.3509,
+      "price": 171.67,
+      "total": 60.25,
+      "reason": "Rebalance: 10.2% drift"
     }
   ],
   "history": [
@@ -2099,6 +2162,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-02",
+      "totalValue": 10058.25,
+      "cash": 3.17,
+      "positionsValue": 10055.08,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
