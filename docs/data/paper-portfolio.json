@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.1708173750494595,
+  "cash": 3.0686189601600873,
   "positions": [
     {
       "symbol": "SMCI",
@@ -31,24 +31,6 @@
       "previousClose": 64.905
     },
     {
-      "symbol": "NIO",
-      "shares": 291.37550077856986,
-      "avgCost": 4.23,
-      "currentPrice": 3.86,
-      "type": "stock",
-      "boughtAt": "2026-09-01",
-      "previousClose": 3.88
-    },
-    {
-      "symbol": "SKHY",
-      "shares": 7.488870873091206,
-      "avgCost": 164.58,
-      "currentPrice": 164.98,
-      "type": "stock",
-      "boughtAt": "2026-09-01",
-      "previousClose": 162.5
-    },
-    {
       "symbol": "PLTR",
       "shares": 6.708484282822044,
       "avgCost": 179.92,
@@ -67,13 +49,28 @@
       "previousClose": 163.66
     },
     {
-      "symbol": "XLV",
-      "shares": 7.3696984484460355,
-      "avgCost": 171.67,
-      "currentPrice": 172.95,
+      "symbol": "SPCX",
+      "shares": 8.565616976823334,
+      "avgCost": 140.71,
+      "currentPrice": 140.71,
+      "type": "stock",
+      "boughtAt": "2026-09-03"
+    },
+    {
+      "symbol": "HPE",
+      "shares": 23.25425361390722,
+      "avgCost": 51.83,
+      "currentPrice": 51.83,
+      "type": "stock",
+      "boughtAt": "2026-09-03"
+    },
+    {
+      "symbol": "EEM",
+      "shares": 18.233491662008568,
+      "avgCost": 67.15,
+      "currentPrice": 67.15,
       "type": "etf",
-      "boughtAt": "2026-09-02",
-      "previousClose": 172.855
+      "boughtAt": "2026-09-03"
     }
   ],
   "trades": [
@@ -1417,6 +1414,72 @@
       "price": 171.67,
       "total": 60.25,
       "reason": "Rebalance: 10.2% drift"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "NIO",
+      "action": "SELL",
+      "shares": 291.3755,
+      "price": 3.86,
+      "total": 1124.71,
+      "realizedPnL": -107.81,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "SKHY",
+      "action": "SELL",
+      "shares": 7.4889,
+      "price": 164.98,
+      "total": 1235.51,
+      "realizedPnL": 3,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "XLV",
+      "action": "SELL",
+      "shares": 7.3697,
+      "price": 172.95,
+      "total": 1274.59,
+      "realizedPnL": 9.43,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "SPCX",
+      "action": "BUY",
+      "shares": 8.5656,
+      "price": 140.71,
+      "total": 1205.27,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "HPE",
+      "action": "BUY",
+      "shares": 23.2543,
+      "price": 51.83,
+      "total": 1205.27,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 17.3652,
+      "price": 67.15,
+      "total": 1166.08,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-03",
+      "symbol": "EEM",
+      "action": "BUY",
+      "shares": 0.8683,
+      "price": 67.15,
+      "total": 58.3,
+      "reason": "Rebalance: 12.9% drift"
     }
   ],
   "history": [
@@ -2174,6 +2237,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-03",
+      "totalValue": 10043.9,
+      "cash": 3.07,
+      "positionsValue": 10040.83,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
