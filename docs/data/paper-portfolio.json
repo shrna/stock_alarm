@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.0686189601600873,
+  "cash": 3.0352142456506215,
   "positions": [
     {
       "symbol": "SMCI",
@@ -22,15 +22,6 @@
       "previousClose": 227.2861
     },
     {
-      "symbol": "XLE",
-      "shares": 20.671775106156712,
-      "avgCost": 63.22,
-      "currentPrice": 64.62,
-      "type": "etf",
-      "boughtAt": "2026-08-31",
-      "previousClose": 65.165
-    },
-    {
       "symbol": "PLTR",
       "shares": 6.708484282822044,
       "avgCost": 179.92,
@@ -38,24 +29,6 @@
       "type": "stock",
       "boughtAt": "2026-09-02",
       "previousClose": 183.73
-    },
-    {
-      "symbol": "XBI",
-      "shares": 8.20746968696683,
-      "avgCost": 163.4,
-      "currentPrice": 164.38,
-      "type": "etf",
-      "boughtAt": "2026-09-02",
-      "previousClose": 164.225
-    },
-    {
-      "symbol": "SPCX",
-      "shares": 8.565616976823334,
-      "avgCost": 140.71,
-      "currentPrice": 149.74,
-      "type": "stock",
-      "boughtAt": "2026-09-03",
-      "previousClose": 148.845
     },
     {
       "symbol": "HPE",
@@ -67,13 +40,36 @@
       "previousClose": 49.1
     },
     {
-      "symbol": "EEM",
-      "shares": 18.233491662008568,
-      "avgCost": 67.15,
-      "currentPrice": 67.47,
+      "symbol": "CLS",
+      "shares": 3.9932617695604318,
+      "avgCost": 309.84,
+      "currentPrice": 309.84,
+      "type": "stock",
+      "boughtAt": "2026-09-04"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 19.085754804026166,
+      "avgCost": 72.03,
+      "currentPrice": 72.03,
       "type": "etf",
-      "boughtAt": "2026-09-03",
-      "previousClose": 67.285
+      "boughtAt": "2026-09-04"
+    },
+    {
+      "symbol": "SLV",
+      "shares": 22.704325657043846,
+      "avgCost": 60.55,
+      "currentPrice": 60.55,
+      "type": "etf",
+      "boughtAt": "2026-09-04"
+    },
+    {
+      "symbol": "SPY",
+      "shares": 1.5663443796507805,
+      "avgCost": 773.1700000000001,
+      "currentPrice": 773.17,
+      "type": "etf",
+      "boughtAt": "2026-09-04"
     }
   ],
   "trades": [
@@ -1483,6 +1479,91 @@
       "price": 67.15,
       "total": 58.3,
       "reason": "Rebalance: 12.9% drift"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 20.6718,
+      "price": 64.62,
+      "total": 1335.81,
+      "realizedPnL": 28.94,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 8.2075,
+      "price": 164.38,
+      "total": 1349.14,
+      "realizedPnL": 8.04,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "SPCX",
+      "action": "SELL",
+      "shares": 8.5656,
+      "price": 149.74,
+      "total": 1282.62,
+      "realizedPnL": 77.35,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "EEM",
+      "action": "SELL",
+      "shares": 18.2335,
+      "price": 67.47,
+      "total": 1230.21,
+      "realizedPnL": 5.83,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "CLS",
+      "action": "BUY",
+      "shares": 3.9933,
+      "price": 309.84,
+      "total": 1237.27,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 19.0858,
+      "price": 72.03,
+      "total": 1374.75,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "SLV",
+      "action": "BUY",
+      "shares": 22.7043,
+      "price": 60.55,
+      "total": 1374.75,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "SPY",
+      "action": "BUY",
+      "shares": 1.4918,
+      "price": 773.17,
+      "total": 1153.38,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-04",
+      "symbol": "SPY",
+      "action": "BUY",
+      "shares": 0.0746,
+      "price": 773.17,
+      "total": 57.67,
+      "reason": "Rebalance: 16.1% drift"
     }
   ],
   "history": [
@@ -2249,6 +2330,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-04",
+      "totalValue": 10310.6,
+      "cash": 3.04,
+      "positionsValue": 10307.57,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
