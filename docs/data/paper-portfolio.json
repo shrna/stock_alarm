@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.33549887685055,
+  "cash": 68.46468363941085,
   "positions": [
-    {
-      "symbol": "SMCI",
-      "shares": 30.979956171029343,
-      "avgCost": 36.5,
-      "currentPrice": 39.59,
-      "type": "stock",
-      "boughtAt": "2026-08-21",
-      "previousClose": 39.8701
-    },
     {
       "symbol": "NVDA",
       "shares": 5.345106564833533,
@@ -22,58 +13,60 @@
       "previousClose": 231.085
     },
     {
-      "symbol": "PLTR",
-      "shares": 6.708484282822044,
-      "avgCost": 179.92,
-      "currentPrice": 174.33,
+      "symbol": "UCTT",
+      "shares": 17.00758757244339,
+      "avgCost": 72.43,
+      "currentPrice": 72.43,
       "type": "stock",
-      "boughtAt": "2026-09-02",
-      "previousClose": 175.49
+      "boughtAt": "2026-09-07"
     },
     {
-      "symbol": "HPE",
-      "shares": 23.25425361390722,
-      "avgCost": 51.83,
-      "currentPrice": 52,
+      "symbol": "TTMI",
+      "shares": 9.807799107261744,
+      "avgCost": 125.6,
+      "currentPrice": 125.6,
       "type": "stock",
-      "boughtAt": "2026-09-03",
-      "previousClose": 52.33
+      "boughtAt": "2026-09-07"
     },
     {
-      "symbol": "CLS",
-      "shares": 3.9932617695604318,
-      "avgCost": 309.84,
-      "currentPrice": 312.35,
+      "symbol": "AXTI",
+      "shares": 19.984743151720878,
+      "avgCost": 61.64,
+      "currentPrice": 61.64,
       "type": "stock",
-      "boughtAt": "2026-09-04",
-      "previousClose": 314.8023
+      "boughtAt": "2026-09-07"
     },
     {
-      "symbol": "TQQQ",
-      "shares": 19.085754804026166,
-      "avgCost": 72.03,
-      "currentPrice": 72.37,
-      "type": "etf",
-      "boughtAt": "2026-09-04",
-      "previousClose": 71.93
+      "symbol": "SIMO",
+      "shares": 4.808007368455857,
+      "avgCost": 256.21,
+      "currentPrice": 256.21,
+      "type": "stock",
+      "boughtAt": "2026-09-07"
     },
     {
-      "symbol": "SLV",
-      "shares": 22.704325657043846,
-      "avgCost": 60.55,
-      "currentPrice": 59.82,
+      "symbol": "SOXL",
+      "shares": 11.6706416540859,
+      "avgCost": 117.28,
+      "currentPrice": 117.28,
       "type": "etf",
-      "boughtAt": "2026-09-04",
-      "previousClose": 59.765
+      "boughtAt": "2026-09-07"
     },
     {
-      "symbol": "SPY",
-      "shares": 1.7826124519008595,
-      "avgCost": 772.7720675855687,
-      "currentPrice": 770.19,
+      "symbol": "SMH",
+      "shares": 2.4139483486908424,
+      "avgCost": 567.01,
+      "currentPrice": 567.01,
       "type": "etf",
-      "boughtAt": "2026-09-04",
-      "previousClose": 769.89
+      "boughtAt": "2026-09-07"
+    },
+    {
+      "symbol": "SOXX",
+      "shares": 2.5022678974123918,
+      "avgCost": 519.86,
+      "currentPrice": 519.86,
+      "type": "etf",
+      "boughtAt": "2026-09-07"
     }
   ],
   "trades": [
@@ -1512,6 +1505,139 @@
       "price": 769.89,
       "total": 166.5,
       "reason": "Rebalance: 12.1% drift"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SMCI",
+      "action": "SELL",
+      "shares": 30.98,
+      "price": 39.59,
+      "total": 1226.5,
+      "realizedPnL": 95.73,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 6.7085,
+      "price": 174.33,
+      "total": 1169.49,
+      "realizedPnL": -37.5,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "HPE",
+      "action": "SELL",
+      "shares": 23.2543,
+      "price": 52,
+      "total": 1209.22,
+      "realizedPnL": 3.95,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "CLS",
+      "action": "SELL",
+      "shares": 3.9933,
+      "price": 312.35,
+      "total": 1247.3,
+      "realizedPnL": 10.02,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 19.0858,
+      "price": 72.37,
+      "total": 1381.24,
+      "realizedPnL": 6.49,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SLV",
+      "action": "SELL",
+      "shares": 22.7043,
+      "price": 59.82,
+      "total": 1358.17,
+      "realizedPnL": -16.57,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SPY",
+      "action": "SELL",
+      "shares": 1.7826,
+      "price": 770.19,
+      "total": 1372.95,
+      "realizedPnL": -4.6,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "UCTT",
+      "action": "BUY",
+      "shares": 17.0076,
+      "price": 72.43,
+      "total": 1231.86,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "TTMI",
+      "action": "BUY",
+      "shares": 9.8078,
+      "price": 125.6,
+      "total": 1231.86,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 19.9847,
+      "price": 61.64,
+      "total": 1231.86,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SIMO",
+      "action": "BUY",
+      "shares": 4.808,
+      "price": 256.21,
+      "total": 1231.86,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 11.6706,
+      "price": 117.28,
+      "total": 1368.73,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.4139,
+      "price": 567.01,
+      "total": 1368.73,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-07",
+      "symbol": "SOXX",
+      "action": "BUY",
+      "shares": 2.5023,
+      "price": 519.86,
+      "total": 1300.83,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2287,6 +2413,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-07",
+      "totalValue": 10265.5,
+      "cash": 68.46,
+      "positionsValue": 10197.03,
+      "positionCount": 8,
+      "tradesExecuted": 14,
+      "session": "open"
     }
   ]
 }
