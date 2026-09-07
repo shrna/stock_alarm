@@ -10,7 +10,7 @@
       "currentPrice": 230.36,
       "type": "stock",
       "boughtAt": "2026-08-21",
-      "previousClose": 231.085
+      "previousClose": 230.36
     },
     {
       "symbol": "UCTT",
@@ -18,7 +18,8 @@
       "avgCost": 72.43,
       "currentPrice": 72.43,
       "type": "stock",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 72.43
     },
     {
       "symbol": "TTMI",
@@ -26,7 +27,8 @@
       "avgCost": 125.6,
       "currentPrice": 125.6,
       "type": "stock",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 125.6
     },
     {
       "symbol": "AXTI",
@@ -34,7 +36,8 @@
       "avgCost": 61.64,
       "currentPrice": 61.64,
       "type": "stock",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 61.64
     },
     {
       "symbol": "SIMO",
@@ -42,7 +45,8 @@
       "avgCost": 256.21,
       "currentPrice": 256.21,
       "type": "stock",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 256.21
     },
     {
       "symbol": "SOXL",
@@ -50,7 +54,8 @@
       "avgCost": 117.28,
       "currentPrice": 117.28,
       "type": "etf",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 117.28
     },
     {
       "symbol": "SMH",
@@ -58,7 +63,8 @@
       "avgCost": 567.01,
       "currentPrice": 567.01,
       "type": "etf",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 567.01
     },
     {
       "symbol": "SOXX",
@@ -66,7 +72,8 @@
       "avgCost": 519.86,
       "currentPrice": 519.86,
       "type": "etf",
-      "boughtAt": "2026-09-07"
+      "boughtAt": "2026-09-07",
+      "previousClose": 519.86
     }
   ],
   "trades": [
@@ -2420,8 +2427,8 @@
       "cash": 68.46,
       "positionsValue": 10197.03,
       "positionCount": 8,
-      "tradesExecuted": 14,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
