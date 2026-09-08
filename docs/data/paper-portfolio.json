@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 68.46468363941085,
+  "cash": 67.9038640423887,
   "positions": [
-    {
-      "symbol": "NVDA",
-      "shares": 5.345106564833533,
-      "avgCost": 216.85,
-      "currentPrice": 230.36,
-      "type": "stock",
-      "boughtAt": "2026-08-21",
-      "previousClose": 230.36
-    },
     {
       "symbol": "UCTT",
       "shares": 17.00758757244339,
@@ -74,6 +65,14 @@
       "type": "etf",
       "boughtAt": "2026-09-07",
       "previousClose": 519.86
+    },
+    {
+      "symbol": "SMTC",
+      "shares": 8.32984797560317,
+      "avgCost": 147.885,
+      "currentPrice": 147.885,
+      "type": "stock",
+      "boughtAt": "2026-09-08"
     }
   ],
   "trades": [
@@ -1645,6 +1644,25 @@
       "price": 519.86,
       "total": 1300.83,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-08",
+      "symbol": "NVDA",
+      "action": "SELL",
+      "shares": 5.3451,
+      "price": 230.36,
+      "total": 1231.3,
+      "realizedPnL": 72.21,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-08",
+      "symbol": "SMTC",
+      "action": "BUY",
+      "shares": 8.3298,
+      "price": 147.885,
+      "total": 1231.86,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -2429,6 +2447,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-08",
+      "totalValue": 10265.5,
+      "cash": 67.9,
+      "positionsValue": 10197.59,
+      "positionCount": 8,
+      "tradesExecuted": 2,
+      "session": "open"
     }
   ]
 }
