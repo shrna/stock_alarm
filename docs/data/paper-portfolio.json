@@ -7,7 +7,7 @@
       "symbol": "UCTT",
       "shares": 17.00758757244339,
       "avgCost": 72.43,
-      "currentPrice": 72.43,
+      "currentPrice": 74.93,
       "type": "stock",
       "boughtAt": "2026-09-07",
       "previousClose": 72.43
@@ -16,7 +16,7 @@
       "symbol": "TTMI",
       "shares": 9.807799107261744,
       "avgCost": 125.6,
-      "currentPrice": 125.6,
+      "currentPrice": 131.805,
       "type": "stock",
       "boughtAt": "2026-09-07",
       "previousClose": 125.6
@@ -25,7 +25,7 @@
       "symbol": "AXTI",
       "shares": 19.984743151720878,
       "avgCost": 61.64,
-      "currentPrice": 61.64,
+      "currentPrice": 68.14,
       "type": "stock",
       "boughtAt": "2026-09-07",
       "previousClose": 61.64
@@ -34,7 +34,7 @@
       "symbol": "SIMO",
       "shares": 4.808007368455857,
       "avgCost": 256.21,
-      "currentPrice": 256.21,
+      "currentPrice": 269.21,
       "type": "stock",
       "boughtAt": "2026-09-07",
       "previousClose": 256.21
@@ -43,7 +43,7 @@
       "symbol": "SOXL",
       "shares": 11.6706416540859,
       "avgCost": 117.28,
-      "currentPrice": 117.28,
+      "currentPrice": 125.62,
       "type": "etf",
       "boughtAt": "2026-09-07",
       "previousClose": 117.28
@@ -52,7 +52,7 @@
       "symbol": "SMH",
       "shares": 2.4139483486908424,
       "avgCost": 567.01,
-      "currentPrice": 567.01,
+      "currentPrice": 576.29,
       "type": "etf",
       "boughtAt": "2026-09-07",
       "previousClose": 567.01
@@ -61,7 +61,7 @@
       "symbol": "SOXX",
       "shares": 2.5022678974123918,
       "avgCost": 519.86,
-      "currentPrice": 519.86,
+      "currentPrice": 531.46,
       "type": "etf",
       "boughtAt": "2026-09-07",
       "previousClose": 519.86
@@ -70,9 +70,10 @@
       "symbol": "SMTC",
       "shares": 8.32984797560317,
       "avgCost": 147.885,
-      "currentPrice": 147.885,
+      "currentPrice": 158.95,
       "type": "stock",
-      "boughtAt": "2026-09-08"
+      "boughtAt": "2026-09-08",
+      "previousClose": 147.885
     }
   ],
   "trades": [
@@ -2450,12 +2451,12 @@
     },
     {
       "date": "2026-09-08",
-      "totalValue": 10265.5,
+      "totalValue": 10802.21,
       "cash": 67.9,
-      "positionsValue": 10197.59,
+      "positionsValue": 10734.3,
       "positionCount": 8,
-      "tradesExecuted": 2,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
