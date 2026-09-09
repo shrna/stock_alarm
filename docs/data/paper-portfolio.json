@@ -1,26 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 67.9038640423887,
+  "cash": 3.3336892380806944,
   "positions": [
-    {
-      "symbol": "UCTT",
-      "shares": 17.00758757244339,
-      "avgCost": 72.43,
-      "currentPrice": 75.62,
-      "type": "stock",
-      "boughtAt": "2026-09-07",
-      "previousClose": 74.93
-    },
-    {
-      "symbol": "TTMI",
-      "shares": 9.807799107261744,
-      "avgCost": 125.6,
-      "currentPrice": 129.35,
-      "type": "stock",
-      "boughtAt": "2026-09-07",
-      "previousClose": 131.805
-    },
     {
       "symbol": "AXTI",
       "shares": 19.984743151720878,
@@ -29,15 +11,6 @@
       "type": "stock",
       "boughtAt": "2026-09-07",
       "previousClose": 68.14
-    },
-    {
-      "symbol": "SIMO",
-      "shares": 4.808007368455857,
-      "avgCost": 256.21,
-      "currentPrice": 272.02,
-      "type": "stock",
-      "boughtAt": "2026-09-07",
-      "previousClose": 269.21
     },
     {
       "symbol": "SOXL",
@@ -59,8 +32,8 @@
     },
     {
       "symbol": "SOXX",
-      "shares": 2.5022678974123918,
-      "avgCost": 519.86,
+      "shares": 2.6221393878051495,
+      "avgCost": 520.2504073645798,
       "currentPrice": 528.4,
       "type": "etf",
       "boughtAt": "2026-09-07",
@@ -74,6 +47,30 @@
       "type": "stock",
       "boughtAt": "2026-09-08",
       "previousClose": 158.95
+    },
+    {
+      "symbol": "VIAV",
+      "shares": 33.51038606361226,
+      "avgCost": 38.75,
+      "currentPrice": 38.75,
+      "type": "stock",
+      "boughtAt": "2026-09-09"
+    },
+    {
+      "symbol": "NVDA",
+      "shares": 5.752569264009991,
+      "avgCost": 225.73,
+      "currentPrice": 225.73,
+      "type": "stock",
+      "boughtAt": "2026-09-09"
+    },
+    {
+      "symbol": "LITE",
+      "shares": 1.2945902910684468,
+      "avgCost": 978.535,
+      "currentPrice": 978.535,
+      "type": "stock",
+      "boughtAt": "2026-09-09"
     }
   ],
   "trades": [
@@ -1664,6 +1661,72 @@
       "price": 147.885,
       "total": 1231.86,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "UCTT",
+      "action": "SELL",
+      "shares": 17.0076,
+      "price": 75.62,
+      "total": 1286.11,
+      "realizedPnL": 54.25,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "TTMI",
+      "action": "SELL",
+      "shares": 9.8078,
+      "price": 129.35,
+      "total": 1268.64,
+      "realizedPnL": 36.78,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "SIMO",
+      "action": "SELL",
+      "shares": 4.808,
+      "price": 272.02,
+      "total": 1307.87,
+      "realizedPnL": 76.01,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "VIAV",
+      "action": "BUY",
+      "shares": 33.5104,
+      "price": 38.75,
+      "total": 1298.53,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 5.7526,
+      "price": 225.73,
+      "total": 1298.53,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "LITE",
+      "action": "BUY",
+      "shares": 1.2946,
+      "price": 978.535,
+      "total": 1266.8,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-09",
+      "symbol": "SOXX",
+      "action": "BUY",
+      "shares": 0.1199,
+      "price": 528.4,
+      "total": 63.34,
+      "reason": "Rebalance: 8.4% drift"
     }
   ],
   "history": [
@@ -2457,6 +2520,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-09",
+      "totalValue": 10821.06,
+      "cash": 3.33,
+      "positionsValue": 10817.73,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
