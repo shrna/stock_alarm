@@ -1,17 +1,8 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.3336892380806944,
+  "cash": 118.72220926171394,
   "positions": [
-    {
-      "symbol": "AXTI",
-      "shares": 19.984743151720878,
-      "avgCost": 61.64,
-      "currentPrice": 68.91,
-      "type": "stock",
-      "boughtAt": "2026-09-07",
-      "previousClose": 70.8
-    },
     {
       "symbol": "SOXL",
       "shares": 11.6706416540859,
@@ -40,24 +31,6 @@
       "previousClose": 530.86
     },
     {
-      "symbol": "SMTC",
-      "shares": 8.32984797560317,
-      "avgCost": 147.885,
-      "currentPrice": 163.94,
-      "type": "stock",
-      "boughtAt": "2026-09-08",
-      "previousClose": 166.3
-    },
-    {
-      "symbol": "VIAV",
-      "shares": 33.51038606361226,
-      "avgCost": 38.75,
-      "currentPrice": 39.18,
-      "type": "stock",
-      "boughtAt": "2026-09-09",
-      "previousClose": 39.2983
-    },
-    {
       "symbol": "NVDA",
       "shares": 5.752569264009991,
       "avgCost": 225.73,
@@ -67,13 +40,36 @@
       "previousClose": 224.1071
     },
     {
-      "symbol": "LITE",
-      "shares": 1.2945902910684468,
-      "avgCost": 978.535,
-      "currentPrice": 988.98,
+      "symbol": "SMCI",
+      "shares": 33.52566298301462,
+      "avgCost": 38.93,
+      "currentPrice": 38.93,
       "type": "stock",
-      "boughtAt": "2026-09-09",
-      "previousClose": 1016.56
+      "boughtAt": "2026-09-10"
+    },
+    {
+      "symbol": "MXL",
+      "shares": 18.251350299661013,
+      "avgCost": 71.51,
+      "currentPrice": 71.51,
+      "type": "stock",
+      "boughtAt": "2026-09-10"
+    },
+    {
+      "symbol": "SKHY",
+      "shares": 6.570780143627645,
+      "avgCost": 198.63,
+      "currentPrice": 198.63,
+      "type": "stock",
+      "boughtAt": "2026-09-10"
+    },
+    {
+      "symbol": "SSL",
+      "shares": 89.51673936411242,
+      "avgCost": 14.58,
+      "currentPrice": 14.58,
+      "type": "stock",
+      "boughtAt": "2026-09-10"
     }
   ],
   "trades": [
@@ -1730,6 +1726,82 @@
       "price": 528.4,
       "total": 63.34,
       "reason": "Rebalance: 8.4% drift"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "AXTI",
+      "action": "SELL",
+      "shares": 19.9847,
+      "price": 68.91,
+      "total": 1377.15,
+      "realizedPnL": 145.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "SMTC",
+      "action": "SELL",
+      "shares": 8.3298,
+      "price": 163.94,
+      "total": 1365.6,
+      "realizedPnL": 133.74,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "VIAV",
+      "action": "SELL",
+      "shares": 33.5104,
+      "price": 39.18,
+      "total": 1312.94,
+      "realizedPnL": 14.41,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "LITE",
+      "action": "SELL",
+      "shares": 1.2946,
+      "price": 988.98,
+      "total": 1280.32,
+      "realizedPnL": 13.52,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "SMCI",
+      "action": "BUY",
+      "shares": 33.5257,
+      "price": 38.93,
+      "total": 1305.15,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "MXL",
+      "action": "BUY",
+      "shares": 18.2514,
+      "price": 71.51,
+      "total": 1305.15,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "SKHY",
+      "action": "BUY",
+      "shares": 6.5708,
+      "price": 198.63,
+      "total": 1305.15,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-10",
+      "symbol": "SSL",
+      "action": "BUY",
+      "shares": 89.5167,
+      "price": 14.58,
+      "total": 1305.15,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -2532,6 +2604,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-10",
+      "totalValue": 10876.28,
+      "cash": 118.72,
+      "positionsValue": 10757.56,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
