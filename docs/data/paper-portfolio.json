@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 118.72220926171394,
+  "cash": 73.04874155692846,
   "positions": [
     {
       "symbol": "SOXL",
@@ -11,24 +11,6 @@
       "type": "etf",
       "boughtAt": "2026-09-07",
       "previousClose": 118.26
-    },
-    {
-      "symbol": "SMH",
-      "shares": 2.4139483486908424,
-      "avgCost": 567.01,
-      "currentPrice": 560.28,
-      "type": "etf",
-      "boughtAt": "2026-09-07",
-      "previousClose": 564.24
-    },
-    {
-      "symbol": "SOXX",
-      "shares": 2.6221393878051495,
-      "avgCost": 520.2504073645798,
-      "currentPrice": 517.43,
-      "type": "etf",
-      "boughtAt": "2026-09-07",
-      "previousClose": 521.17
     },
     {
       "symbol": "NVDA",
@@ -49,31 +31,44 @@
       "previousClose": 38.51
     },
     {
-      "symbol": "MXL",
-      "shares": 18.251350299661013,
-      "avgCost": 71.51,
-      "currentPrice": 69.34,
+      "symbol": "MNDY",
+      "shares": 14.797524932268205,
+      "avgCost": 85.17,
+      "currentPrice": 85.17,
       "type": "stock",
-      "boughtAt": "2026-09-10",
-      "previousClose": 67.96
+      "boughtAt": "2026-09-11"
     },
     {
-      "symbol": "SKHY",
-      "shares": 6.570780143627645,
-      "avgCost": 198.63,
-      "currentPrice": 188.3,
+      "symbol": "HPE",
+      "shares": 22.823346586042792,
+      "avgCost": 55.22,
+      "currentPrice": 55.22,
       "type": "stock",
-      "boughtAt": "2026-09-10",
-      "previousClose": 192.95
+      "boughtAt": "2026-09-11"
     },
     {
-      "symbol": "SSL",
-      "shares": 89.51673936411242,
-      "avgCost": 14.58,
-      "currentPrice": 14.65,
+      "symbol": "VG",
+      "shares": 81.31001280524407,
+      "avgCost": 15.5,
+      "currentPrice": 15.5,
       "type": "stock",
-      "boughtAt": "2026-09-10",
-      "previousClose": 14.77
+      "boughtAt": "2026-09-11"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 21.56690450367546,
+      "avgCost": 64.93,
+      "currentPrice": 64.93,
+      "type": "etf",
+      "boughtAt": "2026-09-11"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 20.05383744519059,
+      "avgCost": 69.21,
+      "currentPrice": 69.21,
+      "type": "etf",
+      "boughtAt": "2026-09-11"
     }
   ],
   "trades": [
@@ -1806,6 +1801,101 @@
       "price": 14.58,
       "total": 1305.15,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "SMH",
+      "action": "SELL",
+      "shares": 2.4139,
+      "price": 560.28,
+      "total": 1352.49,
+      "realizedPnL": -16.25,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "SOXX",
+      "action": "SELL",
+      "shares": 2.6221,
+      "price": 517.43,
+      "total": 1356.77,
+      "realizedPnL": -7.4,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "MXL",
+      "action": "SELL",
+      "shares": 18.2514,
+      "price": 69.34,
+      "total": 1265.55,
+      "realizedPnL": -39.61,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "SKHY",
+      "action": "SELL",
+      "shares": 6.5708,
+      "price": 188.3,
+      "total": 1237.28,
+      "realizedPnL": -67.88,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "SSL",
+      "action": "SELL",
+      "shares": 89.5167,
+      "price": 14.65,
+      "total": 1311.42,
+      "realizedPnL": 6.27,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "MNDY",
+      "action": "BUY",
+      "shares": 14.7975,
+      "price": 85.17,
+      "total": 1260.31,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "HPE",
+      "action": "BUY",
+      "shares": 22.8233,
+      "price": 55.22,
+      "total": 1260.31,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 81.31,
+      "price": 15.5,
+      "total": 1260.31,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 21.5669,
+      "price": 64.93,
+      "total": 1400.34,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 20.0538,
+      "price": 69.21,
+      "total": 1387.93,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2617,6 +2707,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-11",
+      "totalValue": 10502.54,
+      "cash": 73.05,
+      "positionsValue": 10429.49,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
