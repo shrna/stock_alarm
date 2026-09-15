@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 8.588028296643529,
+  "cash": 69.99978868412632,
   "positions": [
     {
       "symbol": "NVDA",
@@ -31,24 +31,6 @@
       "previousClose": 95.68
     },
     {
-      "symbol": "HPE",
-      "shares": 22.823346586042792,
-      "avgCost": 55.22,
-      "currentPrice": 55.41,
-      "type": "stock",
-      "boughtAt": "2026-09-11",
-      "previousClose": 56.7991
-    },
-    {
-      "symbol": "VG",
-      "shares": 81.31001280524407,
-      "avgCost": 15.5,
-      "currentPrice": 15.27,
-      "type": "stock",
-      "boughtAt": "2026-09-11",
-      "previousClose": 15.52
-    },
-    {
       "symbol": "XLE",
       "shares": 21.56690450367546,
       "avgCost": 64.93,
@@ -58,15 +40,6 @@
       "previousClose": 64.64
     },
     {
-      "symbol": "TQQQ",
-      "shares": 20.05383744519059,
-      "avgCost": 69.21,
-      "currentPrice": 69.27,
-      "type": "etf",
-      "boughtAt": "2026-09-11",
-      "previousClose": 70.285
-    },
-    {
       "symbol": "SCHD",
       "shares": 40.23270987431521,
       "avgCost": 34.41,
@@ -74,36 +47,33 @@
       "type": "etf",
       "boughtAt": "2026-09-14",
       "previousClose": 34.355
+    },
+    {
+      "symbol": "FTNT",
+      "shares": 7.356819556678747,
+      "avgCost": 170.18,
+      "currentPrice": 170.18,
+      "type": "stock",
+      "boughtAt": "2026-09-15"
+    },
+    {
+      "symbol": "IT",
+      "shares": 6.352989050365806,
+      "avgCost": 197.07,
+      "currentPrice": 197.07,
+      "type": "stock",
+      "boughtAt": "2026-09-15"
+    },
+    {
+      "symbol": "ARKG",
+      "shares": 28.41871762817092,
+      "avgCost": 46.8,
+      "currentPrice": 46.8,
+      "type": "etf",
+      "boughtAt": "2026-09-15"
     }
   ],
   "trades": [
-    {
-      "date": "2026-05-10",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 42.2535,
-      "price": 28.4,
-      "total": 1200,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "AMD",
-      "action": "BUY",
-      "shares": 2.6363,
-      "price": 455.19,
-      "total": 1200,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "CNQ",
-      "action": "BUY",
-      "shares": 26.9481,
-      "price": 44.53,
-      "total": 1200,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-05-10",
       "symbol": "NVDA",
@@ -1939,6 +1909,63 @@
       "price": 34.41,
       "total": 163.17,
       "reason": "Rebalance: 13.0% drift"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "HPE",
+      "action": "SELL",
+      "shares": 22.8233,
+      "price": 55.41,
+      "total": 1264.64,
+      "realizedPnL": 4.34,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 81.31,
+      "price": 15.27,
+      "total": 1241.6,
+      "realizedPnL": -18.7,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 20.0538,
+      "price": 69.27,
+      "total": 1389.13,
+      "realizedPnL": 1.2,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "FTNT",
+      "action": "BUY",
+      "shares": 7.3568,
+      "price": 170.18,
+      "total": 1251.98,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "IT",
+      "action": "BUY",
+      "shares": 6.353,
+      "price": 197.07,
+      "total": 1251.98,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-15",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 28.4187,
+      "price": 46.8,
+      "total": 1330,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2768,6 +2795,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-15",
+      "totalValue": 10433.2,
+      "cash": 70,
+      "positionsValue": 10363.2,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
