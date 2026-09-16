@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.99978868412632,
+  "cash": 95.34783567028126,
   "positions": [
     {
       "symbol": "NVDA",
@@ -22,15 +22,6 @@
       "previousClose": 36.125
     },
     {
-      "symbol": "MNDY",
-      "shares": 13.637530985191981,
-      "avgCost": 85.17,
-      "currentPrice": 94.05,
-      "type": "stock",
-      "boughtAt": "2026-09-11",
-      "previousClose": 98.62
-    },
-    {
       "symbol": "XLE",
       "shares": 21.56690450367546,
       "avgCost": 64.93,
@@ -40,33 +31,6 @@
       "previousClose": 65.695
     },
     {
-      "symbol": "SCHD",
-      "shares": 40.23270987431521,
-      "avgCost": 34.41,
-      "currentPrice": 34.33,
-      "type": "etf",
-      "boughtAt": "2026-09-14",
-      "previousClose": 34.375
-    },
-    {
-      "symbol": "FTNT",
-      "shares": 7.356819556678747,
-      "avgCost": 170.18,
-      "currentPrice": 172.37,
-      "type": "stock",
-      "boughtAt": "2026-09-15",
-      "previousClose": 172.4
-    },
-    {
-      "symbol": "IT",
-      "shares": 6.352989050365806,
-      "avgCost": 197.07,
-      "currentPrice": 195.62,
-      "type": "stock",
-      "boughtAt": "2026-09-15",
-      "previousClose": 202.03
-    },
-    {
       "symbol": "ARKG",
       "shares": 28.41871762817092,
       "avgCost": 46.8,
@@ -74,82 +38,41 @@
       "type": "etf",
       "boughtAt": "2026-09-15",
       "previousClose": 47.6569
+    },
+    {
+      "symbol": "SDRL",
+      "shares": 25.171556658209674,
+      "avgCost": 49.76,
+      "currentPrice": 49.76,
+      "type": "stock",
+      "boughtAt": "2026-09-16"
+    },
+    {
+      "symbol": "PBF",
+      "shares": 16.76307092227668,
+      "avgCost": 74.72,
+      "currentPrice": 74.72,
+      "type": "stock",
+      "boughtAt": "2026-09-16"
+    },
+    {
+      "symbol": "LYG",
+      "shares": 213.01643865859072,
+      "avgCost": 5.88,
+      "currentPrice": 5.88,
+      "type": "stock",
+      "boughtAt": "2026-09-16"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 13.601518757194356,
+      "avgCost": 102.32,
+      "currentPrice": 102.32,
+      "type": "etf",
+      "boughtAt": "2026-09-16"
     }
   ],
   "trades": [
-    {
-      "date": "2026-05-10",
-      "symbol": "NVDA",
-      "action": "BUY",
-      "shares": 5.5758,
-      "price": 215.217,
-      "total": 1200,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "AEG",
-      "action": "BUY",
-      "shares": 144.4043,
-      "price": 8.31,
-      "total": 1200,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "QQQ",
-      "action": "BUY",
-      "shares": 1.8751,
-      "price": 711.063,
-      "total": 1333.33,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 19.6252,
-      "price": 67.94,
-      "total": 1333.33,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-10",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 16.6055,
-      "price": 76.28,
-      "total": 1266.67,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-05-18",
-      "symbol": "QQQ",
-      "action": "BUY",
-      "shares": 0.1623,
-      "price": 704.02,
-      "total": 114.24,
-      "reason": "Rebalance: 8.5% drift"
-    },
-    {
-      "date": "2026-05-19",
-      "symbol": "IWM",
-      "action": "BUY",
-      "shares": 0.2591,
-      "price": 272.21,
-      "total": 70.52,
-      "reason": "Rebalance: 8.1% drift"
-    },
-    {
-      "date": "2026-05-22",
-      "symbol": "QUBT",
-      "action": "SELL",
-      "shares": 11.7478,
-      "price": 13.13,
-      "total": 154.25,
-      "realizedPnL": 20.21,
-      "reason": "Rebalance: 12.1% drift"
-    },
     {
       "date": "2026-05-26",
       "symbol": "QUBT",
@@ -1969,6 +1892,82 @@
       "price": 46.8,
       "total": 1330,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "MNDY",
+      "action": "SELL",
+      "shares": 13.6375,
+      "price": 94.05,
+      "total": 1282.61,
+      "realizedPnL": 121.1,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 40.2327,
+      "price": 34.33,
+      "total": 1381.19,
+      "realizedPnL": -3.22,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "FTNT",
+      "action": "SELL",
+      "shares": 7.3568,
+      "price": 172.37,
+      "total": 1268.09,
+      "realizedPnL": 16.11,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "IT",
+      "action": "SELL",
+      "shares": 6.353,
+      "price": 195.62,
+      "total": 1242.77,
+      "realizedPnL": -9.21,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "SDRL",
+      "action": "BUY",
+      "shares": 25.1716,
+      "price": 49.76,
+      "total": 1252.54,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PBF",
+      "action": "BUY",
+      "shares": 16.7631,
+      "price": 74.72,
+      "total": 1252.54,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "LYG",
+      "action": "BUY",
+      "shares": 213.0164,
+      "price": 5.88,
+      "total": 1252.54,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 13.6015,
+      "price": 102.32,
+      "total": 1391.71,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2807,6 +2806,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-16",
+      "totalValue": 10437.81,
+      "cash": 95.35,
+      "positionsValue": 10342.46,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
