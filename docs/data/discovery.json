@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19T11:59:53.314Z",
+  "date": "2026-09-20T12:32:43.505Z",
   "stocks": [
     {
       "symbol": "NVDA",
@@ -13,7 +13,7 @@
       "forwardPE": 14.173006,
       "eps": 7.91,
       "forwardEps": 15.68263,
-      "pegRatio": 0.45,
+      "pegRatio": 0.47,
       "beta": 2.217,
       "priceToBook": 23.438786,
       "dividendYield": 0.0045,
@@ -31,16 +31,16 @@
         "rank": 1,
         "label": "Strong Buy"
       },
-      "targetMean": 328.4879,
+      "targetMean": 327.7,
       "targetHigh": 515,
       "targetLow": 180,
-      "strongBuy": 10,
+      "strongBuy": 11,
       "buy": 48,
       "hold": 2,
       "sell": 1,
       "strongSell": 0,
       "earningsDate": "2026-11-17T20:00:00.000Z",
-      "analysis": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europ. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 58 Buy vs 1 Sell. Target: $328 (+47.8%). Revenue: 106% YoY. EPS: $7.91. P/E: 28.1. Finviz: Strong Buy (1.2). MarketBeat: Strong Buy. Earnings: Nov 17.",
+      "analysis": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europ. Sector: Technology. Zacks #1 (Strong Buy). Analysts: 59 Buy vs 1 Sell. Target: $328 (+47.4%). Revenue: 106% YoY. EPS: $7.91. P/E: 28.1. Finviz: Strong Buy (1.2). MarketBeat: Strong Buy. Earnings: Nov 17.",
       "source": "most_actives"
     },
     {
@@ -55,7 +55,7 @@
       "forwardPE": 18.402916,
       "eps": 3.11,
       "forwardEps": 3.11092,
-      "pegRatio": 1.57,
+      "pegRatio": 1.6,
       "beta": 0.961,
       "priceToBook": 2.8536537,
       "dividendYield": 0.0161,
@@ -97,7 +97,7 @@
       "forwardPE": 53.89443,
       "eps": 0.77,
       "forwardEps": 4.92871,
-      "pegRatio": 0.61,
+      "pegRatio": 0.6,
       "beta": 3.811,
       "priceToBook": 48.340313,
       "dividendYield": 0,
@@ -132,7 +132,7 @@
       "name": "Super Micro Computer, Inc.",
       "price": 39.09,
       "dayChangePct": -3.12267,
-      "marketCap": 25680777216,
+      "marketCap": 25286266880,
       "sector": "Technology",
       "industry": "Computer Hardware",
       "pe": 11.990798,
@@ -223,7 +223,7 @@
       "forwardPE": 5.534634,
       "eps": 16.5,
       "forwardEps": 33.87758,
-      "pegRatio": 0.25,
+      "pegRatio": 0.28,
       "beta": 2.389,
       "priceToBook": 403.25464,
       "dividendYield": 0,
@@ -251,7 +251,7 @@
       "strongSell": 0,
       "earningsDate": "2026-10-27T20:00:00.000Z",
       "analysis": "SK hynix Inc. Sector: Technology. Zacks #2 (Buy). Analysts: 14 Buy vs 0 Sell. Target: $248 (+32.5%). Revenue: 257% YoY. EPS: $16.50. P/E: 11.4. Finviz: Strong Buy (1.3). MarketBeat: Strong Buy. Earnings: Oct 27.",
-      "source": "growth_technology_stocks"
+      "source": "most_actives"
     },
     {
       "symbol": "VG",
@@ -265,7 +265,7 @@
       "forwardPE": 14.057253,
       "eps": 1.32,
       "forwardEps": 0.99735,
-      "pegRatio": 1.57,
+      "pegRatio": 1.5,
       "beta": 0,
       "priceToBook": 4.0850816,
       "dividendYield": 0.0114,
@@ -391,7 +391,7 @@
       "forwardPE": 9.04055,
       "eps": 0.43,
       "forwardEps": 0.64266,
-      "pegRatio": 0.64,
+      "pegRatio": 0.63,
       "beta": 0.906,
       "priceToBook": 1.5201867,
       "dividendYield": 0.0375,
@@ -423,72 +423,6 @@
     }
   ],
   "etfs": [
-    {
-      "symbol": "DRAM",
-      "name": "Roundhill Memory ETF",
-      "price": 59.61,
-      "dayChangePct": 3.16719,
-      "fiftyTwoWeekChangePct": 114.73344,
-      "category": "Technology",
-      "fundFamily": "Roundhill Investments",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0064999997,
-      "yield": null,
-      "totalAssets": 26017624064,
-      "beta": null,
-      "holdings": [
-        {
-          "symbol": "005930.KQ",
-          "name": "Samsung Electronics Co Ltd",
-          "pct": 0.1943899
-        },
-        {
-          "symbol": "000660.KQ",
-          "name": "SK hynix Inc",
-          "pct": 0.1675058
-        },
-        {
-          "symbol": "FGXXX",
-          "name": "First American Government Obligs X",
-          "pct": 0.1229377
-        },
-        {
-          "symbol": "STX",
-          "name": "Seagate Technology Holdings PLC",
-          "pct": 0.0454747
-        }
-      ],
-      "topHoldings": [
-        "Samsung Electronics Co Ltd",
-        "SK hynix Inc",
-        "First American Government Obligs X",
-        "Seagate Technology Holdings PLC"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "technology",
-          "pct": 1
-        }
-      ],
-      "returns": {
-        "ytd": null,
-        "oneMonth": 0.0752941,
-        "threeMonth": -0.0937949,
-        "oneYear": null,
-        "threeYear": null,
-        "fiveYear": null
-      },
-      "risk": {
-        "alpha": 0,
-        "beta": 0,
-        "sharpe": 0,
-        "stdDev": 0,
-        "rSquared": 0,
-        "treynor": 0
-      },
-      "zacks": null,
-      "analysis": "Roundhill Memory ETF (Technology). By Roundhill Investments. 52wk: +114.7%. ER: 0.65%. AUM: $26.0B. Sharpe: 0.00. Top: Samsung Electronics Co Ltd, SK hynix Inc, First American Government Obligs X. $59.61 (+3.2% today)."
-    },
     {
       "symbol": "SOXL",
       "name": "Direxion Daily Semiconductor Bu",
@@ -1338,6 +1272,44 @@
         "label": "Sell"
       },
       "analysis": "iShares MSCI Emerging Index Fun (Diversified Emerging Mkts). By iShares. 52wk: +25.8%. YTD: 23.3%. Yield: 1.66%. ER: 0.72%. AUM: $31.2B. Sharpe: 1.09. Zacks #4 (Sell). Top: Taiwan Semiconductor Manufacturing Co Ltd, Samsung Electronics Co Ltd, SK hynix Inc. $67.03 (+0.2% today)."
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "price": 401.17,
+      "dayChangePct": 0.705399,
+      "fiftyTwoWeekChangePct": 16.264307,
+      "category": "Commodities Focused",
+      "fundFamily": "State Street Investment Management",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.004,
+      "yield": null,
+      "totalAssets": 152861196288,
+      "beta": 0.45,
+      "holdings": [],
+      "topHoldings": [],
+      "sectorWeightings": [],
+      "returns": {
+        "ytd": 0.0563805,
+        "oneMonth": 0.13280791,
+        "threeMonth": 0.0026695998,
+        "oneYear": 0.3253783,
+        "threeYear": 0.3241569,
+        "fiveYear": 0.1977471
+      },
+      "risk": {
+        "alpha": 20.94,
+        "beta": 0.45,
+        "sharpe": 1.32,
+        "stdDev": 19.49,
+        "rSquared": 10.45,
+        "treynor": 61.86
+      },
+      "zacks": {
+        "rank": 3,
+        "label": "Hold"
+      },
+      "analysis": "SPDR Gold Shares (Commodities Focused). By State Street Investment Management. 52wk: +16.3%. YTD: 5.6%. ER: 0.40%. AUM: $152.9B. Sharpe: 1.32. Zacks #3 (Hold). $401.17 (+0.7% today)."
     }
   ]
 }
