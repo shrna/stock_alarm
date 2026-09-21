@@ -7,69 +7,73 @@
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 223.5315,
+      "currentPrice": 227.1401,
       "type": "stock",
       "boughtAt": "2026-09-09",
-      "previousClose": 219.395
+      "previousClose": 223.5315
     },
     {
       "symbol": "SOXL",
       "shares": 11.468667317940621,
       "avgCost": 102.32,
-      "currentPrice": 135.87,
+      "currentPrice": 139.99,
       "type": "etf",
       "boughtAt": "2026-09-16",
-      "previousClose": 117.715
+      "previousClose": 135.87
     },
     {
       "symbol": "SMCI",
       "shares": 32.83775932556553,
       "avgCost": 40.35,
-      "currentPrice": 41.36,
+      "currentPrice": 41,
       "type": "stock",
       "boughtAt": "2026-09-18",
-      "previousClose": 38.705
+      "previousClose": 41.36
     },
     {
       "symbol": "TQQQ",
       "shares": 20.625192067285727,
       "avgCost": 71.38,
-      "currentPrice": 76.86,
+      "currentPrice": 78.42,
       "type": "etf",
       "boughtAt": "2026-09-18",
-      "previousClose": 71.15
+      "previousClose": 76.86
     },
     {
       "symbol": "BE",
       "shares": 5.219017414945753,
       "avgCost": 268.714,
-      "currentPrice": 268.714,
+      "currentPrice": 274.801,
       "type": "stock",
-      "boughtAt": "2026-09-21"
+      "boughtAt": "2026-09-21",
+      "previousClose": 268.714
     },
     {
       "symbol": "KEEL",
       "shares": 346.705326486955,
       "avgCost": 4.045,
-      "currentPrice": 4.045,
+      "currentPrice": 4.06,
       "type": "stock",
-      "boughtAt": "2026-09-21"
+      "boughtAt": "2026-09-21",
+      "previousClose": 4.045
     },
     {
       "symbol": "SKHY",
       "shares": 7.495580147727061,
       "avgCost": 187.1,
-      "currentPrice": 187.1,
+      "currentPrice": 187.125,
       "type": "stock",
-      "boughtAt": "2026-09-21"
+      "boughtAt": "2026-09-21",
+      "previousClose": 187.1
     },
     {
       "symbol": "SMH",
       "shares": 2.659489057360377,
       "avgCost": 585.92,
-      "currentPrice": 585.92,
+      "currentPrice": 593.645,
       "type": "etf",
-      "boughtAt": "2026-09-21"
+      "boughtAt": "2026-09-21",
+      "previousClose": 585.92
     }
   ],
   "trades": [
@@ -2835,12 +2839,12 @@
     },
     {
       "date": "2026-09-21",
-      "totalValue": 11686.86,
+      "totalValue": 11834,
       "cash": 67.18,
-      "positionsValue": 11619.67,
+      "positionsValue": 11766.81,
       "positionCount": 8,
-      "tradesExecuted": 11,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
