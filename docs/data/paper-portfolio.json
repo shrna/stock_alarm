@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 82.57709994705101,
+  "cash": 80.91170135370885,
   "positions": [
     {
       "symbol": "NVDA",
@@ -31,24 +31,6 @@
       "previousClose": 78.335
     },
     {
-      "symbol": "RMBS",
-      "shares": 13.63495904632299,
-      "avgCost": 96.96,
-      "currentPrice": 103.47,
-      "type": "stock",
-      "boughtAt": "2026-09-22",
-      "previousClose": 102.495
-    },
-    {
-      "symbol": "BKR",
-      "shares": 25.80686162284357,
-      "avgCost": 57.26,
-      "currentPrice": 58.03,
-      "type": "stock",
-      "boughtAt": "2026-09-23",
-      "previousClose": 57.94
-    },
-    {
       "symbol": "SMCI",
       "shares": 35.57296332508481,
       "avgCost": 41.54,
@@ -58,102 +40,39 @@
       "previousClose": 41.525
     },
     {
-      "symbol": "TRLV",
-      "shares": 118.50047285677807,
-      "avgCost": 12.47,
-      "currentPrice": 12.54,
+      "symbol": "ACMR",
+      "shares": 18.02832392828044,
+      "avgCost": 80.67,
+      "currentPrice": 80.67,
       "type": "stock",
-      "boughtAt": "2026-09-23",
-      "previousClose": 12.56
+      "boughtAt": "2026-09-24"
     },
     {
-      "symbol": "XBI",
-      "shares": 9.692746642330048,
-      "avgCost": 161.87,
-      "currentPrice": 155.2,
+      "symbol": "FORM",
+      "shares": 11.07987880004863,
+      "avgCost": 131.26,
+      "currentPrice": 131.26,
+      "type": "stock",
+      "boughtAt": "2026-09-24"
+    },
+    {
+      "symbol": "PLTR",
+      "shares": 7.583006889276725,
+      "avgCost": 191.79,
+      "currentPrice": 191.79,
+      "type": "stock",
+      "boughtAt": "2026-09-24"
+    },
+    {
+      "symbol": "XLE",
+      "shares": 24.648425937477402,
+      "avgCost": 62.37,
+      "currentPrice": 62.37,
       "type": "etf",
-      "boughtAt": "2026-09-23",
-      "previousClose": 155.41
+      "boughtAt": "2026-09-24"
     }
   ],
   "trades": [
-    {
-      "date": "2026-06-11",
-      "symbol": "ACHR",
-      "action": "SELL",
-      "shares": 243.3031,
-      "price": 5.05,
-      "total": 1228.68,
-      "realizedPnL": -381.69,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "QQQ",
-      "action": "SELL",
-      "shares": 2.0386,
-      "price": 693.69,
-      "total": 1414.17,
-      "realizedPnL": -23.18,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "UCTT",
-      "action": "SELL",
-      "shares": 14.1271,
-      "price": 90.9,
-      "total": 1284.15,
-      "realizedPnL": -13.84,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "CECO",
-      "action": "SELL",
-      "shares": 13.5994,
-      "price": 92.29,
-      "total": 1255.09,
-      "realizedPnL": -42.91,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 10.9774,
-      "price": 128.85,
-      "total": 1414.44,
-      "realizedPnL": -27.77,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "DELL",
-      "action": "BUY",
-      "shares": 3.4871,
-      "price": 369.83,
-      "total": 1289.64,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "CRDO",
-      "action": "BUY",
-      "shares": 5.426,
-      "price": 237.68,
-      "total": 1289.64,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "COCO",
-      "action": "BUY",
-      "shares": 16.3785,
-      "price": 78.74,
-      "total": 1289.64,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-06-11",
       "symbol": "XLE",
@@ -1972,6 +1891,82 @@
       "price": 161.87,
       "total": 1568.96,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "RMBS",
+      "action": "SELL",
+      "shares": 13.635,
+      "price": 103.47,
+      "total": 1410.81,
+      "realizedPnL": 88.76,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "BKR",
+      "action": "SELL",
+      "shares": 25.8069,
+      "price": 58.03,
+      "total": 1497.57,
+      "realizedPnL": 19.87,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "TRLV",
+      "action": "SELL",
+      "shares": 118.5005,
+      "price": 12.54,
+      "total": 1486,
+      "realizedPnL": 8.3,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 9.6927,
+      "price": 155.2,
+      "total": 1504.31,
+      "realizedPnL": -64.65,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "ACMR",
+      "action": "BUY",
+      "shares": 18.0283,
+      "price": 80.67,
+      "total": 1454.34,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "FORM",
+      "action": "BUY",
+      "shares": 11.0799,
+      "price": 131.26,
+      "total": 1454.34,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 7.583,
+      "price": 191.79,
+      "total": 1454.34,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-24",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 24.6484,
+      "price": 62.37,
+      "total": 1537.32,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2864,6 +2859,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-24",
+      "totalValue": 12119.54,
+      "cash": 80.91,
+      "positionsValue": 12038.63,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
