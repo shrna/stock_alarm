@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 80.91170135370885,
+  "cash": 81.86627059533362,
   "positions": [
     {
       "symbol": "NVDA",
@@ -22,15 +22,6 @@
       "previousClose": 144.9318
     },
     {
-      "symbol": "TQQQ",
-      "shares": 20.625192067285727,
-      "avgCost": 71.38,
-      "currentPrice": 78.58,
-      "type": "etf",
-      "boughtAt": "2026-09-18",
-      "previousClose": 78.485
-    },
-    {
       "symbol": "SMCI",
       "shares": 35.57296332508481,
       "avgCost": 41.54,
@@ -40,33 +31,6 @@
       "previousClose": 41.325
     },
     {
-      "symbol": "ACMR",
-      "shares": 18.02832392828044,
-      "avgCost": 80.67,
-      "currentPrice": 76.18,
-      "type": "stock",
-      "boughtAt": "2026-09-24",
-      "previousClose": 75.93
-    },
-    {
-      "symbol": "FORM",
-      "shares": 11.07987880004863,
-      "avgCost": 131.26,
-      "currentPrice": 129.04,
-      "type": "stock",
-      "boughtAt": "2026-09-24",
-      "previousClose": 128
-    },
-    {
-      "symbol": "PLTR",
-      "shares": 7.583006889276725,
-      "avgCost": 191.79,
-      "currentPrice": 192.59,
-      "type": "stock",
-      "boughtAt": "2026-09-24",
-      "previousClose": 193.56
-    },
-    {
       "symbol": "XLE",
       "shares": 24.648425937477402,
       "avgCost": 62.37,
@@ -74,85 +38,41 @@
       "type": "etf",
       "boughtAt": "2026-09-24",
       "previousClose": 62.62
+    },
+    {
+      "symbol": "VCYT",
+      "shares": 29.72030254164835,
+      "avgCost": 48.54,
+      "currentPrice": 48.54,
+      "type": "stock",
+      "boughtAt": "2026-09-25"
+    },
+    {
+      "symbol": "CDNA",
+      "shares": 23.50698200051509,
+      "avgCost": 61.37,
+      "currentPrice": 61.37,
+      "type": "stock",
+      "boughtAt": "2026-09-25"
+    },
+    {
+      "symbol": "PL",
+      "shares": 81.8742046181391,
+      "avgCost": 17.62,
+      "currentPrice": 17.62,
+      "type": "stock",
+      "boughtAt": "2026-09-25"
+    },
+    {
+      "symbol": "ARKG",
+      "shares": 29.057708599128315,
+      "avgCost": 53.53,
+      "currentPrice": 53.53,
+      "type": "etf",
+      "boughtAt": "2026-09-25"
     }
   ],
   "trades": [
-    {
-      "date": "2026-06-11",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 24.5997,
-      "price": 58.25,
-      "total": 1432.94,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 19.1327,
-      "price": 64.66,
-      "total": 1237.12,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-06-11",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 0.9566,
-      "price": 64.66,
-      "total": 61.86,
-      "reason": "Rebalance: 13.7% drift"
-    },
-    {
-      "date": "2026-06-12",
-      "symbol": "EEM",
-      "action": "BUY",
-      "shares": 1.1411,
-      "price": 68.07,
-      "total": 77.67,
-      "reason": "Rebalance: 9.8% drift"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "ONTO",
-      "action": "SELL",
-      "shares": 4.3582,
-      "price": 323.88,
-      "total": 1411.54,
-      "realizedPnL": 88.69,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "FORM",
-      "action": "SELL",
-      "shares": 10.157,
-      "price": 139.21,
-      "total": 1413.96,
-      "realizedPnL": 91.11,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "UCTT",
-      "action": "SELL",
-      "shares": 12.619,
-      "price": 108.9,
-      "total": 1374.21,
-      "realizedPnL": 51.36,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "TE",
-      "action": "SELL",
-      "shares": 156.1805,
-      "price": 8.5,
-      "total": 1327.53,
-      "realizedPnL": 4.69,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-06-15",
       "symbol": "ICHR",
@@ -1971,6 +1891,82 @@
       "price": 62.37,
       "total": 1537.32,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "TQQQ",
+      "action": "SELL",
+      "shares": 20.6252,
+      "price": 78.58,
+      "total": 1620.73,
+      "realizedPnL": 148.5,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "ACMR",
+      "action": "SELL",
+      "shares": 18.0283,
+      "price": 76.18,
+      "total": 1373.4,
+      "realizedPnL": -80.95,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "FORM",
+      "action": "SELL",
+      "shares": 11.0799,
+      "price": 129.04,
+      "total": 1429.75,
+      "realizedPnL": -24.6,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 7.583,
+      "price": 192.59,
+      "total": 1460.41,
+      "realizedPnL": 6.07,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "VCYT",
+      "action": "BUY",
+      "shares": 29.7203,
+      "price": 48.54,
+      "total": 1442.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "CDNA",
+      "action": "BUY",
+      "shares": 23.507,
+      "price": 61.37,
+      "total": 1442.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "PL",
+      "action": "BUY",
+      "shares": 81.8742,
+      "price": 17.62,
+      "total": 1442.62,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-25",
+      "symbol": "ARKG",
+      "action": "BUY",
+      "shares": 29.0577,
+      "price": 53.53,
+      "total": 1555.46,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2872,6 +2868,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-25",
+      "totalValue": 12021.86,
+      "cash": 81.87,
+      "positionsValue": 11940,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
