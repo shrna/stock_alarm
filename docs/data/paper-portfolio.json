@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 81.86627059533362,
+  "cash": 81.33221199781428,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 225.07,
+      "currentPrice": 229.725,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 224.91
@@ -16,7 +16,7 @@
       "symbol": "SOXL",
       "shares": 11.468667317940621,
       "avgCost": 102.32,
-      "currentPrice": 151.45,
+      "currentPrice": 136.975,
       "type": "etf",
       "boughtAt": "2026-09-16",
       "previousClose": 152.8131
@@ -25,7 +25,7 @@
       "symbol": "SMCI",
       "shares": 35.57296332508481,
       "avgCost": 41.54,
-      "currentPrice": 43.26,
+      "currentPrice": 41.43,
       "type": "stock",
       "boughtAt": "2026-09-23",
       "previousClose": 43.145
@@ -34,124 +34,45 @@
       "symbol": "XLE",
       "shares": 24.648425937477402,
       "avgCost": 62.37,
-      "currentPrice": 62.04,
+      "currentPrice": 62.52,
       "type": "etf",
       "boughtAt": "2026-09-24",
       "previousClose": 61.825
     },
     {
-      "symbol": "VCYT",
-      "shares": 29.72030254164835,
-      "avgCost": 48.54,
-      "currentPrice": 45.43,
+      "symbol": "BEKE",
+      "shares": 84.12142638107248,
+      "avgCost": 16.945,
+      "currentPrice": 16.945,
       "type": "stock",
-      "boughtAt": "2026-09-25",
-      "previousClose": 47.09
+      "boughtAt": "2026-09-28"
     },
     {
-      "symbol": "CDNA",
-      "shares": 23.50698200051509,
-      "avgCost": 61.37,
-      "currentPrice": 63.68,
+      "symbol": "VG",
+      "shares": 107.98769469903586,
+      "avgCost": 13.2,
+      "currentPrice": 13.2,
       "type": "stock",
-      "boughtAt": "2026-09-25",
-      "previousClose": 63.74
+      "boughtAt": "2026-09-28"
     },
     {
-      "symbol": "PL",
-      "shares": 81.8742046181391,
-      "avgCost": 17.62,
-      "currentPrice": 17.43,
+      "symbol": "PLTR",
+      "shares": 7.566418440614011,
+      "avgCost": 188.39,
+      "currentPrice": 188.39,
       "type": "stock",
-      "boughtAt": "2026-09-25",
-      "previousClose": 17.715
+      "boughtAt": "2026-09-28"
     },
     {
-      "symbol": "ARKG",
-      "shares": 29.057708599128315,
-      "avgCost": 53.53,
-      "currentPrice": 53.36,
+      "symbol": "TQQQ",
+      "shares": 20.24514644253206,
+      "avgCost": 76.33,
+      "currentPrice": 76.33,
       "type": "etf",
-      "boughtAt": "2026-09-25",
-      "previousClose": 53.535
+      "boughtAt": "2026-09-28"
     }
   ],
   "trades": [
-    {
-      "date": "2026-06-15",
-      "symbol": "ICHR",
-      "action": "SELL",
-      "shares": 15.7407,
-      "price": 86.8,
-      "total": 1366.29,
-      "realizedPnL": 43.44,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "CVE",
-      "action": "BUY",
-      "shares": 48.1029,
-      "price": 28.27,
-      "total": 1359.87,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "CRDO",
-      "action": "BUY",
-      "shares": 5.4219,
-      "price": 250.81,
-      "total": 1359.87,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "VECO",
-      "action": "BUY",
-      "shares": 17.5512,
-      "price": 77.48,
-      "total": 1359.87,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "ROAD",
-      "action": "BUY",
-      "shares": 11.9423,
-      "price": 113.87,
-      "total": 1359.87,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-15",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 10.6248,
-      "price": 127.99,
-      "total": 1359.87,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "IWM",
-      "action": "SELL",
-      "shares": 5.1716,
-      "price": 294.64,
-      "total": 1523.75,
-      "realizedPnL": 13.6,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "CVE",
-      "action": "SELL",
-      "shares": 48.1029,
-      "price": 27.11,
-      "total": 1304.07,
-      "realizedPnL": -55.8,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-06-16",
       "symbol": "CRDO",
@@ -1971,6 +1892,82 @@
       "price": 53.53,
       "total": 1555.46,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "VCYT",
+      "action": "SELL",
+      "shares": 29.7203,
+      "price": 46.23,
+      "total": 1373.97,
+      "realizedPnL": -68.65,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "CDNA",
+      "action": "SELL",
+      "shares": 23.507,
+      "price": 63.88,
+      "total": 1501.63,
+      "realizedPnL": 59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "PL",
+      "action": "SELL",
+      "shares": 81.8742,
+      "price": 17.18,
+      "total": 1406.6,
+      "realizedPnL": -36.02,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "ARKG",
+      "action": "SELL",
+      "shares": 29.0577,
+      "price": 52.96,
+      "total": 1538.9,
+      "realizedPnL": -16.56,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "BEKE",
+      "action": "BUY",
+      "shares": 84.1214,
+      "price": 16.945,
+      "total": 1425.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 107.9877,
+      "price": 13.2,
+      "total": 1425.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "PLTR",
+      "action": "BUY",
+      "shares": 7.5664,
+      "price": 188.39,
+      "total": 1425.44,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-28",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 20.2451,
+      "price": 76.33,
+      "total": 1545.31,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2881,6 +2878,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-09-28",
+      "totalValue": 11878.65,
+      "cash": 81.33,
+      "positionsValue": 11797.31,
+      "positionCount": 8,
+      "tradesExecuted": 8,
+      "session": "open"
     }
   ]
 }
