@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 81.33221199781428,
+  "cash": 76.89539019321182,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 228.86,
+      "currentPrice": 229.51,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 229.725
@@ -16,7 +16,7 @@
       "symbol": "SOXL",
       "shares": 11.468667317940621,
       "avgCost": 102.32,
-      "currentPrice": 142.29,
+      "currentPrice": 148.73,
       "type": "etf",
       "boughtAt": "2026-09-16",
       "previousClose": 136.975
@@ -25,116 +25,55 @@
       "symbol": "SMCI",
       "shares": 35.57296332508481,
       "avgCost": 41.54,
-      "currentPrice": 41.78,
+      "currentPrice": 41.792,
       "type": "stock",
       "boughtAt": "2026-09-23",
       "previousClose": 41.43
     },
     {
-      "symbol": "XLE",
-      "shares": 24.648425937477402,
-      "avgCost": 62.37,
-      "currentPrice": 62.1,
-      "type": "etf",
-      "boughtAt": "2026-09-24",
-      "previousClose": 62.52
-    },
-    {
-      "symbol": "BEKE",
-      "shares": 84.12142638107248,
-      "avgCost": 16.945,
-      "currentPrice": 16.95,
-      "type": "stock",
-      "boughtAt": "2026-09-28",
-      "previousClose": 16.945
-    },
-    {
       "symbol": "VG",
       "shares": 107.98769469903586,
       "avgCost": 13.2,
-      "currentPrice": 12.89,
+      "currentPrice": 12.6661,
       "type": "stock",
       "boughtAt": "2026-09-28",
       "previousClose": 13.2
     },
     {
-      "symbol": "PLTR",
-      "shares": 7.566418440614011,
-      "avgCost": 188.39,
-      "currentPrice": 187.48,
-      "type": "stock",
-      "boughtAt": "2026-09-28",
-      "previousClose": 188.39
-    },
-    {
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 77.04,
+      "currentPrice": 77.2822,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 76.33
+    },
+    {
+      "symbol": "AXTI",
+      "shares": 17.804398590313564,
+      "avgCost": 80.27,
+      "currentPrice": 80.27,
+      "type": "stock",
+      "boughtAt": "2026-09-29"
+    },
+    {
+      "symbol": "BE",
+      "shares": 4.870030242092517,
+      "avgCost": 293.46,
+      "currentPrice": 293.46,
+      "type": "stock",
+      "boughtAt": "2026-09-29"
+    },
+    {
+      "symbol": "SMH",
+      "shares": 2.4030204669008057,
+      "avgCost": 607.99,
+      "currentPrice": 607.99,
+      "type": "etf",
+      "boughtAt": "2026-09-29"
     }
   ],
   "trades": [
-    {
-      "date": "2026-06-16",
-      "symbol": "CRDO",
-      "action": "SELL",
-      "shares": 5.4219,
-      "price": 259.41,
-      "total": 1406.5,
-      "realizedPnL": 46.63,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "VECO",
-      "action": "SELL",
-      "shares": 17.5512,
-      "price": 83.04,
-      "total": 1457.45,
-      "realizedPnL": 97.58,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "ROAD",
-      "action": "SELL",
-      "shares": 11.9423,
-      "price": 120.28,
-      "total": 1436.42,
-      "realizedPnL": 76.55,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 10.6248,
-      "price": 134.71,
-      "total": 1431.27,
-      "realizedPnL": 71.4,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "GPGI",
-      "action": "BUY",
-      "shares": 96.0616,
-      "price": 14.57,
-      "total": 1399.62,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-06-16",
-      "symbol": "WDC",
-      "action": "BUY",
-      "shares": 2.1416,
-      "price": 653.53,
-      "total": 1399.62,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-06-16",
       "symbol": "BMNR",
@@ -1972,6 +1911,63 @@
       "price": 76.33,
       "total": 1545.31,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 24.6484,
+      "price": 61.66,
+      "total": 1519.82,
+      "realizedPnL": -17.5,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "BEKE",
+      "action": "SELL",
+      "shares": 84.1214,
+      "price": 16.43,
+      "total": 1382.12,
+      "realizedPnL": -43.32,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 7.5664,
+      "price": 186.7405,
+      "total": 1412.96,
+      "realizedPnL": -12.48,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 17.8044,
+      "price": 80.27,
+      "total": 1429.16,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "BE",
+      "action": "BUY",
+      "shares": 4.87,
+      "price": 293.46,
+      "total": 1429.16,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-09-29",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.403,
+      "price": 607.99,
+      "total": 1461.01,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -2894,11 +2890,11 @@
     },
     {
       "date": "2026-09-29",
-      "totalValue": 11910.9,
-      "cash": 81.33,
-      "positionsValue": 11829.57,
+      "totalValue": 11909.66,
+      "cash": 76.9,
+      "positionsValue": 11832.76,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 6,
       "session": "open"
     }
   ]
