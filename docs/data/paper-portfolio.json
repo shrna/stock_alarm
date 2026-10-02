@@ -1,22 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 218.12950674321905,
+  "cash": 10.846645616728125,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 230.86,
+      "currentPrice": 237.33,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 230.44
     },
     {
       "symbol": "SOXL",
-      "shares": 10.479746525986625,
+      "shares": 9.61862356423313,
       "avgCost": 102.32,
-      "currentPrice": 153.69,
+      "currentPrice": 167.45,
       "type": "etf",
       "boughtAt": "2026-09-16",
       "previousClose": 151.79
@@ -25,153 +25,54 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 78.73,
+      "currentPrice": 81.72,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 78.3594
     },
     {
-      "symbol": "XLE",
-      "shares": 23.416974761770867,
-      "avgCost": 61.86,
-      "currentPrice": 62.7,
-      "type": "etf",
-      "boughtAt": "2026-09-30",
-      "previousClose": 62.578
-    },
-    {
-      "symbol": "COHR",
-      "shares": 4.485128255060732,
-      "avgCost": 315.54,
-      "currentPrice": 319.19,
-      "type": "stock",
-      "boughtAt": "2026-10-01",
-      "previousClose": 316.11
-    },
-    {
       "symbol": "BMNR",
       "shares": 52.75814984536304,
       "avgCost": 26.825,
-      "currentPrice": 26.73,
+      "currentPrice": 27.125,
       "type": "stock",
       "boughtAt": "2026-10-01",
       "previousClose": 26.675
     },
     {
-      "symbol": "G",
-      "shares": 41.176530974741446,
-      "avgCost": 34.37,
-      "currentPrice": 34.7,
+      "symbol": "ONTO",
+      "shares": 4.31632993656931,
+      "avgCost": 335.835,
+      "currentPrice": 335.835,
       "type": "stock",
-      "boughtAt": "2026-10-01",
-      "previousClose": 34.97
+      "boughtAt": "2026-10-02"
     },
     {
-      "symbol": "VICR",
-      "shares": 4.097393000308955,
-      "avgCost": 323.4,
-      "currentPrice": 308.59,
+      "symbol": "SYNA",
+      "shares": 12.027668969861883,
+      "avgCost": 120.52,
+      "currentPrice": 120.52,
       "type": "stock",
-      "boughtAt": "2026-10-01",
-      "previousClose": 317.9
+      "boughtAt": "2026-10-02"
+    },
+    {
+      "symbol": "SMTC",
+      "shares": 7.263486184792983,
+      "avgCost": 199.5701,
+      "currentPrice": 199.5701,
+      "type": "stock",
+      "boughtAt": "2026-10-02"
+    },
+    {
+      "symbol": "SMH",
+      "shares": 2.5033983450103774,
+      "avgCost": 634.38,
+      "currentPrice": 634.38,
+      "type": "etf",
+      "boughtAt": "2026-10-02"
     }
   ],
   "trades": [
-    {
-      "date": "2026-08-27",
-      "symbol": "PLTR",
-      "action": "SELL",
-      "shares": 7.2321,
-      "price": 185.78,
-      "total": 1343.59,
-      "realizedPnL": 94.38,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "UMC",
-      "action": "SELL",
-      "shares": 63.735,
-      "price": 18.925,
-      "total": 1206.19,
-      "realizedPnL": -43.02,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 7.6525,
-      "price": 168.65,
-      "total": 1290.59,
-      "realizedPnL": -3.44,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "FTNT",
-      "action": "BUY",
-      "shares": 7.3944,
-      "price": 172.3,
-      "total": 1274.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "KEEL",
-      "action": "BUY",
-      "shares": 360.4093,
-      "price": 3.535,
-      "total": 1274.05,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 19.5229,
-      "price": 72.51,
-      "total": 1415.61,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "XLK",
-      "action": "BUY",
-      "shares": 6.6191,
-      "price": 187.5643,
-      "total": 1241.51,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-08-27",
-      "symbol": "XLK",
-      "action": "BUY",
-      "shares": 0.331,
-      "price": 187.5643,
-      "total": 62.08,
-      "reason": "Rebalance: 12.3% drift"
-    },
-    {
-      "date": "2026-08-31",
-      "symbol": "SPCX",
-      "action": "SELL",
-      "shares": 9.0651,
-      "price": 143.0601,
-      "total": 1296.85,
-      "realizedPnL": 73.07,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-08-31",
-      "symbol": "FTNT",
-      "action": "SELL",
-      "shares": 7.3944,
-      "price": 168.61,
-      "total": 1246.76,
-      "realizedPnL": -27.29,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-08-31",
       "symbol": "KEEL",
@@ -1973,6 +1874,101 @@
       "total": 148.39,
       "realizedPnL": 47.2,
       "reason": "Rebalance: 9.4% drift"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 23.417,
+      "price": 62.6,
+      "total": 1465.9,
+      "realizedPnL": 17.33,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "COHR",
+      "action": "SELL",
+      "shares": 4.4851,
+      "price": 325,
+      "total": 1457.67,
+      "realizedPnL": 42.43,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "G",
+      "action": "SELL",
+      "shares": 41.1765,
+      "price": 34.145,
+      "total": 1405.97,
+      "realizedPnL": -9.26,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "VICR",
+      "action": "SELL",
+      "shares": 4.0974,
+      "price": 306.49,
+      "total": 1255.81,
+      "realizedPnL": -69.29,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "ONTO",
+      "action": "BUY",
+      "shares": 4.3163,
+      "price": 335.835,
+      "total": 1449.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "SYNA",
+      "action": "BUY",
+      "shares": 12.0277,
+      "price": 120.52,
+      "total": 1449.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "SMTC",
+      "action": "BUY",
+      "shares": 7.2635,
+      "price": 199.5701,
+      "total": 1449.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.1785,
+      "price": 634.38,
+      "total": 1382.02,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "shares": 0.8611,
+      "price": 167.45,
+      "total": 144.2,
+      "realizedPnL": 56.08,
+      "reason": "Rebalance: 9.0% drift"
+    },
+    {
+      "date": "2026-10-02",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 0.3249,
+      "price": 634.38,
+      "total": 206.09,
+      "reason": "Rebalance: 14.2% drift"
     }
   ],
   "history": [
@@ -2919,6 +2915,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-02",
+      "totalValue": 12079.79,
+      "cash": 10.85,
+      "positionsValue": 12068.94,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
