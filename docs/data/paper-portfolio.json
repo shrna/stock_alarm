@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.7635391257383475,
+  "cash": 3.6773436332717466,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 238.9,
+      "currentPrice": 241.845,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 234.275
@@ -16,166 +16,61 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 83.12,
+      "currentPrice": 84.7835,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 80.7176
     },
     {
-      "symbol": "VG",
-      "shares": 104.83682948011256,
-      "avgCost": 13.62,
-      "currentPrice": 13.45,
-      "type": "stock",
-      "boughtAt": "2026-10-05"
-    },
-    {
-      "symbol": "CVE",
-      "shares": 45.502792145287856,
-      "avgCost": 31.38,
-      "currentPrice": 31.47,
-      "type": "stock",
-      "boughtAt": "2026-10-05"
-    },
-    {
-      "symbol": "HPE",
-      "shares": 20.814542529433425,
-      "avgCost": 68.6,
-      "currentPrice": 68.36,
-      "type": "stock",
-      "boughtAt": "2026-10-05"
-    },
-    {
-      "symbol": "PLTR",
-      "shares": 7.599540249715966,
-      "avgCost": 187.89,
-      "currentPrice": 189.4,
-      "type": "stock",
-      "boughtAt": "2026-10-05"
-    },
-    {
       "symbol": "XLE",
       "shares": 24.920256503760662,
       "avgCost": 63.6643,
-      "currentPrice": 63.45,
+      "currentPrice": 63.56,
       "type": "etf",
       "boughtAt": "2026-10-05"
     },
     {
-      "symbol": "ARKG",
-      "shares": 27.015419828543646,
-      "avgCost": 55.585,
-      "currentPrice": 56.77,
+      "symbol": "LEU",
+      "shares": 9.340260324515878,
+      "avgCost": 154.0383,
+      "currentPrice": 154.0383,
+      "type": "stock",
+      "boughtAt": "2026-10-06"
+    },
+    {
+      "symbol": "CIEN",
+      "shares": 3.4305145969143402,
+      "avgCost": 419.4,
+      "currentPrice": 419.4,
+      "type": "stock",
+      "boughtAt": "2026-10-06"
+    },
+    {
+      "symbol": "SMCI",
+      "shares": 32.61749766370152,
+      "avgCost": 44.11,
+      "currentPrice": 44.11,
+      "type": "stock",
+      "boughtAt": "2026-10-06"
+    },
+    {
+      "symbol": "PL",
+      "shares": 77.47753483822693,
+      "avgCost": 18.57,
+      "currentPrice": 18.57,
+      "type": "stock",
+      "boughtAt": "2026-10-06"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 8.73057306721066,
+      "avgCost": 168.06,
+      "currentPrice": 168.06,
       "type": "etf",
-      "boughtAt": "2026-10-05"
+      "boughtAt": "2026-10-06"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-01",
-      "symbol": "SMH",
-      "action": "BUY",
-      "shares": 2.2922,
-      "price": 556.63,
-      "total": 1275.93,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 11.9997,
-      "price": 105.91,
-      "total": 1270.89,
-      "realizedPnL": -117.12,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "TSM",
-      "action": "SELL",
-      "shares": 2.9676,
-      "price": 414,
-      "total": 1228.6,
-      "realizedPnL": -3.92,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.2922,
-      "price": 545.22,
-      "total": 1249.77,
-      "realizedPnL": -26.15,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "PLTR",
-      "action": "BUY",
-      "shares": 6.7085,
-      "price": 179.92,
-      "total": 1206.99,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 8.2075,
-      "price": 163.4,
-      "total": 1341.1,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "XLV",
-      "action": "BUY",
-      "shares": 7.0188,
-      "price": 171.67,
-      "total": 1204.91,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-02",
-      "symbol": "XLV",
-      "action": "BUY",
-      "shares": 0.3509,
-      "price": 171.67,
-      "total": 60.25,
-      "reason": "Rebalance: 10.2% drift"
-    },
-    {
-      "date": "2026-09-03",
-      "symbol": "NIO",
-      "action": "SELL",
-      "shares": 291.3755,
-      "price": 3.86,
-      "total": 1124.71,
-      "realizedPnL": -107.81,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-03",
-      "symbol": "SKHY",
-      "action": "SELL",
-      "shares": 7.4889,
-      "price": 164.98,
-      "total": 1235.51,
-      "realizedPnL": 3,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-03",
-      "symbol": "XLV",
-      "action": "SELL",
-      "shares": 7.3697,
-      "price": 172.95,
-      "total": 1274.59,
-      "realizedPnL": 9.43,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-09-03",
       "symbol": "SPCX",
@@ -1967,6 +1862,110 @@
       "price": 55.585,
       "total": 71.51,
       "reason": "Rebalance: 9.9% drift"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 104.8368,
+      "price": 13.67,
+      "total": 1433.12,
+      "realizedPnL": 5.24,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 45.5028,
+      "price": 31.29,
+      "total": 1423.78,
+      "realizedPnL": -4.1,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "HPE",
+      "action": "SELL",
+      "shares": 20.8145,
+      "price": 70.215,
+      "total": 1461.49,
+      "realizedPnL": 33.62,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "PLTR",
+      "action": "SELL",
+      "shares": 7.5995,
+      "price": 192.7,
+      "total": 1464.43,
+      "realizedPnL": 36.55,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "ARKG",
+      "action": "SELL",
+      "shares": 27.0154,
+      "price": 53.2799,
+      "total": 1439.38,
+      "realizedPnL": -62.27,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "LEU",
+      "action": "BUY",
+      "shares": 9.3403,
+      "price": 154.0383,
+      "total": 1438.76,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "CIEN",
+      "action": "BUY",
+      "shares": 3.4305,
+      "price": 419.4,
+      "total": 1438.76,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "SMCI",
+      "action": "BUY",
+      "shares": 32.6175,
+      "price": 44.11,
+      "total": 1438.76,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "PL",
+      "action": "BUY",
+      "shares": 77.4775,
+      "price": 18.57,
+      "total": 1438.76,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 8.3148,
+      "price": 168.06,
+      "total": 1397.39,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 0.4157,
+      "price": 168.06,
+      "total": 69.87,
+      "reason": "Rebalance: 12.6% drift"
     }
   ],
   "history": [
@@ -2934,11 +2933,11 @@
     },
     {
       "date": "2026-10-06",
-      "totalValue": 11951.13,
-      "cash": 3.76,
-      "positionsValue": 11947.37,
+      "totalValue": 11989.65,
+      "cash": 3.68,
+      "positionsValue": 11985.97,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 11,
       "session": "open"
     }
   ]
