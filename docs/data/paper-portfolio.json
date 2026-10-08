@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.6237364612409095,
+  "cash": 3.3593907563040943,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 237.47,
+      "currentPrice": 236.73,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 240.2124
@@ -16,7 +16,7 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 83.62,
+      "currentPrice": 82.8,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 84.865
@@ -25,16 +25,16 @@
       "symbol": "XLE",
       "shares": 24.920256503760662,
       "avgCost": 63.6643,
-      "currentPrice": 63.36,
+      "currentPrice": 65.015,
       "type": "etf",
       "boughtAt": "2026-10-05",
       "previousClose": 63.92
     },
     {
       "symbol": "SOXL",
-      "shares": 9.172463785159298,
-      "avgCost": 167.46984653396734,
-      "currentPrice": 158.91,
+      "shares": 9.592097750970927,
+      "avgCost": 166.79766703241012,
+      "currentPrice": 152.105,
       "type": "etf",
       "boughtAt": "2026-10-06",
       "previousClose": 167.8601
@@ -43,104 +43,36 @@
       "symbol": "GRAB",
       "shares": 466.9091743747182,
       "avgCost": 3.01,
-      "currentPrice": 3.08,
+      "currentPrice": 3.0901,
       "type": "stock",
       "boughtAt": "2026-10-07"
     },
     {
-      "symbol": "FIGR",
-      "shares": 49.70755500305595,
-      "avgCost": 28.2733,
-      "currentPrice": 27.68,
+      "symbol": "VG",
+      "shares": 104.41047451204946,
+      "avgCost": 13.475,
+      "currentPrice": 13.475,
       "type": "stock",
-      "boughtAt": "2026-10-07"
+      "boughtAt": "2026-10-08"
     },
     {
-      "symbol": "BKV",
-      "shares": 58.63148163821034,
-      "avgCost": 23.97,
-      "currentPrice": 23.68,
+      "symbol": "SM",
+      "shares": 37.92778390753111,
+      "avgCost": 37.095,
+      "currentPrice": 37.095,
       "type": "stock",
-      "boughtAt": "2026-10-07"
+      "boughtAt": "2026-10-08"
     },
     {
-      "symbol": "BMNR",
-      "shares": 56.21636477940572,
-      "avgCost": 24.495,
-      "currentPrice": 24.66,
+      "symbol": "SHEL",
+      "shares": 12.707864092335406,
+      "avgCost": 100.455,
+      "currentPrice": 100.455,
       "type": "stock",
-      "boughtAt": "2026-10-07"
+      "boughtAt": "2026-10-08"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-07",
-      "symbol": "HPE",
-      "action": "SELL",
-      "shares": 23.2543,
-      "price": 52,
-      "total": 1209.22,
-      "realizedPnL": 3.95,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "CLS",
-      "action": "SELL",
-      "shares": 3.9933,
-      "price": 312.35,
-      "total": 1247.3,
-      "realizedPnL": 10.02,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 19.0858,
-      "price": 72.37,
-      "total": 1381.24,
-      "realizedPnL": 6.49,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "SLV",
-      "action": "SELL",
-      "shares": 22.7043,
-      "price": 59.82,
-      "total": 1358.17,
-      "realizedPnL": -16.57,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "SPY",
-      "action": "SELL",
-      "shares": 1.7826,
-      "price": 770.19,
-      "total": 1372.95,
-      "realizedPnL": -4.6,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "UCTT",
-      "action": "BUY",
-      "shares": 17.0076,
-      "price": 72.43,
-      "total": 1231.86,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-07",
-      "symbol": "TTMI",
-      "action": "BUY",
-      "shares": 9.8078,
-      "price": 125.6,
-      "total": 1231.86,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-09-07",
       "symbol": "AXTI",
@@ -1968,6 +1900,72 @@
       "price": 155.81,
       "total": 68.85,
       "reason": "Rebalance: 12.9% drift"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "FIGR",
+      "action": "SELL",
+      "shares": 49.7076,
+      "price": 27.8836,
+      "total": 1386.03,
+      "realizedPnL": -19.37,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "BKV",
+      "action": "SELL",
+      "shares": 58.6315,
+      "price": 24.04,
+      "total": 1409.5,
+      "realizedPnL": 4.1,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "BMNR",
+      "action": "SELL",
+      "shares": 56.2164,
+      "price": 24.165,
+      "total": 1358.47,
+      "realizedPnL": -18.55,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 104.4105,
+      "price": 13.475,
+      "total": 1406.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "SM",
+      "action": "BUY",
+      "shares": 37.9278,
+      "price": 37.095,
+      "total": 1406.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "SHEL",
+      "action": "BUY",
+      "shares": 12.7079,
+      "price": 100.455,
+      "total": 1276.57,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 0.4196,
+      "price": 152.105,
+      "total": 63.83,
+      "reason": "Rebalance: 10.8% drift"
     }
   ],
   "history": [
@@ -2953,11 +2951,11 @@
     },
     {
       "date": "2026-10-08",
-      "totalValue": 11758.56,
-      "cash": 3.62,
-      "positionsValue": 11754.94,
+      "totalValue": 11724.43,
+      "cash": 3.36,
+      "positionsValue": 11721.07,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 7,
       "session": "open"
     }
   ]
