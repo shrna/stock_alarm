@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 237.91,
+      "currentPrice": 237.47,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 240.2124
@@ -16,7 +16,7 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 82.425,
+      "currentPrice": 83.62,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 84.865
@@ -25,7 +25,7 @@
       "symbol": "XLE",
       "shares": 24.920256503760662,
       "avgCost": 63.6643,
-      "currentPrice": 63.3,
+      "currentPrice": 63.36,
       "type": "etf",
       "boughtAt": "2026-10-05",
       "previousClose": 63.92
@@ -34,7 +34,7 @@
       "symbol": "SOXL",
       "shares": 9.172463785159298,
       "avgCost": 167.46984653396734,
-      "currentPrice": 155.81,
+      "currentPrice": 158.91,
       "type": "etf",
       "boughtAt": "2026-10-06",
       "previousClose": 167.8601
@@ -43,7 +43,7 @@
       "symbol": "GRAB",
       "shares": 466.9091743747182,
       "avgCost": 3.01,
-      "currentPrice": 3.01,
+      "currentPrice": 3.08,
       "type": "stock",
       "boughtAt": "2026-10-07"
     },
@@ -51,7 +51,7 @@
       "symbol": "FIGR",
       "shares": 49.70755500305595,
       "avgCost": 28.2733,
-      "currentPrice": 28.2733,
+      "currentPrice": 27.68,
       "type": "stock",
       "boughtAt": "2026-10-07"
     },
@@ -59,7 +59,7 @@
       "symbol": "BKV",
       "shares": 58.63148163821034,
       "avgCost": 23.97,
-      "currentPrice": 23.97,
+      "currentPrice": 23.68,
       "type": "stock",
       "boughtAt": "2026-10-07"
     },
@@ -67,7 +67,7 @@
       "symbol": "BMNR",
       "shares": 56.21636477940572,
       "avgCost": 24.495,
-      "currentPrice": 24.495,
+      "currentPrice": 24.66,
       "type": "stock",
       "boughtAt": "2026-10-07"
     }
@@ -2950,6 +2950,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-08",
+      "totalValue": 11758.56,
+      "cash": 3.62,
+      "positionsValue": 11754.94,
+      "positionCount": 8,
+      "tradesExecuted": 0,
+      "session": "open"
     }
   ]
 }
