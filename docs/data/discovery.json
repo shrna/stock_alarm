@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T13:55:02.531Z",
+  "date": "2026-10-11T14:16:50.030Z",
   "stocks": [
     {
       "symbol": "NVDA",
@@ -52,7 +52,7 @@
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
       "pe": 115.09091,
-      "forwardPE": 5.444716,
+      "forwardPE": 5.516941,
       "eps": 0.11,
       "forwardEps": 2.32519,
       "pegRatio": 0,
@@ -139,7 +139,7 @@
       "forwardPE": 19.349218,
       "eps": 4.56,
       "forwardEps": 6.64833,
-      "pegRatio": 0.07,
+      "pegRatio": 0.08,
       "beta": 6.729,
       "priceToBook": 18.589596,
       "dividendYield": 0,
@@ -181,7 +181,7 @@
       "forwardPE": 7.8916807,
       "eps": 3.84,
       "forwardEps": 5.27771,
-      "pegRatio": 0.82,
+      "pegRatio": 0.74,
       "beta": 0.248,
       "priceToBook": 1.6652008,
       "dividendYield": 0.0679,
@@ -199,7 +199,7 @@
         "rank": 2,
         "label": "Buy"
       },
-      "targetMean": 51.30909,
+      "targetMean": 51.24091,
       "targetHigh": 62,
       "targetLow": 44,
       "strongBuy": 2,
@@ -208,7 +208,7 @@
       "sell": 0,
       "strongSell": 0,
       "earningsDate": "2026-10-26T12:30:00.000Z",
-      "analysis": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and st. Sector: Communication Services. Zacks #2 (Buy). Analysts: 10 Buy vs 0 Sell. Target: $51 (+23.2%). Revenue: -1% YoY. EPS: $3.84. P/E: 10.8. Finviz: Buy (2.3). MarketBeat: Buy. Earnings: Oct 26.",
+      "analysis": "Verizon Communications Inc., through its subsidiaries, engages in the provision of communications, technology, information, and st. Sector: Communication Services. Zacks #2 (Buy). Analysts: 10 Buy vs 0 Sell. Target: $51 (+23.0%). Revenue: -1% YoY. EPS: $3.84. P/E: 10.8. Finviz: Buy (2.3). MarketBeat: Buy. Earnings: Oct 26.",
       "source": "most_actives"
     },
     {
@@ -222,7 +222,7 @@
       "pe": 0,
       "forwardPE": 81.731255,
       "eps": -1.1,
-      "forwardEps": 1.95186,
+      "forwardEps": 1.98908,
       "pegRatio": 0,
       "beta": 0,
       "priceToBook": 16.836164,
@@ -265,7 +265,7 @@
       "forwardPE": 25.997,
       "eps": 7.27,
       "forwardEps": 7.01004,
-      "pegRatio": 1.58,
+      "pegRatio": 1.72,
       "beta": 0.885,
       "priceToBook": 22.828512,
       "dividendYield": 0.039300002,
@@ -307,7 +307,7 @@
       "forwardPE": 122.75057,
       "eps": -3.18,
       "forwardEps": 3.0052,
-      "pegRatio": 6.15,
+      "pegRatio": 6.61,
       "beta": 1.351,
       "priceToBook": 60.48369,
       "dividendYield": 0,
@@ -993,142 +993,6 @@
       "analysis": "iShares Silver Trust (Commodities Focused). By iShares. 52wk: +15.9%. YTD: -16.0%. ER: 0.50%. AUM: $30.0B. Sharpe: 0.82. Zacks #3 (Hold). $54.78 (+2.5% today)."
     },
     {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust, Series 1",
-      "price": 751.27,
-      "dayChangePct": 0.493593,
-      "fiftyTwoWeekChangePct": 24.793613,
-      "category": "Large Growth",
-      "fundFamily": "Invesco",
-      "legalType": "Exchange Traded Fund",
-      "expenseRatio": 0.0018000001,
-      "yield": 0.0042,
-      "totalAssets": 498945982464,
-      "beta": 1.26,
-      "holdings": [
-        {
-          "symbol": "NVDA",
-          "name": "NVIDIA Corp",
-          "pct": 0.0832742
-        },
-        {
-          "symbol": "AAPL",
-          "name": "Apple Inc",
-          "pct": 0.073533505
-        },
-        {
-          "symbol": "MSFT",
-          "name": "Microsoft Corp",
-          "pct": 0.057623
-        },
-        {
-          "symbol": "MU",
-          "name": "Micron Technology Inc",
-          "pct": 0.050244797
-        },
-        {
-          "symbol": "AMD",
-          "name": "Advanced Micro Devices Inc",
-          "pct": 0.0417138
-        },
-        {
-          "symbol": "AMZN",
-          "name": "Amazon.com Inc",
-          "pct": 0.0406602
-        },
-        {
-          "symbol": "META",
-          "name": "Meta Platforms Inc Class A",
-          "pct": 0.032625798
-        },
-        {
-          "symbol": "GOOGL",
-          "name": "Alphabet Inc Class A",
-          "pct": 0.0305482
-        },
-        {
-          "symbol": "GOOG",
-          "name": "Alphabet Inc Class C",
-          "pct": 0.0284936
-        },
-        {
-          "symbol": "TSLA",
-          "name": "Tesla Inc",
-          "pct": 0.0282008
-        }
-      ],
-      "topHoldings": [
-        "NVIDIA Corp",
-        "Apple Inc",
-        "Microsoft Corp",
-        "Micron Technology Inc",
-        "Advanced Micro Devices Inc"
-      ],
-      "sectorWeightings": [
-        {
-          "sector": "technology",
-          "pct": 0.60330003
-        },
-        {
-          "sector": "communication services",
-          "pct": 0.1259
-        },
-        {
-          "sector": "consumer cyclical",
-          "pct": 0.1007
-        },
-        {
-          "sector": "consumer defensive",
-          "pct": 0.0556
-        },
-        {
-          "sector": "industrials",
-          "pct": 0.0511
-        },
-        {
-          "sector": "healthcare",
-          "pct": 0.0379
-        },
-        {
-          "sector": "utilities",
-          "pct": 0.0101
-        },
-        {
-          "sector": "basic materials",
-          "pct": 0.0092
-        },
-        {
-          "sector": "energy",
-          "pct": 0.0045
-        },
-        {
-          "sector": "financial services",
-          "pct": 0.0019
-        }
-      ],
-      "returns": {
-        "ytd": 0.208292,
-        "oneMonth": 0.0327665,
-        "threeMonth": 0.0053359997,
-        "oneYear": 0.2375263,
-        "threeYear": 0.2803928,
-        "fiveYear": 0.16323669
-      },
-      "risk": {
-        "alpha": 0.35,
-        "beta": 1.26,
-        "sharpe": 1.27,
-        "stdDev": 17.23,
-        "rSquared": 82.84,
-        "treynor": 18.52
-      },
-      "zacks": {
-        "rank": 2,
-        "label": "Buy"
-      },
-      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +24.8%. YTD: 20.8%. Yield: 0.42%. ER: 0.18%. AUM: $498.9B. Sharpe: 1.27. Zacks #2 (Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $751.27 (+0.5% today)."
-    },
-    {
       "symbol": "VOO",
       "name": "Vanguard S&P 500 ETF",
       "price": 715.59,
@@ -1267,6 +1131,142 @@
         "label": "Buy"
       },
       "analysis": "Vanguard S&P 500 ETF (Large Blend). By Vanguard. 52wk: +17.4%. YTD: 12.7%. Yield: 1.06%. ER: 0.03%. AUM: $1729.3B. Sharpe: 1.37. Zacks #2 (Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $715.59 (+0.6% today)."
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust, Series 1",
+      "price": 751.27,
+      "dayChangePct": 0.493593,
+      "fiftyTwoWeekChangePct": 24.793613,
+      "category": "Large Growth",
+      "fundFamily": "Invesco",
+      "legalType": "Exchange Traded Fund",
+      "expenseRatio": 0.0018000001,
+      "yield": 0.0042,
+      "totalAssets": 498945982464,
+      "beta": 1.26,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "pct": 0.0832742
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "pct": 0.073533505
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "pct": 0.057623
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "pct": 0.050244797
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "pct": 0.0417138
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "pct": 0.0406602
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "pct": 0.032625798
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "pct": 0.0305482
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "pct": 0.0284936
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "pct": 0.0282008
+        }
+      ],
+      "topHoldings": [
+        "NVIDIA Corp",
+        "Apple Inc",
+        "Microsoft Corp",
+        "Micron Technology Inc",
+        "Advanced Micro Devices Inc"
+      ],
+      "sectorWeightings": [
+        {
+          "sector": "technology",
+          "pct": 0.60330003
+        },
+        {
+          "sector": "communication services",
+          "pct": 0.1259
+        },
+        {
+          "sector": "consumer cyclical",
+          "pct": 0.1007
+        },
+        {
+          "sector": "consumer defensive",
+          "pct": 0.0556
+        },
+        {
+          "sector": "industrials",
+          "pct": 0.0511
+        },
+        {
+          "sector": "healthcare",
+          "pct": 0.0379
+        },
+        {
+          "sector": "utilities",
+          "pct": 0.0101
+        },
+        {
+          "sector": "basic materials",
+          "pct": 0.0092
+        },
+        {
+          "sector": "energy",
+          "pct": 0.0045
+        },
+        {
+          "sector": "financial services",
+          "pct": 0.0019
+        }
+      ],
+      "returns": {
+        "ytd": 0.208292,
+        "oneMonth": 0.0327665,
+        "threeMonth": 0.0053359997,
+        "oneYear": 0.2375263,
+        "threeYear": 0.2803928,
+        "fiveYear": 0.16323669
+      },
+      "risk": {
+        "alpha": 0.35,
+        "beta": 1.26,
+        "sharpe": 1.27,
+        "stdDev": 17.23,
+        "rSquared": 82.84,
+        "treynor": 18.52
+      },
+      "zacks": {
+        "rank": 2,
+        "label": "Buy"
+      },
+      "analysis": "Invesco QQQ Trust, Series 1 (Large Growth). By Invesco. 52wk: +24.8%. YTD: 20.8%. Yield: 0.42%. ER: 0.18%. AUM: $498.9B. Sharpe: 1.27. Zacks #2 (Buy). Top: NVIDIA Corp, Apple Inc, Microsoft Corp. $751.27 (+0.5% today)."
     },
     {
       "symbol": "XLE",
