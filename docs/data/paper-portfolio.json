@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.421223145699045,
+  "cash": 3.4272076924509776,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.050544350034044,
       "avgCost": 225.6217290430868,
-      "currentPrice": 229.28,
+      "currentPrice": 226.28,
       "type": "stock",
       "boughtAt": "2026-09-09",
       "previousClose": 229.555
@@ -16,7 +16,7 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 81.28,
+      "currentPrice": 79.65,
       "type": "etf",
       "boughtAt": "2026-09-28",
       "previousClose": 81.19
@@ -25,144 +25,54 @@
       "symbol": "XLE",
       "shares": 24.920256503760662,
       "avgCost": 63.6643,
-      "currentPrice": 65.08,
+      "currentPrice": 65.975,
       "type": "etf",
       "boughtAt": "2026-10-05",
       "previousClose": 65.425
     },
     {
-      "symbol": "VG",
-      "shares": 104.41047451204946,
-      "avgCost": 13.475,
-      "currentPrice": 13.16,
-      "type": "stock",
-      "boughtAt": "2026-10-08",
-      "previousClose": 13.205
-    },
-    {
-      "symbol": "CRGY",
-      "shares": 105.91851528202595,
-      "avgCost": 13.14,
-      "currentPrice": 12.66,
-      "type": "stock",
-      "boughtAt": "2026-10-09",
-      "previousClose": 12.885
-    },
-    {
       "symbol": "CVE",
       "shares": 44.0642485612101,
       "avgCost": 31.585,
-      "currentPrice": 31.39,
+      "currentPrice": 31.9,
       "type": "stock",
       "boughtAt": "2026-10-09",
       "previousClose": 31.55
     },
     {
-      "symbol": "SEZL",
-      "shares": 11.135045130056975,
-      "avgCost": 124.99,
-      "currentPrice": 128.64,
+      "symbol": "LW",
+      "shares": 27.91490956327427,
+      "avgCost": 49.72,
+      "currentPrice": 49.72,
       "type": "stock",
-      "boughtAt": "2026-10-09",
-      "previousClose": 126.63
+      "boughtAt": "2026-10-12"
     },
     {
-      "symbol": "XBI",
-      "shares": 8.913274796826071,
-      "avgCost": 153.15,
-      "currentPrice": 153.77,
+      "symbol": "DK",
+      "shares": 17.915700316070694,
+      "avgCost": 77.47,
+      "currentPrice": 77.47,
+      "type": "stock",
+      "boughtAt": "2026-10-12"
+    },
+    {
+      "symbol": "SMCI",
+      "shares": 35.24899818377135,
+      "avgCost": 39.375,
+      "currentPrice": 39.375,
+      "type": "stock",
+      "boughtAt": "2026-10-12"
+    },
+    {
+      "symbol": "SCHD",
+      "shares": 41.19202789665178,
+      "avgCost": 33.1971,
+      "currentPrice": 33.1971,
       "type": "etf",
-      "boughtAt": "2026-10-09",
-      "previousClose": 153.89
+      "boughtAt": "2026-10-12"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-09",
-      "symbol": "SIMO",
-      "action": "SELL",
-      "shares": 4.808,
-      "price": 272.02,
-      "total": 1307.87,
-      "realizedPnL": 76.01,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-09",
-      "symbol": "VIAV",
-      "action": "BUY",
-      "shares": 33.5104,
-      "price": 38.75,
-      "total": 1298.53,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-09",
-      "symbol": "NVDA",
-      "action": "BUY",
-      "shares": 5.7526,
-      "price": 225.73,
-      "total": 1298.53,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-09",
-      "symbol": "LITE",
-      "action": "BUY",
-      "shares": 1.2946,
-      "price": 978.535,
-      "total": 1266.8,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-09",
-      "symbol": "SOXX",
-      "action": "BUY",
-      "shares": 0.1199,
-      "price": 528.4,
-      "total": 63.34,
-      "reason": "Rebalance: 8.4% drift"
-    },
-    {
-      "date": "2026-09-10",
-      "symbol": "AXTI",
-      "action": "SELL",
-      "shares": 19.9847,
-      "price": 68.91,
-      "total": 1377.15,
-      "realizedPnL": 145.29,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-10",
-      "symbol": "SMTC",
-      "action": "SELL",
-      "shares": 8.3298,
-      "price": 163.94,
-      "total": 1365.6,
-      "realizedPnL": 133.74,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-10",
-      "symbol": "VIAV",
-      "action": "SELL",
-      "shares": 33.5104,
-      "price": 39.18,
-      "total": 1312.94,
-      "realizedPnL": 14.41,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-10",
-      "symbol": "LITE",
-      "action": "SELL",
-      "shares": 1.2946,
-      "price": 988.98,
-      "total": 1280.32,
-      "realizedPnL": 13.52,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-09-10",
       "symbol": "SMCI",
@@ -1971,6 +1881,91 @@
       "price": 153.15,
       "total": 65,
       "reason": "Rebalance: 15.9% drift"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 104.4105,
+      "price": 13.205,
+      "total": 1378.74,
+      "realizedPnL": -28.19,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "CRGY",
+      "action": "SELL",
+      "shares": 105.9185,
+      "price": 12.945,
+      "total": 1371.12,
+      "realizedPnL": -20.65,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "SEZL",
+      "action": "SELL",
+      "shares": 11.135,
+      "price": 128.26,
+      "total": 1428.18,
+      "realizedPnL": 36.41,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 8.9133,
+      "price": 151.82,
+      "total": 1353.21,
+      "realizedPnL": -11.85,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "LW",
+      "action": "BUY",
+      "shares": 27.9149,
+      "price": 49.72,
+      "total": 1387.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "DK",
+      "action": "BUY",
+      "shares": 17.9157,
+      "price": 77.47,
+      "total": 1387.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "SMCI",
+      "action": "BUY",
+      "shares": 35.249,
+      "price": 39.375,
+      "total": 1387.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "SCHD",
+      "action": "BUY",
+      "shares": 39.2305,
+      "price": 33.1971,
+      "total": 1302.34,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "SCHD",
+      "action": "BUY",
+      "shares": 1.9615,
+      "price": 33.1971,
+      "total": 65.12,
+      "reason": "Rebalance: 15.6% drift"
     }
   ],
   "history": [
@@ -2971,6 +2966,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-12",
+      "totalValue": 11566.08,
+      "cash": 3.43,
+      "positionsValue": 11562.65,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
