@@ -7,70 +7,73 @@
       "symbol": "TQQQ",
       "shares": 20.24514644253206,
       "avgCost": 76.33,
-      "currentPrice": 78.81,
+      "currentPrice": 74.8676,
       "type": "etf",
       "boughtAt": "2026-09-28",
-      "previousClose": 78.435
+      "previousClose": 78.81
     },
     {
       "symbol": "XLE",
       "shares": 24.920256503760662,
       "avgCost": 63.6643,
-      "currentPrice": 67.2,
+      "currentPrice": 67.575,
       "type": "etf",
       "boughtAt": "2026-10-05",
-      "previousClose": 67.085
+      "previousClose": 67.2
     },
     {
       "symbol": "SCHD",
       "shares": 43.28564207530105,
       "avgCost": 33.20166104628651,
-      "currentPrice": 33.37,
+      "currentPrice": 33.565,
       "type": "etf",
       "boughtAt": "2026-10-12",
-      "previousClose": 33.405
+      "previousClose": 33.37
     },
     {
       "symbol": "PARR",
       "shares": 15.874962023174653,
       "avgCost": 87.94,
-      "currentPrice": 89.88,
+      "currentPrice": 89.04,
       "type": "stock",
       "boughtAt": "2026-10-13",
-      "previousClose": 88.845
+      "previousClose": 89.88
     },
     {
       "symbol": "PBF",
       "shares": 15.74237087907044,
       "avgCost": 88.55,
-      "currentPrice": 91.17,
+      "currentPrice": 89.6,
       "type": "stock",
       "boughtAt": "2026-10-13",
-      "previousClose": 90.545
+      "previousClose": 91.17
     },
     {
       "symbol": "VLO",
       "shares": 3.0676494909368426,
       "avgCost": 456.46,
-      "currentPrice": 456.46,
+      "currentPrice": 457.99,
       "type": "stock",
-      "boughtAt": "2026-10-14"
+      "boughtAt": "2026-10-14",
+      "previousClose": 456.46
     },
     {
       "symbol": "CIFR",
       "shares": 123.47965490591103,
       "avgCost": 11.34,
-      "currentPrice": 11.34,
+      "currentPrice": 10.175,
       "type": "stock",
-      "boughtAt": "2026-10-14"
+      "boughtAt": "2026-10-14",
+      "previousClose": 11.34
     },
     {
       "symbol": "CHA",
       "shares": 102.90759512657694,
       "avgCost": 12.52,
-      "currentPrice": 12.52,
+      "currentPrice": 12.23,
       "type": "stock",
-      "boughtAt": "2026-10-14"
+      "boughtAt": "2026-10-14",
+      "previousClose": 12.52
     }
   ],
   "trades": [
@@ -2989,12 +2992,12 @@
     },
     {
       "date": "2026-10-14",
-      "totalValue": 11668.83,
+      "totalValue": 11399.74,
       "cash": 3.23,
-      "positionsValue": 11665.6,
+      "positionsValue": 11396.52,
       "positionCount": 8,
-      "tradesExecuted": 7,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
