@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.2290804285331944,
+  "cash": 103.08917034498336,
   "positions": [
     {
       "symbol": "TQQQ",
@@ -14,7 +14,7 @@
     },
     {
       "symbol": "XLE",
-      "shares": 24.920256503760662,
+      "shares": 22.411383061265834,
       "avgCost": 63.6643,
       "currentPrice": 67.63,
       "type": "etf",
@@ -31,148 +31,48 @@
       "previousClose": 33.565
     },
     {
-      "symbol": "PARR",
-      "shares": 15.874962023174653,
-      "avgCost": 87.94,
-      "currentPrice": 88.67,
-      "type": "stock",
-      "boughtAt": "2026-10-13",
-      "previousClose": 89.04
-    },
-    {
-      "symbol": "PBF",
-      "shares": 15.74237087907044,
-      "avgCost": 88.55,
-      "currentPrice": 89.51,
-      "type": "stock",
-      "boughtAt": "2026-10-13",
-      "previousClose": 89.6
-    },
-    {
-      "symbol": "VLO",
-      "shares": 3.0676494909368426,
-      "avgCost": 456.46,
-      "currentPrice": 459.78,
-      "type": "stock",
-      "boughtAt": "2026-10-14",
-      "previousClose": 457.99
-    },
-    {
       "symbol": "CIFR",
-      "shares": 123.47965490591103,
-      "avgCost": 11.34,
+      "shares": 137.234773922542,
+      "avgCost": 11.19967720809485,
       "currentPrice": 9.94,
       "type": "stock",
       "boughtAt": "2026-10-14",
       "previousClose": 10.175
     },
     {
-      "symbol": "CHA",
-      "shares": 102.90759512657694,
-      "avgCost": 12.52,
-      "currentPrice": 12.29,
+      "symbol": "NVDA",
+      "shares": 6.16409242110288,
+      "avgCost": 221.3,
+      "currentPrice": 221.3,
       "type": "stock",
-      "boughtAt": "2026-10-14",
-      "previousClose": 12.23
+      "boughtAt": "2026-10-15"
+    },
+    {
+      "symbol": "HALO",
+      "shares": 11.677055750642591,
+      "avgCost": 116.82,
+      "currentPrice": 116.82,
+      "type": "stock",
+      "boughtAt": "2026-10-15"
+    },
+    {
+      "symbol": "RIG",
+      "shares": 244.46481232796907,
+      "avgCost": 5.58,
+      "currentPrice": 5.58,
+      "type": "stock",
+      "boughtAt": "2026-10-15"
+    },
+    {
+      "symbol": "NOK",
+      "shares": 141.77222410989634,
+      "avgCost": 9.4,
+      "currentPrice": 9.4,
+      "type": "stock",
+      "boughtAt": "2026-10-15"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-14",
-      "symbol": "MNDY",
-      "action": "SELL",
-      "shares": 1.16,
-      "price": 92.66,
-      "total": 107.49,
-      "realizedPnL": 8.69,
-      "reason": "Rebalance: 8.5% drift"
-    },
-    {
-      "date": "2026-09-14",
-      "symbol": "SCHD",
-      "action": "BUY",
-      "shares": 4.742,
-      "price": 34.41,
-      "total": 163.17,
-      "reason": "Rebalance: 13.0% drift"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "HPE",
-      "action": "SELL",
-      "shares": 22.8233,
-      "price": 55.41,
-      "total": 1264.64,
-      "realizedPnL": 4.34,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "VG",
-      "action": "SELL",
-      "shares": 81.31,
-      "price": 15.27,
-      "total": 1241.6,
-      "realizedPnL": -18.7,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 20.0538,
-      "price": 69.27,
-      "total": 1389.13,
-      "realizedPnL": 1.2,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "FTNT",
-      "action": "BUY",
-      "shares": 7.3568,
-      "price": 170.18,
-      "total": 1251.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "IT",
-      "action": "BUY",
-      "shares": 6.353,
-      "price": 197.07,
-      "total": 1251.98,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-15",
-      "symbol": "ARKG",
-      "action": "BUY",
-      "shares": 28.4187,
-      "price": 46.8,
-      "total": 1330,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-16",
-      "symbol": "MNDY",
-      "action": "SELL",
-      "shares": 13.6375,
-      "price": 94.05,
-      "total": 1282.61,
-      "realizedPnL": 121.1,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-16",
-      "symbol": "SCHD",
-      "action": "SELL",
-      "shares": 40.2327,
-      "price": 34.33,
-      "total": 1381.19,
-      "realizedPnL": -3.22,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-09-16",
       "symbol": "FTNT",
@@ -1971,6 +1871,101 @@
       "price": 12.52,
       "total": 61.35,
       "reason": "Rebalance: 12.4% drift"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "PARR",
+      "action": "SELL",
+      "shares": 15.875,
+      "price": 88.67,
+      "total": 1407.63,
+      "realizedPnL": 11.59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "PBF",
+      "action": "SELL",
+      "shares": 15.7424,
+      "price": 89.51,
+      "total": 1409.1,
+      "realizedPnL": 15.11,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "VLO",
+      "action": "SELL",
+      "shares": 3.0676,
+      "price": 459.78,
+      "total": 1410.44,
+      "realizedPnL": 10.18,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "CHA",
+      "action": "SELL",
+      "shares": 102.9076,
+      "price": 12.29,
+      "total": 1264.73,
+      "realizedPnL": -23.67,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 6.1641,
+      "price": 221.3,
+      "total": 1364.11,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "HALO",
+      "action": "BUY",
+      "shares": 11.6771,
+      "price": 116.82,
+      "total": 1364.11,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "RIG",
+      "action": "BUY",
+      "shares": 244.4648,
+      "price": 5.58,
+      "total": 1364.11,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "NOK",
+      "action": "BUY",
+      "shares": 141.7722,
+      "price": 9.4,
+      "total": 1332.66,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 2.5089,
+      "price": 67.63,
+      "total": 169.68,
+      "realizedPnL": 9.95,
+      "reason": "Rebalance: 11.2% drift"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "CIFR",
+      "action": "BUY",
+      "shares": 13.7551,
+      "price": 9.94,
+      "total": 136.73,
+      "reason": "Rebalance: 10.0% drift"
     }
   ],
   "history": [
@@ -2998,6 +2993,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-15",
+      "totalValue": 11367.61,
+      "cash": 103.09,
+      "positionsValue": 11264.52,
+      "positionCount": 8,
+      "tradesExecuted": 10,
+      "session": "open"
     }
   ]
 }
