@@ -7,67 +7,73 @@
       "symbol": "CIFR",
       "shares": 137.234773922542,
       "avgCost": 11.19967720809485,
-      "currentPrice": 9.2899,
+      "currentPrice": 8.885,
       "type": "stock",
       "boughtAt": "2026-10-14",
-      "previousClose": 9.175
+      "previousClose": 9.2899
     },
     {
       "symbol": "NVDA",
       "shares": 6.16409242110288,
       "avgCost": 221.3,
-      "currentPrice": 217.485,
+      "currentPrice": 217.12,
       "type": "stock",
       "boughtAt": "2026-10-15",
-      "previousClose": 217.4645
+      "previousClose": 217.485
     },
     {
       "symbol": "VICR",
       "shares": 6.528977036744935,
       "avgCost": 204.45,
-      "currentPrice": 204.45,
+      "currentPrice": 196.91,
       "type": "stock",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 204.45
     },
     {
       "symbol": "FORM",
       "shares": 11.831673064727017,
       "avgCost": 112.82,
-      "currentPrice": 112.82,
+      "currentPrice": 110.5,
       "type": "stock",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 112.82
     },
     {
       "symbol": "RIG",
       "shares": 231.14274548268432,
       "avgCost": 5.775,
-      "currentPrice": 5.775,
+      "currentPrice": 5.815,
       "type": "stock",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 5.775
     },
     {
       "symbol": "SOXL",
       "shares": 14.612472415571997,
       "avgCost": 101.5,
-      "currentPrice": 101.5,
+      "currentPrice": 98.5183,
       "type": "etf",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 101.5
     },
     {
       "symbol": "SMH",
       "shares": 2.6826667212555533,
       "avgCost": 552.87,
-      "currentPrice": 552.87,
+      "currentPrice": 548.645,
       "type": "etf",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 552.87
     },
     {
       "symbol": "SOXX",
       "shares": 2.880729815848497,
       "avgCost": 506.99,
-      "currentPrice": 506.99,
+      "currentPrice": 501.8,
       "type": "etf",
-      "boughtAt": "2026-10-19"
+      "boughtAt": "2026-10-19",
+      "previousClose": 506.99
     }
   ],
   "trades": [
@@ -3012,12 +3018,12 @@
     },
     {
       "date": "2026-10-19",
-      "totalValue": 11123.74,
+      "totalValue": 10928.64,
       "cash": 76.87,
-      "positionsValue": 11046.88,
+      "positionsValue": 10851.77,
       "positionCount": 8,
-      "tradesExecuted": 12,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
