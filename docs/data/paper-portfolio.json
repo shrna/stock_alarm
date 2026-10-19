@@ -1,22 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 79.86820240304951,
+  "cash": 76.868484701949,
   "positions": [
-    {
-      "symbol": "SCHD",
-      "shares": 43.28564207530105,
-      "avgCost": 33.20166104628651,
-      "currentPrice": 34.35,
-      "type": "etf",
-      "boughtAt": "2026-10-12",
-      "previousClose": 34.3533
-    },
     {
       "symbol": "CIFR",
       "shares": 137.234773922542,
       "avgCost": 11.19967720809485,
-      "currentPrice": 8.98,
+      "currentPrice": 9.2899,
       "type": "stock",
       "boughtAt": "2026-10-14",
       "previousClose": 9.175
@@ -25,172 +16,61 @@
       "symbol": "NVDA",
       "shares": 6.16409242110288,
       "avgCost": 221.3,
-      "currentPrice": 214.13,
+      "currentPrice": 217.485,
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 217.4645
     },
     {
-      "symbol": "NOK",
-      "shares": 141.77222410989634,
-      "avgCost": 9.4,
-      "currentPrice": 9.14,
+      "symbol": "VICR",
+      "shares": 6.528977036744935,
+      "avgCost": 204.45,
+      "currentPrice": 204.45,
       "type": "stock",
-      "boughtAt": "2026-10-15",
-      "previousClose": 9.395
+      "boughtAt": "2026-10-19"
     },
     {
-      "symbol": "FIGR",
-      "shares": 49.46077862145089,
-      "avgCost": 27.67,
-      "currentPrice": 27.13,
+      "symbol": "FORM",
+      "shares": 11.831673064727017,
+      "avgCost": 112.82,
+      "currentPrice": 112.82,
       "type": "stock",
-      "boughtAt": "2026-10-16",
-      "previousClose": 28.32
+      "boughtAt": "2026-10-19"
     },
     {
-      "symbol": "SIG",
-      "shares": 11.582428439874292,
-      "avgCost": 118.16,
-      "currentPrice": 118.49,
+      "symbol": "RIG",
+      "shares": 231.14274548268432,
+      "avgCost": 5.775,
+      "currentPrice": 5.775,
       "type": "stock",
-      "boughtAt": "2026-10-16",
-      "previousClose": 118.445
+      "boughtAt": "2026-10-19"
     },
     {
-      "symbol": "XBI",
-      "shares": 10.152518096582739,
-      "avgCost": 149.78,
-      "currentPrice": 144.32,
+      "symbol": "SOXL",
+      "shares": 14.612472415571997,
+      "avgCost": 101.5,
+      "currentPrice": 101.5,
       "type": "etf",
-      "boughtAt": "2026-10-16",
-      "previousClose": 145.095
+      "boughtAt": "2026-10-19"
     },
     {
-      "symbol": "SPY",
-      "shares": 1.9662030418351362,
-      "avgCost": 771.79,
-      "currentPrice": 763.25,
+      "symbol": "SMH",
+      "shares": 2.6826667212555533,
+      "avgCost": 552.87,
+      "currentPrice": 552.87,
       "type": "etf",
-      "boughtAt": "2026-10-16",
-      "previousClose": 767.62
+      "boughtAt": "2026-10-19"
+    },
+    {
+      "symbol": "SOXX",
+      "shares": 2.880729815848497,
+      "avgCost": 506.99,
+      "currentPrice": 506.99,
+      "type": "etf",
+      "boughtAt": "2026-10-19"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-17",
-      "symbol": "ARKG",
-      "action": "SELL",
-      "shares": 28.4187,
-      "price": 47.85,
-      "total": 1359.84,
-      "realizedPnL": 29.84,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "SDRL",
-      "action": "SELL",
-      "shares": 25.1716,
-      "price": 47.84,
-      "total": 1204.21,
-      "realizedPnL": -48.33,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "PBF",
-      "action": "SELL",
-      "shares": 16.7631,
-      "price": 75.93,
-      "total": 1272.82,
-      "realizedPnL": 20.28,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "LYG",
-      "action": "SELL",
-      "shares": 213.0164,
-      "price": 5.88,
-      "total": 1252.54,
-      "realizedPnL": 0,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "PGEN",
-      "action": "BUY",
-      "shares": 168.5927,
-      "price": 7.435,
-      "total": 1253.49,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "ALAB",
-      "action": "BUY",
-      "shares": 4.6567,
-      "price": 269.18,
-      "total": 1253.49,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "AXTI",
-      "action": "BUY",
-      "shares": 19.4943,
-      "price": 64.3,
-      "total": 1253.49,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "SMTC",
-      "action": "BUY",
-      "shares": 7.4813,
-      "price": 167.55,
-      "total": 1253.49,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "SMH",
-      "action": "BUY",
-      "shares": 2.5529,
-      "price": 545.56,
-      "total": 1392.76,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-17",
-      "symbol": "SOXX",
-      "action": "BUY",
-      "shares": 2.6385,
-      "price": 502.06,
-      "total": 1324.67,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "PGEN",
-      "action": "SELL",
-      "shares": 168.5927,
-      "price": 7.87,
-      "total": 1326.82,
-      "realizedPnL": 73.34,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "AXTI",
-      "action": "SELL",
-      "shares": 19.4943,
-      "price": 67.75,
-      "total": 1320.74,
-      "realizedPnL": 67.26,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-09-18",
       "symbol": "SMTC",
@@ -1970,6 +1850,120 @@
       "price": 771.79,
       "total": 1517.5,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 43.2856,
+      "price": 34.18,
+      "total": 1479.5,
+      "realizedPnL": 42.35,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "NOK",
+      "action": "SELL",
+      "shares": 141.7722,
+      "price": 9.2099,
+      "total": 1305.71,
+      "realizedPnL": -26.95,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "FIGR",
+      "action": "SELL",
+      "shares": 49.4608,
+      "price": 25.95,
+      "total": 1283.51,
+      "realizedPnL": -85.07,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SIG",
+      "action": "SELL",
+      "shares": 11.5824,
+      "price": 117.59,
+      "total": 1361.98,
+      "realizedPnL": -6.6,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "XBI",
+      "action": "SELL",
+      "shares": 10.1525,
+      "price": 146.63,
+      "total": 1488.66,
+      "realizedPnL": -31.98,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SPY",
+      "action": "SELL",
+      "shares": 1.9662,
+      "price": 767.48,
+      "total": 1509.02,
+      "realizedPnL": -8.47,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "VICR",
+      "action": "BUY",
+      "shares": 6.529,
+      "price": 204.45,
+      "total": 1334.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "FORM",
+      "action": "BUY",
+      "shares": 11.8317,
+      "price": 112.82,
+      "total": 1334.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "RIG",
+      "action": "BUY",
+      "shares": 231.1427,
+      "price": 5.775,
+      "total": 1334.85,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 14.6125,
+      "price": 101.5,
+      "total": 1483.17,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.6827,
+      "price": 552.87,
+      "total": 1483.17,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "SOXX",
+      "action": "BUY",
+      "shares": 2.8807,
+      "price": 506.99,
+      "total": 1460.5,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -3015,6 +3009,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-19",
+      "totalValue": 11123.74,
+      "cash": 76.87,
+      "positionsValue": 11046.88,
+      "positionCount": 8,
+      "tradesExecuted": 12,
+      "session": "open"
     }
   ]
 }
