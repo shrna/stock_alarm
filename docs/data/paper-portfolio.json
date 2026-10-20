@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 76.868484701949,
+  "cash": 72.6304553928851,
   "positions": [
     {
       "symbol": "CIFR",
@@ -20,24 +20,6 @@
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 217.12
-    },
-    {
-      "symbol": "VICR",
-      "shares": 6.528977036744935,
-      "avgCost": 204.45,
-      "currentPrice": 190.68,
-      "type": "stock",
-      "boughtAt": "2026-10-19",
-      "previousClose": 196.91
-    },
-    {
-      "symbol": "FORM",
-      "shares": 11.831673064727017,
-      "avgCost": 112.82,
-      "currentPrice": 110.16,
-      "type": "stock",
-      "boughtAt": "2026-10-19",
-      "previousClose": 110.5
     },
     {
       "symbol": "RIG",
@@ -67,73 +49,31 @@
       "previousClose": 548.645
     },
     {
-      "symbol": "SOXX",
-      "shares": 2.880729815848497,
-      "avgCost": 506.99,
-      "currentPrice": 501.93,
+      "symbol": "SPCX",
+      "shares": 8.848697416497481,
+      "avgCost": 147.96,
+      "currentPrice": 147.96,
+      "type": "stock",
+      "boughtAt": "2026-10-20"
+    },
+    {
+      "symbol": "VG",
+      "shares": 102.20556360226131,
+      "avgCost": 12.81,
+      "currentPrice": 12.81,
+      "type": "stock",
+      "boughtAt": "2026-10-20"
+    },
+    {
+      "symbol": "TQQQ",
+      "shares": 19.53537163738417,
+      "avgCost": 70.64,
+      "currentPrice": 70.64,
       "type": "etf",
-      "boughtAt": "2026-10-19",
-      "previousClose": 501.8
+      "boughtAt": "2026-10-20"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-18",
-      "symbol": "SMTC",
-      "action": "SELL",
-      "shares": 7.4813,
-      "price": 178.19,
-      "total": 1333.09,
-      "realizedPnL": 79.6,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.5529,
-      "price": 560.61,
-      "total": 1431.18,
-      "realizedPnL": 38.42,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "SOXX",
-      "action": "SELL",
-      "shares": 2.6385,
-      "price": 519.1,
-      "total": 1369.63,
-      "realizedPnL": 44.96,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "GNRC",
-      "action": "BUY",
-      "shares": 6.3939,
-      "price": 207.23,
-      "total": 1325,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "SMCI",
-      "action": "BUY",
-      "shares": 32.8378,
-      "price": 40.35,
-      "total": 1325,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-18",
-      "symbol": "VICR",
-      "action": "BUY",
-      "shares": 6.1232,
-      "price": 216.39,
-      "total": 1325,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-09-18",
       "symbol": "TQQQ",
@@ -1970,6 +1910,63 @@
       "price": 506.99,
       "total": 1460.5,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "VICR",
+      "action": "SELL",
+      "shares": 6.529,
+      "price": 190.68,
+      "total": 1244.95,
+      "realizedPnL": -89.9,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "FORM",
+      "action": "SELL",
+      "shares": 11.8317,
+      "price": 110.16,
+      "total": 1303.38,
+      "realizedPnL": -31.47,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "SOXX",
+      "action": "SELL",
+      "shares": 2.8807,
+      "price": 501.93,
+      "total": 1445.92,
+      "realizedPnL": -14.58,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "SPCX",
+      "action": "BUY",
+      "shares": 8.8487,
+      "price": 147.96,
+      "total": 1309.25,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 102.2056,
+      "price": 12.81,
+      "total": 1309.25,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-20",
+      "symbol": "TQQQ",
+      "action": "BUY",
+      "shares": 19.5354,
+      "price": 70.64,
+      "total": 1379.98,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -3024,6 +3021,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-20",
+      "totalValue": 10910.44,
+      "cash": 72.63,
+      "positionsValue": 10837.81,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
