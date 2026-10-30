@@ -1,58 +1,31 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 69.41504464175591,
+  "cash": 7.157817795434283,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.16409242110288,
       "avgCost": 221.3,
-      "currentPrice": 213.66,
+      "currentPrice": 206.0109,
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 212.75
     },
     {
       "symbol": "INTC",
-      "shares": 13.68592347164211,
-      "avgCost": 90.47,
-      "currentPrice": 92.07,
+      "shares": 15.75686207546808,
+      "avgCost": 87.21051361693102,
+      "currentPrice": 65.67,
       "type": "stock",
       "boughtAt": "2026-10-27",
       "previousClose": 91.24
     },
     {
-      "symbol": "PRCH",
-      "shares": 62.26761135386902,
-      "avgCost": 20.52,
-      "currentPrice": 20.89,
-      "type": "stock",
-      "boughtAt": "2026-10-29",
-      "previousClose": 20.8
-    },
-    {
-      "symbol": "GKOS",
-      "shares": 5.525085985390437,
-      "avgCost": 231.26,
-      "currentPrice": 242.48,
-      "type": "stock",
-      "boughtAt": "2026-10-29",
-      "previousClose": 241.115
-    },
-    {
-      "symbol": "MRVL",
-      "shares": 5.8091902022341095,
-      "avgCost": 219.95,
-      "currentPrice": 218.34,
-      "type": "stock",
-      "boughtAt": "2026-10-29",
-      "previousClose": 219.5125
-    },
-    {
       "symbol": "XLE",
       "shares": 20.62021116729432,
       "avgCost": 68.85,
-      "currentPrice": 68.71,
+      "currentPrice": 69.92,
       "type": "etf",
       "boughtAt": "2026-10-29",
       "previousClose": 68.3497
@@ -61,7 +34,7 @@
       "symbol": "SCHD",
       "shares": 40.12156390753748,
       "avgCost": 35.385,
-      "currentPrice": 35.61,
+      "currentPrice": 35.825,
       "type": "etf",
       "boughtAt": "2026-10-29",
       "previousClose": 35.4199
@@ -70,77 +43,37 @@
       "symbol": "XLV",
       "shares": 7.185039486780135,
       "avgCost": 183.56,
-      "currentPrice": 184.04,
+      "currentPrice": 185.95,
       "type": "etf",
       "boughtAt": "2026-10-29",
       "previousClose": 183.0699
+    },
+    {
+      "symbol": "MEOH",
+      "shares": 17.749164599395,
+      "avgCost": 68.95,
+      "currentPrice": 68.95,
+      "type": "stock",
+      "boughtAt": "2026-10-30"
+    },
+    {
+      "symbol": "RIG",
+      "shares": 177.35274754047379,
+      "avgCost": 6.9004,
+      "currentPrice": 6.9004,
+      "type": "stock",
+      "boughtAt": "2026-10-30"
+    },
+    {
+      "symbol": "BMNR",
+      "shares": 60.769114989536774,
+      "avgCost": 20.1386,
+      "currentPrice": 20.1386,
+      "type": "stock",
+      "boughtAt": "2026-10-30"
     }
   ],
   "trades": [
-    {
-      "date": "2026-09-30",
-      "symbol": "MNDY",
-      "action": "BUY",
-      "shares": 17.8255,
-      "price": 79.78,
-      "total": 1422.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-30",
-      "symbol": "MDB",
-      "action": "BUY",
-      "shares": 3.9845,
-      "price": 356.915,
-      "total": 1422.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-30",
-      "symbol": "HPE",
-      "action": "BUY",
-      "shares": 22.1859,
-      "price": 64.1,
-      "total": 1422.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-30",
-      "symbol": "HOOD",
-      "action": "BUY",
-      "shares": 12.3582,
-      "price": 115.075,
-      "total": 1422.12,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-09-30",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 22.3019,
-      "price": 61.86,
-      "total": 1379.59,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-09-30",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 1.1151,
-      "price": 61.86,
-      "total": 68.98,
-      "reason": "Rebalance: 12.7% drift"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "MNDY",
-      "action": "SELL",
-      "shares": 17.8255,
-      "price": 80.04,
-      "total": 1426.75,
-      "realizedPnL": 4.63,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-10-01",
       "symbol": "MDB",
@@ -1968,6 +1901,72 @@
       "price": 183.56,
       "total": 1318.89,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "PRCH",
+      "action": "SELL",
+      "shares": 62.2676,
+      "price": 20.35,
+      "total": 1267.15,
+      "realizedPnL": -10.59,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "GKOS",
+      "action": "SELL",
+      "shares": 5.5251,
+      "price": 237.86,
+      "total": 1314.2,
+      "realizedPnL": 36.47,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "MRVL",
+      "action": "SELL",
+      "shares": 5.8092,
+      "price": 200.34,
+      "total": 1163.81,
+      "realizedPnL": -113.92,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "MEOH",
+      "action": "BUY",
+      "shares": 17.7492,
+      "price": 68.95,
+      "total": 1223.8,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "RIG",
+      "action": "BUY",
+      "shares": 177.3527,
+      "price": 6.9004,
+      "total": 1223.8,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "BMNR",
+      "action": "BUY",
+      "shares": 60.7691,
+      "price": 20.1386,
+      "total": 1223.8,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-10-30",
+      "symbol": "INTC",
+      "action": "BUY",
+      "shares": 2.0709,
+      "price": 65.67,
+      "total": 136,
+      "reason": "Rebalance: 26.6% drift"
     }
   ],
   "history": [
@@ -3094,6 +3093,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-10-30",
+      "totalValue": 10198.37,
+      "cash": 7.16,
+      "positionsValue": 10191.22,
+      "positionCount": 8,
+      "tradesExecuted": 7,
+      "session": "open"
     }
   ]
 }
