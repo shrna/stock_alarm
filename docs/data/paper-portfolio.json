@@ -1,22 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 7.157817795434283,
+  "cash": 3.31674360820854,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 6.16409242110288,
       "avgCost": 221.3,
-      "currentPrice": 204.64,
+      "currentPrice": 206.92,
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 202.95
     },
     {
       "symbol": "INTC",
-      "shares": 15.75686207546808,
-      "avgCost": 87.21051361693102,
-      "currentPrice": 65.76,
+      "shares": 16.75874011292376,
+      "avgCost": 85.75717228530623,
+      "currentPrice": 62.9,
       "type": "stock",
       "boughtAt": "2026-10-27",
       "previousClose": 64.214
@@ -25,7 +25,7 @@
       "symbol": "XLE",
       "shares": 20.62021116729432,
       "avgCost": 68.85,
-      "currentPrice": 70.02,
+      "currentPrice": 68.155,
       "type": "etf",
       "boughtAt": "2026-10-29",
       "previousClose": 69.62
@@ -34,135 +34,45 @@
       "symbol": "SCHD",
       "shares": 40.12156390753748,
       "avgCost": 35.385,
-      "currentPrice": 35.78,
+      "currentPrice": 35.99,
       "type": "etf",
       "boughtAt": "2026-10-29",
       "previousClose": 35.81
     },
     {
-      "symbol": "XLV",
-      "shares": 7.185039486780135,
-      "avgCost": 183.56,
-      "currentPrice": 184.87,
+      "symbol": "MRVL",
+      "shares": 6.7325656270107785,
+      "avgCost": 179.4252,
+      "currentPrice": 179.4252,
+      "type": "stock",
+      "boughtAt": "2026-11-02"
+    },
+    {
+      "symbol": "ORCL",
+      "shares": 9.817879828832366,
+      "avgCost": 123.04,
+      "currentPrice": 123.04,
+      "type": "stock",
+      "boughtAt": "2026-11-02"
+    },
+    {
+      "symbol": "RDDT",
+      "shares": 12.797880433727453,
+      "avgCost": 94.39,
+      "currentPrice": 94.39,
+      "type": "stock",
+      "boughtAt": "2026-11-02"
+    },
+    {
+      "symbol": "SPY",
+      "shares": 1.6588192487700555,
+      "avgCost": 759.795,
+      "currentPrice": 759.795,
       "type": "etf",
-      "boughtAt": "2026-10-29",
-      "previousClose": 185.52
-    },
-    {
-      "symbol": "MEOH",
-      "shares": 17.749164599395,
-      "avgCost": 68.95,
-      "currentPrice": 71.57,
-      "type": "stock",
-      "boughtAt": "2026-10-30",
-      "previousClose": 71.025
-    },
-    {
-      "symbol": "RIG",
-      "shares": 177.35274754047379,
-      "avgCost": 6.9004,
-      "currentPrice": 6.94,
-      "type": "stock",
-      "boughtAt": "2026-10-30",
-      "previousClose": 6.8622
-    },
-    {
-      "symbol": "BMNR",
-      "shares": 60.769114989536774,
-      "avgCost": 20.1386,
-      "currentPrice": 20.18,
-      "type": "stock",
-      "boughtAt": "2026-10-30",
-      "previousClose": 19.905
+      "boughtAt": "2026-11-02"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-01",
-      "symbol": "MDB",
-      "action": "SELL",
-      "shares": 3.9845,
-      "price": 354.87,
-      "total": 1413.97,
-      "realizedPnL": -8.15,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "HPE",
-      "action": "SELL",
-      "shares": 22.1859,
-      "price": 63.23,
-      "total": 1402.82,
-      "realizedPnL": -19.3,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "HOOD",
-      "action": "SELL",
-      "shares": 12.3582,
-      "price": 112.75,
-      "total": 1393.38,
-      "realizedPnL": -28.73,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "COHR",
-      "action": "BUY",
-      "shares": 4.4851,
-      "price": 315.54,
-      "total": 1415.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "BMNR",
-      "action": "BUY",
-      "shares": 52.7581,
-      "price": 26.825,
-      "total": 1415.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "G",
-      "action": "BUY",
-      "shares": 41.1765,
-      "price": 34.37,
-      "total": 1415.24,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "VICR",
-      "action": "BUY",
-      "shares": 4.0974,
-      "price": 323.4,
-      "total": 1325.1,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-01",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 0.9889,
-      "price": 150.05,
-      "total": 148.39,
-      "realizedPnL": 47.2,
-      "reason": "Rebalance: 9.4% drift"
-    },
-    {
-      "date": "2026-10-02",
-      "symbol": "XLE",
-      "action": "SELL",
-      "shares": 23.417,
-      "price": 62.6,
-      "total": 1465.9,
-      "realizedPnL": 17.33,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-02",
       "symbol": "COHR",
@@ -1970,6 +1880,91 @@
       "price": 65.67,
       "total": 136,
       "reason": "Rebalance: 26.6% drift"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "XLV",
+      "action": "SELL",
+      "shares": 7.185,
+      "price": 184.31,
+      "total": 1324.27,
+      "realizedPnL": 5.39,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "MEOH",
+      "action": "SELL",
+      "shares": 17.7492,
+      "price": 68.905,
+      "total": 1223.01,
+      "realizedPnL": -0.8,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "RIG",
+      "action": "SELL",
+      "shares": 177.3527,
+      "price": 6.54,
+      "total": 1159.89,
+      "realizedPnL": -63.92,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "BMNR",
+      "action": "SELL",
+      "shares": 60.7691,
+      "price": 20.345,
+      "total": 1236.35,
+      "realizedPnL": 12.54,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "MRVL",
+      "action": "BUY",
+      "shares": 6.7326,
+      "price": 179.4252,
+      "total": 1207.99,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "ORCL",
+      "action": "BUY",
+      "shares": 9.8179,
+      "price": 123.04,
+      "total": 1207.99,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "RDDT",
+      "action": "BUY",
+      "shares": 12.7979,
+      "price": 94.39,
+      "total": 1207.99,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "SPY",
+      "action": "BUY",
+      "shares": 1.6588,
+      "price": 759.795,
+      "total": 1260.36,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-11-02",
+      "symbol": "INTC",
+      "action": "BUY",
+      "shares": 1.0019,
+      "price": 62.9,
+      "total": 63.02,
+      "reason": "Rebalance: 18.0% drift"
     }
   ],
   "history": [
@@ -3105,6 +3100,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-02",
+      "totalValue": 10066.6,
+      "cash": 3.32,
+      "positionsValue": 10063.28,
+      "positionCount": 8,
+      "tradesExecuted": 9,
+      "session": "open"
     }
   ]
 }
