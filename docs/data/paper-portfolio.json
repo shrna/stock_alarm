@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.31674360820854,
+  "cash": 134.71207516281834,
   "positions": [
     {
       "symbol": "NVDA",
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SCHD",
-      "shares": 40.12156390753748,
+      "shares": 36.461526816879825,
       "avgCost": 35.385,
       "currentPrice": 35.9,
       "type": "etf",
@@ -77,16 +77,6 @@
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-02",
-      "symbol": "COHR",
-      "action": "SELL",
-      "shares": 4.4851,
-      "price": 325,
-      "total": 1457.67,
-      "realizedPnL": 42.43,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-10-02",
       "symbol": "G",
@@ -1969,6 +1959,16 @@
       "price": 62.9,
       "total": 63.02,
       "reason": "Rebalance: 18.0% drift"
+    },
+    {
+      "date": "2026-11-03",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 3.66,
+      "price": 35.9,
+      "total": 131.4,
+      "realizedPnL": 1.88,
+      "reason": "Rebalance: 10.0% drift"
     }
   ],
   "history": [
@@ -3113,6 +3113,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-03",
+      "totalValue": 9817.27,
+      "cash": 134.71,
+      "positionsValue": 9682.55,
+      "positionCount": 8,
+      "tradesExecuted": 1,
+      "session": "open"
     }
   ]
 }
