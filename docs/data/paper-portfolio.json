@@ -7,7 +7,7 @@
       "symbol": "NVDA",
       "shares": 6.16409242110288,
       "avgCost": 221.3,
-      "currentPrice": 207.41,
+      "currentPrice": 206.69,
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 207.69
@@ -16,7 +16,7 @@
       "symbol": "MRVL",
       "shares": 6.7325656270107785,
       "avgCost": 179.4252,
-      "currentPrice": 169.63,
+      "currentPrice": 171.97,
       "type": "stock",
       "boughtAt": "2026-11-02",
       "previousClose": 170.2001
@@ -25,7 +25,7 @@
       "symbol": "AEIS",
       "shares": 5.0231751285842705,
       "avgCost": 237.86,
-      "currentPrice": 239.6,
+      "currentPrice": 238.1,
       "type": "stock",
       "boughtAt": "2026-11-03",
       "previousClose": 237.86
@@ -34,7 +34,7 @@
       "symbol": "FORM",
       "shares": 12.464139746349414,
       "avgCost": 95.86,
-      "currentPrice": 96.09,
+      "currentPrice": 96.79,
       "type": "stock",
       "boughtAt": "2026-11-03",
       "previousClose": 95.86
@@ -43,7 +43,7 @@
       "symbol": "PENG",
       "shares": 22.79741339601326,
       "avgCost": 52.41,
-      "currentPrice": 54.02,
+      "currentPrice": 53.19,
       "type": "stock",
       "boughtAt": "2026-11-03",
       "previousClose": 52.41
@@ -52,7 +52,7 @@
       "symbol": "SOXL",
       "shares": 17.935230834661873,
       "avgCost": 74.0202,
-      "currentPrice": 72.995,
+      "currentPrice": 73.12,
       "type": "etf",
       "boughtAt": "2026-11-03",
       "previousClose": 74.0202
@@ -61,7 +61,7 @@
       "symbol": "XBI",
       "shares": 8.51006008607589,
       "avgCost": 156,
-      "currentPrice": 155.25,
+      "currentPrice": 154.97,
       "type": "etf",
       "boughtAt": "2026-11-03",
       "previousClose": 156
@@ -70,7 +70,7 @@
       "symbol": "SMH",
       "shares": 2.362494019879867,
       "avgCost": 519.17,
-      "currentPrice": 518.26,
+      "currentPrice": 518.52,
       "type": "etf",
       "boughtAt": "2026-11-03",
       "previousClose": 519.17
@@ -3121,6 +3121,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-04",
+      "totalValue": 9966.66,
+      "cash": 64.55,
+      "positionsValue": 9902.1,
+      "positionCount": 8,
+      "tradesExecuted": 0,
+      "session": "open"
     }
   ]
 }
