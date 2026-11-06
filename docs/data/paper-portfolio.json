@@ -1,204 +1,76 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.7593121138832117,
+  "cash": 6.800305252579335,
   "positions": [
     {
       "symbol": "NVDA",
       "shares": 5.592080808715968,
       "avgCost": 221.3,
-      "currentPrice": 181.6,
+      "currentPrice": 191.725,
       "type": "stock",
       "boughtAt": "2026-10-15",
       "previousClose": 186.265
     },
     {
-      "symbol": "VG",
-      "shares": 93.52989011526005,
-      "avgCost": 12.255,
-      "currentPrice": 11.52,
-      "type": "stock",
-      "boughtAt": "2026-11-04",
-      "previousClose": 12.11
-    },
-    {
-      "symbol": "BKR",
-      "shares": 22.629986246051566,
-      "avgCost": 50.65,
-      "currentPrice": 46.2,
-      "type": "stock",
-      "boughtAt": "2026-11-04",
-      "previousClose": 48.505
-    },
-    {
-      "symbol": "SCHD",
-      "shares": 35.40641861860771,
-      "avgCost": 35.9699,
-      "currentPrice": 35.42,
-      "type": "etf",
-      "boughtAt": "2026-11-04",
-      "previousClose": 36.17
-    },
-    {
-      "symbol": "XLP",
-      "shares": 13.838965761449916,
-      "avgCost": 91.39499999999998,
-      "currentPrice": 91.25,
-      "type": "etf",
-      "boughtAt": "2026-11-04",
-      "previousClose": 92.995
-    },
-    {
-      "symbol": "OXY",
-      "shares": 18.79323060175223,
-      "avgCost": 58.335,
-      "currentPrice": 56.36,
-      "type": "stock",
-      "boughtAt": "2026-11-05",
-      "previousClose": 58.335
-    },
-    {
-      "symbol": "NLY",
-      "shares": 58.1130722053123,
-      "avgCost": 18.865,
-      "currentPrice": 18.85,
-      "type": "stock",
-      "boughtAt": "2026-11-05",
-      "previousClose": 18.865
-    },
-    {
       "symbol": "XLE",
-      "shares": 17.13565032590508,
-      "avgCost": 64.25,
-      "currentPrice": 61.63,
+      "shares": 19.221650371094455,
+      "avgCost": 63.99925654086092,
+      "currentPrice": 61.9395,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 64.25
+    },
+    {
+      "symbol": "CECO",
+      "shares": 25.675578172006702,
+      "avgCost": 41.87,
+      "currentPrice": 41.87,
+      "type": "stock",
+      "boughtAt": "2026-11-06"
+    },
+    {
+      "symbol": "PENG",
+      "shares": 24.98341757057682,
+      "avgCost": 43.03,
+      "currentPrice": 43.03,
+      "type": "stock",
+      "boughtAt": "2026-11-06"
+    },
+    {
+      "symbol": "EXTR",
+      "shares": 43.5237432413733,
+      "avgCost": 24.7,
+      "currentPrice": 24.7,
+      "type": "stock",
+      "boughtAt": "2026-11-06"
+    },
+    {
+      "symbol": "SKHY",
+      "shares": 8.336524043751078,
+      "avgCost": 128.955,
+      "currentPrice": 128.955,
+      "type": "stock",
+      "boughtAt": "2026-11-06"
+    },
+    {
+      "symbol": "SOXX",
+      "shares": 8.714415651872283,
+      "avgCost": 137.07,
+      "currentPrice": 137.07,
+      "type": "etf",
+      "boughtAt": "2026-11-06"
+    },
+    {
+      "symbol": "QQQ",
+      "shares": 1.806705287946067,
+      "avgCost": 661.1399,
+      "currentPrice": 661.1399,
+      "type": "etf",
+      "boughtAt": "2026-11-06"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-07",
-      "symbol": "SMCI",
-      "action": "SELL",
-      "shares": 32.6175,
-      "price": 43.645,
-      "total": 1423.59,
-      "realizedPnL": -15.17,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "PL",
-      "action": "SELL",
-      "shares": 77.4775,
-      "price": 17.685,
-      "total": 1370.19,
-      "realizedPnL": -68.57,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "GRAB",
-      "action": "BUY",
-      "shares": 466.9092,
-      "price": 3.01,
-      "total": 1405.4,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "FIGR",
-      "action": "BUY",
-      "shares": 49.7076,
-      "price": 28.2733,
-      "total": 1405.4,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "BKV",
-      "action": "BUY",
-      "shares": 58.6315,
-      "price": 23.97,
-      "total": 1405.4,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "BMNR",
-      "action": "BUY",
-      "shares": 56.2164,
-      "price": 24.495,
-      "total": 1377.02,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-07",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 0.4419,
-      "price": 155.81,
-      "total": 68.85,
-      "reason": "Rebalance: 12.9% drift"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "FIGR",
-      "action": "SELL",
-      "shares": 49.7076,
-      "price": 27.8836,
-      "total": 1386.03,
-      "realizedPnL": -19.37,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "BKV",
-      "action": "SELL",
-      "shares": 58.6315,
-      "price": 24.04,
-      "total": 1409.5,
-      "realizedPnL": 4.1,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "BMNR",
-      "action": "SELL",
-      "shares": 56.2164,
-      "price": 24.165,
-      "total": 1358.47,
-      "realizedPnL": -18.55,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "VG",
-      "action": "BUY",
-      "shares": 104.4105,
-      "price": 13.475,
-      "total": 1406.93,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "SM",
-      "action": "BUY",
-      "shares": 37.9278,
-      "price": 37.095,
-      "total": 1406.93,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-08",
-      "symbol": "SHEL",
-      "action": "BUY",
-      "shares": 12.7079,
-      "price": 100.455,
-      "total": 1276.57,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-10-08",
       "symbol": "SOXL",
@@ -1969,6 +1841,129 @@
       "price": 64.25,
       "total": 52.43,
       "reason": "Rebalance: 13.9% drift"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "VG",
+      "action": "SELL",
+      "shares": 93.5299,
+      "price": 11.515,
+      "total": 1077,
+      "realizedPnL": -69.21,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "BKR",
+      "action": "SELL",
+      "shares": 22.63,
+      "price": 47.71,
+      "total": 1079.68,
+      "realizedPnL": -66.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 35.4064,
+      "price": 35.31,
+      "total": 1250.2,
+      "realizedPnL": -23.36,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "XLP",
+      "action": "SELL",
+      "shares": 13.839,
+      "price": 90.415,
+      "total": 1251.25,
+      "realizedPnL": -13.56,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "OXY",
+      "action": "SELL",
+      "shares": 18.7932,
+      "price": 56.64,
+      "total": 1064.45,
+      "realizedPnL": -31.85,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "NLY",
+      "action": "SELL",
+      "shares": 58.1131,
+      "price": 18.925,
+      "total": 1099.79,
+      "realizedPnL": 3.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "CECO",
+      "action": "BUY",
+      "shares": 25.6756,
+      "price": 41.87,
+      "total": 1075.04,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "PENG",
+      "action": "BUY",
+      "shares": 24.9834,
+      "price": 43.03,
+      "total": 1075.04,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "EXTR",
+      "action": "BUY",
+      "shares": 43.5237,
+      "price": 24.7,
+      "total": 1075.04,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "SKHY",
+      "action": "BUY",
+      "shares": 8.3365,
+      "price": 128.955,
+      "total": 1075.04,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "SOXX",
+      "action": "BUY",
+      "shares": 8.7144,
+      "price": 137.07,
+      "total": 1194.48,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 1.8067,
+      "price": 661.1399,
+      "total": 1194.48,
+      "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-11-06",
+      "symbol": "XLE",
+      "action": "BUY",
+      "shares": 2.086,
+      "price": 61.9395,
+      "total": 129.21,
+      "reason": "Rebalance: 11.1% drift"
     }
   ],
   "history": [
@@ -3143,11 +3138,11 @@
     },
     {
       "date": "2026-11-06",
-      "totalValue": 8868.84,
-      "cash": 2.76,
-      "positionsValue": 8866.08,
+      "totalValue": 8958.64,
+      "cash": 6.8,
+      "positionsValue": 8951.84,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 13,
       "session": "open"
     }
   ]
