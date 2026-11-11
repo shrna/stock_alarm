@@ -1,22 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 29.13942870184303,
+  "cash": 63.61335713351559,
   "positions": [
-    {
-      "symbol": "NVDA",
-      "shares": 6.570282352140814,
-      "avgCost": 214.1136952635208,
-      "currentPrice": 168.89,
-      "type": "stock",
-      "boughtAt": "2026-10-15",
-      "previousClose": 170.73
-    },
     {
       "symbol": "XLE",
       "shares": 19.221650371094455,
       "avgCost": 63.99925654086092,
-      "currentPrice": 62.21,
+      "currentPrice": 63.15,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 61.765
@@ -25,170 +16,61 @@
       "symbol": "SOXX",
       "shares": 8.714415651872283,
       "avgCost": 137.07,
-      "currentPrice": 146.59,
+      "currentPrice": 154.4,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 146.47
     },
     {
-      "symbol": "ASX",
-      "shares": 31.421409131120477,
-      "avgCost": 35.7,
-      "currentPrice": 35.48,
+      "symbol": "FPS",
+      "shares": 48.34851911992442,
+      "avgCost": 23.775,
+      "currentPrice": 23.775,
       "type": "stock",
-      "boughtAt": "2026-11-10",
-      "previousClose": 35.7
+      "boughtAt": "2026-11-11"
     },
     {
-      "symbol": "EMBJ",
-      "shares": 13.741814357233874,
-      "avgCost": 81.63,
-      "currentPrice": 82.5,
+      "symbol": "AXTI",
+      "shares": 24.343202924104254,
+      "avgCost": 47.22,
+      "currentPrice": 47.22,
       "type": "stock",
-      "boughtAt": "2026-11-10",
-      "previousClose": 81.63
+      "boughtAt": "2026-11-11"
     },
     {
-      "symbol": "SMCI",
-      "shares": 39.74997540683916,
-      "avgCost": 28.22,
-      "currentPrice": 27.79,
+      "symbol": "FORM",
+      "shares": 12.089672297814502,
+      "avgCost": 95.08,
+      "currentPrice": 95.08,
       "type": "stock",
-      "boughtAt": "2026-11-10",
-      "previousClose": 28.22
+      "boughtAt": "2026-11-11"
     },
     {
-      "symbol": "TGTX",
-      "shares": 17.030961906642393,
-      "avgCost": 65.865,
-      "currentPrice": 64.26,
+      "symbol": "DELL",
+      "shares": 3.0887707700556306,
+      "avgCost": 372.15,
+      "currentPrice": 372.15,
       "type": "stock",
-      "boughtAt": "2026-11-10",
-      "previousClose": 65.865
+      "boughtAt": "2026-11-11"
     },
     {
-      "symbol": "SCHD",
-      "shares": 35.13341702069621,
-      "avgCost": 35.4757,
-      "currentPrice": 35.83,
+      "symbol": "MXL",
+      "shares": 19.212536220561642,
+      "avgCost": 59.83,
+      "currentPrice": 59.83,
+      "type": "stock",
+      "boughtAt": "2026-11-11"
+    },
+    {
+      "symbol": "SMH",
+      "shares": 2.3922132540387273,
+      "avgCost": 505.245,
+      "currentPrice": 505.245,
       "type": "etf",
-      "boughtAt": "2026-11-10",
-      "previousClose": 35.4757
+      "boughtAt": "2026-11-11"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-13",
-      "symbol": "SMCI",
-      "action": "SELL",
-      "shares": 35.249,
-      "price": 38.68,
-      "total": 1363.43,
-      "realizedPnL": -24.5,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-13",
-      "symbol": "MDB",
-      "action": "BUY",
-      "shares": 3.5176,
-      "price": 396.87,
-      "total": 1396.04,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-13",
-      "symbol": "SDRL",
-      "action": "BUY",
-      "shares": 28.4385,
-      "price": 49.0899,
-      "total": 1396.04,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-13",
-      "symbol": "PARR",
-      "action": "BUY",
-      "shares": 15.875,
-      "price": 87.94,
-      "total": 1396.04,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-13",
-      "symbol": "PBF",
-      "action": "BUY",
-      "shares": 15.7424,
-      "price": 88.55,
-      "total": 1393.99,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-13",
-      "symbol": "SCHD",
-      "action": "BUY",
-      "shares": 2.0936,
-      "price": 33.2914,
-      "total": 69.7,
-      "reason": "Rebalance: 11.6% drift"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "NVDA",
-      "action": "SELL",
-      "shares": 6.0505,
-      "price": 228.52,
-      "total": 1382.67,
-      "realizedPnL": 17.54,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "MDB",
-      "action": "SELL",
-      "shares": 3.5176,
-      "price": 373.07,
-      "total": 1312.32,
-      "realizedPnL": -83.72,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "SDRL",
-      "action": "SELL",
-      "shares": 28.4385,
-      "price": 49,
-      "total": 1393.49,
-      "realizedPnL": -2.56,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "VLO",
-      "action": "BUY",
-      "shares": 3.0676,
-      "price": 456.46,
-      "total": 1400.26,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "CIFR",
-      "action": "BUY",
-      "shares": 123.4797,
-      "price": 11.34,
-      "total": 1400.26,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-14",
-      "symbol": "CHA",
-      "action": "BUY",
-      "shares": 98.0072,
-      "price": 12.52,
-      "total": 1227.05,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-10-14",
       "symbol": "CHA",
@@ -1969,6 +1851,120 @@
       "price": 170.73,
       "total": 113.37,
       "reason": "Rebalance: 10.1% drift"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "NVDA",
+      "action": "SELL",
+      "shares": 6.5703,
+      "price": 174.19,
+      "total": 1144.48,
+      "realizedPnL": -262.31,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "ASX",
+      "action": "SELL",
+      "shares": 31.4214,
+      "price": 37.69,
+      "total": 1184.27,
+      "realizedPnL": 62.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "EMBJ",
+      "action": "SELL",
+      "shares": 13.7418,
+      "price": 82,
+      "total": 1126.83,
+      "realizedPnL": 5.08,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "SMCI",
+      "action": "SELL",
+      "shares": 39.75,
+      "price": 30.246,
+      "total": 1202.28,
+      "realizedPnL": 80.53,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "TGTX",
+      "action": "SELL",
+      "shares": 17.031,
+      "price": 63.25,
+      "total": 1077.21,
+      "realizedPnL": -44.54,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 35.1334,
+      "price": 35.735,
+      "total": 1255.49,
+      "realizedPnL": 9.11,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "FPS",
+      "action": "BUY",
+      "shares": 48.3485,
+      "price": 23.775,
+      "total": 1149.49,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 24.3432,
+      "price": 47.22,
+      "total": 1149.49,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "FORM",
+      "action": "BUY",
+      "shares": 12.0897,
+      "price": 95.08,
+      "total": 1149.49,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "DELL",
+      "action": "BUY",
+      "shares": 3.0888,
+      "price": 372.15,
+      "total": 1149.49,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "MXL",
+      "action": "BUY",
+      "shares": 19.2125,
+      "price": 59.83,
+      "total": 1149.49,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "SMH",
+      "action": "BUY",
+      "shares": 2.3922,
+      "price": 505.245,
+      "total": 1208.65,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -3170,11 +3166,11 @@
     },
     {
       "date": "2026-11-11",
-      "totalValue": 9318.44,
-      "cash": 29.14,
-      "positionsValue": 9289.3,
+      "totalValue": 9579.05,
+      "cash": 63.61,
+      "positionsValue": 9515.44,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 12,
       "session": "open"
     }
   ]
