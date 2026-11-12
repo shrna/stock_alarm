@@ -7,7 +7,7 @@
       "symbol": "XLE",
       "shares": 19.221650371094455,
       "avgCost": 63.99925654086092,
-      "currentPrice": 63.085,
+      "currentPrice": 63.37,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 63.15
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.714415651872283,
       "avgCost": 137.07,
-      "currentPrice": 156.64,
+      "currentPrice": 155.4,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 154.4
@@ -25,7 +25,7 @@
       "symbol": "FPS",
       "shares": 48.34851911992442,
       "avgCost": 23.775,
-      "currentPrice": 24.2,
+      "currentPrice": 24.57,
       "type": "stock",
       "boughtAt": "2026-11-11",
       "previousClose": 23.775
@@ -34,7 +34,7 @@
       "symbol": "AXTI",
       "shares": 24.343202924104254,
       "avgCost": 47.22,
-      "currentPrice": 47.74,
+      "currentPrice": 46.97,
       "type": "stock",
       "boughtAt": "2026-11-11",
       "previousClose": 47.22
@@ -43,7 +43,7 @@
       "symbol": "FORM",
       "shares": 12.089672297814502,
       "avgCost": 95.08,
-      "currentPrice": 96.675,
+      "currentPrice": 95.78,
       "type": "stock",
       "boughtAt": "2026-11-11",
       "previousClose": 95.08
@@ -52,7 +52,7 @@
       "symbol": "DELL",
       "shares": 3.0887707700556306,
       "avgCost": 372.15,
-      "currentPrice": 379.56,
+      "currentPrice": 373.68,
       "type": "stock",
       "boughtAt": "2026-11-11",
       "previousClose": 372.15
@@ -61,7 +61,7 @@
       "symbol": "MXL",
       "shares": 19.212536220561642,
       "avgCost": 59.83,
-      "currentPrice": 60.63,
+      "currentPrice": 59.95,
       "type": "stock",
       "boughtAt": "2026-11-11",
       "previousClose": 59.83
@@ -70,7 +70,7 @@
       "symbol": "SMH",
       "shares": 2.3922132540387273,
       "avgCost": 505.245,
-      "currentPrice": 511.04,
+      "currentPrice": 506.96,
       "type": "etf",
       "boughtAt": "2026-11-11",
       "previousClose": 505.245
@@ -3178,6 +3178,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-12",
+      "totalValue": 9643.94,
+      "cash": 63.61,
+      "positionsValue": 9580.33,
+      "positionCount": 8,
+      "tradesExecuted": 0,
+      "session": "open"
     }
   ]
 }
