@@ -1,22 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.9871062671160686,
+  "cash": 112.72932101357509,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 19.221650371094455,
       "avgCost": 63.99925654086092,
-      "currentPrice": 64.735,
+      "currentPrice": 64.33,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 64.045
     },
     {
       "symbol": "SOXX",
-      "shares": 8.714415651872283,
+      "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 154.45,
+      "currentPrice": 154.99,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 155.78
@@ -25,7 +25,7 @@
       "symbol": "CLS",
       "shares": 4.3034215451509015,
       "avgCost": 263.75,
-      "currentPrice": 255.36,
+      "currentPrice": 254.03,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 263.75
@@ -34,7 +34,7 @@
       "symbol": "INGM",
       "shares": 38.06262349207076,
       "avgCost": 29.82,
-      "currentPrice": 28.91,
+      "currentPrice": 28.77,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 29.82
@@ -43,7 +43,7 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 27.445,
+      "currentPrice": 26.99,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 28.5709
@@ -52,7 +52,7 @@
       "symbol": "NBIS",
       "shares": 8.784688484159695,
       "avgCost": 129.2052,
-      "currentPrice": 126.145,
+      "currentPrice": 128.64,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 129.2052
@@ -61,7 +61,7 @@
       "symbol": "NVDA",
       "shares": 6.859622473233313,
       "avgCost": 165.465,
-      "currentPrice": 163.35,
+      "currentPrice": 166.19,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 165.465
@@ -70,23 +70,13 @@
       "symbol": "SCHD",
       "shares": 33.01081292284471,
       "avgCost": 36.105,
-      "currentPrice": 36.025,
+      "currentPrice": 35.93,
       "type": "etf",
       "boughtAt": "2026-11-12",
       "previousClose": 36.105
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-16",
-      "symbol": "HALO",
-      "action": "SELL",
-      "shares": 11.6771,
-      "price": 121.51,
-      "total": 1418.88,
-      "realizedPnL": 54.77,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-10-16",
       "symbol": "RIG",
@@ -1970,6 +1960,16 @@
       "price": 36.105,
       "total": 56.76,
       "reason": "Rebalance: 10.0% drift"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "SOXX",
+      "action": "SELL",
+      "shares": 0.7081,
+      "price": 154.99,
+      "total": 109.74,
+      "realizedPnL": 12.69,
+      "reason": "Rebalance: 8.8% drift"
     }
   ],
   "history": [
@@ -3186,6 +3186,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-13",
+      "totalValue": 9306.79,
+      "cash": 112.73,
+      "positionsValue": 9194.06,
+      "positionCount": 8,
+      "tradesExecuted": 1,
+      "session": "open"
     }
   ]
 }
