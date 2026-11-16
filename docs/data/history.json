@@ -1,38 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "totalInvested": 14302,
-    "totalCurrentValue": 21145.19,
-    "totalPnL": 6843.189999999999,
-    "stocks": [
-      {
-        "ticker": "PYPL",
-        "price": 61.66,
-        "pnlPct": -71.18691588785046
-      },
-      {
-        "ticker": "SNDK",
-        "price": 1641.11,
-        "pnlPct": 84.60179977502811
-      },
-      {
-        "ticker": "BP",
-        "price": 42.53,
-        "pnlPct": -5.740248226950347
-      },
-      {
-        "ticker": "REPX",
-        "price": 36.13,
-        "pnlPct": 4.482359745517653
-      },
-      {
-        "ticker": "MU",
-        "price": 971.66,
-        "pnlPct": 117.37360178970917
-      }
-    ]
-  },
-  {
     "date": "2026-08-18",
     "totalInvested": 14302,
     "totalCurrentValue": 22296.83,
@@ -2966,6 +2933,39 @@
         "ticker": "MU",
         "price": 778.31,
         "pnlPct": 74.11856823266218
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "totalInvested": 14302,
+    "totalCurrentValue": 14933.69,
+    "totalPnL": 631.6900000000005,
+    "stocks": [
+      {
+        "ticker": "PYPL",
+        "price": 59.435,
+        "pnlPct": -72.22663551401868
+      },
+      {
+        "ticker": "SNDK",
+        "price": 820.86,
+        "pnlPct": -7.6647919010123715
+      },
+      {
+        "ticker": "BP",
+        "price": 45.135,
+        "pnlPct": 0.03324468085106509
+      },
+      {
+        "ticker": "REPX",
+        "price": 44.04,
+        "pnlPct": 27.35685367264315
+      },
+      {
+        "ticker": "MU",
+        "price": 732.205,
+        "pnlPct": 63.80425055928413
       }
     ]
   }

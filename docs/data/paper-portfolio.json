@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 3.2147527676654164,
+  "cash": 51.10862688260636,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 19.221650371094455,
       "avgCost": 63.99925654086092,
-      "currentPrice": 64.635,
+      "currentPrice": 63.985,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 64.67
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 149.34,
+      "currentPrice": 143.095,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 146.7
@@ -25,25 +25,16 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 26.885,
+      "currentPrice": 25.425,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 26.35
     },
     {
-      "symbol": "NBIS",
-      "shares": 9.336228531887745,
-      "avgCost": 128.11465904394964,
-      "currentPrice": 117.02,
-      "type": "stock",
-      "boughtAt": "2026-11-12",
-      "previousClose": 110.745
-    },
-    {
       "symbol": "NVDA",
       "shares": 6.859622473233313,
       "avgCost": 165.465,
-      "currentPrice": 162.7411,
+      "currentPrice": 158.26,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 160.255
@@ -52,90 +43,37 @@
       "symbol": "SCHD",
       "shares": 33.01081292284471,
       "avgCost": 36.105,
-      "currentPrice": 36.02,
+      "currentPrice": 36.0324,
       "type": "etf",
       "boughtAt": "2026-11-12",
       "previousClose": 35.955
     },
     {
-      "symbol": "CVE",
-      "shares": 36.98874465144101,
-      "avgCost": 28.975,
-      "currentPrice": 28.875,
+      "symbol": "SEZL",
+      "shares": 6.289675119108737,
+      "avgCost": 167.765,
+      "currentPrice": 167.765,
       "type": "stock",
-      "boughtAt": "2026-11-13",
-      "previousClose": 28.975
+      "boughtAt": "2026-11-16"
     },
     {
-      "symbol": "PR",
-      "shares": 46.71965458916753,
-      "avgCost": 22.94,
-      "currentPrice": 22.98,
+      "symbol": "HNGE",
+      "shares": 8.684669517343846,
+      "avgCost": 121.5,
+      "currentPrice": 121.5,
       "type": "stock",
-      "boughtAt": "2026-11-13",
-      "previousClose": 22.94
+      "boughtAt": "2026-11-16"
+    },
+    {
+      "symbol": "BEKE",
+      "shares": 51.365454153373236,
+      "avgCost": 18.905,
+      "currentPrice": 18.905,
+      "type": "stock",
+      "boughtAt": "2026-11-16"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-16",
-      "symbol": "SPY",
-      "action": "BUY",
-      "shares": 1.9662,
-      "price": 771.79,
-      "total": 1517.5,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "SCHD",
-      "action": "SELL",
-      "shares": 43.2856,
-      "price": 34.18,
-      "total": 1479.5,
-      "realizedPnL": 42.35,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "NOK",
-      "action": "SELL",
-      "shares": 141.7722,
-      "price": 9.2099,
-      "total": 1305.71,
-      "realizedPnL": -26.95,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "FIGR",
-      "action": "SELL",
-      "shares": 49.4608,
-      "price": 25.95,
-      "total": 1283.51,
-      "realizedPnL": -85.07,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "SIG",
-      "action": "SELL",
-      "shares": 11.5824,
-      "price": 117.59,
-      "total": 1361.98,
-      "realizedPnL": -6.6,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "XBI",
-      "action": "SELL",
-      "shares": 10.1525,
-      "price": 146.63,
-      "total": 1488.66,
-      "realizedPnL": -31.98,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-19",
       "symbol": "SPY",
@@ -1970,6 +1908,63 @@
       "price": 110.745,
       "total": 61.08,
       "reason": "Rebalance: 9.2% drift"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "NBIS",
+      "action": "SELL",
+      "shares": 9.3362,
+      "price": 109.575,
+      "total": 1023.02,
+      "realizedPnL": -173.09,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 36.9887,
+      "price": 28.355,
+      "total": 1048.82,
+      "realizedPnL": -22.93,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "PR",
+      "action": "SELL",
+      "shares": 46.7197,
+      "price": 22.635,
+      "total": 1057.5,
+      "realizedPnL": -14.25,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "SEZL",
+      "action": "BUY",
+      "shares": 6.2897,
+      "price": 167.765,
+      "total": 1055.19,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "HNGE",
+      "action": "BUY",
+      "shares": 8.6847,
+      "price": 121.5,
+      "total": 1055.19,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-16",
+      "symbol": "BEKE",
+      "action": "BUY",
+      "shares": 51.3655,
+      "price": 18.905,
+      "total": 971.06,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -3195,6 +3190,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-16",
+      "totalValue": 8793.23,
+      "cash": 51.11,
+      "positionsValue": 8742.12,
+      "positionCount": 8,
+      "tradesExecuted": 6,
+      "session": "open"
     }
   ]
 }
