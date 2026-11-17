@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.5554313441303194,
+  "cash": 2.448378302532234,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 19.221650371094455,
       "avgCost": 63.99925654086092,
-      "currentPrice": 63.69,
+      "currentPrice": 63.54,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 63.985
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 141.22,
+      "currentPrice": 139.07,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 143.095
@@ -25,132 +25,54 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 25.025,
+      "currentPrice": 23.905,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 25.425
     },
     {
-      "symbol": "NVDA",
-      "shares": 6.859622473233313,
-      "avgCost": 165.465,
-      "currentPrice": 156.14,
-      "type": "stock",
-      "boughtAt": "2026-11-12",
-      "previousClose": 158.26
-    },
-    {
       "symbol": "SCHD",
       "shares": 33.01081292284471,
       "avgCost": 36.105,
-      "currentPrice": 35.86,
+      "currentPrice": 35.4801,
       "type": "etf",
       "boughtAt": "2026-11-12",
       "previousClose": 36.0324
     },
     {
-      "symbol": "SEZL",
-      "shares": 6.289675119108737,
-      "avgCost": 167.765,
-      "currentPrice": 161.92,
+      "symbol": "VG",
+      "shares": 80.304853129513,
+      "avgCost": 12.69,
+      "currentPrice": 12.69,
       "type": "stock",
-      "boughtAt": "2026-11-16",
-      "previousClose": 167.765
+      "boughtAt": "2026-11-17"
     },
     {
-      "symbol": "HNGE",
-      "shares": 8.684669517343846,
-      "avgCost": 121.5,
-      "currentPrice": 121.29,
+      "symbol": "PR",
+      "shares": 45.64696914730213,
+      "avgCost": 22.325,
+      "currentPrice": 22.325,
       "type": "stock",
-      "boughtAt": "2026-11-16",
-      "previousClose": 121.5
+      "boughtAt": "2026-11-17"
     },
     {
-      "symbol": "BEKE",
-      "shares": 53.97023932174641,
-      "avgCost": 18.89221020921357,
-      "currentPrice": 18.64,
+      "symbol": "CNQ",
+      "shares": 21.151278252667495,
+      "avgCost": 48.18,
+      "currentPrice": 48.18,
       "type": "stock",
-      "boughtAt": "2026-11-16",
-      "previousClose": 18.905
+      "boughtAt": "2026-11-17"
+    },
+    {
+      "symbol": "AS",
+      "shares": 31.45212307502768,
+      "avgCost": 31.060000000000002,
+      "currentPrice": 31.06,
+      "type": "stock",
+      "boughtAt": "2026-11-17"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-19",
-      "symbol": "VICR",
-      "action": "BUY",
-      "shares": 6.529,
-      "price": 204.45,
-      "total": 1334.85,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "FORM",
-      "action": "BUY",
-      "shares": 11.8317,
-      "price": 112.82,
-      "total": 1334.85,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "RIG",
-      "action": "BUY",
-      "shares": 231.1427,
-      "price": 5.775,
-      "total": 1334.85,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "SOXL",
-      "action": "BUY",
-      "shares": 14.6125,
-      "price": 101.5,
-      "total": 1483.17,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "SMH",
-      "action": "BUY",
-      "shares": 2.6827,
-      "price": 552.87,
-      "total": 1483.17,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-19",
-      "symbol": "SOXX",
-      "action": "BUY",
-      "shares": 2.8807,
-      "price": 506.99,
-      "total": 1460.5,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-20",
-      "symbol": "VICR",
-      "action": "SELL",
-      "shares": 6.529,
-      "price": 190.68,
-      "total": 1244.95,
-      "realizedPnL": -89.9,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-20",
-      "symbol": "FORM",
-      "action": "SELL",
-      "shares": 11.8317,
-      "price": 110.16,
-      "total": 1303.38,
-      "realizedPnL": -31.47,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-10-20",
       "symbol": "SOXX",
@@ -1961,12 +1883,88 @@
     },
     {
       "date": "2026-11-17",
+      "symbol": "NVDA",
+      "action": "SELL",
+      "shares": 6.8596,
+      "price": 153.635,
+      "total": 1053.88,
+      "realizedPnL": -81.15,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "SEZL",
+      "action": "SELL",
+      "shares": 6.2897,
+      "price": 153.99,
+      "total": 968.55,
+      "realizedPnL": -86.64,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "HNGE",
+      "action": "SELL",
+      "shares": 8.6847,
+      "price": 116.3773,
+      "total": 1010.7,
+      "realizedPnL": -44.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-17",
       "symbol": "BEKE",
+      "action": "SELL",
+      "shares": 53.9702,
+      "price": 18.545,
+      "total": 1000.88,
+      "realizedPnL": -18.74,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "VG",
       "action": "BUY",
-      "shares": 2.6048,
-      "price": 18.64,
-      "total": 48.55,
-      "reason": "Rebalance: 8.1% drift"
+      "shares": 80.3049,
+      "price": 12.69,
+      "total": 1019.07,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "PR",
+      "action": "BUY",
+      "shares": 45.647,
+      "price": 22.325,
+      "total": 1019.07,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "CNQ",
+      "action": "BUY",
+      "shares": 21.1513,
+      "price": 48.18,
+      "total": 1019.07,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "AS",
+      "action": "BUY",
+      "shares": 29.9544,
+      "price": 31.06,
+      "total": 930.38,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "AS",
+      "action": "BUY",
+      "shares": 1.4977,
+      "price": 31.06,
+      "total": 46.52,
+      "reason": "Rebalance: 8.7% drift"
     }
   ],
   "history": [
@@ -3204,11 +3202,11 @@
     },
     {
       "date": "2026-11-17",
-      "totalValue": 8684.22,
-      "cash": 2.56,
-      "positionsValue": 8681.67,
+      "totalValue": 8492.24,
+      "cash": 2.45,
+      "positionsValue": 8489.79,
       "positionCount": 8,
-      "tradesExecuted": 1,
+      "tradesExecuted": 9,
       "session": "open"
     }
   ]
