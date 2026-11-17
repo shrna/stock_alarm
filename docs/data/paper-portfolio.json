@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 51.10862688260636,
+  "cash": 2.5554313441303194,
   "positions": [
     {
       "symbol": "XLE",
@@ -68,8 +68,8 @@
     },
     {
       "symbol": "BEKE",
-      "shares": 51.365454153373236,
-      "avgCost": 18.905,
+      "shares": 53.97023932174641,
+      "avgCost": 18.89221020921357,
       "currentPrice": 18.64,
       "type": "stock",
       "boughtAt": "2026-11-16",
@@ -77,16 +77,6 @@
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-19",
-      "symbol": "SPY",
-      "action": "SELL",
-      "shares": 1.9662,
-      "price": 767.48,
-      "total": 1509.02,
-      "realizedPnL": -8.47,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-19",
       "symbol": "VICR",
@@ -1968,6 +1958,15 @@
       "price": 18.905,
       "total": 971.06,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-17",
+      "symbol": "BEKE",
+      "action": "BUY",
+      "shares": 2.6048,
+      "price": 18.64,
+      "total": 48.55,
+      "reason": "Rebalance: 8.1% drift"
     }
   ],
   "history": [
@@ -3202,6 +3201,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-17",
+      "totalValue": 8684.22,
+      "cash": 2.56,
+      "positionsValue": 8681.67,
+      "positionCount": 8,
+      "tradesExecuted": 1,
+      "session": "open"
     }
   ]
 }
