@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.448378302532234,
+  "cash": 93.0441312082111,
   "positions": [
     {
       "symbol": "XLE",
-      "shares": 19.221650371094455,
+      "shares": 17.791793159830583,
       "avgCost": 63.99925654086092,
-      "currentPrice": 63.38,
+      "currentPrice": 63.36,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 63.54
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 140.07,
+      "currentPrice": 141.46,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 139.07
@@ -25,7 +25,7 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 24.025,
+      "currentPrice": 24.14,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 23.905
@@ -34,7 +34,7 @@
       "symbol": "SCHD",
       "shares": 33.01081292284471,
       "avgCost": 36.105,
-      "currentPrice": 35.365,
+      "currentPrice": 35.31,
       "type": "etf",
       "boughtAt": "2026-11-12",
       "previousClose": 35.4801
@@ -43,7 +43,7 @@
       "symbol": "VG",
       "shares": 80.304853129513,
       "avgCost": 12.69,
-      "currentPrice": 12.52,
+      "currentPrice": 12.5,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 12.69
@@ -52,7 +52,7 @@
       "symbol": "PR",
       "shares": 45.64696914730213,
       "avgCost": 22.325,
-      "currentPrice": 22.147,
+      "currentPrice": 22.18,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 22.325
@@ -61,7 +61,7 @@
       "symbol": "CNQ",
       "shares": 21.151278252667495,
       "avgCost": 48.18,
-      "currentPrice": 47.81,
+      "currentPrice": 47.74,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 48.18
@@ -70,23 +70,13 @@
       "symbol": "AS",
       "shares": 31.45212307502768,
       "avgCost": 31.060000000000002,
-      "currentPrice": 30.405,
+      "currentPrice": 30.24,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 31.06
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-20",
-      "symbol": "SOXX",
-      "action": "SELL",
-      "shares": 2.8807,
-      "price": 501.93,
-      "total": 1445.92,
-      "realizedPnL": -14.58,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-20",
       "symbol": "SPCX",
@@ -1969,6 +1959,16 @@
       "price": 31.06,
       "total": 46.52,
       "reason": "Rebalance: 8.7% drift"
+    },
+    {
+      "date": "2026-11-18",
+      "symbol": "XLE",
+      "action": "SELL",
+      "shares": 1.4299,
+      "price": 63.36,
+      "total": 90.6,
+      "realizedPnL": -0.91,
+      "reason": "Rebalance: 8.0% drift"
     }
   ],
   "history": [
@@ -3212,6 +3212,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-18",
+      "totalValue": 8454.66,
+      "cash": 93.04,
+      "positionsValue": 8361.62,
+      "positionCount": 8,
+      "tradesExecuted": 1,
+      "session": "open"
     }
   ]
 }
