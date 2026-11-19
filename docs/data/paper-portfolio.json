@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 62.248807649931564,
+  "cash": 56.37436595815075,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 17.791793159830583,
       "avgCost": 63.99925654086092,
-      "currentPrice": 61.29,
+      "currentPrice": 61.47,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 61.65
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 141.85,
+      "currentPrice": 144.26,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 140.18
@@ -25,116 +25,55 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 24.37,
+      "currentPrice": 24.9,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 24.345
     },
     {
-      "symbol": "SCHD",
-      "shares": 33.01081292284471,
-      "avgCost": 36.105,
-      "currentPrice": 34.7,
-      "type": "etf",
-      "boughtAt": "2026-11-12",
-      "previousClose": 34.845
-    },
-    {
       "symbol": "VG",
       "shares": 80.304853129513,
       "avgCost": 12.69,
-      "currentPrice": 12.04,
+      "currentPrice": 12.55,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 12.06
     },
     {
-      "symbol": "PR",
-      "shares": 45.64696914730213,
-      "avgCost": 22.325,
-      "currentPrice": 21.36,
-      "type": "stock",
-      "boughtAt": "2026-11-17",
-      "previousClose": 21.495
-    },
-    {
-      "symbol": "CNQ",
-      "shares": 21.151278252667495,
-      "avgCost": 48.18,
-      "currentPrice": 45.53,
-      "type": "stock",
-      "boughtAt": "2026-11-17",
-      "previousClose": 45.795
-    },
-    {
       "symbol": "OXY",
       "shares": 18.382292695283816,
       "avgCost": 54.28,
-      "currentPrice": 53.76,
+      "currentPrice": 54.005,
       "type": "stock",
       "boughtAt": "2026-11-18",
       "previousClose": 54.28
+    },
+    {
+      "symbol": "CVE",
+      "shares": 36.899501777808595,
+      "avgCost": 27.24,
+      "currentPrice": 27.24,
+      "type": "stock",
+      "boughtAt": "2026-11-19"
+    },
+    {
+      "symbol": "WDC",
+      "shares": 3.230566887131008,
+      "avgCost": 311.135,
+      "currentPrice": 311.135,
+      "type": "stock",
+      "boughtAt": "2026-11-19"
+    },
+    {
+      "symbol": "SOXL",
+      "shares": 20.673865145818617,
+      "avgCost": 51.81,
+      "currentPrice": 51.81,
+      "type": "etf",
+      "boughtAt": "2026-11-19"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-20",
-      "symbol": "VG",
-      "action": "BUY",
-      "shares": 102.2056,
-      "price": 12.81,
-      "total": 1309.25,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-20",
-      "symbol": "TQQQ",
-      "action": "BUY",
-      "shares": 19.5354,
-      "price": 70.64,
-      "total": 1379.98,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 14.6125,
-      "price": 97.55,
-      "total": 1425.45,
-      "realizedPnL": -57.72,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.6827,
-      "price": 546.36,
-      "total": 1465.7,
-      "realizedPnL": -17.46,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "VG",
-      "action": "SELL",
-      "shares": 102.2056,
-      "price": 12.61,
-      "total": 1288.81,
-      "realizedPnL": -20.44,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "TQQQ",
-      "action": "SELL",
-      "shares": 19.5354,
-      "price": 70.41,
-      "total": 1375.49,
-      "realizedPnL": -4.49,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-21",
       "symbol": "MNDY",
@@ -1969,6 +1908,63 @@
       "price": 54.28,
       "total": 997.79,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "SCHD",
+      "action": "SELL",
+      "shares": 33.0108,
+      "price": 34.3477,
+      "total": 1133.85,
+      "realizedPnL": -58.01,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "PR",
+      "action": "SELL",
+      "shares": 45.647,
+      "price": 21.5,
+      "total": 981.41,
+      "realizedPnL": -37.66,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "CNQ",
+      "action": "SELL",
+      "shares": 21.1513,
+      "price": 45.4,
+      "total": 960.27,
+      "realizedPnL": -58.8,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "CVE",
+      "action": "BUY",
+      "shares": 36.8995,
+      "price": 27.24,
+      "total": 1005.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "WDC",
+      "action": "BUY",
+      "shares": 3.2306,
+      "price": 311.135,
+      "total": 1005.14,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-19",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 20.6739,
+      "price": 51.81,
+      "total": 1071.11,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -3224,11 +3220,11 @@
     },
     {
       "date": "2026-11-19",
-      "totalValue": 8295.16,
-      "cash": 62.25,
-      "positionsValue": 8232.91,
+      "totalValue": 8376.19,
+      "cash": 56.37,
+      "positionsValue": 8319.81,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 6,
       "session": "open"
     }
   ]
