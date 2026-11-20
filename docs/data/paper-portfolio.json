@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.8187182979075374,
+  "cash": 10.483146555909457,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 17.791793159830583,
       "avgCost": 63.99925654086092,
-      "currentPrice": 60.89,
+      "currentPrice": 61.335,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 61.47
@@ -16,7 +16,7 @@
       "symbol": "SOXX",
       "shares": 8.006355681897066,
       "avgCost": 137.07,
-      "currentPrice": 137.95,
+      "currentPrice": 128.89,
       "type": "etf",
       "boughtAt": "2026-11-06",
       "previousClose": 144.26
@@ -25,7 +25,7 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 23.84,
+      "currentPrice": 22.645,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 24.9
@@ -34,86 +34,48 @@
       "symbol": "VG",
       "shares": 80.304853129513,
       "avgCost": 12.69,
-      "currentPrice": 12.13,
+      "currentPrice": 11.955,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 12.55
     },
     {
       "symbol": "OXY",
-      "shares": 18.382292695283816,
+      "shares": 16.88775314641093,
       "avgCost": 54.28,
-      "currentPrice": 53.81,
+      "currentPrice": 54.275,
       "type": "stock",
       "boughtAt": "2026-11-18",
       "previousClose": 54.005
     },
     {
       "symbol": "CVE",
-      "shares": 36.899501777808595,
+      "shares": 33.75373971723266,
       "avgCost": 27.24,
-      "currentPrice": 27.16,
+      "currentPrice": 27.155,
       "type": "stock",
       "boughtAt": "2026-11-19",
       "previousClose": 27.24
     },
     {
-      "symbol": "WDC",
-      "shares": 3.230566887131008,
-      "avgCost": 311.135,
-      "currentPrice": 296.78,
-      "type": "stock",
-      "boughtAt": "2026-11-19",
-      "previousClose": 311.135
-    },
-    {
       "symbol": "SOXL",
-      "shares": 21.85610902352818,
-      "avgCost": 51.4578601183951,
-      "currentPrice": 45.3,
+      "shares": 27.34466742976349,
+      "avgCost": 48.413402314282074,
+      "currentPrice": 36.29,
       "type": "etf",
       "boughtAt": "2026-11-19",
       "previousClose": 51.81
+    },
+    {
+      "symbol": "PR",
+      "shares": 38.14473643460406,
+      "avgCost": 21.48,
+      "currentPrice": 21.48,
+      "type": "stock",
+      "boughtAt": "2026-11-20"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-21",
-      "symbol": "XBI",
-      "action": "BUY",
-      "shares": 9.4267,
-      "price": 153.24,
-      "total": 1444.54,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "ARKG",
-      "action": "BUY",
-      "shares": 29.6925,
-      "price": 48.65,
-      "total": 1444.54,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-21",
-      "symbol": "XLE",
-      "action": "BUY",
-      "shares": 20.1112,
-      "price": 67.97,
-      "total": 1366.96,
-      "reason": "Top 3 ETF pick"
-    },
-    {
-      "date": "2026-10-22",
-      "symbol": "CIFR",
-      "action": "SELL",
-      "shares": 137.2348,
-      "price": 9.13,
-      "total": 1252.95,
-      "realizedPnL": -284.03,
-      "reason": "Dropped out of top 8 picks"
-    },
     {
       "date": "2026-10-22",
       "symbol": "RIG",
@@ -1962,12 +1924,51 @@
     },
     {
       "date": "2026-11-20",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 3.2306,
+      "price": 266.1,
+      "total": 859.65,
+      "realizedPnL": -145.49,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-20",
+      "symbol": "PR",
+      "action": "BUY",
+      "shares": 38.1447,
+      "price": 21.48,
+      "total": 819.35,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-20",
+      "symbol": "OXY",
+      "action": "SELL",
+      "shares": 1.4945,
+      "price": 54.275,
+      "total": 81.12,
+      "realizedPnL": -0.01,
+      "reason": "Rebalance: 8.8% drift"
+    },
+    {
+      "date": "2026-11-20",
+      "symbol": "CVE",
+      "action": "SELL",
+      "shares": 3.1458,
+      "price": 27.155,
+      "total": 85.42,
+      "realizedPnL": -0.27,
+      "reason": "Rebalance: 9.3% drift"
+    },
+    {
+      "date": "2026-11-20",
       "symbol": "SOXL",
       "action": "BUY",
-      "shares": 1.1822,
-      "price": 45.3,
-      "total": 53.56,
-      "reason": "Rebalance: 12.8% drift"
+      "shares": 5.4886,
+      "price": 36.29,
+      "total": 199.18,
+      "reason": "Rebalance: 22.1% drift"
     }
   ],
   "history": [
@@ -3232,11 +3233,11 @@
     },
     {
       "date": "2026-11-20",
-      "totalValue": 8052.01,
-      "cash": 2.82,
-      "positionsValue": 8049.19,
+      "totalValue": 7638.19,
+      "cash": 10.48,
+      "positionsValue": 7627.71,
       "positionCount": 8,
-      "tradesExecuted": 1,
+      "tradesExecuted": 5,
       "session": "open"
     }
   ]
