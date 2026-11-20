@@ -1,13 +1,13 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 56.37436595815075,
+  "cash": 2.8187182979075374,
   "positions": [
     {
       "symbol": "XLE",
       "shares": 17.791793159830583,
       "avgCost": 63.99925654086092,
-      "currentPrice": 60.9514,
+      "currentPrice": 60.89,
       "type": "etf",
       "boughtAt": "2026-11-05",
       "previousClose": 61.47
@@ -25,7 +25,7 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 23.9949,
+      "currentPrice": 23.84,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 24.9
@@ -34,7 +34,7 @@
       "symbol": "VG",
       "shares": 80.304853129513,
       "avgCost": 12.69,
-      "currentPrice": 12.17,
+      "currentPrice": 12.13,
       "type": "stock",
       "boughtAt": "2026-11-17",
       "previousClose": 12.55
@@ -43,7 +43,7 @@
       "symbol": "OXY",
       "shares": 18.382292695283816,
       "avgCost": 54.28,
-      "currentPrice": 53.63,
+      "currentPrice": 53.81,
       "type": "stock",
       "boughtAt": "2026-11-18",
       "previousClose": 54.005
@@ -52,7 +52,7 @@
       "symbol": "CVE",
       "shares": 36.899501777808595,
       "avgCost": 27.24,
-      "currentPrice": 27.06,
+      "currentPrice": 27.16,
       "type": "stock",
       "boughtAt": "2026-11-19",
       "previousClose": 27.24
@@ -61,31 +61,22 @@
       "symbol": "WDC",
       "shares": 3.230566887131008,
       "avgCost": 311.135,
-      "currentPrice": 297.14,
+      "currentPrice": 296.78,
       "type": "stock",
       "boughtAt": "2026-11-19",
       "previousClose": 311.135
     },
     {
       "symbol": "SOXL",
-      "shares": 20.673865145818617,
-      "avgCost": 51.81,
-      "currentPrice": 45.31,
+      "shares": 21.85610902352818,
+      "avgCost": 51.4578601183951,
+      "currentPrice": 45.3,
       "type": "etf",
       "boughtAt": "2026-11-19",
       "previousClose": 51.81
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-21",
-      "symbol": "MNDY",
-      "action": "BUY",
-      "shares": 12.89,
-      "price": 100.86,
-      "total": 1300.09,
-      "reason": "Top 5 stock pick"
-    },
     {
       "date": "2026-10-21",
       "symbol": "XBI",
@@ -1968,6 +1959,15 @@
       "price": 51.81,
       "total": 1071.11,
       "reason": "Top 3 ETF pick"
+    },
+    {
+      "date": "2026-11-20",
+      "symbol": "SOXL",
+      "action": "BUY",
+      "shares": 1.1822,
+      "price": 45.3,
+      "total": 53.56,
+      "reason": "Rebalance: 12.8% drift"
     }
   ],
   "history": [
@@ -3229,6 +3229,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-20",
+      "totalValue": 8052.01,
+      "cash": 2.82,
+      "positionsValue": 8049.19,
+      "positionCount": 8,
+      "tradesExecuted": 1,
+      "session": "open"
     }
   ]
 }
