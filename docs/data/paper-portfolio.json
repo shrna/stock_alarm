@@ -7,69 +7,73 @@
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 22.255,
+      "currentPrice": 23.31,
       "type": "stock",
       "boughtAt": "2026-11-12",
-      "previousClose": 22.655
+      "previousClose": 22.255
     },
     {
       "symbol": "IWM",
       "shares": 3.610785691435677,
       "avgCost": 265.83,
-      "currentPrice": 267.28,
+      "currentPrice": 268.85,
       "type": "etf",
       "boughtAt": "2026-11-23",
-      "previousClose": 267.4
+      "previousClose": 267.28
     },
     {
       "symbol": "PR",
       "shares": 41.16710335700052,
       "avgCost": 21.1084,
-      "currentPrice": 21.3803,
+      "currentPrice": 21.32,
       "type": "stock",
       "boughtAt": "2026-11-24",
-      "previousClose": 21.1084
+      "previousClose": 21.3803
     },
     {
       "symbol": "XLE",
       "shares": 15.957757109162879,
       "avgCost": 60.505,
-      "currentPrice": 60.95,
+      "currentPrice": 60.88,
       "type": "etf",
       "boughtAt": "2026-11-24",
-      "previousClose": 60.505
+      "previousClose": 60.95
     },
     {
       "symbol": "LYFT",
       "shares": 50.69993486346946,
       "avgCost": 17.13,
-      "currentPrice": 17.13,
+      "currentPrice": 16.97,
       "type": "stock",
-      "boughtAt": "2026-11-25"
+      "boughtAt": "2026-11-25",
+      "previousClose": 17.13
     },
     {
       "symbol": "KD",
       "shares": 52.318667723568176,
       "avgCost": 16.6,
-      "currentPrice": 16.6,
+      "currentPrice": 16.56,
       "type": "stock",
-      "boughtAt": "2026-11-25"
+      "boughtAt": "2026-11-25",
+      "previousClose": 16.6
     },
     {
       "symbol": "WDC",
       "shares": 3.3506554174816046,
       "avgCost": 259.2,
-      "currentPrice": 259.2,
+      "currentPrice": 272.45,
       "type": "stock",
-      "boughtAt": "2026-11-25"
+      "boughtAt": "2026-11-25",
+      "previousClose": 259.2
     },
     {
       "symbol": "SCHD",
       "shares": 26.281979498904406,
       "avgCost": 35.295,
-      "currentPrice": 35.295,
+      "currentPrice": 35.29,
       "type": "etf",
-      "boughtAt": "2026-11-25"
+      "boughtAt": "2026-11-25",
+      "previousClose": 35.295
     }
   ],
   "trades": [
@@ -3257,12 +3261,12 @@
     },
     {
       "date": "2026-11-25",
-      "totalValue": 7237.42,
+      "totalValue": 7315.46,
       "cash": 2.32,
-      "positionsValue": 7235.09,
+      "positionsValue": 7313.13,
       "positionCount": 8,
-      "tradesExecuted": 9,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
