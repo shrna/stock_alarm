@@ -16,7 +16,7 @@
       "symbol": "IWM",
       "shares": 3.610785691435677,
       "avgCost": 265.83,
-      "currentPrice": 268.85,
+      "currentPrice": 268.87,
       "type": "etf",
       "boughtAt": "2026-11-23",
       "previousClose": 267.28
@@ -34,7 +34,7 @@
       "symbol": "XLE",
       "shares": 15.957757109162879,
       "avgCost": 60.505,
-      "currentPrice": 60.88,
+      "currentPrice": 60.9,
       "type": "etf",
       "boughtAt": "2026-11-24",
       "previousClose": 60.95
@@ -3267,6 +3267,15 @@
       "positionCount": 8,
       "tradesExecuted": 0,
       "session": "close"
+    },
+    {
+      "date": "2026-11-26",
+      "totalValue": 7315.85,
+      "cash": 2.32,
+      "positionsValue": 7313.52,
+      "positionCount": 8,
+      "tradesExecuted": 0,
+      "session": "open"
     }
   ]
 }
