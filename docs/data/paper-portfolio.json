@@ -1,7 +1,7 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 2.3248683368767757,
+  "cash": 44.309118989485,
   "positions": [
     {
       "symbol": "SMCI",
@@ -40,33 +40,6 @@
       "previousClose": 60.95
     },
     {
-      "symbol": "LYFT",
-      "shares": 50.69993486346946,
-      "avgCost": 17.13,
-      "currentPrice": 16.97,
-      "type": "stock",
-      "boughtAt": "2026-11-25",
-      "previousClose": 17.13
-    },
-    {
-      "symbol": "KD",
-      "shares": 52.318667723568176,
-      "avgCost": 16.6,
-      "currentPrice": 16.56,
-      "type": "stock",
-      "boughtAt": "2026-11-25",
-      "previousClose": 16.6
-    },
-    {
-      "symbol": "WDC",
-      "shares": 3.3506554174816046,
-      "avgCost": 259.2,
-      "currentPrice": 272.45,
-      "type": "stock",
-      "boughtAt": "2026-11-25",
-      "previousClose": 259.2
-    },
-    {
       "symbol": "SCHD",
       "shares": 26.281979498904406,
       "avgCost": 35.295,
@@ -74,65 +47,33 @@
       "type": "etf",
       "boughtAt": "2026-11-25",
       "previousClose": 35.295
+    },
+    {
+      "symbol": "SMTC",
+      "shares": 9.446914823928813,
+      "avgCost": 92.93,
+      "currentPrice": 92.93,
+      "type": "stock",
+      "boughtAt": "2026-11-26"
+    },
+    {
+      "symbol": "INIO",
+      "shares": 67.6089175654759,
+      "avgCost": 12.985,
+      "currentPrice": 12.985,
+      "type": "stock",
+      "boughtAt": "2026-11-26"
+    },
+    {
+      "symbol": "ABVX",
+      "shares": 10.016338617492107,
+      "avgCost": 84.05,
+      "currentPrice": 84.05,
+      "type": "stock",
+      "boughtAt": "2026-11-26"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-28",
-      "symbol": "PARR",
-      "action": "SELL",
-      "shares": 14.8872,
-      "price": 73.935,
-      "total": 1100.68,
-      "realizedPnL": -137.48,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "SOXX",
-      "action": "SELL",
-      "shares": 2.4856,
-      "price": 514.935,
-      "total": 1279.93,
-      "realizedPnL": 57.43,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "CECO",
-      "action": "BUY",
-      "shares": 23.2045,
-      "price": 55.26,
-      "total": 1282.28,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "HOOD",
-      "action": "BUY",
-      "shares": 14.0232,
-      "price": 91.44,
-      "total": 1282.28,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "BKR",
-      "action": "BUY",
-      "shares": 23.0212,
-      "price": 55.7,
-      "total": 1282.28,
-      "reason": "Top 5 stock pick"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "ARKG",
-      "action": "BUY",
-      "shares": 21.4498,
-      "price": 54.3171,
-      "total": 1165.09,
-      "reason": "Top 3 ETF pick"
-    },
     {
       "date": "2026-10-28",
       "symbol": "SOXL",
@@ -1970,6 +1911,63 @@
       "price": 35.295,
       "total": 44.17,
       "reason": "Rebalance: 8.4% drift"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "LYFT",
+      "action": "SELL",
+      "shares": 50.6999,
+      "price": 16.97,
+      "total": 860.38,
+      "realizedPnL": -8.11,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "KD",
+      "action": "SELL",
+      "shares": 52.3187,
+      "price": 16.56,
+      "total": 866.4,
+      "realizedPnL": -2.09,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "WDC",
+      "action": "SELL",
+      "shares": 3.3507,
+      "price": 272.45,
+      "total": 912.89,
+      "realizedPnL": 44.4,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "SMTC",
+      "action": "BUY",
+      "shares": 9.4469,
+      "price": 92.93,
+      "total": 877.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "INIO",
+      "action": "BUY",
+      "shares": 67.6089,
+      "price": 12.985,
+      "total": 877.9,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-26",
+      "symbol": "ABVX",
+      "action": "BUY",
+      "shares": 10.0163,
+      "price": 84.05,
+      "total": 841.87,
+      "reason": "Top 5 stock pick"
     }
   ],
   "history": [
@@ -3271,10 +3269,10 @@
     {
       "date": "2026-11-26",
       "totalValue": 7315.85,
-      "cash": 2.32,
-      "positionsValue": 7313.52,
+      "cash": 44.31,
+      "positionsValue": 7271.54,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 6,
       "session": "open"
     }
   ]
