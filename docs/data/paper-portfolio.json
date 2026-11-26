@@ -10,7 +10,7 @@
       "currentPrice": 23.31,
       "type": "stock",
       "boughtAt": "2026-11-12",
-      "previousClose": 22.255
+      "previousClose": 23.31
     },
     {
       "symbol": "IWM",
@@ -19,7 +19,7 @@
       "currentPrice": 268.87,
       "type": "etf",
       "boughtAt": "2026-11-23",
-      "previousClose": 267.28
+      "previousClose": 268.87
     },
     {
       "symbol": "PR",
@@ -28,7 +28,7 @@
       "currentPrice": 21.32,
       "type": "stock",
       "boughtAt": "2026-11-24",
-      "previousClose": 21.3803
+      "previousClose": 21.32
     },
     {
       "symbol": "XLE",
@@ -37,7 +37,7 @@
       "currentPrice": 60.9,
       "type": "etf",
       "boughtAt": "2026-11-24",
-      "previousClose": 60.95
+      "previousClose": 60.9
     },
     {
       "symbol": "SCHD",
@@ -46,7 +46,7 @@
       "currentPrice": 35.29,
       "type": "etf",
       "boughtAt": "2026-11-25",
-      "previousClose": 35.295
+      "previousClose": 35.29
     },
     {
       "symbol": "SMTC",
@@ -54,7 +54,8 @@
       "avgCost": 92.93,
       "currentPrice": 92.93,
       "type": "stock",
-      "boughtAt": "2026-11-26"
+      "boughtAt": "2026-11-26",
+      "previousClose": 92.93
     },
     {
       "symbol": "INIO",
@@ -62,7 +63,8 @@
       "avgCost": 12.985,
       "currentPrice": 12.985,
       "type": "stock",
-      "boughtAt": "2026-11-26"
+      "boughtAt": "2026-11-26",
+      "previousClose": 12.985
     },
     {
       "symbol": "ABVX",
@@ -70,7 +72,8 @@
       "avgCost": 84.05,
       "currentPrice": 84.05,
       "type": "stock",
-      "boughtAt": "2026-11-26"
+      "boughtAt": "2026-11-26",
+      "previousClose": 84.05
     }
   ],
   "trades": [
@@ -3272,8 +3275,8 @@
       "cash": 44.31,
       "positionsValue": 7271.54,
       "positionCount": 8,
-      "tradesExecuted": 6,
-      "session": "open"
+      "tradesExecuted": 0,
+      "session": "close"
     }
   ]
 }
