@@ -1,31 +1,22 @@
 {
   "startingCapital": 10000,
   "startDate": "2026-05-10",
-  "cash": 44.309118989485,
+  "cash": 48.37167217512126,
   "positions": [
     {
       "symbol": "SMCI",
       "shares": 39.72669508253328,
       "avgCost": 28.5709,
-      "currentPrice": 23.31,
+      "currentPrice": 23.71,
       "type": "stock",
       "boughtAt": "2026-11-12",
       "previousClose": 23.31
     },
     {
-      "symbol": "IWM",
-      "shares": 3.610785691435677,
-      "avgCost": 265.83,
-      "currentPrice": 268.87,
-      "type": "etf",
-      "boughtAt": "2026-11-23",
-      "previousClose": 268.87
-    },
-    {
       "symbol": "PR",
       "shares": 41.16710335700052,
       "avgCost": 21.1084,
-      "currentPrice": 21.32,
+      "currentPrice": 21.535,
       "type": "stock",
       "boughtAt": "2026-11-24",
       "previousClose": 21.32
@@ -34,7 +25,7 @@
       "symbol": "XLE",
       "shares": 15.957757109162879,
       "avgCost": 60.505,
-      "currentPrice": 60.9,
+      "currentPrice": 61.815,
       "type": "etf",
       "boughtAt": "2026-11-24",
       "previousClose": 60.9
@@ -43,119 +34,45 @@
       "symbol": "SCHD",
       "shares": 26.281979498904406,
       "avgCost": 35.295,
-      "currentPrice": 35.29,
+      "currentPrice": 35.664,
       "type": "etf",
       "boughtAt": "2026-11-25",
       "previousClose": 35.29
     },
     {
-      "symbol": "SMTC",
-      "shares": 9.446914823928813,
-      "avgCost": 92.93,
-      "currentPrice": 92.93,
+      "symbol": "AXTI",
+      "shares": 25.125831703865657,
+      "avgCost": 35.22,
+      "currentPrice": 35.22,
       "type": "stock",
-      "boughtAt": "2026-11-26",
-      "previousClose": 92.93
+      "boughtAt": "2026-11-27"
     },
     {
-      "symbol": "INIO",
-      "shares": 67.6089175654759,
-      "avgCost": 12.985,
-      "currentPrice": 12.985,
+      "symbol": "VG",
+      "shares": 73.46880802076782,
+      "avgCost": 12.045,
+      "currentPrice": 12.045,
       "type": "stock",
-      "boughtAt": "2026-11-26",
-      "previousClose": 12.985
+      "boughtAt": "2026-11-27"
     },
     {
-      "symbol": "ABVX",
-      "shares": 10.016338617492107,
-      "avgCost": 84.05,
-      "currentPrice": 84.05,
+      "symbol": "SA",
+      "shares": 41.40031778293092,
+      "avgCost": 21.375,
+      "currentPrice": 21.375,
       "type": "stock",
-      "boughtAt": "2026-11-26",
-      "previousClose": 84.05
+      "boughtAt": "2026-11-27"
+    },
+    {
+      "symbol": "EWY",
+      "shares": 6.803329419848279,
+      "avgCost": 135.09,
+      "currentPrice": 135.09,
+      "type": "etf",
+      "boughtAt": "2026-11-27"
     }
   ],
   "trades": [
-    {
-      "date": "2026-10-28",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 1.3081,
-      "price": 103.38,
-      "total": 135.24,
-      "realizedPnL": 1.61,
-      "reason": "Rebalance: 9.5% drift"
-    },
-    {
-      "date": "2026-10-28",
-      "symbol": "ARKG",
-      "action": "BUY",
-      "shares": 3.4378,
-      "price": 54.3171,
-      "total": 186.73,
-      "reason": "Rebalance: 18.2% drift"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "SOXL",
-      "action": "SELL",
-      "shares": 13.7817,
-      "price": 101.855,
-      "total": 1403.74,
-      "realizedPnL": -4.06,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "SMH",
-      "action": "SELL",
-      "shares": 2.54,
-      "price": 560.89,
-      "total": 1424.69,
-      "realizedPnL": 48.95,
-      "reason": "Dropped out of top 5 picks"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "CECO",
-      "action": "SELL",
-      "shares": 23.2045,
-      "price": 56.365,
-      "total": 1307.92,
-      "realizedPnL": 25.64,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "HOOD",
-      "action": "SELL",
-      "shares": 14.0232,
-      "price": 91.13,
-      "total": 1277.93,
-      "realizedPnL": -4.35,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "BKR",
-      "action": "SELL",
-      "shares": 23.0212,
-      "price": 54.83,
-      "total": 1262.25,
-      "realizedPnL": -20.03,
-      "reason": "Dropped out of top 8 picks"
-    },
-    {
-      "date": "2026-10-29",
-      "symbol": "ARKG",
-      "action": "SELL",
-      "shares": 24.8876,
-      "price": 55.23,
-      "total": 1374.54,
-      "realizedPnL": 22.72,
-      "reason": "Dropped out of top 5 picks"
-    },
     {
       "date": "2026-10-29",
       "symbol": "PRCH",
@@ -1971,6 +1888,82 @@
       "price": 84.05,
       "total": 841.87,
       "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 3.6108,
+      "price": 273.08,
+      "total": 986.03,
+      "realizedPnL": 26.18,
+      "reason": "Dropped out of top 5 picks"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "SMTC",
+      "action": "SELL",
+      "shares": 9.4469,
+      "price": 94.81,
+      "total": 895.66,
+      "realizedPnL": 17.76,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "INIO",
+      "action": "SELL",
+      "shares": 67.6089,
+      "price": 12.83,
+      "total": 867.42,
+      "realizedPnL": -10.48,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "ABVX",
+      "action": "SELL",
+      "shares": 10.0163,
+      "price": 82.745,
+      "total": 828.8,
+      "realizedPnL": -13.07,
+      "reason": "Dropped out of top 8 picks"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "AXTI",
+      "action": "BUY",
+      "shares": 25.1258,
+      "price": 35.22,
+      "total": 884.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "VG",
+      "action": "BUY",
+      "shares": 73.4688,
+      "price": 12.045,
+      "total": 884.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "SA",
+      "action": "BUY",
+      "shares": 41.4003,
+      "price": 21.375,
+      "total": 884.93,
+      "reason": "Top 5 stock pick"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "EWY",
+      "action": "BUY",
+      "shares": 6.8033,
+      "price": 135.09,
+      "total": 919.06,
+      "reason": "Top 3 ETF pick"
     }
   ],
   "history": [
@@ -3280,11 +3273,11 @@
     },
     {
       "date": "2026-11-27",
-      "totalValue": 7315.85,
-      "cash": 44.31,
-      "positionsValue": 7271.54,
+      "totalValue": 7374.43,
+      "cash": 48.37,
+      "positionsValue": 7326.06,
       "positionCount": 8,
-      "tradesExecuted": 0,
+      "tradesExecuted": 8,
       "session": "open"
     }
   ]
